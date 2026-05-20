@@ -123,7 +123,7 @@ const StudySession = ({ mode = 'all', onFinish }) => {
       </div>
 
       {/* Controls Area */}
-      <div className="h-20 sm:h-28 mt-auto pb-2 shrink-0">
+      <div className="h-28 sm:h-36 mt-auto pb-8 sm:pb-12 shrink-0">
         {isFlipped ? (
           <motion.div 
             initial={{ opacity: 0, y: 20 }}
