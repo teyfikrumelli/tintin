@@ -1,0 +1,986 @@
+[
+  {
+    "id": "verb_001",
+    "type": "Verb",
+    "german": "abhängen von + Dativ",
+    "turkish": "bir şeye/birine bağlı olmak",
+    "germanExample": "Die Höhe der Stromkosten hängt vom Verbrauch ab.",
+    "turkishExample": "Elektrik maliyetinin miktarı tüketime bağlıdır."
+  },
+  {
+    "id": "verb_002",
+    "type": "Verb",
+    "german": "abstimmen über + Akkusativ",
+    "turkish": "bir şeyi oylamak",
+    "germanExample": "Sie können jetzt über den Gewinner des Malwettbewerbs abstimmen.",
+    "turkishExample": "Şimdi resim yarışmasının kazananı için oy kullanabilirsiniz."
+  },
+  {
+    "id": "verb_003",
+    "type": "Verb",
+    "german": "achten auf + Akkusativ",
+    "turkish": "bir şeye dikkat etmek",
+    "germanExample": "Achten Sie bei Bank-Angeboten auf den Zins!",
+    "turkishExample": "Banka tekliflerinde faize dikkat edin!"
+  },
+  {
+    "id": "verb_004",
+    "type": "Verb",
+    "german": "anfangen mit + Dativ",
+    "turkish": "bir şeye başlamak",
+    "germanExample": "Lassen Sie uns mit dem Unterricht anfangen!",
+    "turkishExample": "Derse başlayalım!"
+  },
+  {
+    "id": "verb_005",
+    "type": "Verb",
+    "german": "ankommen auf + Akkusativ",
+    "turkish": "bir şeye bağlı/gerekli olmak",
+    "germanExample": "Es kommt nur auf dich selbst an, ob du Erfolg hast.",
+    "turkishExample": "Başarılı olup olmaman sadece sana bağlıdır."
+  },
+  {
+    "id": "verb_006",
+    "type": "Verb",
+    "german": "antworten auf + Akkusativ",
+    "turkish": "bir şeye cevap vermek",
+    "germanExample": "Ich antworte dem Chef morgen auf seine E-Mail, heute habe ich keine Lust mehr.",
+    "turkishExample": "Şefe e-postası için yarın cevap vereceğim, bugün hiç keyfim yok."
+  },
+  {
+    "id": "verb_007",
+    "type": "Verb",
+    "german": "arbeiten an + Dativ",
+    "turkish": "bir şey üzerinde çalışmak",
+    "germanExample": "An dem Text sollten Sie noch arbeiten.",
+    "turkishExample": "Bu metin üzerinde daha çalışmalısınız."
+  },
+  {
+    "id": "verb_008",
+    "type": "Verb",
+    "german": "auffordern zu + Dativ",
+    "turkish": "birini bir şeye çağırmak/talep etmek",
+    "germanExample": "Der Lehrer fordert die Schüler zur aktiven Mitarbeit auf.",
+    "turkishExample": "Öğretmen, öğrencileri aktif katılım göstermeye çağırıyor."
+  },
+  {
+    "id": "verb_009",
+    "type": "Verb",
+    "german": "aufhören mit + Dativ",
+    "turkish": "bir şeyi bırakmak/son vermek",
+    "germanExample": "Ich würde ja gern abnehmen, aber ich kann einfach nicht mit dem Essen aufhören.",
+    "turkishExample": "Kilo vermeyi çok isterdim ama yemek yemeyi bir türlü bırakamıyorum."
+  },
+  {
+    "id": "verb_010",
+    "type": "Verb",
+    "german": "aufklären über + Akkusativ",
+    "turkish": "bir konuda bilgilendirmek/aydınlatmak",
+    "germanExample": "Der Journalist will die Bürger über den Plan des Politikers aufklären.",
+    "turkishExample": "Gazeteci, vatandaşları politikacının planı hakkında bilgilendirmek istiyor."
+  },
+  {
+    "id": "verb_011",
+    "type": "Verb",
+    "german": "aufpassen auf + Akkusativ",
+    "turkish": "bir şeye/birine göz kulak olmak",
+    "germanExample": "Kannst du auf meinen Hund aufpassen, während ich einkaufe?",
+    "turkishExample": "Ben alışveriş yaparken köpeğime göz kulak olabilir misin?"
+  },
+  {
+    "id": "verb_012",
+    "type": "Verb",
+    "german": "aufregen (sich) über + Akkusativ",
+    "turkish": "bir şeye sinirlenmek/heyecanlanmak",
+    "germanExample": "Meine Mutter regt sich immer über meine Unpünktlichkeit auf.",
+    "turkishExample": "Annem dakik olmamama her zaman sinirlenir."
+  },
+  {
+    "id": "verb_013",
+    "type": "Verb",
+    "german": "ausgeben für + Akkusativ",
+    "turkish": "bir şey için para harcamak",
+    "germanExample": "Wir sollten das Geld lieber für einen neuen Kühlschrank ausgeben als für eine Reise.",
+    "turkishExample": "Parayı bir gezi yerine yeni bir buzdolabı için harcasak daha iyi olur."
+  },
+  {
+    "id": "verb_014",
+    "type": "Verb",
+    "german": "bedanken (sich) bei + Dativ / für + Akkusativ",
+    "turkish": "birine bir şey için teşekkür etmek",
+    "germanExample": "Ich möchte mich bei Ihnen für Ihre Hilfe bedanken.",
+    "turkishExample": "Yardımınız için size teşekkür etmek isterim."
+  },
+  {
+    "id": "verb_015",
+    "type": "Verb",
+    "german": "beginnen mit + Dativ",
+    "turkish": "bir şeye başlamak",
+    "germanExample": "In fünf Minuten beginnen wir mit dem Essen! Wenn du dann noch nicht da bist ...",
+    "turkishExample": "Beş dakika içinde yemeğe başlıyoruz! Eğer o zamana kadar gelmemiş olursan..."
+  },
+  {
+    "id": "verb_016",
+    "type": "Verb",
+    "german": "bemühen (sich) um + Akkusativ",
+    "turkish": "bir şey için çabalamak/uğraşmak",
+    "germanExample": "Ich bemühe mich um einen Kredit bei der Bank. Hoffentlich klappt es.",
+    "turkishExample": "Banka kredisi almak için uğraşıyorum. Umarım işe yarar."
+  },
+  {
+    "id": "verb_017",
+    "type": "Verb",
+    "german": "berichten über + Akkusativ",
+    "turkish": "bir şey hakkında rapor etmek/haber yapmak",
+    "germanExample": "Alle Zeitungen berichten zurzeit über den frechen Dieb.",
+    "turkishExample": "Şu aralar tüm gazeteler arsız hırsız hakkında haber yapıyor."
+  },
+  {
+    "id": "verb_018",
+    "type": "Verb",
+    "german": "beschäftigen (sich) mit + Dativ",
+    "turkish": "bir şeyle meşgul olmak/uğraşmak",
+    "germanExample": "In meiner Freizeit beschäftige ich mich viel mit meinem Hund.",
+    "turkishExample": "Boş zamanlarımda köpeğimle çok meşgul olurum."
+  },
+  {
+    "id": "verb_019",
+    "type": "Verb",
+    "german": "beschweren (sich) bei + Dativ / über + Akkusativ",
+    "turkish": "birine bir şey hakkında şikayette bulunmak",
+    "germanExample": "Der Gast beschwert sich beim Hotelbesitzer über den unfreundlichen Kellner.",
+    "turkishExample": "Müşteri, kaba garson hakkında otel sahibine şikayette bulunuyor."
+  },
+  {
+    "id": "verb_020",
+    "type": "Verb",
+    "german": "bestehen aus + Dativ",
+    "turkish": "-den/-dan oluşmak",
+    "germanExample": "Der Test besteht aus einem Lesetext und einer Schreibaufgabe.",
+    "turkishExample": "Sınav, bir okuma metni ve bir yazma ödevinden oluşuyor."
+  },
+  {
+    "id": "verb_021",
+    "type": "Verb",
+    "german": "beteiligen (sich) an + Dativ",
+    "turkish": "bir şeye katılmak/iştirak etmek",
+    "germanExample": "Ich beteilige mich an dem Geschenk für die Kollegin mit drei Euro.",
+    "turkishExample": "Meslektaşın hediyesine üç avro ile katılıyorum."
+  },
+  {
+    "id": "verb_022",
+    "type": "Verb",
+    "german": "bewerben (sich) um + Akkusativ",
+    "turkish": "bir şeye (işe/bursa) başvurmak",
+    "germanExample": "Bewirb dich doch um das Praktikum.",
+    "turkishExample": "Staj için başvursana."
+  },
+  {
+    "id": "verb_023",
+    "type": "Verb",
+    "german": "beziehen (sich) auf + Akkusativ",
+    "turkish": "bir şeye atıfta bulunmak/dayanmak",
+    "germanExample": "Ich beziehe mich auf Ihren Brief vom 3. Mai.",
+    "turkishExample": "3 Mayıs tarihli mektubunuza atıfta bulunuyorum."
+  },
+  {
+    "id": "verb_024",
+    "type": "Verb",
+    "german": "bitten um + Akkusativ",
+    "turkish": "bir şey rica etmek/gönlünü almak",
+    "germanExample": "Darf ich dich um deine Hilfe bitten?",
+    "turkishExample": "Senden yardım rica edebilir miyim?"
+  },
+  {
+    "id": "verb_025",
+    "type": "Verb",
+    "german": "danken für + Akkusativ",
+    "turkish": "bir şey için teşekkür etmek",
+    "germanExample": "Ich danke dir für deine Hilfe.",
+    "turkishExample": "Yardımın için teşekkür ederim."
+  },
+  {
+    "id": "verb_026",
+    "type": "Verb",
+    "german": "denken an + Akkusativ",
+    "turkish": "birini/bir şeyi düşünmek",
+    "germanExample": "Sie denkt an den netten Mann aus dem Bus.",
+    "turkishExample": "Otobüsteki nazik adamı düşünüyor."
+  },
+  {
+    "id": "verb_027",
+    "type": "Verb",
+    "german": "diskutieren mit + Dativ / über + Akkusativ",
+    "turkish": "biriyle bir şey hakkında tartışmak",
+    "germanExample": "Ich muss ständig mit meinem Sohn über seine Aufgaben im Haushalt diskutieren.",
+    "turkishExample": "Oğlumla sürekli ev işlerindeki görevleri hakkında tartışmak zorunda kalıyorum."
+  },
+  {
+    "id": "verb_028",
+    "type": "Verb",
+    "german": "drehen (sich) um + Akkusativ",
+    "turkish": "bir şeyin etrafında dönmek/konu bir şey olmak",
+    "germanExample": "Hier dreht sich alles nur um dich! Und was ist mit mir?",
+    "turkishExample": "Burada her şey sadece senin etrafında dönüyor! Ya benim durumum ne olacak?"
+  },
+  {
+    "id": "verb_029",
+    "type": "Verb",
+    "german": "einigen (sich) auf + Akkusativ",
+    "turkish": "bir konuda uzlaşmak/anlaşmak",
+    "germanExample": "Sie konnten sich nicht auf ein Reiseziel einigen.",
+    "turkishExample": "Bir gezi rotası üzerinde uzlaşamadılar."
+  },
+  {
+    "id": "verb_030",
+    "type": "Verb",
+    "german": "einladen zu + Dativ",
+    "turkish": "bir şeye davet etmek",
+    "germanExample": "Darf ich Sie zu einem Glas Wein einladen?",
+    "turkishExample": "Sizi bir kadeh şaraba davet edebilir miyim?"
+  },
+  {
+    "id": "verb_031",
+    "type": "Verb",
+    "german": "einsetzen (sich) für + Akkusativ",
+    "turkish": "bir şeyi savunmak/çaba göstermek",
+    "germanExample": "Der Politiker setzt sich für den Umweltschutz ein.",
+    "turkishExample": "Politikacı çevre korumasını savunuyor."
+  },
+  {
+    "id": "verb_032",
+    "type": "Verb",
+    "german": "entscheiden (sich) für + Akkusativ",
+    "turkish": "bir şeyi seçmek/karar kılmak",
+    "germanExample": "Wir haben uns für diesen Wagen entschieden, weil er einen großen Kofferraum hat.",
+    "turkishExample": "Geniş bagajı olduğu için bu arabada karar kıldık."
+  },
+  {
+    "id": "verb_033",
+    "type": "Verb",
+    "german": "entschuldigen (sich) bei + Dativ / für + Akkusativ",
+    "turkish": "birinden bir şey için özür dilemek",
+    "germanExample": "Der Wirt entschuldigt sich beim Gast für den schlechten Service.",
+    "turkishExample": "Mekan sahibi, kötü hizmetten dolayı müşteriden özür diliyor."
+  },
+  {
+    "id": "verb_034",
+    "type": "Verb",
+    "german": "erfahren von + Dativ",
+    "turkish": "birinden/bir şeyden (haber) almak/öğrenmek",
+    "germanExample": "Wir haben von deinem tollen Erfolg erfahren und gratulieren dir!",
+    "turkishExample": "Harika başarını öğrendik ve seni tebrik ederiz!"
+  },
+  {
+    "id": "verb_035",
+    "type": "Verb",
+    "german": "erholen (sich) von + Dativ",
+    "turkish": "-den kurtulmak/dinlenmek/toparlanmak",
+    "germanExample": "Hast du dich von der Operation schon erholt?",
+    "turkishExample": "Ameliyattan sonra toplandın mı?"
+  },
+  {
+    "id": "verb_036",
+    "type": "Verb",
+    "german": "erinnern (sich) an + Akkusativ",
+    "turkish": "bir şeyi/birini hatırlamak",
+    "germanExample": "Die Kinder erinnern sich gern an ihren Opa.",
+    "turkishExample": "Çocuklar dedelerini severek hatırlıyor."
+  },
+  {
+    "id": "verb_037",
+    "type": "Verb",
+    "german": "erkennen an + Dativ",
+    "turkish": "bir şeyden tanımak/ayırt etmek",
+    "germanExample": "Man erkennt unser Haus sofort an seinem kaputten Dach.",
+    "turkishExample": "Evimiz, kırık çatısından hemen tanınır."
+  },
+  {
+    "id": "verb_038",
+    "type": "Verb",
+    "german": "erkundigen (sich) bei + Dativ / nach + Dativ",
+    "turkish": "birine bir şeyi sormak/bilgi almak",
+    "germanExample": "Ich möchte mich (bei Ihnen) nach einem Flug erkundigen.",
+    "turkishExample": "Sizden bir uçuş hakkında bilgi almak istiyorum."
+  },
+  {
+    "id": "verb_039",
+    "type": "Verb",
+    "german": "erschrecken über + Akkusativ",
+    "turkish": "bir şeye şaşırmak/korkmak",
+    "germanExample": "Ich bin über die hohe Rechnung erschrocken.",
+    "turkishExample": "Yüksek fatura karşısında şok oldum."
+  },
+  {
+    "id": "verb_040",
+    "type": "Verb",
+    "german": "erzählen über + Akkusativ",
+    "turkish": "bir şey hakkında (detaylı) anlatmak",
+    "germanExample": "Warum willst du mir nichts über deinen neuen Freund erzählen?",
+    "turkishExample": "Bana neden yeni erkek arkadaşın hakkında hiçbir şey anlatmak istemiyorsun?"
+  },
+  {
+    "id": "verb_041",
+    "type": "Verb",
+    "german": "erzählen von + Dativ",
+    "turkish": "bir şeyden bahsetmek/anlatmak",
+    "germanExample": "Meine Oma erzählt gern von ihrer Jugend.",
+    "turkishExample": "Anneannem/Babaannem gençliğinden bahsetmeyi sever."
+  },
+  {
+    "id": "verb_042",
+    "type": "Verb",
+    "german": "fehlen an + Dativ",
+    "turkish": "bir şeyin eksik olması",
+    "germanExample": "Es fehlt an einem guten Plan für dieses Projekt.",
+    "turkishExample": "Bu proje için iyi bir plan eksik."
+  },
+  {
+    "id": "verb_043",
+    "type": "Verb",
+    "german": "fragen nach + Dativ",
+    "turkish": "bir şeyi/birini sormak",
+    "germanExample": "Papa! Da fragt ein Mann nach dir.",
+    "turkishExample": "Baba! Bir adam seni soruyor."
+  },
+  {
+    "id": "verb_044",
+    "type": "Verb",
+    "german": "freuen (sich) auf + Akkusativ",
+    "turkish": "gelecekteki bir şeye sevinmek",
+    "germanExample": "Ich freue mich auf meinen Geburtstag.",
+    "turkishExample": "Doğum günümü dört gözle bekliyorum."
+  },
+  {
+    "id": "verb_045",
+    "type": "Verb",
+    "german": "freuen (sich) über + Akkusativ",
+    "turkish": "olmuş bir şeye sevinmek",
+    "germanExample": "Ich habe mich sehr über deinen Brief gefreut.",
+    "turkishExample": "Mektubuna çok sevindim."
+  },
+  {
+    "id": "verb_046",
+    "type": "Verb",
+    "german": "führen zu + Dativ",
+    "turkish": "bir şeye yol açmak/götürmek",
+    "germanExample": "Die Diskussion hat zu einem guten Ergebnis geführt.",
+    "turkishExample": "Tartışma iyi bir sonuçla neticelendi."
+  },
+  {
+    "id": "verb_047",
+    "type": "Verb",
+    "german": "fürchten (sich) vor + Dativ",
+    "turkish": "bir şeyden/birinden korkmak",
+    "germanExample": "Anna fürchtet sich vor Hunden.",
+    "turkishExample": "Anna köpeklerden korkar."
+  },
+  {
+    "id": "verb_048",
+    "type": "Verb",
+    "german": "gehen um + Akkusativ",
+    "turkish": "konu bir şey olmak / söz konusu olmak",
+    "germanExample": "Im Film geht es um einen vanished Jungen.",
+    "turkishExample": "Filmde kaybolan bir çocuk konu ediliyor."
+  },
+  {
+    "id": "verb_049",
+    "type": "Verb",
+    "german": "gehören zu + Dativ",
+    "turkish": "bir şeye ait olmak/parçası olmak",
+    "germanExample": "Es gehört zu meinen Aufgaben im Haushalt, das Bad zu putzen.",
+    "turkishExample": "Banyoyu temizlemek evdeki görevlerimden biridir."
+  },
+  {
+    "id": "verb_050",
+    "type": "Verb",
+    "german": "gelten als + Nominativ",
+    "turkish": "olarak kabul edilmek/sayılmak",
+    "germanExample": "Stempel und Unterschrift gelten als Quittung.",
+    "turkishExample": "Kaşe ve imza makbuz sayılır."
+  },
+  {
+    "id": "verb_051",
+    "type": "Verb",
+    "german": "gewöhnen (sich) an + Akkusativ",
+    "turkish": "bir şeye alışmak",
+    "germanExample": "Sie muss sich erst an den Winter in Deutschland gewöhnen.",
+    "turkishExample": "Almanya'daki kışa daha yeni alışması gerekiyor."
+  },
+  {
+    "id": "verb_052",
+    "type": "Verb",
+    "german": "glauben an + Akkusativ",
+    "turkish": "bir şeye/birine inanmak",
+    "germanExample": "Meine Tochter glaubt noch an den Weihnachtsmann.",
+    "turkishExample": "Kızım hala Noel Baba'ya inanüyor."
+  },
+  {
+    "id": "verb_053",
+    "type": "Verb",
+    "german": "gratulieren zu + Dativ",
+    "turkish": "bir şeyi tebrik etmek",
+    "germanExample": "Wir gratulieren dir zu deinem Erfolg.",
+    "turkishExample": "Başarını tebrik ederiz."
+  },
+  {
+    "id": "verb_054",
+    "type": "Verb",
+    "german": "halten für + Akkusativ",
+    "turkish": "birini/bir şeyi ... sanmak/yerine koymak",
+    "germanExample": "Oh, Entschuldigung! Ich habe Sie für meinen Mann gehalten. Er hat die gleiche Jacke wie Sie.",
+    "turkishExample": "Afedersiniz! Sizi kocam sandım. Sizinle aynı cekete sahip."
+  },
+  {
+    "id": "verb_055",
+    "type": "Verb",
+    "german": "halten von + Dativ",
+    "turkish": "bir şey hakkında fikri/düşüncesi olmak",
+    "germanExample": "Mein Vater hält viel von einem guten Essen.",
+    "turkishExample": "Babam iyi bir yemeğe çok değer verir."
+  },
+  {
+    "id": "verb_056",
+    "type": "Verb",
+    "german": "halten (sich) an + Akkusativ",
+    "turkish": "kurallara/planlara uymak",
+    "germanExample": "Die Autofahrer müssen sich an die Verkehrsregeln halten.",
+    "turkishExample": "Sürücüler trafik kurallarına uymak zorundadır."
+  },
+  {
+    "id": "verb_057",
+    "type": "Verb",
+    "german": "handeln von + Dativ",
+    "turkish": "bir şeyi konu almak/bahsetmek",
+    "germanExample": "Das Märchen handelt von einem armen Mädchen.",
+    "turkishExample": "Masal, fakir bir kız hakkında."
+  },
+  {
+    "id": "verb_058",
+    "type": "Verb",
+    "german": "handeln (sich) um + Akkusativ",
+    "turkish": "söz konusu ... olmak / ile ilgili olmak",
+    "germanExample": "Es handelt sich um einen Fehler in der Rechnung.",
+    "turkishExample": "Faturadaki bir hata söz konusu."
+  },
+  {
+    "id": "verb_059",
+    "type": "Verb",
+    "german": "helfen bei + Dativ",
+    "turkish": "bir şeyde/bir konuda yardım etmek",
+    "germanExample": "Kann ich dir bei der Arbeit helfen?",
+    "turkishExample": "Sana işinde yardım edebilir miyim?"
+  },
+  {
+    "id": "verb_060",
+    "type": "Verb",
+    "german": "hindern an + Dativ",
+    "turkish": "bir şeye engel olmak",
+    "germanExample": "Du kannst mich nicht an meinem Plan hindern.",
+    "turkishExample": "Planıma engel olamazın."
+  },
+  {
+    "id": "verb_061",
+    "type": "Verb",
+    "german": "hinweisen auf + Akkusativ",
+    "turkish": "bir şeye işaret etmek/dikkatini çekmek",
+    "germanExample": "Ich möchte Sie auf das Rauchverbot in unserem Hotel hinweisen.",
+    "turkishExample": "Otelimizdeki sigara yasağına dikkatinizi çekmek isterim."
+  },
+  {
+    "id": "verb_062",
+    "type": "Verb",
+    "german": "hoffen auf + Akkusativ",
+    "turkish": "bir şeyi umut etmek",
+    "germanExample": "Wir hoffen auf ein günstiges Angebot.",
+    "turkishExample": "Uygun bir teklif umut ediyoruz."
+  },
+  {
+    "id": "verb_063",
+    "type": "Verb",
+    "german": "hören von + Dativ",
+    "turkish": "birinden haber almak",
+    "germanExample": "Lass bald wieder von dir hören!",
+    "turkishExample": "Yakında tekrar sesini duyur / haber et!"
+  },
+  {
+    "id": "verb_064",
+    "type": "Verb",
+    "german": "impfen gegen + Akkusativ",
+    "turkish": "bir şeye karşı aşılamak",
+    "germanExample": "Man sollte Kinder gegen verschiedene Krankheiten impfen lassen.",
+    "turkishExample": "Çocuklar çeşitli hastalıklara karşı aşılatılmalıdır."
+  },
+  {
+    "id": "verb_065",
+    "type": "Verb",
+    "german": "informieren (sich) bei + Dativ / über + Akkusativ",
+    "turkish": "birinden bir şey hakkında bilgi almak",
+    "germanExample": "Ich würde mich gern (bei Ihnen) über den Ferienjob informieren.",
+    "turkishExample": "Tatil işi hakkında bilgi almak isterim."
+  },
+  {
+    "id": "verb_066",
+    "type": "Verb",
+    "german": "interessieren (sich) für + Akkusativ",
+    "turkish": "bir şeyle ilgilenmek",
+    "germanExample": "Er interessiert sich sehr für den Film.",
+    "turkishExample": "Filmle çok ilgileniyor."
+  },
+  {
+    "id": "verb_067",
+    "type": "Verb",
+    "german": "kämpfen für + Akkusativ",
+    "turkish": "bir şey için savaşmak/mücadele etmek",
+    "germanExample": "Die Arbeiter kämpfen für einen besseren Lohn.",
+    "turkishExample": "İşçiler daha iyi bir ücret için mücadele ediyor."
+  },
+  {
+    "id": "verb_068",
+    "type": "Verb",
+    "german": "kämpfen gegen + Akkusativ",
+    "turkish": "bir şeye karşı savaşmak/mücadele etmek",
+    "germanExample": "Die Bürger kämpfen gegen den Bau der Straße.",
+    "turkishExample": "Vatandaşlar yol yapımına karşı mücadele ediyor."
+  },
+  {
+    "id": "verb_069",
+    "type": "Verb",
+    "german": "klagen über + Akkusativ",
+    "turkish": "bir şeyden şikayet etmek/yakınmak",
+    "germanExample": "Der Patient klagt über einen starken Schmerz im Bein.",
+    "turkishExample": "Hasta bacağındaki şiddetli ağrıdan yakınıyor."
+  },
+  {
+    "id": "verb_070",
+    "type": "Verb",
+    "german": "kommen auf + Akkusativ",
+    "turkish": "bir şeyi akıl etmek/aklına gelmek",
+    "germanExample": "Wie bist du nur auf die Idee gekommen, dein Auto selbst zu reparieren? Du hast doch keine Ahnung von Autos!",
+    "turkishExample": "Bu fikir nereden aklına geldi, arabanı kendin tamir ediyorsun? Arabalardan hiç anlamazsın ki!"
+  },
+  {
+    "id": "verb_071",
+    "type": "Verb",
+    "german": "kommen zu + Dativ",
+    "turkish": "bir sonuca varmak/ulaşmak",
+    "germanExample": "Wir sind zu dem Ergebnis gekommen, dass wir Kosten sparen müssen.",
+    "turkishExample": "Maliyetleri düşürmemiz gerektiği sonucuna vardık."
+  },
+  {
+    "id": "verb_072",
+    "type": "Verb",
+    "german": "konzentrieren (sich) auf + Akkusativ",
+    "turkish": "bir şeye konsantre olmak",
+    "germanExample": "Du solltest dich auf den Unterricht konzentrieren, statt dich mit deiner Partnerin zu unterhalten.",
+    "turkishExample": "Partnerinle sohbet etmek yerine derse konsantre olmalısın."
+  },
+  {
+    "id": "verb_073",
+    "type": "Verb",
+    "german": "kümmern (sich) um + Akkusativ",
+    "turkish": "bir şeyle/biriyle ilgilenmek/bakmak",
+    "germanExample": "Ich muss arbeiten, deshalb kümmert sich eine Tagesmutter um meinen Sohn.",
+    "turkishExample": "Çalışmak zorundayım, bu yüzden oğlumla bir bakıcı ilgileniyor."
+  },
+  {
+    "id": "verb_074",
+    "type": "Verb",
+    "german": "lachen über + Akkusativ",
+    "turkish": "bir şeye/birine gülmek",
+    "germanExample": "Lacht ihr über mich?",
+    "turkishExample": "Bana mı gülüyorsunuz?"
+  },
+  {
+    "id": "verb_075",
+    "type": "Verb",
+    "german": "leiden an + Dativ",
+    "turkish": "bir hastalıktan çekmek/muzdarip olmak",
+    "germanExample": "Er leidet an einer gefährlichen Krankheit.",
+    "turkishExample": "Tehlikeli bir hastalıktan muzdarip."
+  },
+  {
+    "id": "verb_076",
+    "type": "Verb",
+    "german": "leiden unter + Dativ",
+    "turkish": "bir durumdan (stres vb.) ötürü acı çekmek",
+    "germanExample": "Sie leidet unter ihrem unfreundlichen Chef.",
+    "turkishExample": "Kaba patronu yüzünden acı çekiyor."
+  },
+  {
+    "id": "verb_077",
+    "type": "Verb",
+    "german": "liegen an + Dativ",
+    "turkish": "bir şeyden kaynaklanmak / sebebi olmak",
+    "germanExample": "Es liegt nicht an mir, dass wir immer zu spät kommen.",
+    "turkishExample": "Her zaman geç kalmamızın sebebi ben değilim."
+  },
+  {
+    "id": "verb_078",
+    "type": "Verb",
+    "german": "nachdenken über + Akkusativ",
+    "turkish": "bir şey üzerine düşünmek/kafa yormak",
+    "germanExample": "Er denkt über den Kauf eines Fernsehers nach.",
+    "turkishExample": "Televizyon satın alma üzerine düşünüyor."
+  },
+  {
+    "id": "verb_079",
+    "type": "Verb",
+    "german": "protestieren gegen + Akkusativ",
+    "turkish": "bir şeyi protesto etmek",
+    "germanExample": "Die Bürger von Neustadt protestieren gegen die Schließung des Krankenhause.",
+    "turkishExample": "Neustadt vatandaşları hastanenin kapatılmasını protesto ediyor."
+  },
+  {
+    "id": "verb_080",
+    "type": "Verb",
+    "german": "reagieren auf + Akkusativ",
+    "turkish": "bir şeye tepki vermek/yanıtlamak",
+    "germanExample": "Das Finanzamt hat noch nicht auf meinen Brief reagiert.",
+    "turkishExample": "Vergi dairesi mektubuma henüz yanıt vermedi."
+  },
+  {
+    "id": "verb_081",
+    "type": "Verb",
+    "german": "rechnen mit + Dativ",
+    "turkish": "bir şeyi hesaba katmak / beklemek",
+    "germanExample": "Sie müssen ab März mit einem höheren Preis rechnen.",
+    "turkishExample": "Mart ayından itibaren daha yüksek bir fiyat beklemelisiniz."
+  },
+  {
+    "id": "verb_082",
+    "type": "Verb",
+    "german": "reden von + Dativ / über + Akkusativ",
+    "turkish": "bir şey hakkında konuşmak",
+    "germanExample": "Sie redet nur noch von ihrem neuen Freund. / über ihren neuen Freund.",
+    "turkishExample": "Sadece yeni erkek arkadaşı hakkında konuşuyor."
+  },
+  {
+    "id": "verb_083",
+    "type": "Verb",
+    "german": "riechen nach + Dativ",
+    "turkish": "bir şey gibi kokmak",
+    "germanExample": "Hier riecht es nach einem sehr süßen Parfüm.",
+    "turkishExample": "Burası çok tatlı bir parfüm gibi kokuyor."
+  },
+  {
+    "id": "verb_084",
+    "type": "Verb",
+    "german": "schicken an + Akkusativ",
+    "turkish": "birine (adres vb.) göndermek",
+    "germanExample": "Schicken Sie die Rechnung bitte an meine private Adresse.",
+    "turkishExample": "Lütfen faturayı şahsi adresime gönderin."
+  },
+  {
+    "id": "verb_085",
+    "type": "Verb",
+    "german": "schicken zu + Dativ",
+    "turkish": "bir yere/bir kişiye göndermek",
+    "germanExample": "Schickst du Thomas bitte zum Chef, wenn er aus der Pause comes?",
+    "turkishExample": "Thomas moladan dönünce şefe gönderir misin lütfen?"
+  },
+  {
+    "id": "verb_086",
+    "type": "Verb",
+    "german": "schmecken nach + Dativ",
+    "turkish": "bir şeyin tadı gelmek / ... tadı vermek",
+    "germanExample": "Das schmeckt nach altem Käse.",
+    "turkishExample": "Bunun tadı eski peynir gibi."
+  },
+  {
+    "id": "verb_087",
+    "type": "Verb",
+    "german": "schimpfen auf/über + Akkusativ",
+    "turkish": "bir şeye/birine söylenmek/küfretmek",
+    "germanExample": "Alle schimpfen auf/über die schlechten Arbeitsbedingungen.",
+    "turkishExample": "Herkes kötü çalışma koşullarına söyleniyor."
+  },
+  {
+    "id": "verb_088",
+    "type": "Verb",
+    "german": "schreiben an + Akkusativ",
+    "turkish": "birine yazmak",
+    "germanExample": "Ich schreibe an Dich, weil ich Deine Hilfe brauche.",
+    "turkishExample": "Sana yazıyorum çünkü yardımına ihtiyacım var."
+  },
+  {
+    "id": "verb_089",
+    "type": "Verb",
+    "german": "schützen (sich) gegen + Akkusativ / vor + Dativ",
+    "turkish": "bir şeye/birine karşı korumak",
+    "germanExample": "Diese Creme schützt Sie gegen die Sonne / vor der Sonne.",
+    "turkishExample": "Bu krem sizi güneşten korur."
+  },
+  {
+    "id": "verb_090",
+    "type": "Verb",
+    "german": "sein für + Akkusativ",
+    "turkish": "bir şeyi desteklemek / -den yana olmak",
+    "germanExample": "Mein Mann ist für den schwarzen Anzug, ich bin für den blauen.",
+    "turkishExample": "Kocam siyah takımdan yana, ben ise mavi olandan yanayım."
+  },
+  {
+    "id": "verb_091",
+    "type": "Verb",
+    "german": "sein gegen + Akkusativ",
+    "turkish": "bir şeye karşı olmak",
+    "germanExample": "Die Opposition ist gegen den Plan der Regierung.",
+    "turkishExample": "Muhalefet hükümetin planına karşı."
+  },
+  {
+    "id": "verb_092",
+    "type": "Verb",
+    "german": "sehen nach + Dativ",
+    "turkish": "birine bakmak / kontrol etmek",
+    "germanExample": "Ich sehe später noch nach dir, okay?",
+    "turkishExample": "Sana daha sonra tekrar bakarım, tamam mı?"
+  },
+  {
+    "id": "verb_093",
+    "type": "Verb",
+    "german": "sorgen für + Akkusativ",
+    "turkish": "birine/bir şeye bakmak, sağlamak",
+    "germanExample": "Ich verspreche dir, dass ich immer für dich sorgen werde.",
+    "turkishExample": "Sana her zaman bakacağıma söz veriyorum."
+  },
+  {
+    "id": "verb_094",
+    "type": "Verb",
+    "german": "sprechen mit + Dativ / über + Akkusativ",
+    "turkish": "biriyle bir şey hakkında konuşmak",
+    "germanExample": "Der Küchenchef spricht mit den Köchen über die Speisekarte für das Hochzeitsfest.",
+    "turkishExample": "Aşçıbaşı, aşçılarla düğün menüsü hakkında konuşuyor."
+  },
+  {
+    "id": "verb_095",
+    "type": "Verb",
+    "german": "sterben an + Dativ",
+    "turkish": "bir şeyden (hastalıktan vb.) ölmek",
+    "germanExample": "Er ist an den Folgen des Verkehrsunfalls gestorben.",
+    "turkishExample": "Trafik kazasının sonuçları nedeniyle öldü."
+  },
+  {
+    "id": "verb_096",
+    "type": "Verb",
+    "german": "stimmen für + Akkusativ",
+    "turkish": "bir şeyin lehine oy vermek",
+    "germanExample": "Alle stimmen für seinen Antrag.",
+    "turkishExample": "Herkes onun önergesi lehine oy veriyor."
+  },
+  {
+    "id": "verb_097",
+    "type": "Verb",
+    "german": "stimmen gegen + Akkusativ",
+    "turkish": "bir şeyin aleyhine oy vermek",
+    "germanExample": "Die Kollegen stimmten gegen meinen Vorschlag.",
+    "turkishExample": "Meslektaşlar benim önerimin aleyhine oy kullandı."
+  },
+  {
+    "id": "verb_098",
+    "type": "Verb",
+    "german": "streiten mit + Dativ / über + Akkusativ",
+    "turkish": "biriyle bir şey hakkında kavga etmek/tartışmak",
+    "germanExample": "Sie streitet mit ihrem Mann über die richtige Erziehung der Kinder.",
+    "turkishExample": "Doğru eğitim üzerine kocasıyla tartışıyor."
+  },
+  {
+    "id": "verb_099",
+    "type": "Verb",
+    "german": "teilnehmen an + Dativ",
+    "turkish": "bir şeye katılmak",
+    "germanExample": "Wenn Sie an diesem Kurs teilnehmen möchten, melden Sie sich bitte bis Ende des Monats an.",
+    "turkishExample": "Bu kursa katılmak istiyorsanız lütfen ay sonuna kadar kayıt yaptırın."
+  },
+  {
+    "id": "verb_100",
+    "type": "Verb",
+    "german": "telefonieren mit + Dativ",
+    "turkish": "biriyle telefonda konuşmak",
+    "germanExample": "Sie telefoniert jeden Tag mit ihrer Mutter.",
+    "turkishExample": "Her gün annesiyle telefonda konuşuyor."
+  },
+  {
+    "id": "verb_101",
+    "type": "Verb",
+    "german": "träumen von + Dativ",
+    "turkish": "bir şeyin rüyasını görmek / hayal etmek",
+    "germanExample": "Ich träume von einem Urlaub im Süden.",
+    "turkishExample": "Güneyde bir tatil hayal ediyorum."
+  },
+  {
+    "id": "verb_102",
+    "type": "Verb",
+    "german": "treffen (sich) mit + Dativ",
+    "turkish": "biriyle buluşmak",
+    "germanExample": "Sie trifft sich jede Woche mit ihren Freundinnen.",
+    "turkishExample": "Her hafta kız arkadaşlarıyla buluşuyor."
+  },
+  {
+    "id": "verb_103",
+    "type": "Verb",
+    "german": "trennen (sich) von + Dativ",
+    "turkish": "birinden ayrılmak",
+    "germanExample": "Sie hat sich von ihrem Freund getrennt.",
+    "turkishExample": "Erkek arkadaşından ayrıldı."
+  },
+  {
+    "id": "verb_104",
+    "type": "Verb",
+    "german": "überreden zu + Dativ",
+    "turkish": "birini bir şeye ikna etmek/razı etmek",
+    "germanExample": "Kann ich dich zu einem Stück Kuchen überreden, auch wenn du gerade Diät machst?",
+    "turkishExample": "Diyette olsan bile seni bir dilim pasta yemeye ikna edebilir miyim?"
+  },
+  {
+    "id": "verb_105",
+    "type": "Verb",
+    "german": "überzeugen von + Dativ",
+    "turkish": "birini bir şeye inandırmak/ikna etmek",
+    "germanExample": "Ich bin von den Vorteilen einer Holzheizung überzeugt.",
+    "turkishExample": "Odun ısıtmasının avantajlarına ikna oldum."
+  },
+  {
+    "id": "verb_106",
+    "type": "Verb",
+    "german": "unterhalten (sich) mit + Dativ / über + Akkusativ",
+    "turkish": "biriyle bir şey hakkında sohbet etmek",
+    "germanExample": "Sie unterhält sich mit der Nachbarin über den neuen Mieter.",
+    "turkishExample": "Komşusuyla yeni kiracı hakkında sohbet ediyor."
+  },
+  {
+    "id": "verb_107",
+    "type": "Verb",
+    "german": "unterscheiden (sich) von + Dativ",
+    "turkish": "birinden/bir şeyden farklı olmak",
+    "germanExample": "Mein neuer Chef unterscheidet sich sehr von meinem alten Chef: Er ist viel netter.",
+    "turkishExample": "Yeni patronum eskisinden çok farklı: Çok daha nazik."
+  },
+  {
+    "id": "verb_108",
+    "type": "Verb",
+    "german": "verabreden (sich) mit + Dativ",
+    "turkish": "biriyle sözleşmek/randevulaşmak",
+    "germanExample": "Ich würde mich gern mal wieder mit dir zum Essen verabreden. Hast du Lust?",
+    "turkishExample": "Seninle tekrar yemek için sözleşmek isterim. İstiyor musun?"
+  },
+  {
+    "id": "verb_109",
+    "type": "Verb",
+    "german": "verabschieden (sich) von + Dativ",
+    "turkish": "birine veda etmek / vedalaşmak",
+    "germanExample": "Ich muss mich leider von Ihnen verabschieden, ich habe noch einen Termin.",
+    "turkishExample": "Maalesef size veda etmek zorundayım, bir randevum daha var."
+  },
+  {
+    "id": "verb_110",
+    "type": "Verb",
+    "german": "vergleichen mit + Dativ",
+    "turkish": "bir şeyle/biriyle karşılaştırmak",
+    "germanExample": "Sie vergleicht ihren neuen Freund immer mit ihrem Ex-Freund.",
+    "turkishExample": "Yeni erkek arkadaşını hep eski erkek arkadaşıyla karşılaştırıyor."
+  },
+  {
+    "id": "verb_111",
+    "type": "Verb",
+    "german": "verlassen (sich) auf + Akkusativ",
+    "turkish": "birine/bir şeye güvenmek",
+    "germanExample": "Ihr könnt euch auf mich verlassen.",
+    "turkishExample": "Bana güvenebilirsiniz."
+  },
+  {
+    "id": "verb_112",
+    "type": "Verb",
+    "german": "verlieben (sich) in + Akkusativ",
+    "turkish": "birine aşık olmak",
+    "germanExample": "Sie hat sich in einen Arzt verliebt.",
+    "turkishExample": "Bir doktora aşık oldu."
+  },
+  {
+    "id": "verb_113",
+    "type": "Verb",
+    "german": "verstehen (sich) mit + Dativ",
+    "turkish": "biriyle iyi geçinmek",
+    "germanExample": "Ich verstehe mich gut mit meinem Bruder.",
+    "turkishExample": "Erkek kardeşimle iyi geçiniyorum."
+  },
+  {
+    "id": "verb_114",
+    "type": "Verb",
+    "german": "verstehen von + Dativ",
+    "turkish": "bir şeyden anlamak",
+    "germanExample": "Ich kann nicht kochen und ich verstehe auch nichts von gesunder Ernährung.",
+    "turkishExample": "Yemek yapamam ve sağlıklı beslenmeden de hiç anlamam."
+  },
+  {
+    "id": "verb_115",
+    "type": "Verb",
+    "german": "vorbereiten (sich) auf + Akkusativ",
+    "turkish": "bir şeye hazırlanmak",
+    "germanExample": "Hast du dich auf den Test vorbereitet?",
+    "turkishExample": "Sınava hazırlandın mı?"
+  },
+  {
+    "id": "verb_116",
+    "type": "Verb",
+    "german": "warnen vor + Dativ",
+    "turkish": "bir şeye/birine karşı uyarmak",
+    "germanExample": "Ich muss dich vor unserem Nachbarn warnen, er beschwert sich über alles.",
+    "turkishExample": "Seni komşumuz hakkında uyarmalıyım, her şey hakkında şikayet ediyor."
+  },
+  {
+    "id": "verb_117",
+    "type": "Verb",
+    "german": "warten auf + Akkusativ",
+    "turkish": "birini/bir şeyi beklemek",
+    "germanExample": "Immer muss man auf dich warten!",
+    "turkishExample": "Her zaman seni beklemek zorunda kalıyoruz!"
+  },
+  {
+    "id": "verb_118",
+    "type": "Verb",
+    "german": "werden zu + Dativ",
+    "turkish": "bir şeye dönüşmek / haline gelmek",
+    "germanExample": "Wenn du so weitermachst, wirst du doch noch zu einem guten Handwerker.",
+    "turkishExample": "Böyle devam edersen, eninde sonunda iyi bir zanaatkar olacaksın."
+  },
+  {
+    "id": "verb_119",
+    "type": "Verb",
+    "german": "wissen von + Dativ",
+    "turkish": "bir şeyi bilmek/haberi olmak",
+    "germanExample": "Tut mir leid, ich weiß nichts von dem Brief. Da müssen Sie meine Kollegin fragen.",
+    "turkishExample": "Üzgünüm, mektuptan haberim yok. Bunu meslektaşıma sormanız gerekir."
+  },
+  {
+    "id": "verb_120",
+    "type": "Verb",
+    "german": "wundern (sich) über + Akkusativ",
+    "turkish": "bir şeye şaşırmak",
+    "germanExample": "Sie wundert sich über das schlechte Wetter im Sommer.",
+    "turkishExample": "Yazın havanın kötü olmasına şaşırıyor."
+  },
+  {
+    "id": "verb_121",
+    "type": "Verb",
+    "german": "zurechtkommen mit + Dativ",
+    "turkish": "biriyle/bir şeyle geçinmek/üstesinden gelmek",
+    "germanExample": "Wie kommst du mit deinem neuen Kollegen zurecht?",
+    "turkishExample": "Yeni meslektaşınla nasıl anlaşıyorsun/geçiniyorsun?"
+  },
+  {
+    "id": "verb_122",
+    "type": "Verb",
+    "german": "zuschauen / zusehen bei + Dativ",
+    "turkish": "birini izlemek (izlerken eşlik etmek)",
+    "germanExample": "Ich schaue/sehe dir gern bei der Arbeit zu.",
+    "turkishExample": "Çalışırken seni izlemeyi severim."
+  },
+  {
+    "id": "verb_123",
+    "type": "Verb",
+    "german": "zweifeln an + Dativ",
+    "turkish": "bir şeyden şüphe etmek",
+    "germanExample": "Zweifelst du etwa an meinen Worten?",
+    "turkishExample": "Sözlerimden şüphe mi ediyorsun?"
+  }
+]
