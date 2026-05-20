@@ -49,7 +49,7 @@ function App() {
                 }`}
               >
                 <Layers size={16} />
-                <span className="hidden sm:inline">Vocabulary</span>
+                <span className="hidden sm:inline">Wortschatz</span>
               </button>
               <button
                 onClick={() => setCurrentView('favorites')}
@@ -58,7 +58,7 @@ function App() {
                 }`}
               >
                 <Heart size={16} />
-                <span className="hidden sm:inline">Favorites</span>
+                <span className="hidden sm:inline">Favoriten</span>
               </button>
               <button
                 onClick={() => setCurrentView('dashboard')}
@@ -67,7 +67,7 @@ function App() {
                 }`}
               >
                 <LayoutDashboard size={16} />
-                <span className="hidden sm:inline">Dashboard</span>
+                <span className="hidden sm:inline">Übersicht</span>
               </button>
             </nav>
           )}

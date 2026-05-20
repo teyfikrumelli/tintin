@@ -33,8 +33,8 @@ const Home = ({ onStartStudy }) => {
   return (
     <div className="flex flex-col gap-8 animate-in fade-in slide-in-from-bottom-4 duration-500">
       <div className="mb-2">
-        <h2 className="text-2xl font-bold text-white mb-2">My Vocabulary</h2>
-        <p className="text-slate-400">Select a deck below or review your unified collection.</p>
+        <h2 className="text-2xl font-bold text-white mb-2">Mein Wortschatz</h2>
+        <p className="text-slate-400">Wähle einen Stapel aus oder lerne alle Karten.</p>
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
@@ -51,19 +51,19 @@ const Home = ({ onStartStudy }) => {
                 <Layers size={32} />
               </div>
               <div>
-                <h3 className="text-2xl font-bold text-white">All Flashcards</h3>
-                <p className="text-slate-400 mt-1">{cards.length} total cards in collection</p>
+                <h3 className="text-2xl font-bold text-white">Alle Karteikarten</h3>
+                <p className="text-slate-400 mt-1">Insgesamt {cards.length} Karten</p>
               </div>
             </div>
           </div>
 
           <div className="flex items-center justify-between mt-2 pt-6 border-t border-slate-700/50 relative z-10">
             <div className="flex flex-col gap-1">
-              <span className="text-sm font-medium text-slate-400">Due for review</span>
+              <span className="text-sm font-medium text-slate-400">Zur Wiederholung</span>
               <span className={`text-2xl font-bold ${
                 dueTodayCount > 0 ? 'text-red-400' : 'text-green-400'
               }`}>
-                {dueTodayCount} {dueTodayCount === 1 ? 'card' : 'cards'}
+                {dueTodayCount} {dueTodayCount === 1 ? 'Karte' : 'Karten'}
               </span>
             </div>
             
@@ -89,9 +89,9 @@ const Home = ({ onStartStudy }) => {
             
             <div className="flex justify-between items-end mt-2">
               <div className="flex flex-col gap-1">
-                <span className="text-xs text-slate-400">Total Cards: {deck.total}</span>
+                <span className="text-xs text-slate-400">Karten: {deck.total}</span>
                 <span className={`text-sm font-bold ${deck.due > 0 ? 'text-red-400' : 'text-green-400'}`}>
-                  {deck.due} due today
+                  {deck.due} heute fällig
                 </span>
               </div>
               <div className="w-8 h-8 rounded-full bg-slate-700 flex items-center justify-center group-hover:bg-indigo-500 transition-colors text-white">

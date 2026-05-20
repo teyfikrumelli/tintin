@@ -61,17 +61,17 @@ const StudySession = ({ mode = 'all', onFinish }) => {
           <div className="w-20 h-20 bg-green-500/20 text-green-400 rounded-full flex items-center justify-center mb-6">
             <CheckCircle2 size={40} />
           </div>
-          <h2 className="text-2xl font-bold text-white mb-2">You're All Caught Up!</h2>
+          <h2 className="text-2xl font-bold text-white mb-2">Alles erledigt!</h2>
           <p className="text-slate-400 mb-8">
             {cardsToStudy.length === 0 
-              ? (mode === 'favorites' ? "You have no favorite cards to study." : "No more cards due today. Great job!")
-              : "You've finished your review session for today."}
+              ? (mode === 'favorites' ? "Du hast keine Favoriten zum Lernen." : "Keine Karten mehr für heute fällig. Super gemacht!")
+              : "Du hast deine heutige Lernsitzung beendet."}
           </p>
           <button 
             onClick={onFinish}
             className="w-full bg-indigo-500 hover:bg-indigo-600 text-white font-bold py-3 px-4 rounded-xl transition-colors shadow-lg shadow-indigo-500/25"
           >
-            Back to Dashboard
+            Zurück zur Übersicht
           </button>
         </div>
       </div>
@@ -131,41 +131,41 @@ const StudySession = ({ mode = 'all', onFinish }) => {
           <motion.div 
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
-            className="flex justify-center gap-2 sm:gap-4 max-w-sm mx-auto"
+            className="grid grid-cols-4 gap-2 sm:gap-4 w-full max-w-md mx-auto px-2 sm:px-0"
           >
             <button 
               onClick={() => handleReview(1)}
-              className="flex-1 flex flex-col items-center gap-1 bg-slate-800 border-2 border-red-500/50 hover:bg-red-500/20 hover:border-red-500 text-white p-3 sm:p-4 rounded-2xl transition-all"
+              className="flex flex-col items-center justify-between gap-1 bg-slate-800 border-2 border-red-500/50 hover:bg-red-500/20 hover:border-red-500 text-white py-2 px-0.5 sm:p-4 rounded-2xl transition-all"
             >
-              <RefreshCw size={20} className="text-red-400 mb-1" />
-              <span className="font-bold text-sm sm:text-base">Again</span>
-              <span className="text-xs text-slate-400">&lt; 1m</span>
+              <RefreshCw size={18} className="text-red-400 mb-1" />
+              <span className="font-bold text-[11px] sm:text-sm mt-auto w-full text-center leading-tight tracking-tight">Nochmal</span>
+              <span className="text-[10px] sm:text-xs text-slate-400">&lt; 1m</span>
             </button>
             <button 
               onClick={() => handleReview(3)}
-              className="flex-1 flex flex-col items-center gap-1 bg-slate-800 border-2 border-blue-500/50 hover:bg-blue-500/20 hover:border-blue-500 text-white p-3 sm:p-4 rounded-2xl transition-all"
+              className="flex flex-col items-center justify-between gap-1 bg-slate-800 border-2 border-blue-500/50 hover:bg-blue-500/20 hover:border-blue-500 text-white py-2 px-0.5 sm:p-4 rounded-2xl transition-all"
             >
-              <span className="font-bold text-sm sm:text-base mt-auto">Hard</span>
-              <span className="text-xs text-slate-400">1d</span>
+              <span className="font-bold text-[11px] sm:text-sm mt-auto w-full text-center leading-tight tracking-tight">Schwer</span>
+              <span className="text-[10px] sm:text-xs text-slate-400">1t</span>
             </button>
             <button 
               onClick={() => handleReview(4)}
-              className="flex-1 flex flex-col items-center gap-1 bg-slate-800 border-2 border-green-500/50 hover:bg-green-500/20 hover:border-green-500 text-white p-3 sm:p-4 rounded-2xl transition-all"
+              className="flex flex-col items-center justify-between gap-1 bg-slate-800 border-2 border-green-500/50 hover:bg-green-500/20 hover:border-green-500 text-white py-2 px-0.5 sm:p-4 rounded-2xl transition-all"
             >
-              <span className="font-bold text-sm sm:text-base mt-auto">Good</span>
-              <span className="text-xs text-slate-400">3d</span>
+              <span className="font-bold text-[11px] sm:text-sm mt-auto w-full text-center leading-tight tracking-tight">Gut</span>
+              <span className="text-[10px] sm:text-xs text-slate-400">3t</span>
             </button>
             <button 
               onClick={() => handleReview(5)}
-              className="flex-1 flex flex-col items-center gap-1 bg-slate-800 border-2 border-indigo-500/50 hover:bg-indigo-500/20 hover:border-indigo-500 text-white p-3 sm:p-4 rounded-2xl transition-all"
+              className="flex flex-col items-center justify-between gap-1 bg-slate-800 border-2 border-indigo-500/50 hover:bg-indigo-500/20 hover:border-indigo-500 text-white py-2 px-0.5 sm:p-4 rounded-2xl transition-all"
             >
-              <span className="font-bold text-sm sm:text-base mt-auto">Easy</span>
-              <span className="text-xs text-slate-400">7d</span>
+              <span className="font-bold text-[11px] sm:text-sm mt-auto w-full text-center leading-tight tracking-tight">Einfach</span>
+              <span className="text-[10px] sm:text-xs text-slate-400">7t</span>
             </button>
           </motion.div>
         ) : (
-          <div className="flex justify-center h-full max-w-sm mx-auto items-center text-slate-500 animate-pulse">
-            Tap the card to reveal the answer
+          <div className="flex justify-center h-full max-w-sm mx-auto items-center text-slate-500 animate-pulse text-center px-4">
+            Tippe auf die Karte, um die Antwort zu sehen
           </div>
         )}
       </div>

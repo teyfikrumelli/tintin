@@ -39,8 +39,8 @@ const Dashboard = () => {
             <BookOpen size={24} />
           </div>
           <div>
-            <p className="text-sm text-slate-400">Learned</p>
-            <p className="text-2xl font-bold text-white">{stats.cardsLearned}</p>
+            <h2 className="text-2xl font-bold text-white mb-2">Lernfortschritt</h2>
+            <p className="text-slate-400">Behalte deine Statistiken im Auge.</p>
           </div>
         </div>
 
@@ -49,7 +49,7 @@ const Dashboard = () => {
             <Brain size={24} />
           </div>
           <div>
-            <p className="text-sm text-slate-400">Total Cards</p>
+            <span className="text-sm font-medium text-slate-400">Wiederholungen</span>
             <p className="text-2xl font-bold text-white">{totalCards}</p>
           </div>
         </div>
@@ -59,7 +59,7 @@ const Dashboard = () => {
             <Target size={24} />
           </div>
           <div>
-            <p className="text-sm text-slate-400">Retention</p>
+            <p className="text-sm text-slate-400">Behaltensquote</p>
             <p className="text-2xl font-bold text-white">{Math.min(100, retentionRate)}%</p>
           </div>
         </div>
@@ -68,7 +68,7 @@ const Dashboard = () => {
       <div className="bg-slate-800/80 backdrop-blur border border-slate-700/50 p-6 rounded-2xl">
         <h2 className="text-xl font-bold mb-4 flex items-center gap-2">
           <BookOpen className="text-indigo-400" size={20} />
-          Deck Breakdown
+          Stapelübersicht
         </h2>
         <div className="space-y-4">
           {Object.entries(typeStats).map(([deck, count]) => (
@@ -88,15 +88,10 @@ const Dashboard = () => {
 
       <div className="flex justify-end mt-4">
         <button 
-          onClick={() => {
-            if (window.confirm('Are you sure you want to reset all your progress? This cannot be undone.')) {
-              resetProgress();
-            }
-          }}
-          className="flex items-center gap-2 text-sm text-slate-400 hover:text-red-400 transition-colors px-4 py-2 rounded-lg hover:bg-slate-800"
+          onClick={resetProgress}
+          className="w-full sm:w-auto px-6 py-3 bg-red-500/10 text-red-400 hover:bg-red-500/20 font-medium rounded-xl transition-colors border border-red-500/20"
         >
-          <Settings size={16} />
-          Reset Progress
+          Fortschritt zurücksetzen
         </button>
       </div>
     </div>

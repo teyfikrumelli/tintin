@@ -14,14 +14,14 @@ const Favorites = ({ onStartStudy }) => {
       <div className="mb-2">
         <h2 className="text-2xl font-bold text-white mb-2 flex items-center gap-2">
           <Heart className="text-red-500" fill="currentColor" size={24} />
-          Favorites
+          Favoriten
         </h2>
-        <p className="text-slate-400">Your independently saved vocabulary cards.</p>
+        <p className="text-slate-400">Deine individuell gespeicherten Vokabeln.</p>
       </div>
 
       {favoriteCards.length === 0 ? (
         <div className="bg-slate-800/50 border border-slate-700/50 rounded-2xl p-8 text-center text-slate-400">
-          No favorite cards yet. Tap the heart icon on any flashcard to save it here!
+          Noch keine Favoriten. Tippe auf das Herz-Symbol auf einer Karte, um sie hier zu speichern!
         </div>
       ) : (
         <>
@@ -38,17 +38,17 @@ const Favorites = ({ onStartStudy }) => {
                     <Heart size={32} fill="currentColor" />
                   </div>
                   <div>
-                    <h3 className="text-2xl font-bold text-white">Study Favorites</h3>
-                    <p className="text-slate-400 mt-1">Review your saved cards separately</p>
+                    <h3 className="text-2xl font-bold text-white">Favoriten lernen</h3>
+                    <p className="text-slate-400 mt-1">Wiederhole deine gespeicherten Karten separat</p>
                   </div>
                 </div>
               </div>
 
               <div className="flex items-center justify-between mt-4 pt-6 border-t border-slate-700/50 relative z-10">
                 <div className="flex flex-col gap-1">
-                  <span className="text-sm font-medium text-slate-400">Total</span>
+                  <span className="text-sm font-medium text-slate-400">Gesamt</span>
                   <span className="text-2xl font-bold text-red-400">
-                    {favoriteCards.length} {favoriteCards.length === 1 ? 'card' : 'cards'}
+                    {favoriteCards.length} {favoriteCards.length === 1 ? 'Karte' : 'Karten'}
                   </span>
                 </div>
                 

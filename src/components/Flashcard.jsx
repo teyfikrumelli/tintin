@@ -49,7 +49,7 @@ const Flashcard = ({ card, isFlipped, setIsFlipped }) => {
             <h2 className="text-3xl sm:text-5xl font-bold text-white break-words w-full px-2">{card.german}</h2>
           </div>
           
-          <p className="text-slate-400 text-sm mx-auto mt-auto shrink-0 pb-2">Tap to flip</p>
+          <p className="text-slate-400 text-sm mx-auto mt-auto shrink-0 pb-2">Tippen zum Umdrehen</p>
         </div>
 
         {/* Back (Turkish) */}
