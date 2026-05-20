@@ -28,7 +28,7 @@ function App() {
     <div className="h-[100dvh] bg-slate-900 text-slate-100 flex flex-col font-sans overflow-hidden">
       <header className="bg-slate-800/50 backdrop-blur-md border-b border-slate-700/50 p-4 shrink-0 z-50">
         <div className="max-w-4xl mx-auto flex justify-between items-center">
-          <div 
+          <div
             className="flex items-center gap-2 cursor-pointer"
             onClick={() => setCurrentView('home')}
           >
@@ -36,35 +36,32 @@ function App() {
               <Book size={20} />
             </div>
             <h1 className="text-xl font-bold bg-gradient-to-r from-indigo-400 to-purple-400 bg-clip-text text-transparent">
-              DeutschLernen
+              KarteiKarten
             </h1>
           </div>
-          
+
           {currentView !== 'study' && (
             <nav className="flex gap-1 bg-slate-800 p-1 rounded-lg">
               <button
                 onClick={() => setCurrentView('home')}
-                className={`p-2 rounded-md transition-colors flex items-center gap-2 text-sm font-medium ${
-                  currentView === 'home' ? 'bg-slate-700 text-white' : 'text-slate-400 hover:text-slate-200'
-                }`}
+                className={`p-2 rounded-md transition-colors flex items-center gap-2 text-sm font-medium ${currentView === 'home' ? 'bg-slate-700 text-white' : 'text-slate-400 hover:text-slate-200'
+                  }`}
               >
                 <Layers size={16} />
                 <span className="hidden sm:inline">Wortschatz</span>
               </button>
               <button
                 onClick={() => setCurrentView('favorites')}
-                className={`p-2 rounded-md transition-colors flex items-center gap-2 text-sm font-medium ${
-                  currentView === 'favorites' ? 'bg-slate-700 text-white' : 'text-slate-400 hover:text-slate-200'
-                }`}
+                className={`p-2 rounded-md transition-colors flex items-center gap-2 text-sm font-medium ${currentView === 'favorites' ? 'bg-slate-700 text-white' : 'text-slate-400 hover:text-slate-200'
+                  }`}
               >
                 <Heart size={16} />
                 <span className="hidden sm:inline">Favoriten</span>
               </button>
               <button
                 onClick={() => setCurrentView('dashboard')}
-                className={`p-2 rounded-md transition-colors flex items-center gap-2 text-sm font-medium ${
-                  currentView === 'dashboard' ? 'bg-slate-700 text-white' : 'text-slate-400 hover:text-slate-200'
-                }`}
+                className={`p-2 rounded-md transition-colors flex items-center gap-2 text-sm font-medium ${currentView === 'dashboard' ? 'bg-slate-700 text-white' : 'text-slate-400 hover:text-slate-200'
+                  }`}
               >
                 <LayoutDashboard size={16} />
                 <span className="hidden sm:inline">Übersicht</span>
@@ -74,7 +71,7 @@ function App() {
         </div>
       </header>
 
-      <main 
+      <main
         className="flex-1 max-w-4xl w-full mx-auto p-4 sm:p-6 flex flex-col overflow-y-auto"
         style={{ paddingBottom: 'max(env(safe-area-inset-bottom), 1rem)' }}
       >
