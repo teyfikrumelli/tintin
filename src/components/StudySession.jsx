@@ -84,7 +84,7 @@ const StudySession = ({ mode = 'all', onFinish }) => {
   return (
     <div className="flex-1 flex flex-col h-full animate-in fade-in duration-300">
       {/* Header / Progress */}
-      <div className="flex items-center gap-4 mb-8">
+      <div className="flex items-center gap-4 mb-4 shrink-0">
         <button 
           onClick={onFinish}
           className="p-2 text-slate-400 hover:text-white hover:bg-slate-800 rounded-lg transition-colors"
@@ -103,7 +103,7 @@ const StudySession = ({ mode = 'all', onFinish }) => {
       </div>
 
       {/* Flashcard Area */}
-      <div className="flex-1 flex flex-col justify-center mb-8 relative perspective-1000">
+      <div className="flex-1 flex flex-col justify-center mb-4 relative perspective-1000">
         <AnimatePresence mode="wait">
           <motion.div
             key={currentCard.id}
@@ -123,7 +123,7 @@ const StudySession = ({ mode = 'all', onFinish }) => {
       </div>
 
       {/* Controls Area */}
-      <div className="h-24 sm:h-32 mt-auto pb-4">
+      <div className="h-20 sm:h-28 mt-auto pb-2 shrink-0">
         {isFlipped ? (
           <motion.div 
             initial={{ opacity: 0, y: 20 }}

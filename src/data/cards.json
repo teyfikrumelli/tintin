@@ -1,403 +1,763 @@
 [
   {
     "id": "vocab_0001",
-    "type": "Preposition",
-    "german": "ab",
-    "turkish": "-den itibaren",
-    "germanExample": "Die Fahrt kostet ab Hamburg 200 Euro.",
-    "turkishExample": "Yolculuk Hamburg'dan itibaren 200 Euro tutuyor."
+    "type": "Vocabulary",
+    "german": "ab 1.",
+    "turkish": "-den/-dan itibaren 1.",
+    "germanExample": "Die Fahrt kostet ab Hamburg 200 Euro. 2. Ab nächster Woche bleibt unser Geschäft samstags geschlossen. 3. Mein Bruder besucht uns ab und zu.",
+    "turkishExample": "Yolculuk Hamburg'dan itibaren 200 Euro tutuyor. 2. Gelecek haftadan itibaren mağazamız cumartesi günleri kapalı olacak. 3. Erkek kardeşim bizi ara sıra ziyaret ediyor."
   },
   {
     "id": "vocab_0002",
-    "type": "Verb",
-    "german": "abbiegen",
-    "turkish": "dönmek (araçla/yön)",
-    "germanExample": "An der nächsten Kreuzung müssen Sie links abbiegen.",
-    "turkishExample": "Bir sonraki kavşakta sola dönmelisiniz."
+    "type": "Vocabulary",
+    "german": "abbiegen,",
+    "turkish": "dönmek, sapmak,",
+    "germanExample": "biegt ab, An der nächsten Kreuzung müssen",
+    "turkishExample": "dönüyor, Bir sonraki kavşakta"
   },
   {
     "id": "vocab_0003",
-    "type": "Noun",
-    "german": "die Abbildung",
-    "turkish": "şekil / resim / illüstrasyon",
-    "germanExample": "Hier in der Abbildung sehen Sie, wie man das Gerät einschaltet.",
-    "turkishExample": "Buradaki şekilde cihazın nasıl açılacağını görüyorsunuz."
+    "type": "Vocabulary",
+    "german": "bog ab,",
+    "turkish": "döndü,",
+    "germanExample": "ist abgebogen Sie links abbiegen.",
+    "turkishExample": "döndü sola dönmelisiniz."
   },
   {
     "id": "vocab_0004",
-    "type": "Conjunction",
-    "german": "aber",
-    "turkish": "ama / fakat",
-    "germanExample": "Heute kann ich nicht, aber morgen ganz bestimmt.",
-    "turkishExample": "Bugün gelemem ama yarın kesinlikle gelirim."
+    "type": "Vocabulary",
+    "german": "die Abbildung,",
+    "turkish": "şekil, resim,",
+    "germanExample": "-en Hier in der Abbildung sehen Sie,",
+    "turkishExample": "-en Burada resimde görüyorsunuz ki,"
   },
   {
     "id": "vocab_0005",
-    "type": "Noun",
-    "german": "der Abfall",
-    "turkish": "çöp / atık",
-    "germanExample": "Werfen Sie den Bioabfall in die grüne Tonne.",
-    "turkishExample": "Organik çöpleri yeşil çöp kutusuna atın."
+    "type": "Vocabulary",
+    "german": "wie man",
+    "turkish": "nasıl",
+    "germanExample": "das Gerät einschaltet.",
+    "turkishExample": "cihazın açıldığını."
   },
   {
     "id": "vocab_0006",
-    "type": "Verb",
-    "german": "abfahren",
-    "turkish": "hareket etmek / yola çıkmak",
-    "germanExample": "Unser Zug ist pünktlich abgefahren.",
-    "turkishExample": "Trenimiz tam vaktinde hareket etti."
+    "type": "Vocabulary",
+    "german": "aber 1.",
+    "turkish": "ama / fakat 1.",
+    "germanExample": "Heute kann ich nicht, aber morgen",
+    "turkishExample": "Bugün yapamam ama yarın"
   },
   {
     "id": "vocab_0007",
-    "type": "Noun",
-    "german": "das Abgas",
-    "turkish": "egzoz gazı / atık gaz",
-    "germanExample": "Abgase aus Industrie und Haushalten verschmutzen die Luft.",
-    "turkishExample": "Sanayi ve evlerden çıkan atık gazlar havayı kirletir."
+    "type": "Vocabulary",
+    "german": "ganz",
+    "turkish": "kesinlikle",
+    "germanExample": "bestimmt. 2. Es lag sehr viel Schnee, aber Enzo ist",
+    "turkishExample": "olur. 2. Çok kar vardı ama Enzo"
   },
   {
     "id": "vocab_0008",
-    "type": "Verb",
-    "german": "abgeben",
-    "turkish": "teslim etmek / vermek",
-    "germanExample": "Ich soll dieses Päckchen bei Herrn Müller abgeben.",
-    "turkishExample": "Bu paketi Bay Müller'e teslim etmeliyim."
+    "type": "Vocabulary",
+    "german": "trotzdem mit",
+    "turkish": "yine de",
+    "germanExample": "dem Motorrad gefahren. 3. Wir haben nur eine kleine Wohnung,",
+    "turkishExample": "motosikletle gitti. 3. Sadece küçük bir dairemiz var,"
   },
   {
     "id": "vocab_0009",
-    "type": "Verb",
-    "german": "abhängen",
-    "turkish": "bağlı olmak (bir duruma)",
-    "germanExample": "Vielleicht bleiben wir ein paar Tage länger, das hängt vom Wetter ab.",
-    "turkishExample": "Belki birkaç gün daha kalırız, bu havaya bağlı."
+    "type": "Vocabulary",
+    "german": "sind aber",
+    "turkish": "ama",
+    "germanExample": "damit zufrieden. 4. Es war sehr schön. Jetzt muss ich",
+    "turkishExample": "bundan memnunuz. 4. Çok güzeldi. Şimdi"
   },
   {
     "id": "vocab_0010",
-    "type": "Adjective",
-    "german": "abhängig",
-    "turkish": "bağımlı",
-    "germanExample": "Gregor ist finanziell von seinen Eltern abhängig.",
-    "turkishExample": "Gregor finansal olarak ailesine bağımlı."
+    "type": "Vocabulary",
+    "german": "aber",
+    "turkish": "ama",
+    "germanExample": "gehen. 5. Ich würde gerne kommen, aber es",
+    "turkishExample": "gitmeliyim. 5. Gelmeyi çok isterdim ama maalesef"
   },
   {
     "id": "vocab_0011",
-    "type": "Verb",
-    "german": "abheben",
-    "turkish": "para çekmek",
-    "germanExample": "Für die Reise habe ich 500 Euro von meinem Konto abgehoben.",
-    "turkishExample": "Seyahat için hesabımdan 500 Euro çektim."
+    "type": "Vocabulary",
+    "german": "geht leider",
+    "turkish": "maalesef",
+    "germanExample": "nicht. 6. Darf ich dich zu einem Kaffee",
+    "turkishExample": "mümkün değil. 6. Seni bir kahve içmeye"
   },
   {
     "id": "vocab_0012",
-    "type": "Verb",
-    "german": "abholen",
-    "turkish": "gidip almak / karşılamak",
-    "germanExample": "Meine Freundin hat mich vom Bahnhof abgeholt.",
-    "turkishExample": "Kız arkadaşım beni tren istasyonundan aldı."
+    "type": "Vocabulary",
+    "german": "einladen?",
+    "turkish": "davet edebilir miyim?",
+    "germanExample": "– Aber ja, sehr gern. 7. Du spielst aber gut Klavier.",
+    "turkishExample": "– Elbette, çok isterim. 7. Ama sen ne kadar da güzel piyano çalıyorsun."
   },
   {
     "id": "vocab_0013",
-    "type": "Noun",
+    "type": "Vocabulary",
+    "german": "der Abfall,",
+    "turkish": "çöp, atık,",
+    "germanExample": "-\"e Werfen Sie den Bioabfall in die grüne Tonne.",
+    "turkishExample": "-\"e Biyolojik atıkları yeşil kutuya atın."
+  },
+  {
+    "id": "vocab_0014",
+    "type": "Vocabulary",
+    "german": "abfahren,",
+    "turkish": "hareket etmek, kalkmak,",
+    "germanExample": "fährt ab, Unser Zug ist pünktlich abgefahren.",
+    "turkishExample": "kalkıyor, Trenimiz tam zamanında kalktı."
+  },
+  {
+    "id": "vocab_0015",
+    "type": "Vocabulary",
+    "german": "fuhr ab,",
+    "turkish": "kalktı,",
+    "germanExample": "ist abgefahren (das) Abgas, -e (nur Pl.) Abgase aus Industrie und Haushalten",
+    "turkishExample": "kalktı. (das) Egzoz gazı, -e (Sadece Çoğul) Sanayi ve evlerden çıkan egzoz gazları"
+  },
+  {
+    "id": "vocab_0016",
+    "type": "Vocabulary",
+    "german": "verschmutzen die",
+    "turkish": "kirletiyor",
+    "germanExample": "Luft.",
+    "turkishExample": "havayı."
+  },
+  {
+    "id": "vocab_0017",
+    "type": "Vocabulary",
+    "german": "abgeben,",
+    "turkish": "vermek, teslim etmek,",
+    "germanExample": "gibt ab, Ich soll dieses Päckchen bei",
+    "turkishExample": "veriyor, Bu paketi"
+  },
+  {
+    "id": "vocab_0018",
+    "type": "Vocabulary",
+    "german": "gab ab,",
+    "turkish": "verdi,",
+    "germanExample": "hat abgegeben Herrn Müller abgeben.",
+    "turkishExample": "teslim etti. Bay Müller'e teslim etmeliyim."
+  },
+  {
+    "id": "vocab_0019",
+    "type": "Vocabulary",
+    "german": "abhängen,",
+    "turkish": "bağlı olmak,",
+    "germanExample": "hängt ab, Vielleicht bleiben wir ein paar Tage",
+    "turkishExample": "bağlı, Belki birkaç gün"
+  },
+  {
+    "id": "vocab_0020",
+    "type": "Vocabulary",
+    "german": "hing ab,",
+    "turkish": "bağlıydı,",
+    "germanExample": "hat abgehangen länger, das hängt vom Wetter ab.",
+    "turkishExample": "bağlıydı. daha uzun kalırız, bu havaya bağlı."
+  },
+  {
+    "id": "vocab_0021",
+    "type": "Vocabulary",
+    "german": "abhängig Gregor",
+    "turkish": "bağımlı Gregor",
+    "germanExample": "ist finanziell von seinen Eltern abhängig.",
+    "turkishExample": "maddi olarak ailesine bağımlı."
+  },
+  {
+    "id": "vocab_0022",
+    "type": "Vocabulary",
+    "german": "abheben,",
+    "turkish": "para çekmek,",
+    "germanExample": "hebt ab, Für die Reise habe ich 500 Euro von",
+    "turkishExample": "çekiyor, Seyahat için"
+  },
+  {
+    "id": "vocab_0023",
+    "type": "Vocabulary",
+    "german": "hob ab,",
+    "turkish": "çekti,",
+    "germanExample": "hat abgehoben meinem Konto abgehoben.",
+    "turkishExample": "çekti. hesabımdan 500 Euro çektim."
+  },
+  {
+    "id": "vocab_0024",
+    "type": "Vocabulary",
+    "german": "abholen,",
+    "turkish": "alıp getirmek, karşılamak,",
+    "germanExample": "holt ab, Meine Freundin hat mich vom",
+    "turkishExample": "alıyor, Kız arkadaşım beni"
+  },
+  {
+    "id": "vocab_0025",
+    "type": "Vocabulary",
+    "german": "holte ab,",
+    "turkish": "aldı,",
+    "germanExample": "hat abgeholt Bahnhof abgeholt.",
+    "turkishExample": "aldı. tren istasyonundan aldı."
+  },
+  {
+    "id": "vocab_0026",
+    "type": "Vocabulary",
     "german": "das Abitur",
-    "turkish": "lise bitirme sınavı (üniversiteye giriş)",
+    "turkish": "lise bitirme sınavı (Abitur)",
     "germanExample": "Meine Tochter hat gerade Abitur gemacht.",
     "turkishExample": "Kızım lise bitirme sınavını (Abitur) yeni geçti."
   },
   {
-    "id": "vocab_0014",
-    "type": "Verb",
-    "german": "ablehnen",
-    "turkish": "reddetmek",
-    "germanExample": "Es tut mir leid, Ihr Antrag ist abgelehnt.",
-    "turkishExample": "Üzgünüm, başvurunuz reddedildi."
-  },
-  {
-    "id": "vocab_0015",
-    "type": "Verb",
-    "german": "abmachen",
-    "turkish": "kararlaştırmak / anlaşmak",
-    "germanExample": "Wir hatten doch abgemacht, dass du die Getränke besorgst.",
-    "turkishExample": "İçecekleri senin getireceğini kararlaştırmıştık."
-  },
-  {
-    "id": "vocab_0016",
-    "type": "Verb",
-    "german": "abnehmen",
-    "turkish": "kilo vermek",
-    "germanExample": "Ich habe zehn Kilo abgenommen.",
-    "turkishExample": "On kilo verdim."
-  },
-  {
-    "id": "vocab_0017",
-    "type": "Verb",
-    "german": "abonnieren",
-    "turkish": "abone olmak",
-    "germanExample": "Diese Zeitschrift würde ich gerne abonnieren.",
-    "turkishExample": "Bu dergiye abone olmak isterim."
-  },
-  {
-    "id": "vocab_0018",
-    "type": "Noun",
-    "german": "das Abonnement",
-    "turkish": "abonelik",
-    "germanExample": "Ich habe das Abonnement gekündigt.",
-    "turkishExample": "Aboneliği iptal ettim."
-  },
-  {
-    "id": "vocab_0019",
-    "type": "Noun",
-    "german": "der Abschluss",
-    "turkish": "mezuniyet / bitirme",
-    "germanExample": "Ein guter Schulabschluss ist sehr wichtig.",
-    "turkishExample": "İyi bir okul mezuniyeti çok önemlidir."
-  },
-  {
-    "id": "vocab_0020",
-    "type": "Noun",
-    "german": "der Absender",
-    "turkish": "gönderici",
-    "germanExample": "Schicken Sie das Päckchen an den Absender zurück.",
-    "turkishExample": "Paketi göndericiye geri yollayın."
-  },
-  {
-    "id": "vocab_0021",
-    "type": "Noun",
-    "german": "die Absicht",
-    "turkish": "niyet / kasıt",
-    "germanExample": "Entschuldigen Sie bitte. Meine Tochter hat das nicht mit Absicht gemacht.",
-    "turkishExample": "Lütfen kusura bakmayın. Kızım bunu bilerek (kasten) yapmadı."
-  },
-  {
-    "id": "vocab_0022",
-    "type": "Adjective",
-    "german": "absolut",
-    "turkish": "kesin / mutlak",
-    "germanExample": "Was Sie da sagen, ist absolut falsch.",
-    "turkishExample": "Söylediğiniz şey kesinlikle yanlış."
-  },
-  {
-    "id": "vocab_0023",
-    "type": "Verb",
-    "german": "abstimmen",
-    "turkish": "oylamak",
-    "germanExample": "Lasst uns über diesen Punkt abstimmen.",
-    "turkishExample": "Hadi bu konu hakkında oylama yapalım."
-  },
-  {
-    "id": "vocab_0024",
-    "type": "Noun",
-    "german": "die Abteilung",
-    "turkish": "departman / bölüm",
-    "germanExample": "Meine Freundin arbeitet in der Abteilung von Frau Kaufmann.",
-    "turkishExample": "Kız arkadaşım Bayan Kaufmann'ın departmanında çalışıyor."
-  },
-  {
-    "id": "vocab_0025",
-    "type": "Verb",
-    "german": "abwaschen",
-    "turkish": "bulaşık yıkamak",
-    "germanExample": "Ich muss noch das Geschirr abwaschen.",
-    "turkishExample": "Daha bulaşıkları yıkamam gerekiyor."
-  },
-  {
-    "id": "vocab_0026",
-    "type": "Verb",
-    "german": "achten",
-    "turkish": "dikkat etmek",
-    "germanExample": "Achten Sie bitte auf die Stufe.",
-    "turkishExample": "Lütfen basamağa dikkat edin."
-  },
-  {
     "id": "vocab_0027",
-    "type": "Noun",
-    "german": "die Achtung",
-    "turkish": "dikkat (uyarı)",
-    "germanExample": "Achtung an Gleis 3: Der Zug fährt ab.",
-    "turkishExample": "3. peronda dikkat: Tren hareket ediyor."
+    "type": "Vocabulary",
+    "german": "ablehnen,",
+    "turkish": "reddetmek,",
+    "germanExample": "lehnt ab, Es tut mir leid, Ihr Antrag ist",
+    "turkishExample": "reddediyor, Üzgünüm, başvurunuz"
   },
   {
     "id": "vocab_0028",
-    "type": "Noun",
-    "german": "die Adresse",
-    "turkish": "adres",
-    "germanExample": "Können Sie mir Ihre Adresse geben?",
-    "turkishExample": "Bana adresinizi verebilir misiniz?"
+    "type": "Vocabulary",
+    "german": "lehnte ab,",
+    "turkish": "reddetti,",
+    "germanExample": "hat abgelehnt abgelehnt.",
+    "turkishExample": "reddetti. reddedildi."
   },
   {
     "id": "vocab_0029",
-    "type": "Adjective",
-    "german": "ähnlich",
-    "turkish": "benzer",
-    "germanExample": "Oleg sieht seinem Bruder sehr ähnlich.",
-    "turkishExample": "Oleg kardeşine çok benziyor."
+    "type": "Vocabulary",
+    "german": "abmachen,",
+    "turkish": "kararlaştırmak, anlaşmak,",
+    "germanExample": "macht ab, Wir hatten doch abgemacht, dass du",
+    "turkishExample": "anlaşıyor, Senin ... anlaşmıştık."
   },
   {
     "id": "vocab_0030",
-    "type": "Noun",
-    "german": "die Ahnung",
-    "turkish": "fikir / bilgi",
-    "germanExample": "Ich habe keine Ahnung, wie das funktioniert.",
-    "turkishExample": "Bunun nasıl çalıştığı hakkında hiçbir fikrim yok."
+    "type": "Vocabulary",
+    "german": "machte ab,",
+    "turkish": "anlaştı,",
+    "germanExample": "hat abgemacht die Getränke besorgst.",
+    "turkishExample": "anlaştı. içecekleri alacağın konusunda"
   },
   {
     "id": "vocab_0031",
-    "type": "Noun",
-    "german": "die Aktion",
-    "turkish": "kampanya / eylem",
-    "germanExample": "Die Stadt plant eine Aktion für Familien.",
-    "turkishExample": "Şehir, aileler için bir kampanya planlıyor."
+    "type": "Vocabulary",
+    "german": "abnehmen,",
+    "turkish": "kilo vermek, çıkarmak,",
+    "germanExample": "nimmt ab, 1. Morgen können wir den Verband",
+    "turkishExample": "kilo veriyor/çıkarıyor, 1. Yarın sargıyı"
   },
   {
     "id": "vocab_0032",
-    "type": "Adjective",
-    "german": "aktiv",
-    "turkish": "aktif",
-    "germanExample": "Peter ist sehr aktiv im Sportverein.",
-    "turkishExample": "Peter spor kulübünde çok aktif."
+    "type": "Vocabulary",
+    "german": "nahm ab,",
+    "turkish": "kilo verdi/çıkardı,",
+    "germanExample": "hat abgenommen abnehmen. 2. Ich habe zehn Kilo abgenommen.",
+    "turkishExample": "kilo verdi/çıkardı. çıkarabiliriz. 2. On kilo verdim."
   },
   {
     "id": "vocab_0033",
-    "type": "Noun",
-    "german": "die Aktivität",
-    "turkish": "aktivite / etkinlik",
-    "germanExample": "In den Ferien bieten wir viele Aktivitäten für Kinder an.",
-    "turkishExample": "Tatillerde çocuklar için birçok aktivite sunuyoruz."
+    "type": "Vocabulary",
+    "german": "abonnieren,",
+    "turkish": "abone olmak,",
+    "germanExample": "abonniert, Diese Zeitschrift würde ich gerne",
+    "turkishExample": "abone oluyor, Bu dergiye"
   },
   {
     "id": "vocab_0034",
-    "type": "Adjective",
-    "german": "aktuell",
-    "turkish": "güncel",
-    "germanExample": "Das ist ein sehr aktuelles Thema.",
-    "turkishExample": "Bu çok güncel bir konu."
+    "type": "Vocabulary",
+    "german": "abonnierte,",
+    "turkish": "abone oldu,",
+    "germanExample": "hat abonniert abonnieren.",
+    "turkishExample": "abone oldu. abone olmak isterim."
   },
   {
     "id": "vocab_0035",
-    "type": "Verb",
-    "german": "akzeptieren",
-    "turkish": "kabul etmek",
-    "germanExample": "Ich kann diese Bedingungen nicht akzeptieren.",
-    "turkishExample": "Bu şartları kabul edemem."
+    "type": "Vocabulary",
+    "german": "das Abonnement,",
+    "turkish": "abonelik,",
+    "germanExample": "-s Ich habe das Abonnement gekündigt.Ader Abschluss, -\"sse Ein guter Schulabschluss ist",
+    "turkishExample": "-s Aboneliği iptal ettim. Mezuniyet, -\"sse İyi bir okul mezuniyeti"
   },
   {
     "id": "vocab_0036",
-    "type": "Noun",
-    "german": "der Alarm",
-    "turkish": "alarm",
-    "germanExample": "Bei Feuer ertönt ein Alarm.",
-    "turkishExample": "Yangın durumunda bir alarm çalar."
+    "type": "Vocabulary",
+    "german": "sehr",
+    "turkish": "çok",
+    "germanExample": "wichtig.",
+    "turkishExample": "önemlidir."
   },
   {
     "id": "vocab_0037",
-    "type": "Noun",
-    "german": "der Alkohol",
-    "turkish": "alkol",
-    "germanExample": "Er trinkt keinen Alkohol.",
-    "turkishExample": "O hiç alkol içmez."
+    "type": "Vocabulary",
+    "german": "der Absender,",
+    "turkish": "gönderen,",
+    "germanExample": "- Schicken Sie das Päckchen an den Absender zurück.",
+    "turkishExample": "- Paketi gönderene geri gönderin."
   },
   {
     "id": "vocab_0038",
-    "type": "Pronoun",
-    "german": "alle",
-    "turkish": "herkes / hepsi",
-    "germanExample": "Alle meine Freunde kommen zur Party.",
-    "turkishExample": "Tüm arkadaşlarım partiye geliyor."
+    "type": "Vocabulary",
+    "german": "die Absicht,",
+    "turkish": "niyet, kasıt,",
+    "germanExample": "-en Entschuldigen Sie bitte. Meine Tochter",
+    "turkishExample": "-en Lütfen kusura bakmayın. Kızım"
   },
   {
     "id": "vocab_0039",
-    "type": "Adverb",
-    "german": "allein",
-    "turkish": "yalnız",
-    "germanExample": "Ich lebe allein in dieser Wohnung.",
-    "turkishExample": "Bu dairede yalnız yaşıyorum."
+    "type": "Vocabulary",
+    "german": "hat das",
+    "turkish": "bunu",
+    "germanExample": "nicht mit Absicht gemacht.",
+    "turkishExample": "kasten yapmadı."
   },
   {
     "id": "vocab_0040",
-    "type": "Adverb",
-    "german": "allerdings",
-    "turkish": "ancak / gerçi",
-    "germanExample": "Wir können uns morgen treffen, allerdings erst am Abend.",
-    "turkishExample": "Yarın buluşabiliriz, ancak akşamüstü."
+    "type": "Vocabulary",
+    "german": "absolut 1.",
+    "turkish": "kesinlikle / tamamen 1.",
+    "germanExample": "Was Sie da sagen, ist absolut falsch. 2. Ich habe absolutes Vertrauen zu dir.",
+    "turkishExample": "Söylediğiniz şey tamamen yanlış. 2. Sana kesinlikle güveniyorum."
   },
   {
     "id": "vocab_0041",
-    "type": "Adjective",
-    "german": "allgemein",
-    "turkish": "genel",
-    "germanExample": "Im Allgemeinen ist das Wetter hier gut.",
-    "turkishExample": "Burada hava genel olarak iyidir."
+    "type": "Vocabulary",
+    "german": "abstimmen,",
+    "turkish": "oylamak,",
+    "germanExample": "stimmt ab, Lasst uns über diesen Punkt",
+    "turkishExample": "oy verir, Hadi bu konu hakkında"
   },
   {
     "id": "vocab_0042",
-    "type": "Adjective",
-    "german": "alltäglich",
-    "turkish": "sıradan / günlük",
-    "germanExample": "Das ist für mich eine alltägliche Aufgabe.",
-    "turkishExample": "Bu benim için günlük (sıradan) bir görev."
+    "type": "Vocabulary",
+    "german": "stimmte ab,",
+    "turkish": "oyladı,",
+    "germanExample": "hat abgestimmt abstimmen.",
+    "turkishExample": "oyladı. oylama yapalım."
   },
   {
     "id": "vocab_0043",
-    "type": "Noun",
-    "german": "das Alphabet",
-    "turkish": "alfabe",
-    "germanExample": "Wie viele Buchstaben hat das deutsche Alphabet?",
-    "turkishExample": "Alman alfabesinin kaç harfi vardır?"
+    "type": "Vocabulary",
+    "german": "die Abteilung,",
+    "turkish": "departman, bölüm,",
+    "germanExample": "-en Meine Freundin arbeitet in der Abteilung von Frau Kaufmann.",
+    "turkishExample": "-en Kız arkadaşım Bayan Kaufmann'ın departmanında çalışıyor."
   },
   {
     "id": "vocab_0044",
-    "type": "Conjunction",
-    "german": "als",
-    "turkish": "-dığında / -den (kıyaslama) / olarak",
-    "germanExample": "Als ich ein Kind war, habe ich viel gespielt.",
-    "turkishExample": "Ben bir çocukken, çok oynardım."
+    "type": "Vocabulary",
+    "german": "abwaschen,",
+    "turkish": "bulaşık yıkamak,",
+    "germanExample": "wäscht ab, Ich muss noch das Geschirr",
+    "turkishExample": "bulaşık yıkıyor, Daha bulaşıkları"
   },
   {
     "id": "vocab_0045",
-    "type": "Adverb",
-    "german": "also",
-    "turkish": "yani / öyleyse",
-    "germanExample": "Ich habe kein Geld, also kann ich nicht ins Kino gehen.",
-    "turkishExample": "Param yok, yani sinemaya gidemem."
+    "type": "Vocabulary",
+    "german": "wusch ab,",
+    "turkish": "bulaşık yıkadı,",
+    "germanExample": "hat abgewaschen abwaschen.",
+    "turkishExample": "bulaşık yıkadı. yıkamam gerek."
   },
   {
     "id": "vocab_0046",
-    "type": "Adjective",
-    "german": "alt",
-    "turkish": "eski / yaşlı",
-    "germanExample": "Mein Auto ist schon sehr alt.",
-    "turkishExample": "Arabam artık çok eski."
+    "type": "Vocabulary",
+    "german": "ach 1.",
+    "turkish": "ah 1.",
+    "germanExample": "Sie sind krank? Ach, das tut mir",
+    "turkishExample": "Hasta mısınız? Ah, buna"
   },
   {
     "id": "vocab_0047",
-    "type": "Noun",
-    "german": "das Alter",
-    "turkish": "yaş",
-    "germanExample": "Wir sind im gleichen Alter.",
-    "turkishExample": "Biz aynı yaştayız."
+    "type": "Vocabulary",
+    "german": "aber",
+    "turkish": "çok",
+    "germanExample": "leid. 2. Ach so! Jetzt verstehe ich, was Sie meinen. 3. Ach ja, das hatte ich vergessen. Heute",
+    "turkishExample": "üzüldüm. 2. Ah anlıyorum! Şimdi ne demek istediğinizi anlıyorum. 3. Ah evet, onu unutmuştum. Bugün"
   },
   {
     "id": "vocab_0048",
-    "type": "Noun",
-    "german": "das Altenheim",
-    "turkish": "huzurevi",
-    "germanExample": "Ihre Großmutter lebt im Altenheim.",
-    "turkishExample": "Onun büyükannesi huzurevinde yaşıyor."
+    "type": "Vocabulary",
+    "german": "gehen wir",
+    "turkish": "gidiyoruz",
+    "germanExample": "ja zu deinen Freunden. 4. Ich habe Angst, ich schaffe es nicht. – Ach was! Das wird schon klappen.",
+    "turkishExample": "senin arkadaşlarına. 4. Korkuyorum, başaramayacağım. – Hadi canım! Olacak o kadar / Halledersin."
   },
   {
     "id": "vocab_0049",
-    "type": "Noun",
-    "german": "die Alternative",
-    "turkish": "alternatif / seçenek",
-    "germanExample": "Wir haben keine andere Alternative.",
-    "turkishExample": "Başka bir alternatifimiz yok."
+    "type": "Vocabulary",
+    "german": "achten auf,",
+    "turkish": "dikkat etmek,",
+    "germanExample": "achtet, 1. Achten Sie bitte darauf, dass abends",
+    "turkishExample": "dikkat eder, 1. Lütfen akşamları"
   },
   {
     "id": "vocab_0050",
-    "type": "Noun",
-    "german": "die Ampel",
-    "turkish": "trafik lambası",
-    "germanExample": "An der Ampel musst du anhalten.",
-    "turkishExample": "Trafik lambasında durmalısın."
+    "type": "Vocabulary",
+    "german": "achtete,",
+    "turkish": "dikkat etti,",
+    "germanExample": "hat geachtet immer alle Fenster geschlossen sind. 2. Hier müssen Sie auf die Vorfahrt achten.",
+    "turkishExample": "dikkat etti. her zaman tüm pencerelerin kapalı olmasına dikkat edin. 2. Burada geçiş üstünlüğüne dikkat etmelisiniz."
+  },
+  {
+    "id": "vocab_0051",
+    "type": "Vocabulary",
+    "german": "die Achtung",
+    "turkish": "dikkat",
+    "germanExample": "Achtung, hier endet die Straße!",
+    "turkishExample": "Dikkat, burada yol bitiyor!"
+  },
+  {
+    "id": "vocab_0052",
+    "type": "Vocabulary",
+    "german": "die Adresse,",
+    "turkish": "adres,",
+    "germanExample": "-n Hast du schon meine neue Adresse?",
+    "turkishExample": "-n Yeni adresim sende var mı?"
+  },
+  {
+    "id": "vocab_0053",
+    "type": "Vocabulary",
+    "german": "die Agentur,",
+    "turkish": "ajans, kurum,",
+    "germanExample": "-en Ich habe einen Brief von der Agentur",
+    "turkishExample": "-en Kurumdan bir mektup"
+  },
+  {
+    "id": "vocab_0054",
+    "type": "Vocabulary",
+    "german": "für Arbeit",
+    "turkish": "İş",
+    "germanExample": "bekommen.",
+    "turkishExample": "aldım. (İş ve İşçi Bulma Kurumundan bir mektup aldım.)"
+  },
+  {
+    "id": "vocab_0055",
+    "type": "Vocabulary",
+    "german": "ähnlich 1.",
+    "turkish": "benzer 1.",
+    "germanExample": "Oleg sieht seinem Bruder sehr ähnlich. 2. Emilia ist in einer ganz ähnlichen Situation wie ich.",
+    "turkishExample": "Oleg kardeşine çok benziyor. 2. Emilia benimkine çok benzer bir durumda."
+  },
+  {
+    "id": "vocab_0056",
+    "type": "Vocabulary",
+    "german": "aha Ich",
+    "turkish": "aha Ben",
+    "germanExample": "gehe bald in Rente. – Aha, dann",
+    "turkishExample": "yakında emekli oluyorum. – Aha, o zaman"
+  },
+  {
+    "id": "vocab_0057",
+    "type": "Vocabulary",
+    "german": "haben Sie",
+    "turkish": "sizin",
+    "germanExample": "ja viel Zeit für Ihre Hobbys.",
+    "turkishExample": "hobileriniz için çok zamanınız var."
+  },
+  {
+    "id": "vocab_0058",
+    "type": "Vocabulary",
+    "german": "die Ahnung,",
+    "turkish": "fikir, bilgi,",
+    "germanExample": "-en Ich hatte keine Ahnung, dass du heute Geburtstag hast.",
+    "turkishExample": "-en Bugünün senin doğum günün olduğuna dair hiçbir fikrim yoktu."
+  },
+  {
+    "id": "vocab_0059",
+    "type": "Vocabulary",
+    "german": "die Aktion,",
+    "turkish": "eylem, aksiyon, kampanya,",
+    "germanExample": "-en Die Regierung plant eine Aktion",
+    "turkishExample": "-en Hükümet bir kampanya planlıyor"
+  },
+  {
+    "id": "vocab_0060",
+    "type": "Vocabulary",
+    "german": "gegen das",
+    "turkish": "karşı",
+    "germanExample": "Rauchen.",
+    "turkishExample": "sigaraya. (Sigaraya karşı)"
+  },
+  {
+    "id": "vocab_0061",
+    "type": "Vocabulary",
+    "german": "aktiv Ich",
+    "turkish": "aktif Ben",
+    "germanExample": "bin sehr aktiv und mache",
+    "turkishExample": "çok aktifim ve yapıyorum"
+  },
+  {
+    "id": "vocab_0062",
+    "type": "Vocabulary",
+    "german": "viel",
+    "turkish": "çok",
+    "germanExample": "Sport.",
+    "turkishExample": "spor."
+  },
+  {
+    "id": "vocab_0063",
+    "type": "Vocabulary",
+    "german": "die Aktivität,",
+    "turkish": "aktivite, etkinlik,",
+    "germanExample": "-en In den Ferien bietet die Stadt für Kinder",
+    "turkishExample": "-en Tatillerde şehir çocuklar için sunuyor"
+  },
+  {
+    "id": "vocab_0064",
+    "type": "Vocabulary",
+    "german": "verschiedene",
+    "turkish": "çeşitli",
+    "germanExample": "Freizeitaktivitäten.",
+    "turkishExample": "boş zaman aktiviteleri."
+  },
+  {
+    "id": "vocab_0065",
+    "type": "Vocabulary",
+    "german": "aktuell Umweltschutz",
+    "turkish": "güncel Çevre koruması",
+    "germanExample": "ist ein aktuelles Thema.",
+    "turkishExample": "güncel bir konudur."
+  },
+  {
+    "id": "vocab_0066",
+    "type": "Vocabulary",
+    "german": "akzeptieren,",
+    "turkish": "kabul etmek,",
+    "germanExample": "akzeptiert, Ich kann diese Bedingungen nicht",
+    "turkishExample": "kabul ediyor, Bu şartları"
+  },
+  {
+    "id": "vocab_0067",
+    "type": "Vocabulary",
+    "german": "akzeptierte,",
+    "turkish": "kabul etti,",
+    "germanExample": "hat akzeptiert akzeptieren.",
+    "turkishExample": "kabul etti. kabul edemem."
+  },
+  {
+    "id": "vocab_0068",
+    "type": "Vocabulary",
+    "german": "der Alarm,",
+    "turkish": "alarm,",
+    "germanExample": "-e Bei Feueralarm dürfen Sie die Aufzüge",
+    "turkishExample": "-e Yangın alarmı durumunda asansörleri"
+  },
+  {
+    "id": "vocab_0069",
+    "type": "Vocabulary",
+    "german": "nicht",
+    "turkish": "değil",
+    "germanExample": "benutzen. reinigen. 2. Nein, danke! Ich trinke keinen Alkohol.",
+    "turkishExample": "kullanmamalısınız. temizlemek. 2. Hayır, teşekkürler! Alkol içmiyorum."
+  },
+  {
+    "id": "vocab_0070",
+    "type": "Vocabulary",
+    "german": "all-",
+    "turkish": "tüm, hepsi, her şey",
+    "germanExample": "1. Alles Gute! 2. Sonst noch (et)was? – Nein, danke. Das ist alles. 3. Sind alle da?4. Alle unsere Freunde kommen.5. Hast du alles?",
+    "turkishExample": "1. Her şey gönlünce olsun! 2. Başka bir şey var mı? – Hayır, teşekkürler. Hepsi bu. 3. Herkes burada mı? 4. Tüm arkadaşlarımız geliyor. 5. Her şeyin tamam mı?"
+  },
+  {
+    "id": "vocab_0071",
+    "type": "Vocabulary",
+    "german": "allein 1.",
+    "turkish": "yalnız, tek başına 1.",
+    "germanExample": "Ich gehe nicht gern allein spazieren. 2. Soll ich Ihnen helfen? – Danke, ich schaffe es schon allein. 3. Es war sehr teuer. Allein das Essen hat",
+    "turkishExample": "Yalnız yürüyüşe çıkmayı sevmem. 2. Size yardım edeyim mi? - Teşekkürler, kendim halledebilirim. 3. Çok pahalıydı. Sadece yemek bile"
+  },
+  {
+    "id": "vocab_0072",
+    "type": "Vocabulary",
+    "german": "schon über",
+    "turkish": "zaten",
+    "germanExample": "50 Euro gekostet.",
+    "turkishExample": "50 Euro'dan fazla tuttu."
+  },
+  {
+    "id": "vocab_0073",
+    "type": "Vocabulary",
+    "german": "aller-",
+    "turkish": "en (üstünlük derecesi)",
+    "germanExample": "1. Am allerbesten ist es, wenn du dich",
+    "turkishExample": "1. En iyisi senin"
+  },
+  {
+    "id": "vocab_0074",
+    "type": "Vocabulary",
+    "german": "ins Bett",
+    "turkish": "yatağa",
+    "germanExample": "legst und lange schläfst. Dannwirst du schnell wieder gesund. 2. Das ist das Allerschönste, was ich",
+    "turkishExample": "yatman ve uzun süre uyumandır. O zaman çabucak tekrar iyileşeceksin. 2. Bu benim gördüğüm"
+  },
+  {
+    "id": "vocab_0075",
+    "type": "Vocabulary",
+    "german": "je gesehen",
+    "turkish": "şimdiye kadar",
+    "germanExample": "habe.",
+    "turkishExample": "en güzel şey."
+  },
+  {
+    "id": "vocab_0076",
+    "type": "Vocabulary",
+    "german": "allerdings Sie",
+    "turkish": "fakat / ancak Siz",
+    "germanExample": "können sich noch für den Kurs",
+    "turkishExample": "kursa hala"
+  },
+  {
+    "id": "vocab_0077",
+    "type": "Vocabulary",
+    "german": "anmelden,",
+    "turkish": "kayıt olabilirsiniz,",
+    "germanExample": "allerdings nur noch bis morgen.",
+    "turkishExample": "ancak sadece yarına kadar."
+  },
+  {
+    "id": "vocab_0078",
+    "type": "Vocabulary",
+    "german": "allgemein 1.",
+    "turkish": "genel, genellikle 1.",
+    "germanExample": "Im Allgemeinen bin ich mit meiner Arbeit sehr zufrieden. 2. Wir haben nur über allgemeine Probleme gesprochen.",
+    "turkishExample": "Genel olarak işimden çok memnunum. 2. Sadece genel sorunlar hakkında konuştuk."
+  },
+  {
+    "id": "vocab_0079",
+    "type": "Vocabulary",
+    "german": "der Alltag",
+    "turkish": "günlük hayat",
+    "germanExample": "Das ist mein Alltag: putzen, waschen, kochen.",
+    "turkishExample": "Bu benim günlük hayatım: temizlik yapmak, çamaşır yıkamak, yemek pişirmek."
+  },
+  {
+    "id": "vocab_0080",
+    "type": "Vocabulary",
+    "german": "das Alphabet,",
+    "turkish": "alfabe,",
+    "germanExample": "-e Wie viele Buchstaben hat das Alphabet Ihrer Sprache?",
+    "turkishExample": "-e Dilinizin alfabesinde kaç harf var?"
+  },
+  {
+    "id": "vocab_0081",
+    "type": "Vocabulary",
+    "german": "als 1.",
+    "turkish": "-dığında / -ken 1.",
+    "germanExample": "Als mein Mann kam, war die Party",
+    "turkishExample": "Kocam geldiğinde, parti"
+  },
+  {
+    "id": "vocab_0082",
+    "type": "Vocabulary",
+    "german": "schon zu",
+    "turkish": "zaten",
+    "germanExample": "Ende. 2. Sie können sich sowohl persönlich",
+    "turkishExample": "bitmişti. 2. Hem şahsen"
+  },
+  {
+    "id": "vocab_0083",
+    "type": "Vocabulary",
+    "german": "als auch",
+    "turkish": "hem de",
+    "germanExample": "per Internet anmelden. 3. Meine Schwester ist älter als ich.4. Es ist später, als ich dachte.",
+    "turkishExample": "internet üzerinden kayıt olabilirsiniz. 3. Kız kardeşim benden daha büyük. 4. Düşündüğümden daha geç oldu."
+  },
+  {
+    "id": "vocab_0084",
+    "type": "Vocabulary",
+    "german": "als ob",
+    "turkish": "sanki ... gibi",
+    "germanExample": "Der Chef tat so, als ob wir nie",
+    "turkishExample": "Patron sanki biz hiç"
+  },
+  {
+    "id": "vocab_0085",
+    "type": "Vocabulary",
+    "german": "darüber gesprochen",
+    "turkish": "bunun hakkında konuşmamışız",
+    "germanExample": "hätten.",
+    "turkishExample": "gibi davrandı."
+  },
+  {
+    "id": "vocab_0086",
+    "type": "Vocabulary",
+    "german": "also 1.",
+    "turkish": "yani / öyleyse 1.",
+    "germanExample": "Also, die Sache ist so: … 2. Irina hat Urlaub. Sie kann uns also helfen. 3. Also wirklich, jetzt reicht es.",
+    "turkishExample": "Yani, durum şöyle: ... 2. Irina'nın tatili var. Öyleyse o bize yardım edebilir. 3. Yani gerçekten, artık yeter."
+  },
+  {
+    "id": "vocab_0087",
+    "type": "Vocabulary",
+    "german": "alt 1.",
+    "turkish": "eski / yaşlı 1.",
+    "germanExample": "Wie alt sind Sie? 2. Maria ist eine alte Freundin von mir.",
+    "turkishExample": "Kaç yaşındasınız? 2. Maria benim eski bir arkadaşım."
+  },
+  {
+    "id": "vocab_0088",
+    "type": "Vocabulary",
+    "german": "das Alter",
+    "turkish": "yaş",
+    "germanExample": "1. Wir sind etwa im gleichen Alter. 2. Im Alter bekomme ich eine",
+    "turkishExample": "1. Biz aşağı yukarı aynı yaştayız. 2. Yaşlılıkta"
+  },
+  {
+    "id": "vocab_0089",
+    "type": "Vocabulary",
+    "german": "ausreichende",
+    "turkish": "yeterli",
+    "germanExample": "Rente. 3. Alter: 26 Jahre",
+    "turkishExample": "bir emekli maaşı alacağım. 3. Yaş: 26 yıl"
+  },
+  {
+    "id": "vocab_0090",
+    "type": "Vocabulary",
+    "german": "das Altenheim,",
+    "turkish": "huzurevi,",
+    "germanExample": "-e In Deutschland leben viele alte Leute",
+    "turkishExample": "-e Almanya'da birçok yaşlı insan"
+  },
+  {
+    "id": "vocab_0091",
+    "type": "Vocabulary",
+    "german": "in",
+    "turkish": "içinde",
+    "germanExample": "Altenheimen.",
+    "turkishExample": "huzurevlerinde yaşar."
+  },
+  {
+    "id": "vocab_0092",
+    "type": "Vocabulary",
+    "german": "das Altersheim,",
+    "turkish": "huzurevi,",
+    "germanExample": "e Die Großeltern unserer Nachbarn sind",
+    "turkishExample": "e Komşularımızın büyükanne ve büyükbabası"
+  },
+  {
+    "id": "vocab_0093",
+    "type": "Vocabulary",
+    "german": "im Altersheim.",
+    "turkish": "huzurevinde.",
+    "germanExample": "an 1. Am Anfang war alles sehr schwierig. 2. Dann sehen wir uns also am Dienstag.3. Ich warte am Bahnhof auf dich.4. Meine Freundin ist Lehrerin am Gymnasium. 5. Am besten, du gehst zur Information",
+    "turkishExample": "-de/-da, yanında 1. Başlangıçta her şey çok zordu. 2. O zaman Salı günü görüşürüz. 3. Seni tren istasyonunda bekliyorum. 4. Kız arkadaşım lisede öğretmen. 5. En iyisi senin danışmaya gitmen"
+  },
+  {
+    "id": "vocab_0094",
+    "type": "Vocabulary",
+    "german": "und fragst",
+    "turkish": "ve sorman",
+    "germanExample": "da. 6. Das Licht war die ganze Nacht an.",
+    "turkishExample": "orada. 6. Işık bütün gece açıktı."
+  },
+  {
+    "id": "vocab_0095",
+    "type": "Vocabulary",
+    "german": "die Ampel,",
+    "turkish": "trafik lambası,",
+    "germanExample": "-n Dort an der Ampel kannst du über die Straße gehen.",
+    "turkishExample": "-n Orada, trafik lambasında sokağın karşısına geçebilirsin."
   },
   {
     "id": "vocab_0096",
