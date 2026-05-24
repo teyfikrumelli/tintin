@@ -3,7 +3,8 @@ import Home from './components/Home';
 import Dashboard from './components/Dashboard';
 import StudySession from './components/StudySession';
 import Favorites from './components/Favorites';
-import { Book, LayoutDashboard, Layers, Heart } from 'lucide-react';
+import CardBrowser from './components/CardBrowser';
+import { Book, LayoutDashboard, Layers, Heart, Search } from 'lucide-react';
 
 function App() {
   const [currentView, setCurrentView] = useState('home'); // home, dashboard, favorites, study
@@ -15,6 +16,8 @@ function App() {
         return <Home onStartStudy={(mode) => { setStudyMode(mode); setCurrentView('study'); }} />;
       case 'dashboard':
         return <Dashboard />;
+      case 'browser':
+        return <CardBrowser />;
       case 'favorites':
         return <Favorites onStartStudy={() => { setStudyMode('favorites'); setCurrentView('study'); }} />;
       case 'study':
@@ -57,6 +60,14 @@ function App() {
               >
                 <Heart size={16} />
                 <span className="hidden sm:inline">Favoriten</span>
+              </button>
+              <button
+                onClick={() => setCurrentView('browser')}
+                className={`p-2 rounded-md transition-colors flex items-center gap-2 text-sm font-medium ${currentView === 'browser' ? 'bg-slate-700 text-white' : 'text-slate-400 hover:text-slate-200'
+                  }`}
+              >
+                <Search size={16} />
+                <span className="hidden sm:inline">Suche</span>
               </button>
               <button
                 onClick={() => setCurrentView('dashboard')}

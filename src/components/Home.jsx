@@ -2,29 +2,29 @@ import React from 'react';
 import { useStore } from '../store/useStore';
 import { Layers, Play, BookOpen } from 'lucide-react';
 import { isBefore, addDays, startOfDay, parseISO } from 'date-fns';
+import { isDue, isLearned, isLearning } from '../lib/srsUtils';
 
 const Home = ({ onStartStudy }) => {
   const cards = useStore(state => state.getAllCards());
   
   // Calculate due cards logic manually since store method returns all due cards
   const today = startOfDay(new Date());
-  const isDue = (card) => {
-    const srs = card.srsData;
-    if (!srs || !srs.nextReviewDate) return true;
-    const reviewDate = parseISO(srs.nextReviewDate);
-    return isBefore(reviewDate, addDays(today, 1));
-  };
 
-  const dueTodayCount = cards.filter(isDue).length;
+  const dueTodayCount = cards.filter(card => isDue(card, today)).length;
 
   // Group cards by deck
   const decksMap = cards.reduce((acc, card) => {
     const deckName = card.deck || 'Uncategorized';
     if (!acc[deckName]) {
-      acc[deckName] = { name: deckName, total: 0, due: 0 };
+      acc[deckName] = { name: deckName, total: 0, due: 0, learned: 0, learning: 0, new: 0 };
     }
     acc[deckName].total += 1;
-    if (isDue(card)) acc[deckName].due += 1;
+    if (isDue(card, today)) acc[deckName].due += 1;
+    
+    if (isLearned(card)) acc[deckName].learned += 1;
+    else if (isLearning(card)) acc[deckName].learning += 1;
+    else acc[deckName].new += 1;
+    
     return acc;
   }, {});
 
@@ -88,11 +88,28 @@ const Home = ({ onStartStudy }) => {
             </div>
             
             <div className="flex justify-between items-end mt-2">
-              <div className="flex flex-col gap-1">
-                <span className="text-xs text-slate-400">Karten: {deck.total}</span>
-                <span className={`text-sm font-bold ${deck.due > 0 ? 'text-red-400' : 'text-green-400'}`}>
-                  {deck.due} heute fällig
-                </span>
+              <div className="flex flex-col gap-1 w-full">
+                <div className="flex justify-between text-[10px] text-slate-400 font-medium">
+                  <span className="text-green-400">{deck.learned} Gelernt</span>
+                  <span className="text-yellow-500">{deck.learning} Lernen</span>
+                  <span>{deck.new} Neu</span>
+                </div>
+                <div className="w-full h-1.5 bg-slate-700 rounded-full overflow-hidden mt-1 mb-1 flex">
+                  <div 
+                    className="h-full bg-green-500"
+                    style={{ width: `${deck.total > 0 ? (deck.learned / deck.total) * 100 : 0}%` }}
+                  />
+                  <div 
+                    className="h-full bg-yellow-500"
+                    style={{ width: `${deck.total > 0 ? (deck.learning / deck.total) * 100 : 0}%` }}
+                  />
+                </div>
+                <div className="flex justify-between items-center text-sm font-bold">
+                  <span className={deck.due > 0 ? 'text-red-400' : 'text-green-400'}>
+                    {deck.due} heute fällig
+                  </span>
+                  <span className="text-slate-500 text-xs">{deck.total} Gesamt</span>
+                </div>
               </div>
               <div className="w-8 h-8 rounded-full bg-slate-700 flex items-center justify-center group-hover:bg-indigo-500 transition-colors text-white">
                 <Play size={14} fill="currentColor" className="ml-0.5" />

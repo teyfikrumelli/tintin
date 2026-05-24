@@ -3,6 +3,7 @@ import { useStore } from '../store/useStore';
 import Flashcard from './Flashcard';
 import { X, CheckCircle2, RefreshCw } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
+import { calculateSM2 } from '../lib/sm2';
 
 const StudySession = ({ mode = 'all', onFinish }) => {
   const getCardsDueToday = useStore(state => state.getCardsDueToday);
@@ -14,6 +15,7 @@ const StudySession = ({ mode = 'all', onFinish }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isFlipped, setIsFlipped] = useState(false);
   const [isFinished, setIsFinished] = useState(false);
+  const [clickedButton, setClickedButton] = useState(null);
 
   // Fisher-Yates shuffle to randomize cards
   const shuffleArray = (array) => {
@@ -40,18 +42,19 @@ const StudySession = ({ mode = 'all', onFinish }) => {
   }, [mode, getCardsDueToday, getAllCards, favorites]);
 
   const handleReview = (quality) => {
-    const currentCard = cardsToStudy[currentIndex];
-    reviewCard(currentCard.id, quality);
+    setClickedButton(quality);
+    setTimeout(() => {
+      const currentCard = cardsToStudy[currentIndex];
+      reviewCard(currentCard.id, quality);
 
-    // If card was rated Hard (1 or 2), we could put it at the end of the session queue
-    // For simplicity, we stick to the SM-2 daily schedule.
-    
-    if (currentIndex < cardsToStudy.length - 1) {
-      setIsFlipped(false);
-      setTimeout(() => setCurrentIndex(prev => prev + 1), 150);
-    } else {
-      setIsFinished(true);
-    }
+      setClickedButton(null);
+      if (currentIndex < cardsToStudy.length - 1) {
+        setIsFlipped(false);
+        setTimeout(() => setCurrentIndex(prev => prev + 1), 150);
+      } else {
+        setIsFinished(true);
+      }
+    }, 200);
   };
 
   if (isFinished || cardsToStudy.length === 0) {
@@ -80,6 +83,15 @@ const StudySession = ({ mode = 'all', onFinish }) => {
 
   const currentCard = cardsToStudy[currentIndex];
   const progress = ((currentIndex) / cardsToStudy.length) * 100;
+
+  const getIntervalLabel = (quality) => {
+    if (!currentCard) return '';
+    const srs = currentCard.srsData || { interval: 0, repetition: 0, efactor: 2.5 };
+    const { interval } = calculateSM2(quality, srs.interval, srs.repetition, srs.efactor);
+    if (interval === 0) return '< 1m';
+    if (interval === 1) return '1t';
+    return `${interval}t`;
+  };
 
   return (
     <div className="flex-1 flex flex-col h-full animate-in fade-in duration-300">
@@ -135,32 +147,44 @@ const StudySession = ({ mode = 'all', onFinish }) => {
           >
             <button 
               onClick={() => handleReview(1)}
-              className="flex flex-col items-center justify-between gap-1 bg-slate-800 border-2 border-red-500/50 hover:bg-red-500/20 hover:border-red-500 text-white py-2 px-0.5 sm:p-4 rounded-2xl transition-all"
+              disabled={clickedButton !== null}
+              className={`flex flex-col items-center justify-between gap-1 bg-slate-800 border-2 py-2 px-0.5 sm:p-4 rounded-2xl transition-all ${
+                clickedButton === 1 ? 'border-red-500 bg-red-500/30 scale-95' : 'border-red-500/50 hover:bg-red-500/20 hover:border-red-500'
+              }`}
             >
               <RefreshCw size={18} className="text-red-400 mb-1" />
               <span className="font-bold text-[11px] sm:text-sm mt-auto w-full text-center leading-tight tracking-tight">Nochmal</span>
-              <span className="text-[10px] sm:text-xs text-slate-400">&lt; 1m</span>
+              <span className="text-[10px] sm:text-xs text-slate-400">{getIntervalLabel(1)}</span>
             </button>
             <button 
               onClick={() => handleReview(3)}
-              className="flex flex-col items-center justify-between gap-1 bg-slate-800 border-2 border-blue-500/50 hover:bg-blue-500/20 hover:border-blue-500 text-white py-2 px-0.5 sm:p-4 rounded-2xl transition-all"
+              disabled={clickedButton !== null}
+              className={`flex flex-col items-center justify-between gap-1 bg-slate-800 border-2 py-2 px-0.5 sm:p-4 rounded-2xl transition-all ${
+                clickedButton === 3 ? 'border-blue-500 bg-blue-500/30 scale-95' : 'border-blue-500/50 hover:bg-blue-500/20 hover:border-blue-500'
+              }`}
             >
               <span className="font-bold text-[11px] sm:text-sm mt-auto w-full text-center leading-tight tracking-tight">Schwer</span>
-              <span className="text-[10px] sm:text-xs text-slate-400">1t</span>
+              <span className="text-[10px] sm:text-xs text-slate-400">{getIntervalLabel(3)}</span>
             </button>
             <button 
               onClick={() => handleReview(4)}
-              className="flex flex-col items-center justify-between gap-1 bg-slate-800 border-2 border-green-500/50 hover:bg-green-500/20 hover:border-green-500 text-white py-2 px-0.5 sm:p-4 rounded-2xl transition-all"
+              disabled={clickedButton !== null}
+              className={`flex flex-col items-center justify-between gap-1 bg-slate-800 border-2 py-2 px-0.5 sm:p-4 rounded-2xl transition-all ${
+                clickedButton === 4 ? 'border-green-500 bg-green-500/30 scale-95' : 'border-green-500/50 hover:bg-green-500/20 hover:border-green-500'
+              }`}
             >
               <span className="font-bold text-[11px] sm:text-sm mt-auto w-full text-center leading-tight tracking-tight">Gut</span>
-              <span className="text-[10px] sm:text-xs text-slate-400">3t</span>
+              <span className="text-[10px] sm:text-xs text-slate-400">{getIntervalLabel(4)}</span>
             </button>
             <button 
               onClick={() => handleReview(5)}
-              className="flex flex-col items-center justify-between gap-1 bg-slate-800 border-2 border-indigo-500/50 hover:bg-indigo-500/20 hover:border-indigo-500 text-white py-2 px-0.5 sm:p-4 rounded-2xl transition-all"
+              disabled={clickedButton !== null}
+              className={`flex flex-col items-center justify-between gap-1 bg-slate-800 border-2 py-2 px-0.5 sm:p-4 rounded-2xl transition-all ${
+                clickedButton === 5 ? 'border-indigo-500 bg-indigo-500/30 scale-95' : 'border-indigo-500/50 hover:bg-indigo-500/20 hover:border-indigo-500'
+              }`}
             >
               <span className="font-bold text-[11px] sm:text-sm mt-auto w-full text-center leading-tight tracking-tight">Einfach</span>
-              <span className="text-[10px] sm:text-xs text-slate-400">7t</span>
+              <span className="text-[10px] sm:text-xs text-slate-400">{getIntervalLabel(5)}</span>
             </button>
           </motion.div>
         ) : (

@@ -34,6 +34,12 @@ export const useStore = create(
       stats: {
         totalReviews: 0,
         cardsLearned: 0,
+        qualityDistribution: {
+          1: 0,
+          3: 0,
+          4: 0,
+          5: 0
+        }
       },
 
       toggleFavorite: (cardId) => {
@@ -69,13 +75,18 @@ export const useStore = create(
                 interval,
                 repetition,
                 efactor,
-                nextReviewDate: nextReviewDate.toISOString()
+                nextReviewDate: nextReviewDate.toISOString(),
+                lastQuality: quality
               }
             },
             stats: {
               ...state.stats,
               totalReviews: state.stats.totalReviews + 1,
-              cardsLearned: state.stats.cardsLearned + (isNewlyLearned ? 1 : 0)
+              cardsLearned: state.stats.cardsLearned + (isNewlyLearned ? 1 : 0),
+              qualityDistribution: {
+                ...(state.stats.qualityDistribution || { 1: 0, 3: 0, 4: 0, 5: 0 }),
+                [quality]: (state.stats.qualityDistribution?.[quality] || 0) + 1
+              }
             }
           };
         });
@@ -106,7 +117,11 @@ export const useStore = create(
       resetProgress: () => {
         set({
           srsDataMap: {},
-          stats: { totalReviews: 0, cardsLearned: 0 },
+          stats: { 
+            totalReviews: 0, 
+            cardsLearned: 0,
+            qualityDistribution: { 1: 0, 3: 0, 4: 0, 5: 0 }
+          },
           favorites: []
         });
       }
