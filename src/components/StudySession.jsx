@@ -143,7 +143,7 @@ const StudySession = ({ mode = 'all', onFinish }) => {
           <motion.div 
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
-            className="grid grid-cols-4 gap-2 sm:gap-4 w-full max-w-md mx-auto px-2 sm:px-0"
+            className="grid grid-cols-5 gap-1.5 sm:gap-3 w-full max-w-lg mx-auto px-1 sm:px-0"
           >
             <button 
               onClick={() => handleReview(1)}
@@ -153,8 +153,8 @@ const StudySession = ({ mode = 'all', onFinish }) => {
               }`}
             >
               <RefreshCw size={18} className="text-red-400 mb-1" />
-              <span className="font-bold text-[11px] sm:text-sm mt-auto w-full text-center leading-tight tracking-tight">Nochmal</span>
-              <span className="text-[10px] sm:text-xs text-slate-400">{getIntervalLabel(1)}</span>
+              <span className="font-bold text-[10px] sm:text-sm mt-auto w-full text-center leading-tight tracking-tight break-words">Nochmal</span>
+              <span className="text-[9px] sm:text-xs text-slate-400">{getIntervalLabel(1)}</span>
             </button>
             <button 
               onClick={() => handleReview(3)}
@@ -163,8 +163,8 @@ const StudySession = ({ mode = 'all', onFinish }) => {
                 clickedButton === 3 ? 'border-blue-500 bg-blue-500/30 scale-95' : 'border-blue-500/50 hover:bg-blue-500/20 hover:border-blue-500'
               }`}
             >
-              <span className="font-bold text-[11px] sm:text-sm mt-auto w-full text-center leading-tight tracking-tight">Schwer</span>
-              <span className="text-[10px] sm:text-xs text-slate-400">{getIntervalLabel(3)}</span>
+              <span className="font-bold text-[10px] sm:text-sm mt-auto w-full text-center leading-tight tracking-tight break-words">Schwer</span>
+              <span className="text-[9px] sm:text-xs text-slate-400">{getIntervalLabel(3)}</span>
             </button>
             <button 
               onClick={() => handleReview(4)}
@@ -173,8 +173,8 @@ const StudySession = ({ mode = 'all', onFinish }) => {
                 clickedButton === 4 ? 'border-green-500 bg-green-500/30 scale-95' : 'border-green-500/50 hover:bg-green-500/20 hover:border-green-500'
               }`}
             >
-              <span className="font-bold text-[11px] sm:text-sm mt-auto w-full text-center leading-tight tracking-tight">Gut</span>
-              <span className="text-[10px] sm:text-xs text-slate-400">{getIntervalLabel(4)}</span>
+              <span className="font-bold text-[10px] sm:text-sm mt-auto w-full text-center leading-tight tracking-tight break-words">Gut</span>
+              <span className="text-[9px] sm:text-xs text-slate-400">{getIntervalLabel(4)}</span>
             </button>
             <button 
               onClick={() => handleReview(5)}
@@ -183,8 +183,18 @@ const StudySession = ({ mode = 'all', onFinish }) => {
                 clickedButton === 5 ? 'border-indigo-500 bg-indigo-500/30 scale-95' : 'border-indigo-500/50 hover:bg-indigo-500/20 hover:border-indigo-500'
               }`}
             >
-              <span className="font-bold text-[11px] sm:text-sm mt-auto w-full text-center leading-tight tracking-tight">Einfach</span>
-              <span className="text-[10px] sm:text-xs text-slate-400">{getIntervalLabel(5)}</span>
+              <span className="font-bold text-[10px] sm:text-sm mt-auto w-full text-center leading-tight tracking-tight break-words">Einfach</span>
+              <span className="text-[9px] sm:text-xs text-slate-400">{getIntervalLabel(5)}</span>
+            </button>
+            <button 
+              onClick={() => handleReview(6)}
+              disabled={clickedButton !== null}
+              className={`flex flex-col items-center justify-between gap-1 bg-slate-800 border-2 py-2 px-0.5 sm:p-4 rounded-2xl transition-all ${
+                clickedButton === 6 ? 'border-purple-500 bg-purple-500/30 scale-95' : 'border-purple-500/50 hover:bg-purple-500/20 hover:border-purple-500'
+              }`}
+            >
+              <span className="font-bold text-[10px] sm:text-sm mt-auto w-full text-center leading-tight tracking-tight break-words">Bekannt</span>
+              <span className="text-[9px] sm:text-xs text-slate-400">{getIntervalLabel(6)}</span>
             </button>
           </motion.div>
         ) : (

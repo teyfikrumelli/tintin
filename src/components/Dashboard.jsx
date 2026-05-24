@@ -21,15 +21,15 @@ const Dashboard = () => {
     ? Math.round((stats.cardsLearned / stats.totalReviews) * 100) 
     : 0;
 
-  const qualityDist = stats.qualityDistribution || { 1: 0, 3: 0, 4: 0, 5: 0 };
-  const totalQualityReviews = qualityDist[1] + qualityDist[3] + qualityDist[4] + qualityDist[5];
-  const getQualityPercent = (q) => totalQualityReviews > 0 ? (qualityDist[q] / totalQualityReviews) * 100 : 0;
+  const qualityDist = stats.qualityDistribution || { 1: 0, 3: 0, 4: 0, 5: 0, 6: 0 };
+  const totalQualityReviews = qualityDist[1] + qualityDist[3] + qualityDist[4] + qualityDist[5] + (qualityDist[6] || 0);
+  const getQualityPercent = (q) => totalQualityReviews > 0 ? ((qualityDist[q] || 0) / totalQualityReviews) * 100 : 0;
 
   // Calculate cards by deck file
   const deckStatsMap = cards.reduce((acc, card) => {
     const deckName = card.deck || 'Uncategorized';
     if (!acc[deckName]) {
-      acc[deckName] = { name: deckName, total: 0, learned: 0, learning: 0, new: 0, due: 0, q1: 0, q3: 0, q4: 0, q5: 0 };
+      acc[deckName] = { name: deckName, total: 0, learned: 0, learning: 0, new: 0, due: 0, q1: 0, q3: 0, q4: 0, q5: 0, q6: 0 };
     }
     acc[deckName].total += 1;
     if (isLearned(card)) acc[deckName].learned += 1;
@@ -44,6 +44,7 @@ const Dashboard = () => {
       if (q === 3) acc[deckName].q3 += 1;
       if (q === 4) acc[deckName].q4 += 1;
       if (q === 5) acc[deckName].q5 += 1;
+      if (q === 6) acc[deckName].q6 += 1;
     }
     
     return acc;
@@ -111,11 +112,12 @@ const Dashboard = () => {
           Antwort-Verteilung
         </h2>
         <div className="flex flex-col gap-4">
-          <div className="grid grid-cols-4 gap-2 text-center text-xs sm:text-sm font-medium">
-            <div className="text-red-400 flex flex-col sm:flex-row justify-center gap-1"><span>Nochmal</span><span>({qualityDist[1]})</span></div>
-            <div className="text-blue-400 flex flex-col sm:flex-row justify-center gap-1"><span>Schwer</span><span>({qualityDist[3]})</span></div>
-            <div className="text-green-400 flex flex-col sm:flex-row justify-center gap-1"><span>Gut</span><span>({qualityDist[4]})</span></div>
-            <div className="text-indigo-400 flex flex-col sm:flex-row justify-center gap-1"><span>Einfach</span><span>({qualityDist[5]})</span></div>
+          <div className="grid grid-cols-5 gap-1 sm:gap-2 text-center text-[10px] sm:text-xs font-medium">
+            <div className="text-red-400 flex flex-col sm:flex-row justify-center gap-1"><span>Nochmal</span><span>({qualityDist[1] || 0})</span></div>
+            <div className="text-blue-400 flex flex-col sm:flex-row justify-center gap-1"><span>Schwer</span><span>({qualityDist[3] || 0})</span></div>
+            <div className="text-green-400 flex flex-col sm:flex-row justify-center gap-1"><span>Gut</span><span>({qualityDist[4] || 0})</span></div>
+            <div className="text-indigo-400 flex flex-col sm:flex-row justify-center gap-1"><span>Einfach</span><span>({qualityDist[5] || 0})</span></div>
+            <div className="text-purple-400 flex flex-col sm:flex-row justify-center gap-1"><span>Bekannt</span><span>({qualityDist[6] || 0})</span></div>
           </div>
           <div className="w-full h-4 bg-slate-700 rounded-full overflow-hidden flex ring-1 ring-slate-700/50">
             {totalQualityReviews === 0 ? (
@@ -126,6 +128,7 @@ const Dashboard = () => {
                 <div style={{ width: `${getQualityPercent(3)}%` }} className="h-full bg-blue-500 transition-all" title={`Schwer: ${Math.round(getQualityPercent(3))}%`} />
                 <div style={{ width: `${getQualityPercent(4)}%` }} className="h-full bg-green-500 transition-all" title={`Gut: ${Math.round(getQualityPercent(4))}%`} />
                 <div style={{ width: `${getQualityPercent(5)}%` }} className="h-full bg-indigo-500 transition-all" title={`Einfach: ${Math.round(getQualityPercent(5))}%`} />
+                <div style={{ width: `${getQualityPercent(6)}%` }} className="h-full bg-purple-500 transition-all" title={`Bekannt: ${Math.round(getQualityPercent(6))}%`} />
               </>
             )}
           </div>
@@ -179,12 +182,13 @@ const Dashboard = () => {
                     <span className="text-slate-600">({deck.total} Gesamt)</span>
                   </div>
                 </div>
-                {(deck.q1 > 0 || deck.q3 > 0 || deck.q4 > 0 || deck.q5 > 0) && (
+                {(deck.q1 > 0 || deck.q3 > 0 || deck.q4 > 0 || deck.q5 > 0 || deck.q6 > 0) && (
                   <div className="mt-1 pt-2 border-t border-slate-700/50 flex flex-wrap gap-2 text-[10px] font-medium">
                     {deck.q1 > 0 && <span className="text-red-400 bg-red-500/10 px-1.5 py-0.5 rounded">Nochmal: {deck.q1}</span>}
                     {deck.q3 > 0 && <span className="text-blue-400 bg-blue-500/10 px-1.5 py-0.5 rounded">Schwer: {deck.q3}</span>}
                     {deck.q4 > 0 && <span className="text-green-400 bg-green-500/10 px-1.5 py-0.5 rounded">Gut: {deck.q4}</span>}
                     {deck.q5 > 0 && <span className="text-indigo-400 bg-indigo-500/10 px-1.5 py-0.5 rounded">Einfach: {deck.q5}</span>}
+                    {deck.q6 > 0 && <span className="text-purple-400 bg-purple-500/10 px-1.5 py-0.5 rounded">Bekannt: {deck.q6}</span>}
                   </div>
                 )}
               </div>
