@@ -62,7 +62,6 @@ const Dashboard = () => {
   };
 
   const totalCards = cards.length;
-  const dueTodayCount = dueCards.length;
   const learnedCardsCount = cards.filter(isLearned).length;
   const learningCardsCount = cards.filter(isLearning).length;
   const newCardsCount = totalCards - learnedCardsCount - learningCardsCount;
@@ -102,6 +101,8 @@ const Dashboard = () => {
   Object.keys(deckStatsMap).forEach(deckName => {
     deckStatsMap[deckName].due = getCardsDueToday(deckName).length;
   });
+
+  const dueTodayCount = Object.values(deckStatsMap).reduce((sum, deck) => sum + deck.due, 0);
 
   const deckStatsList = Object.values(deckStatsMap).sort((a, b) => a.name.localeCompare(b.name));
 
