@@ -129,8 +129,7 @@ const KullanimKilavuzu = () => {
         </h3>
         <p className="text-slate-300 text-sm leading-relaxed">
           Kitap okurken, film izlerken veya ders çalışırken karşılaştığınız yeni Almanca kelimeleri uygulamaya ekleyebilirsiniz. 
-          Bunun için <strong>Genel Bakış (Übersicht)</strong> sayfasına gidin, <strong>"Kendi Kartlarını Yönet"</strong> formunu doldurarak kelimeyi ve örnek cümleleri kaydedin. 
-          Oluşturduğunuz desteler ana sayfada ayrı birer deste olarak görünür ve spaced repetition algoritmasına dahil edilir.
+          Bunun için üst menüdeki <strong>Editor</strong> sayfasına gidin. Sol taraftaki formu doldurarak kelimeleri ve örnek cümleleri kaydedebilir, sağ taraftaki panelden ise oluşturduğunuz tüm kartları arayabilir, destelere göre filtreleyebilir veya silebilirsiniz. Oluşturduğunuz desteler ana sayfada ayrı birer deste olarak görünür ve spaced repetition algoritmasına dahil edilir.
         </p>
       </div>
     </div>
