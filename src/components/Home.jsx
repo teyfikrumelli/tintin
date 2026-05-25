@@ -6,11 +6,10 @@ import { isDue, isLearned, isLearning } from '../lib/srsUtils';
 
 const Home = ({ onStartStudy }) => {
   const cards = useStore(state => state.getAllCards());
+  const getCardsDueToday = useStore(state => state.getCardsDueToday);
   
-  // Calculate due cards logic manually since store method returns all due cards
-  const today = startOfDay(new Date());
-
-  const dueTodayCount = cards.filter(card => isDue(card, today)).length;
+  const dueCards = getCardsDueToday();
+  const dueTodayCount = dueCards.length;
 
   // Group cards by deck
   const decksMap = cards.reduce((acc, card) => {
@@ -19,7 +18,6 @@ const Home = ({ onStartStudy }) => {
       acc[deckName] = { name: deckName, total: 0, due: 0, learned: 0, learning: 0, new: 0 };
     }
     acc[deckName].total += 1;
-    if (isDue(card, today)) acc[deckName].due += 1;
     
     if (isLearned(card)) acc[deckName].learned += 1;
     else if (isLearning(card)) acc[deckName].learning += 1;
@@ -27,6 +25,11 @@ const Home = ({ onStartStudy }) => {
     
     return acc;
   }, {});
+
+  // Populate due counts for each deck individually
+  Object.keys(decksMap).forEach(deckName => {
+    decksMap[deckName].due = getCardsDueToday(deckName).length;
+  });
 
   const decksList = Object.values(decksMap).sort((a, b) => a.name.localeCompare(b.name));
 

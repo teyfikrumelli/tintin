@@ -9,9 +9,13 @@ const StudySession = ({ mode = 'all', onFinish }) => {
   const getCardsDueToday = useStore(state => state.getCardsDueToday);
   const getAllCards = useStore(state => state.getAllCards);
   const reviewCard = useStore(state => state.reviewCard);
+  const increaseNewCardsLimit = useStore(state => state.increaseNewCardsLimit);
+  const newCardsLimitIncrements = useStore(state => state.newCardsLimitIncrements);
   
   const [cardsToStudy, setCardsToStudy] = useState([]);
   const [currentIndex, setCurrentIndex] = useState(0);
+  const [completedCount, setCompletedCount] = useState(0);
+  const [initialTotalCards, setInitialTotalCards] = useState(0);
   const [isFlipped, setIsFlipped] = useState(false);
   const [isFinished, setIsFinished] = useState(false);
   const [clickedButton, setClickedButton] = useState(null);
@@ -31,15 +35,16 @@ const StudySession = ({ mode = 'all', onFinish }) => {
     if (mode === 'favorites') {
       const currentFavorites = useStore.getState().favorites;
       cards = getAllCards().filter(card => currentFavorites.includes(card.id));
-    } else if (mode === 'all') {
-      cards = getCardsDueToday();
     } else {
-      // It's a specific deck name
-      const dueToday = getCardsDueToday();
-      cards = dueToday.filter(card => card.deck === mode);
+      cards = getCardsDueToday(mode);
     }
-    setCardsToStudy(shuffleArray(cards));
-  }, [mode, getCardsDueToday, getAllCards]);
+    const shuffled = shuffleArray(cards);
+    setCardsToStudy(shuffled);
+    setInitialTotalCards(shuffled.length);
+    setCompletedCount(0);
+    setCurrentIndex(0);
+    setIsFinished(false);
+  }, [mode, getCardsDueToday, getAllCards, newCardsLimitIncrements]);
 
   const handleReview = (quality) => {
     setClickedButton(quality);
@@ -48,14 +53,29 @@ const StudySession = ({ mode = 'all', onFinish }) => {
       reviewCard(currentCard.id, quality);
 
       setClickedButton(null);
-      if (currentIndex < cardsToStudy.length - 1) {
+      const willRequeue = quality === 1;
+
+      if (willRequeue) {
+        setCardsToStudy(prev => [...prev, currentCard]);
         setIsFlipped(false);
         setTimeout(() => setCurrentIndex(prev => prev + 1), 150);
       } else {
-        setIsFinished(true);
+        setCompletedCount(prev => prev + 1);
+        if (currentIndex < cardsToStudy.length - 1) {
+          setIsFlipped(false);
+          setTimeout(() => setCurrentIndex(prev => prev + 1), 150);
+        } else {
+          setIsFinished(true);
+        }
       }
     }, 200);
   };
+
+  // Calculate remaining unseen cards in this deck/all to see if they can study more
+  const allCards = getAllCards();
+  const deckCards = mode === 'all' ? allCards : allCards.filter(c => c.deck === mode);
+  const unseenCount = deckCards.filter(c => !c.srsData || !c.srsData.introducedDate).length;
+  const canStudyMore = mode !== 'favorites' && unseenCount > 0;
 
   if (isFinished || cardsToStudy.length === 0) {
     return (
@@ -76,13 +96,23 @@ const StudySession = ({ mode = 'all', onFinish }) => {
           >
             Zurück zur Übersicht
           </button>
+          {canStudyMore && (
+            <button 
+              onClick={() => {
+                increaseNewCardsLimit(mode, 20);
+              }}
+              className="w-full mt-3 bg-slate-700 hover:bg-slate-600 text-white font-bold py-3 px-4 rounded-xl transition-colors border border-slate-600 shadow-md animate-in fade-in slide-in-from-bottom-2 duration-300"
+            >
+              Weitere 20 neue Karten lernen
+            </button>
+          )}
         </div>
       </div>
     );
   }
 
   const currentCard = cardsToStudy[currentIndex];
-  const progress = ((currentIndex) / cardsToStudy.length) * 100;
+  const progress = initialTotalCards > 0 ? (completedCount / initialTotalCards) * 100 : 0;
 
   const getIntervalLabel = (quality) => {
     if (!currentCard) return '';
@@ -109,8 +139,8 @@ const StudySession = ({ mode = 'all', onFinish }) => {
             style={{ width: `${progress}%` }}
           />
         </div>
-        <span className="text-sm font-bold text-slate-400 w-12 text-right">
-          {currentIndex + 1} / {cardsToStudy.length}
+        <span className="text-sm font-bold text-slate-400 w-20 text-right">
+          {cardsToStudy.length - currentIndex} übrig
         </span>
       </div>
 

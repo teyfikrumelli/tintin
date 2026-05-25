@@ -6,11 +6,13 @@ import { isDue, isLearned, isLearning } from '../lib/srsUtils';
 
 const Dashboard = () => {
   const cards = useStore(state => state.getAllCards());
+  const getCardsDueToday = useStore(state => state.getCardsDueToday);
   const stats = useStore(state => state.stats);
   const resetProgress = useStore(state => state.resetProgress);
   const fileInputRef = useRef(null);
   
   const today = startOfDay(new Date());
+  const dueCards = getCardsDueToday();
 
   const handleExport = () => {
     const state = useStore.getState();
@@ -53,7 +55,7 @@ const Dashboard = () => {
   };
 
   const totalCards = cards.length;
-  const dueTodayCount = cards.filter(card => isDue(card, today)).length;
+  const dueTodayCount = dueCards.length;
   const learnedCardsCount = cards.filter(isLearned).length;
   const learningCardsCount = cards.filter(isLearning).length;
   const newCardsCount = totalCards - learnedCardsCount - learningCardsCount;
@@ -77,8 +79,6 @@ const Dashboard = () => {
     else if (isLearning(card)) acc[deckName].learning += 1;
     else acc[deckName].new += 1;
     
-    if (isDue(card, today)) acc[deckName].due += 1;
-    
     if (card.srsData && card.srsData.lastQuality) {
       const q = card.srsData.lastQuality;
       if (q === 1) acc[deckName].q1 += 1;
@@ -90,6 +90,11 @@ const Dashboard = () => {
     
     return acc;
   }, {});
+
+  // Populate due counts for each deck individually
+  Object.keys(deckStatsMap).forEach(deckName => {
+    deckStatsMap[deckName].due = getCardsDueToday(deckName).length;
+  });
 
   const deckStatsList = Object.values(deckStatsMap).sort((a, b) => a.name.localeCompare(b.name));
 

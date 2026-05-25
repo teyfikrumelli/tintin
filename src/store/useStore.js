@@ -31,6 +31,7 @@ export const useStore = create(
     (set, get) => ({
       srsDataMap: {}, // Maps card.id -> srsData
       favorites: [], // Array of favorite card IDs
+      newCardsLimitIncrements: {}, // Maps dateStr -> increment amount
       stats: {
         totalReviews: 0,
         cardsLearned: 0,
@@ -40,6 +41,24 @@ export const useStore = create(
           4: 0,
           5: 0
         }
+      },
+
+      increaseNewCardsLimit: (deckName, amount) => {
+        set((state) => {
+          const todayStr = startOfDay(new Date()).toISOString().split('T')[0];
+          const increments = state.newCardsLimitIncrements || {};
+          const dayIncrements = increments[todayStr] || {};
+          const currentVal = dayIncrements[deckName] || 0;
+          return {
+            newCardsLimitIncrements: {
+              ...increments,
+              [todayStr]: {
+                ...dayIncrements,
+                [deckName]: currentVal + amount
+              }
+            }
+          };
+        });
       },
 
       toggleFavorite: (cardId) => {
@@ -67,6 +86,7 @@ export const useStore = create(
           }
 
           const isNewlyLearned = currentSrs.repetition === 0 && repetition > 0;
+          const introducedDate = currentSrs.introducedDate || new Date().toISOString();
 
           return {
             srsDataMap: {
@@ -76,7 +96,8 @@ export const useStore = create(
                 repetition,
                 efactor,
                 nextReviewDate: nextReviewDate.toISOString(),
-                lastQuality: quality
+                lastQuality: quality,
+                introducedDate
               }
             },
             stats: {
@@ -92,18 +113,59 @@ export const useStore = create(
         });
       },
 
-      getCardsDueToday: () => {
+      getCardsDueToday: (deckName = 'all') => {
         const today = startOfDay(new Date());
+        const tomorrow = addDays(today, 1);
         
-        return cardsData.filter(card => {
-          const srs = get().srsDataMap[card.id];
-          if (!srs) return true; // new card without SRS data is due today
-          
-          const reviewDate = srs.nextReviewDate ? parseISO(srs.nextReviewDate) : new Date();
-          return isBefore(reviewDate, addDays(today, 1));
-        }).map(card => ({
+        const srsDataMap = get().srsDataMap;
+        
+        // Filter cards by deck if a specific deck is requested
+        const filteredCardsData = deckName && deckName !== 'all'
+          ? cardsData.filter(card => card.deck === deckName)
+          : cardsData;
+        
+        // Count how many new cards have been introduced today (for this deck/all)
+        let introducedTodayCount = 0;
+        filteredCardsData.forEach(card => {
+          const srs = srsDataMap[card.id];
+          if (srs && srs.introducedDate) {
+            const introDate = parseISO(srs.introducedDate);
+            if (isBefore(introDate, tomorrow) && !isBefore(introDate, today)) {
+              introducedTodayCount++;
+            }
+          }
+        });
+        
+        const todayStr = today.toISOString().split('T')[0];
+        const dayIncrements = get().newCardsLimitIncrements?.[todayStr] || {};
+        const increment = dayIncrements[deckName] || 0;
+        
+        const DAILY_NEW_LIMIT = 20 + increment;
+        const newBudget = Math.max(0, DAILY_NEW_LIMIT - introducedTodayCount);
+        
+        const reviewCardsDue = [];
+        const unseenCards = [];
+        
+        filteredCardsData.forEach(card => {
+          const srs = srsDataMap[card.id];
+          if (!srs || !srs.introducedDate) {
+            unseenCards.push(card);
+          } else {
+            const reviewDate = srs.nextReviewDate ? parseISO(srs.nextReviewDate) : new Date();
+            if (isBefore(reviewDate, tomorrow)) {
+              reviewCardsDue.push(card);
+            }
+          }
+        });
+        
+        const selectedNewCards = [...unseenCards]
+          .sort(() => Math.random() - 0.5)
+          .slice(0, newBudget);
+        const allDueCards = [...reviewCardsDue, ...selectedNewCards];
+        
+        return allDueCards.map(card => ({
           ...card,
-          srsData: get().srsDataMap[card.id] || { ...defaultSrs, nextReviewDate: new Date().toISOString() }
+          srsData: srsDataMap[card.id] || { ...defaultSrs, nextReviewDate: new Date().toISOString() }
         }));
       },
 
@@ -122,7 +184,8 @@ export const useStore = create(
             cardsLearned: 0,
             qualityDistribution: { 1: 0, 3: 0, 4: 0, 5: 0, 6: 0 }
           },
-          favorites: []
+          favorites: [],
+          newCardsLimitIncrements: {}
         });
       },
 
@@ -131,7 +194,8 @@ export const useStore = create(
         set((state) => ({
           srsDataMap: importedData.srsDataMap || state.srsDataMap,
           stats: importedData.stats || state.stats,
-          favorites: importedData.favorites || state.favorites
+          favorites: importedData.favorites || state.favorites,
+          newCardsLimitIncrements: importedData.newCardsLimitIncrements || state.newCardsLimitIncrements || {}
         }));
       }
     }),
@@ -140,7 +204,8 @@ export const useStore = create(
       partialize: (state) => ({ 
         srsDataMap: state.srsDataMap, 
         stats: state.stats,
-        favorites: state.favorites
+        favorites: state.favorites,
+        newCardsLimitIncrements: state.newCardsLimitIncrements
       }),
     }
   )
