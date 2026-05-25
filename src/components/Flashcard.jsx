@@ -19,7 +19,7 @@ const Flashcard = ({ card, isFlipped, setIsFlipped }) => {
       >
         {/* Front (German) */}
         <div className="absolute w-full h-full backface-hidden bg-slate-800 border-2 border-slate-700 rounded-3xl shadow-xl flex flex-col p-6 overflow-y-auto overflow-x-hidden scrollbar-hide">
-          <div className="absolute top-4 right-4 z-10">
+          <div className={`absolute top-4 right-4 z-10 transition-all duration-200 ${isFlipped ? 'opacity-0 invisible pointer-events-none' : 'opacity-100'}`}>
             <button
                  className={`transition-colors p-2 bg-slate-800/80 rounded-full backdrop-blur ${isFavorite ? 'text-red-500 hover:text-red-400' : 'text-slate-500 hover:text-red-400'}`}
                  onClick={(e) => {
@@ -30,7 +30,7 @@ const Flashcard = ({ card, isFlipped, setIsFlipped }) => {
               <Heart size={24} fill={isFavorite ? 'currentColor' : 'none'} />
             </button>
           </div>
-          <div className="absolute top-4 left-4 z-10">
+          <div className={`absolute top-4 left-4 z-10 transition-all duration-200 ${isFlipped ? 'opacity-0 invisible pointer-events-none' : 'opacity-100'}`}>
             <button
                  className="text-slate-500 hover:text-indigo-400 transition-colors p-2 bg-slate-800/80 rounded-full backdrop-blur"
                  onClick={(e) => {
@@ -56,7 +56,7 @@ const Flashcard = ({ card, isFlipped, setIsFlipped }) => {
 
         {/* Back (Turkish) */}
         <div className="absolute w-full h-full backface-hidden bg-gradient-to-br from-indigo-900 to-slate-800 border-2 border-indigo-500/50 rounded-3xl shadow-xl flex flex-col p-6 rotate-y-180 overflow-y-auto overflow-x-hidden scrollbar-hide">
-          <div className="absolute top-4 right-4 z-10">
+          <div className={`absolute top-4 right-4 z-10 transition-all duration-200 ${!isFlipped ? 'opacity-0 invisible pointer-events-none' : 'opacity-100'}`}>
             <button
                  className={`transition-colors p-2 bg-slate-900/50 rounded-full backdrop-blur border border-slate-700/50 ${isFavorite ? 'text-red-500 hover:text-red-400' : 'text-slate-400 hover:text-red-400'}`}
                  onClick={(e) => {
@@ -67,7 +67,7 @@ const Flashcard = ({ card, isFlipped, setIsFlipped }) => {
               <Heart size={24} fill={isFavorite ? 'currentColor' : 'none'} />
             </button>
           </div>
-          <div className="absolute top-4 left-4 z-10">
+          <div className={`absolute top-4 left-4 z-10 transition-all duration-200 ${!isFlipped ? 'opacity-0 invisible pointer-events-none' : 'opacity-100'}`}>
             <button
                  className="text-slate-400 hover:text-indigo-300 transition-colors p-2 bg-slate-900/50 rounded-full backdrop-blur border border-slate-700/50"
                  onClick={(e) => {

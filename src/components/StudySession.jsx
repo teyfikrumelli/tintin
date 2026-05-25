@@ -8,7 +8,6 @@ import { calculateSM2 } from '../lib/sm2';
 const StudySession = ({ mode = 'all', onFinish }) => {
   const getCardsDueToday = useStore(state => state.getCardsDueToday);
   const getAllCards = useStore(state => state.getAllCards);
-  const favorites = useStore(state => state.favorites);
   const reviewCard = useStore(state => state.reviewCard);
   
   const [cardsToStudy, setCardsToStudy] = useState([]);
@@ -30,7 +29,8 @@ const StudySession = ({ mode = 'all', onFinish }) => {
   useEffect(() => {
     let cards = [];
     if (mode === 'favorites') {
-      cards = getAllCards().filter(card => favorites.includes(card.id));
+      const currentFavorites = useStore.getState().favorites;
+      cards = getAllCards().filter(card => currentFavorites.includes(card.id));
     } else if (mode === 'all') {
       cards = getCardsDueToday();
     } else {
@@ -39,7 +39,7 @@ const StudySession = ({ mode = 'all', onFinish }) => {
       cards = dueToday.filter(card => card.deck === mode);
     }
     setCardsToStudy(shuffleArray(cards));
-  }, [mode, getCardsDueToday, getAllCards, favorites]);
+  }, [mode, getCardsDueToday, getAllCards]);
 
   const handleReview = (quality) => {
     setClickedButton(quality);
