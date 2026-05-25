@@ -279,11 +279,11 @@ const CustomCardManager = () => {
               </div>
               
               {customDecks.length > 0 && (
-                <div className="flex gap-2">
+                <div className="flex gap-2 w-full sm:w-auto">
                   <select
                     value={deckFilter}
                     onChange={(e) => setDeckFilter(e.target.value)}
-                    className="bg-slate-900 border border-slate-700 text-white text-xs rounded-xl p-2.5 outline-none focus:border-indigo-500 transition-colors shrink-0 w-full sm:w-44"
+                    className="bg-slate-900 border border-slate-700 text-white text-xs rounded-xl p-2.5 outline-none focus:border-indigo-500 transition-colors flex-1 min-w-0 sm:flex-none sm:w-44"
                   >
                     <option value="all">Alle Stapel ({customCards.length})</option>
                     {customDecks.map(deck => {
@@ -297,10 +297,11 @@ const CustomCardManager = () => {
                   {deckFilter !== 'all' && (
                     <button
                       onClick={() => deleteDeckCards(deckFilter)}
-                      className="px-3 bg-red-500/10 hover:bg-red-500/20 text-red-400 border border-red-500/20 text-xs font-semibold rounded-xl transition-colors shrink-0"
+                      className="p-2.5 bg-red-500/10 hover:bg-red-500/20 text-red-400 border border-red-500/20 rounded-xl transition-colors shrink-0 flex items-center justify-center gap-1.5"
                       title="Alle Karten im Stapel löschen"
                     >
-                      Stapel löschen
+                      <Trash2 size={14} />
+                      <span className="hidden sm:inline text-xs font-semibold">Stapel löschen</span>
                     </button>
                   )}
                 </div>
