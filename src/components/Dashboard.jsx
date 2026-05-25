@@ -23,7 +23,10 @@ const Dashboard = () => {
     const exportData = {
       srsDataMap: state.srsDataMap,
       stats: state.stats,
-      favorites: state.favorites
+      favorites: state.favorites,
+      customCards: state.customCards || [],
+      newCardsLimitIncrements: state.newCardsLimitIncrements || {},
+      dailyNewLimit: state.dailyNewLimit || 20
     };
     const blob = new Blob([JSON.stringify(exportData, null, 2)], { type: 'application/json' });
     const url = URL.createObjectURL(blob);
