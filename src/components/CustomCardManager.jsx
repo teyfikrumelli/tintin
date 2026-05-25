@@ -1,10 +1,75 @@
-import React, { useState, useMemo } from 'react';
+import React, { useState, useMemo, useRef } from 'react';
 import { useStore } from '../store/useStore';
-import { PlusCircle, Search, Trash2, Tag, Layers, AlignLeft, Check } from 'lucide-react';
+import { PlusCircle, Search, Trash2, Tag, Layers, AlignLeft, Check, Upload, HelpCircle, FileSpreadsheet } from 'lucide-react';
+
+const parseCSV = (text) => {
+  const lines = text.split(/\r?\n/).filter(line => line.trim() !== '');
+  if (lines.length === 0) return [];
+  
+  const firstLine = lines[0];
+  const commaCount = (firstLine.match(/,/g) || []).length;
+  const semicolonCount = (firstLine.match(/;/g) || []).length;
+  const sep = semicolonCount >= commaCount ? ';' : ',';
+  
+  const parseRow = (rowText) => {
+    const result = [];
+    let current = '';
+    let inQuotes = false;
+    for (let i = 0; i < rowText.length; i++) {
+      const char = rowText[i];
+      if (char === '"') {
+        inQuotes = !inQuotes;
+      } else if (char === sep && !inQuotes) {
+        result.push(current.trim());
+        current = '';
+      } else {
+        current += char;
+      }
+    }
+    result.push(current.trim());
+    return result.map(val => val.replace(/^"|"$/g, '').trim());
+  };
+
+  const headers = parseRow(lines[0]).map(h => h.toLowerCase());
+  
+  const getHeaderIndex = (aliases) => {
+    return headers.findIndex(h => aliases.includes(h));
+  };
+
+  const idxGerman = getHeaderIndex(['german', 'deutsch', 'de', 'word', 'wort']);
+  const idxTurkish = getHeaderIndex(['turkish', 'türkisch', 'tr', 'translation', 'türkçe', 'anlam']);
+  const idxType = getHeaderIndex(['type', 'typ', 'tür', 'türü']);
+  const idxGermanExample = getHeaderIndex(['germanexample', 'german_example', 'de_example', 'beispiel', 'example_de', 'örnek']);
+  const idxTurkishExample = getHeaderIndex(['turkishexample', 'turkish_example', 'tr_example', 'example_tr', 'örnek_çeviri', 'anlam_örnek']);
+
+  if (idxGerman === -1 || idxTurkish === -1) {
+    throw new Error('CSV-Datei muss mindestens die Spalten "german" (deutsch) und "turkish" (türkçe) enthalten.');
+  }
+
+  const parsedCards = [];
+  for (let i = 1; i < lines.length; i++) {
+    const row = parseRow(lines[i]);
+    if (row.length < 2) continue;
+    
+    const german = row[idxGerman];
+    const turkish = row[idxTurkish];
+    if (!german || !turkish) continue;
+
+    parsedCards.push({
+      german,
+      turkish,
+      type: idxType !== -1 && row[idxType] ? row[idxType] : 'Nomen',
+      germanExample: idxGermanExample !== -1 && row[idxGermanExample] ? row[idxGermanExample] : '',
+      turkishExample: idxTurkishExample !== -1 && row[idxTurkishExample] ? row[idxTurkishExample] : ''
+    });
+  }
+  return parsedCards;
+};
 
 const CustomCardManager = () => {
   const customCards = useStore(state => state.customCards || []);
   const addCustomCard = useStore(state => state.addCustomCard);
+  const addCustomCards = useStore(state => state.addCustomCards);
   const deleteCustomCard = useStore(state => state.deleteCustomCard);
 
   const allCards = useStore(state => state.getAllCards());
@@ -37,6 +102,54 @@ const CustomCardManager = () => {
   const [searchQuery, setSearchQuery] = useState('');
   const [deckFilter, setDeckFilter] = useState('all');
   const [showSuccessToast, setShowSuccessToast] = useState(false);
+
+  // CSV Import States
+  const csvInputRef = useRef(null);
+  const [csvSelectedDeck, setCsvSelectedDeck] = useState('Eigene Karten');
+  const [csvCustomDeckName, setCsvCustomDeckName] = useState('');
+  const [isCsvNewDeck, setIsCsvNewDeck] = useState(false);
+  const [showCsvFormatHelp, setShowCsvFormatHelp] = useState(false);
+
+  const handleCsvImport = (event) => {
+    const file = event.target.files[0];
+    if (!file) return;
+
+    const finalDeckName = isCsvNewDeck ? csvCustomDeckName.trim() : csvSelectedDeck;
+    if (isCsvNewDeck && !finalDeckName) {
+      alert('Bitte geben Sie einen Namen für das neue Deck an.');
+      return;
+    }
+
+    const reader = new FileReader();
+    reader.onload = (e) => {
+      try {
+        const text = e.target.result;
+        const parsedData = parseCSV(text);
+        if (parsedData.length === 0) {
+          alert('Keine gültigen Karteikarten in der CSV-Datei gefunden.');
+          return;
+        }
+
+        const cardsWithDeck = parsedData.map(c => ({
+          ...c,
+          deck: finalDeckName || 'Eigene Karten'
+        }));
+
+        addCustomCards(cardsWithDeck);
+        alert(`${cardsWithDeck.length} Karteikarten erfolgreich importiert!`);
+        
+        if (isCsvNewDeck) {
+          setCsvSelectedDeck(finalDeckName);
+          setIsCsvNewDeck(false);
+          setCsvCustomDeckName('');
+        }
+      } catch (error) {
+        alert('Fehler beim Importieren: ' + error.message);
+      }
+    };
+    reader.readAsText(file);
+    event.target.value = '';
+  };
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -134,47 +247,151 @@ const CustomCardManager = () => {
 
       {/* Two Column Layout */}
       <div className="grid grid-cols-1 lg:grid-cols-12 gap-6 items-start">
-        {/* Left Column: Form */}
-        <div className="lg:col-span-5 bg-slate-800/80 backdrop-blur border border-slate-700/50 p-6 rounded-2xl flex flex-col gap-4">
-          <h3 className="text-lg font-bold text-white flex items-center gap-2 pb-2 border-b border-slate-700/50">
-            Neue Karte erstellen
-          </h3>
-          <form onSubmit={handleSubmit} className="flex flex-col gap-4">
-            <div className="flex flex-col gap-1.5">
-              <label className="text-xs font-medium text-slate-400 flex items-center gap-1">
-                <Tag size={12} className="text-indigo-400" />
-                Worttyp
-              </label>
-              <select
-                value={newType}
-                onChange={(e) => setNewType(e.target.value)}
-                className="bg-slate-900 border border-slate-700 text-white text-sm rounded-xl p-2.5 outline-none focus:border-indigo-500 transition-colors"
-              >
-                <option value="Nomen">Nomen</option>
-                <option value="Verb">Verb</option>
-                <option value="Adjektiv">Adjektiv</option>
-                <option value="Adverb">Adverb</option>
-                <option value="Phrase">Phrase</option>
-                <option value="Präposition">Präposition</option>
-                <option value="Konjunktion">Konjunktion</option>
-                <option value="Sonstiges">Sonstiges</option>
-              </select>
-            </div>
+        {/* Left Column: Forms */}
+        <div className="lg:col-span-5 flex flex-col gap-6">
+          {/* Card 1: Neue Karte erstellen */}
+          <div className="bg-slate-800/80 backdrop-blur border border-slate-700/50 p-6 rounded-2xl flex flex-col gap-4">
+            <h3 className="text-lg font-bold text-white flex items-center gap-2 pb-2 border-b border-slate-700/50">
+              <PlusCircle size={18} className="text-indigo-400" />
+              Neue Karte erstellen
+            </h3>
+            <form onSubmit={handleSubmit} className="flex flex-col gap-4">
+              <div className="flex flex-col gap-1.5">
+                <label className="text-xs font-medium text-slate-400 flex items-center gap-1">
+                  <Tag size={12} className="text-indigo-400" />
+                  Worttyp
+                </label>
+                <select
+                  value={newType}
+                  onChange={(e) => setNewType(e.target.value)}
+                  className="bg-slate-900 border border-slate-700 text-white text-sm rounded-xl p-2.5 outline-none focus:border-indigo-500 transition-colors"
+                >
+                  <option value="Nomen">Nomen</option>
+                  <option value="Verb">Verb</option>
+                  <option value="Adjektiv">Adjektiv</option>
+                  <option value="Adverb">Adverb</option>
+                  <option value="Phrase">Phrase</option>
+                  <option value="Präposition">Präposition</option>
+                  <option value="Konjunktion">Konjunktion</option>
+                  <option value="Sonstiges">Sonstiges</option>
+                </select>
+              </div>
 
+              <div className="flex flex-col gap-1.5">
+                <label className="text-xs font-medium text-slate-400 flex items-center gap-1">
+                  <Layers size={12} className="text-indigo-400" />
+                  Stapel auswählen oder erstellen *
+                </label>
+                <select
+                  value={isNewDeck ? "__new__" : selectedDeck}
+                  onChange={(e) => {
+                    const val = e.target.value;
+                    if (val === "__new__") {
+                      setIsNewDeck(true);
+                    } else {
+                      setIsNewDeck(false);
+                      setSelectedDeck(val);
+                    }
+                  }}
+                  className="bg-slate-900 border border-slate-700 text-white text-sm rounded-xl p-2.5 outline-none focus:border-indigo-500 transition-colors"
+                >
+                  {existingDecks.map(deck => (
+                    <option key={deck} value={deck}>{deck}</option>
+                  ))}
+                  <option value="__new__">+ Neuen Stapel erstellen...</option>
+                </select>
+                
+                {isNewDeck && (
+                  <input
+                    type="text"
+                    value={customDeckName}
+                    onChange={(e) => setCustomDeckName(e.target.value)}
+                    placeholder="Stapelname eingeben..."
+                    className="bg-slate-900 border border-slate-700 text-white text-sm rounded-xl p-2.5 outline-none focus:border-indigo-500 transition-colors mt-2 animate-in slide-in-from-top-2 duration-200"
+                    required
+                  />
+                )}
+              </div>
+
+              <div className="flex flex-col gap-1.5">
+                <label className="text-xs font-medium text-slate-400">Deutsch *</label>
+                <input
+                  type="text"
+                  value={newGerman}
+                  onChange={(e) => setNewGerman(e.target.value)}
+                  placeholder="z.B. das Buch"
+                  className="bg-slate-900 border border-slate-700 text-white text-sm rounded-xl p-2.5 outline-none focus:border-indigo-500 transition-colors"
+                  required
+                />
+              </div>
+
+              <div className="flex flex-col gap-1.5">
+                <label className="text-xs font-medium text-slate-400">Türkische Übersetzung *</label>
+                <input
+                  type="text"
+                  value={newTurkish}
+                  onChange={(e) => setNewTurkish(e.target.value)}
+                  placeholder="z.B. kitap"
+                  className="bg-slate-900 border border-slate-700 text-white text-sm rounded-xl p-2.5 outline-none focus:border-indigo-500 transition-colors"
+                  required
+                />
+              </div>
+
+              <div className="flex flex-col gap-1.5">
+                <label className="text-xs font-medium text-slate-400 flex items-center gap-1">
+                  <AlignLeft size={12} className="text-indigo-400" />
+                  Deutsches Beispielsatz (optional)
+                </label>
+                <textarea
+                  value={newGermanExample}
+                  onChange={(e) => setNewGermanExample(e.target.value)}
+                  placeholder="z.B. Ich lese ein interessantes Buch."
+                  rows="2"
+                  className="bg-slate-900 border border-slate-700 text-white text-sm rounded-xl p-2.5 outline-none resize-none focus:border-indigo-500 transition-colors"
+                />
+              </div>
+
+              <div className="flex flex-col gap-1.5">
+                <label className="text-xs font-medium text-slate-400">Türkische Übersetzung des Beispiels (optional)</label>
+                <textarea
+                  value={newTurkishExample}
+                  onChange={(e) => setNewTurkishExample(e.target.value)}
+                  placeholder="z.B. İlginç bir kitap okuyorum."
+                  rows="2"
+                  className="bg-slate-900 border border-slate-700 text-white text-sm rounded-xl p-2.5 outline-none resize-none focus:border-indigo-500 transition-colors"
+                />
+              </div>
+
+              <button
+                type="submit"
+                className="mt-2 w-full bg-indigo-500 hover:bg-indigo-600 text-white font-bold py-3 rounded-xl transition-colors shadow-lg shadow-indigo-500/25"
+              >
+                Karte speichern
+              </button>
+            </form>
+          </div>
+
+          {/* Card 2: CSV-Import */}
+          <div className="bg-slate-800/80 backdrop-blur border border-slate-700/50 p-6 rounded-2xl flex flex-col gap-4">
+            <h3 className="text-lg font-bold text-white flex items-center gap-2 pb-2 border-b border-slate-700/50">
+              <Upload size={18} className="text-indigo-400" />
+              CSV-Import
+            </h3>
+            
             <div className="flex flex-col gap-1.5">
               <label className="text-xs font-medium text-slate-400 flex items-center gap-1">
                 <Layers size={12} className="text-indigo-400" />
-                Stapel auswählen oder erstellen *
+                Stapel für Import auswählen *
               </label>
               <select
-                value={isNewDeck ? "__new__" : selectedDeck}
+                value={isCsvNewDeck ? "__new__" : csvSelectedDeck}
                 onChange={(e) => {
                   const val = e.target.value;
                   if (val === "__new__") {
-                    setIsNewDeck(true);
+                    setIsCsvNewDeck(true);
                   } else {
-                    setIsNewDeck(false);
-                    setSelectedDeck(val);
+                    setIsCsvNewDeck(false);
+                    setCsvSelectedDeck(val);
                   }
                 }}
                 className="bg-slate-900 border border-slate-700 text-white text-sm rounded-xl p-2.5 outline-none focus:border-indigo-500 transition-colors"
@@ -185,11 +402,11 @@ const CustomCardManager = () => {
                 <option value="__new__">+ Neuen Stapel erstellen...</option>
               </select>
               
-              {isNewDeck && (
+              {isCsvNewDeck && (
                 <input
                   type="text"
-                  value={customDeckName}
-                  onChange={(e) => setCustomDeckName(e.target.value)}
+                  value={csvCustomDeckName}
+                  onChange={(e) => setCsvCustomDeckName(e.target.value)}
                   placeholder="Stapelname eingeben..."
                   className="bg-slate-900 border border-slate-700 text-white text-sm rounded-xl p-2.5 outline-none focus:border-indigo-500 transition-colors mt-2 animate-in slide-in-from-top-2 duration-200"
                   required
@@ -197,62 +414,56 @@ const CustomCardManager = () => {
               )}
             </div>
 
-            <div className="flex flex-col gap-1.5">
-              <label className="text-xs font-medium text-slate-400">Deutsch *</label>
+            <div className="flex flex-col gap-2 mt-2">
               <input
-                type="text"
-                value={newGerman}
-                onChange={(e) => setNewGerman(e.target.value)}
-                placeholder="z.B. das Buch"
-                className="bg-slate-900 border border-slate-700 text-white text-sm rounded-xl p-2.5 outline-none focus:border-indigo-500 transition-colors"
-                required
+                type="file"
+                ref={csvInputRef}
+                onChange={handleCsvImport}
+                accept=".csv"
+                className="hidden"
               />
-            </div>
-
-            <div className="flex flex-col gap-1.5">
-              <label className="text-xs font-medium text-slate-400">Türkische Übersetzung *</label>
-              <input
-                type="text"
-                value={newTurkish}
-                onChange={(e) => setNewTurkish(e.target.value)}
-                placeholder="z.B. kitap"
-                className="bg-slate-900 border border-slate-700 text-white text-sm rounded-xl p-2.5 outline-none focus:border-indigo-500 transition-colors"
-                required
-              />
-            </div>
-
-            <div className="flex flex-col gap-1.5">
-              <label className="text-xs font-medium text-slate-400 flex items-center gap-1">
-                <AlignLeft size={12} className="text-indigo-400" />
-                Deutsches Beispielsatz (optional)
-              </label>
-              <textarea
-                value={newGermanExample}
-                onChange={(e) => setNewGermanExample(e.target.value)}
-                placeholder="z.B. Ich lese ein interessantes Buch."
-                rows="2"
-                className="bg-slate-900 border border-slate-700 text-white text-sm rounded-xl p-2.5 outline-none resize-none focus:border-indigo-500 transition-colors"
-              />
-            </div>
-
-            <div className="flex flex-col gap-1.5">
-              <label className="text-xs font-medium text-slate-400">Türkische Übersetzung des Beispiels (optional)</label>
-              <textarea
-                value={newTurkishExample}
-                onChange={(e) => setNewTurkishExample(e.target.value)}
-                placeholder="z.B. İlginç bir kitap okuyorum."
-                rows="2"
-                className="bg-slate-900 border border-slate-700 text-white text-sm rounded-xl p-2.5 outline-none resize-none focus:border-indigo-500 transition-colors"
-              />
+              <button
+                type="button"
+                onClick={() => csvInputRef.current?.click()}
+                className="w-full bg-indigo-500 hover:bg-indigo-600 text-white font-bold py-3 px-4 rounded-xl transition-colors shadow-lg shadow-indigo-500/25 flex items-center justify-center gap-2"
+              >
+                <FileSpreadsheet size={18} />
+                CSV-Datei auswählen
+              </button>
             </div>
 
             <button
-              type="submit"
-              className="mt-2 w-full bg-indigo-500 hover:bg-indigo-600 text-white font-bold py-3 rounded-xl transition-colors shadow-lg shadow-indigo-500/25"
+              type="button"
+              onClick={() => setShowCsvFormatHelp(!showCsvFormatHelp)}
+              className="text-xs text-indigo-400 hover:text-indigo-300 font-medium flex items-center justify-center gap-1 mt-1 transition-colors self-center"
             >
-              Karte speichern
+              <HelpCircle size={14} />
+              {showCsvFormatHelp ? 'Format-Hilfe ausblenden' : 'Format-Hilfe anzeigen'}
             </button>
-          </form>
+
+            {showCsvFormatHelp && (
+              <div className="bg-slate-900/50 border border-slate-700/50 rounded-xl p-4 text-xs text-slate-300 flex flex-col gap-2.5 animate-in slide-in-from-top-2 duration-200">
+                <p className="font-semibold text-white text-xs">Anforderungen an die CSV-Datei:</p>
+                <ul className="list-disc pl-4 space-y-1 text-slate-400 text-[11px]">
+                  <li>Trennzeichen: Komma (<code>,</code>) oder Semikolon (<code>;</code>)</li>
+                  <li>Kopfzeile (Spaltenüberschriften) ist erforderlich.</li>
+                  <li>Pflichtspalten: <strong>german</strong> (Deutsch) und <strong>turkish</strong> (Türkisch).</li>
+                  <li>Optionale Spalten: <strong>type</strong> (Typ), <strong>germanExample</strong> (deutsches Beispiel), <strong>turkishExample</strong> (türkisches Beispiel).</li>
+                </ul>
+                <div>
+                  <p className="font-semibold text-white mb-1 text-[11px]">Beispiel-Format (mit Komma):</p>
+                  <pre className="bg-slate-950 p-2.5 rounded-lg border border-slate-800 text-slate-400 overflow-x-auto text-[10px] leading-relaxed font-mono">
+{`german,turkish,type,germanExample,turkishExample
+der Tisch,masa,Nomen,Der Tisch ist groß.,Masa büyüktür.
+gehen,gitmek,Verb,Ich gehe nach Hause.,Eve gidiyorum.`}
+                  </pre>
+                </div>
+                <div className="text-[10px] text-slate-500">
+                  Alternative Spaltennamen wie <code>deutsch</code>/<code>de</code> oder <code>türkçe</code>/<code>tr</code> werden ebenfalls unterstützt.
+                </div>
+              </div>
+            )}
+          </div>
         </div>
 
         {/* Right Column: Searchable List */}

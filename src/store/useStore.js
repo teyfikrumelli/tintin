@@ -81,6 +81,24 @@ export const useStore = create(
         });
       },
 
+      addCustomCards: (cardsList) => {
+        set((state) => {
+          const newCards = cardsList.map((cardData, idx) => ({
+            id: `custom_${Date.now()}_${Math.random().toString(36).substr(2, 9)}_${idx}`,
+            deck: cardData.deck || 'Eigene Karten',
+            deckId: (cardData.deck || 'Eigene Karten').toLowerCase().replace(/[^a-z0-9]+/g, '-'),
+            type: cardData.type || 'Nomen',
+            german: cardData.german,
+            turkish: cardData.turkish,
+            germanExample: cardData.germanExample || '',
+            turkishExample: cardData.turkishExample || ''
+          }));
+          return {
+            customCards: [...(state.customCards || []), ...newCards]
+          };
+        });
+      },
+
       deleteCustomCard: (cardId) => {
         set((state) => {
           const updatedCustomCards = (state.customCards || []).filter(c => c.id !== cardId);

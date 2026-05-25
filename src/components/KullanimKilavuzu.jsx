@@ -1,5 +1,5 @@
 import React from 'react';
-import { HelpCircle, Brain, Calendar, Sparkles, AlertCircle, Play } from 'lucide-react';
+import { HelpCircle, Brain, Calendar, Sparkles, AlertCircle, Play, FileSpreadsheet } from 'lucide-react';
 
 const KullanimKilavuzu = () => {
   return (
@@ -131,6 +131,52 @@ const KullanimKilavuzu = () => {
           Kitap okurken, film izlerken veya ders çalışırken karşılaştığınız yeni Almanca kelimeleri uygulamaya ekleyebilirsiniz. 
           Bunun için üst menüdeki <strong>Editor</strong> sayfasına gidin. Sol taraftaki formu doldurarak kelimeleri ve örnek cümleleri kaydedebilir, sağ taraftaki panelden ise oluşturduğunuz tüm kartları arayabilir, destelere göre filtreleyebilir veya silebilirsiniz. Oluşturduğunuz desteler ana sayfada ayrı birer deste olarak görünür ve spaced repetition algoritmasına dahil edilir.
         </p>
+      </div>
+
+      {/* CSV Import Guide */}
+      <div className="bg-slate-800/50 backdrop-blur border border-slate-700/50 p-6 rounded-2xl flex flex-col gap-4">
+        <h3 className="text-lg font-bold text-white flex items-center gap-2">
+          <FileSpreadsheet className="text-indigo-400" size={20} />
+          CSV Dosyasından Toplu Kart Yükleme (CSV-Import)
+        </h3>
+        <p className="text-slate-300 text-sm leading-relaxed">
+          Kelimeleri tek tek eklemek yerine, Excel veya herhangi bir metin editöründe hazırladığınız <code>.csv</code> uzantılı dosyaları kullanarak toplu olarak uygulamaya yükleyebilirsiniz.
+        </p>
+        <div className="text-slate-300 text-sm space-y-3 leading-relaxed">
+          <p className="font-semibold text-white text-xs">Nasıl Yapılır?</p>
+          <ol className="list-decimal pl-5 space-y-1.5 text-xs text-slate-400">
+            <li><strong>Editor</strong> sayfasındaki sol alt köşede yer alan <strong>CSV-Import</strong> paneline gidin.</li>
+            <li>Kelimelerin ekleneceği desteyi seçin veya yeni bir deste ismi girin.</li>
+            <li><strong>"CSV-Datei auswählen"</strong> butonuna tıklayarak bilgisayarınızdaki <code>.csv</code> dosyasını seçin.</li>
+            <li>Kartlar otomatik olarak ayrıştırılacak ve destenize eklenecektir.</li>
+          </ol>
+
+          <p className="font-semibold text-white pt-2 text-xs">CSV Dosya Formatı Kuralları:</p>
+          <ul className="list-disc pl-5 space-y-2 text-xs text-slate-400">
+            <li>
+              <strong>Trennzeichen (Ayraç):</strong> Virgül (<code>,</code>) veya Noktalı Virgül (<code>;</code>) ayraç olarak kullanılabilir. Sistem ayırıcıyı otomatik olarak algılar.
+            </li>
+            <li>
+              <strong>Kolon Başlıkları (Headers):</strong> Dosyanın ilk satırında mutlaka başlıklar yer almalıdır.
+            </li>
+            <li>
+              <strong>Zorunlu Başlıklar:</strong> Almanca kelime için <code>german</code> (veya <code>deutsch</code>, <code>de</code>) ve Türkçe anlamı için <code>turkish</code> (veya <code>türkçe</code>, <code>tr</code>) olmalıdır.
+            </li>
+            <li>
+              <strong>İsteğe Bağlı Başlıklar:</strong> Kelime türü için <code>type</code>, Almanca örnek cümle için <code>germanExample</code> ve Türkçe örnek çevirisi için <code>turkishExample</code> ekleyebilirsiniz.
+            </li>
+          </ul>
+
+          <div className="mt-3">
+            <p className="font-semibold text-white text-xs mb-1">Örnek Excel / CSV Yapısı:</p>
+            <pre className="bg-slate-950 p-3 rounded-xl border border-slate-800 text-slate-400 overflow-x-auto text-[10px] leading-relaxed font-mono">
+{`german,turkish,type,germanExample,turkishExample
+das Auto,araba,Nomen,Mein Auto ist rot.,Arabam kırmızıdır.
+schreiben,yazmak,Verb,Er schreibt einen Brief.,O bir mektup yazıyor.
+schnell,hızlı,Adjektiv,Das Auto fährt schnell.,Araba hızlı gidiyor.`}
+            </pre>
+          </div>
+        </div>
       </div>
     </div>
   );
