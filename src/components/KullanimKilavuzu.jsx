@@ -3,7 +3,7 @@ import { HelpCircle, Brain, Calendar, Sparkles, AlertCircle, Play, FileSpreadshe
 
 const KullanimKilavuzu = () => {
   return (
-    <div className="flex flex-col gap-6 animate-in fade-in slide-in-from-bottom-4 duration-500 max-w-3xl mx-auto">
+    <div className="flex flex-col gap-6 animate-in fade-in slide-in-from-bottom-4 duration-500 max-w-3xl mx-auto w-full min-w-0">
       {/* Header */}
       <div className="bg-slate-800/80 backdrop-blur border border-slate-700/50 p-6 rounded-3xl flex flex-col gap-2 relative overflow-hidden">
         <div className="absolute -right-12 -top-12 w-48 h-48 bg-indigo-500/10 rounded-full blur-3xl"></div>
@@ -134,7 +134,7 @@ const KullanimKilavuzu = () => {
       </div>
 
       {/* CSV Import Guide */}
-      <div className="bg-slate-800/50 backdrop-blur border border-slate-700/50 p-6 rounded-2xl flex flex-col gap-4">
+      <div className="bg-slate-800/50 backdrop-blur border border-slate-700/50 p-6 rounded-2xl flex flex-col gap-4 min-w-0 w-full overflow-hidden">
         <h3 className="text-lg font-bold text-white flex items-center gap-2">
           <FileSpreadsheet className="text-indigo-400" size={20} />
           CSV Dosyasından Toplu Kart Yükleme (CSV-Import)
@@ -167,9 +167,9 @@ const KullanimKilavuzu = () => {
             </li>
           </ul>
 
-          <div className="mt-3">
+          <div className="mt-3 min-w-0 w-full">
             <p className="font-semibold text-white text-xs mb-1">Örnek Excel / CSV Yapısı:</p>
-            <pre className="bg-slate-950 p-3 rounded-xl border border-slate-800 text-slate-400 overflow-x-auto text-[10px] leading-relaxed font-mono">
+            <pre className="bg-slate-950 p-3 rounded-xl border border-slate-800 text-slate-400 overflow-x-auto text-[10px] leading-relaxed font-mono w-full block max-w-full min-w-0">
 {`german,turkish,type,germanExample,turkishExample
 das Auto,araba,Nomen,Mein Auto ist rot.,Arabam kırmızıdır.
 schreiben,yazmak,Verb,Er schreibt einen Brief.,O bir mektup yazıyor.

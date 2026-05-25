@@ -372,7 +372,7 @@ const CustomCardManager = () => {
           </div>
 
           {/* Card 2: CSV-Import */}
-          <div className="bg-slate-800/80 backdrop-blur border border-slate-700/50 p-6 rounded-2xl flex flex-col gap-4">
+          <div className="bg-slate-800/80 backdrop-blur border border-slate-700/50 p-6 rounded-2xl flex flex-col gap-4 min-w-0 w-full overflow-hidden">
             <h3 className="text-lg font-bold text-white flex items-center gap-2 pb-2 border-b border-slate-700/50">
               <Upload size={18} className="text-indigo-400" />
               CSV-Import
@@ -450,9 +450,9 @@ const CustomCardManager = () => {
                   <li>Pflichtspalten: <strong>german</strong> (Deutsch) und <strong>turkish</strong> (Türkisch).</li>
                   <li>Optionale Spalten: <strong>type</strong> (Typ), <strong>germanExample</strong> (deutsches Beispiel), <strong>turkishExample</strong> (türkisches Beispiel).</li>
                 </ul>
-                <div>
+                <div className="min-w-0 w-full">
                   <p className="font-semibold text-white mb-1 text-[11px]">Beispiel-Format (mit Komma):</p>
-                  <pre className="bg-slate-950 p-2.5 rounded-lg border border-slate-800 text-slate-400 overflow-x-auto text-[10px] leading-relaxed font-mono">
+                  <pre className="bg-slate-950 p-2.5 rounded-lg border border-slate-800 text-slate-400 overflow-x-auto text-[10px] leading-relaxed font-mono w-full block max-w-full min-w-0">
 {`german,turkish,type,germanExample,turkishExample
 der Tisch,masa,Nomen,Der Tisch ist groß.,Masa büyüktür.
 gehen,gitmek,Verb,Ich gehe nach Hause.,Eve gidiyorum.`}
