@@ -19,7 +19,18 @@ const Flashcard = ({ card, isFlipped, setIsFlipped }) => {
       >
         {/* Front (German) */}
         <div className="absolute w-full h-full backface-hidden bg-slate-800 border-2 border-slate-700 rounded-3xl shadow-xl flex flex-col p-6 overflow-y-auto overflow-x-hidden scrollbar-hide">
-          <div className="absolute top-4 right-4 flex flex-col gap-2 z-10">
+          <div className="absolute top-4 right-4 z-10">
+            <button
+                 className={`transition-colors p-2 bg-slate-800/80 rounded-full backdrop-blur ${isFavorite ? 'text-red-500 hover:text-red-400' : 'text-slate-500 hover:text-red-400'}`}
+                 onClick={(e) => {
+                   e.stopPropagation();
+                   toggleFavorite(card.id);
+                 }}
+            >
+              <Heart size={24} fill={isFavorite ? 'currentColor' : 'none'} />
+            </button>
+          </div>
+          <div className="absolute top-4 left-4 z-10">
             <button
                  className="text-slate-500 hover:text-indigo-400 transition-colors p-2 bg-slate-800/80 rounded-full backdrop-blur"
                  onClick={(e) => {
@@ -33,15 +44,6 @@ const Flashcard = ({ card, isFlipped, setIsFlipped }) => {
             >
               <Volume2 size={24} />
             </button>
-            <button
-                 className={`transition-colors p-2 bg-slate-800/80 rounded-full backdrop-blur ${isFavorite ? 'text-red-500 hover:text-red-400' : 'text-slate-500 hover:text-red-400'}`}
-                 onClick={(e) => {
-                   e.stopPropagation();
-                   toggleFavorite(card.id);
-                 }}
-            >
-              <Heart size={24} fill={isFavorite ? 'currentColor' : 'none'} />
-            </button>
           </div>
           
           <div className="my-auto w-full flex flex-col items-center text-center pt-8 pb-4">
@@ -54,6 +56,33 @@ const Flashcard = ({ card, isFlipped, setIsFlipped }) => {
 
         {/* Back (Turkish) */}
         <div className="absolute w-full h-full backface-hidden bg-gradient-to-br from-indigo-900 to-slate-800 border-2 border-indigo-500/50 rounded-3xl shadow-xl flex flex-col p-6 rotate-y-180 overflow-y-auto overflow-x-hidden scrollbar-hide">
+          <div className="absolute top-4 right-4 z-10">
+            <button
+                 className={`transition-colors p-2 bg-slate-900/50 rounded-full backdrop-blur border border-slate-700/50 ${isFavorite ? 'text-red-500 hover:text-red-400' : 'text-slate-400 hover:text-red-400'}`}
+                 onClick={(e) => {
+                   e.stopPropagation();
+                   toggleFavorite(card.id);
+                 }}
+            >
+              <Heart size={24} fill={isFavorite ? 'currentColor' : 'none'} />
+            </button>
+          </div>
+          <div className="absolute top-4 left-4 z-10">
+            <button
+                 className="text-slate-400 hover:text-indigo-300 transition-colors p-2 bg-slate-900/50 rounded-full backdrop-blur border border-slate-700/50"
+                 onClick={(e) => {
+                   e.stopPropagation();
+                   if ('speechSynthesis' in window) {
+                     const utterance = new SpeechSynthesisUtterance(card.turkish);
+                     utterance.lang = 'tr-TR';
+                     window.speechSynthesis.speak(utterance);
+                   }
+                 }}
+            >
+              <Volume2 size={24} />
+            </button>
+          </div>
+          
           <div className="my-auto w-full flex flex-col items-center text-center">
             <span className="text-indigo-300 font-medium text-sm tracking-widest uppercase mb-4">{card.type}</span>
             <h2 className="text-2xl sm:text-4xl font-bold text-white mb-6 break-words w-full">{card.turkish}</h2>
