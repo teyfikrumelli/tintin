@@ -37,44 +37,10 @@ const Home = ({ onStartStudy }) => {
     <div className="flex flex-col gap-8 animate-in fade-in slide-in-from-bottom-4 duration-500">
       <div className="mb-2">
         <h2 className="text-2xl font-bold text-white mb-2">Mein Wortschatz</h2>
-        <p className="text-slate-400">Wähle einen Stapel aus oder lerne alle Karten.</p>
+        <p className="text-slate-400">Wähle einen Stapel aus, um mit dem Lernen zu beginnen.</p>
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-        {/* All Flashcards Main Deck */}
-        <div 
-          className="group bg-slate-800/80 backdrop-blur border border-indigo-500/30 p-6 rounded-3xl flex flex-col gap-6 hover:border-indigo-500/80 transition-colors cursor-pointer relative overflow-hidden md:col-span-2"
-          onClick={() => onStartStudy('all')}
-        >
-          <div className="absolute -right-12 -top-12 w-48 h-48 bg-indigo-500/10 rounded-full blur-3xl group-hover:bg-indigo-500/20 transition-colors"></div>
-          
-          <div className="flex items-start justify-between relative z-10">
-            <div className="flex gap-4 items-center">
-              <div className="p-4 bg-indigo-500/10 text-indigo-400 rounded-2xl group-hover:bg-indigo-500/20 transition-colors">
-                <Layers size={32} />
-              </div>
-              <div>
-                <h3 className="text-2xl font-bold text-white">Alle Karteikarten</h3>
-                <p className="text-slate-400 mt-1">Insgesamt {cards.length} Karten</p>
-              </div>
-            </div>
-          </div>
-
-          <div className="flex items-center justify-between mt-2 pt-6 border-t border-slate-700/50 relative z-10">
-            <div className="flex flex-col gap-1">
-              <span className="text-sm font-medium text-slate-400">Zur Wiederholung</span>
-              <span className={`text-2xl font-bold ${
-                dueTodayCount > 0 ? 'text-red-400' : 'text-green-400'
-              }`}>
-                {dueTodayCount} {dueTodayCount === 1 ? 'Karte' : 'Karten'}
-              </span>
-            </div>
-            
-            <button className="bg-indigo-500 hover:bg-indigo-600 text-white p-4 rounded-full transition-colors flex items-center justify-center shadow-xl shadow-indigo-500/20 group-hover:scale-105">
-              <Play size={24} fill="currentColor" className="ml-1" />
-            </button>
-          </div>
-        </div>
 
         {/* Individual Sub-Decks */}
         {decksList.map(deck => (

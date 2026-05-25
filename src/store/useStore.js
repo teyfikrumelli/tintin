@@ -32,6 +32,8 @@ export const useStore = create(
       srsDataMap: {}, // Maps card.id -> srsData
       favorites: [], // Array of favorite card IDs
       newCardsLimitIncrements: {}, // Maps dateStr -> increment amount
+      customCards: [], // Array of custom cards created by the user
+      dailyNewLimit: 20, // Daily new cards limit
       stats: {
         totalReviews: 0,
         cardsLearned: 0,
@@ -59,6 +61,40 @@ export const useStore = create(
             }
           };
         });
+      },
+
+      addCustomCard: (cardData) => {
+        set((state) => {
+          const newCard = {
+            id: `custom_${Date.now()}_${Math.random().toString(36).substr(2, 9)}`,
+            deck: cardData.deck || 'Eigene Karten',
+            deckId: (cardData.deck || 'Eigene Karten').toLowerCase().replace(/[^a-z0-9]+/g, '-'),
+            type: cardData.type || 'Nomen',
+            german: cardData.german,
+            turkish: cardData.turkish,
+            germanExample: cardData.germanExample || '',
+            turkishExample: cardData.turkishExample || ''
+          };
+          return {
+            customCards: [...(state.customCards || []), newCard]
+          };
+        });
+      },
+
+      deleteCustomCard: (cardId) => {
+        set((state) => {
+          const updatedCustomCards = (state.customCards || []).filter(c => c.id !== cardId);
+          const updatedSrsDataMap = { ...state.srsDataMap };
+          delete updatedSrsDataMap[cardId];
+          return {
+            customCards: updatedCustomCards,
+            srsDataMap: updatedSrsDataMap
+          };
+        });
+      },
+
+      setDailyNewLimit: (limit) => {
+        set({ dailyNewLimit: limit });
       },
 
       toggleFavorite: (cardId) => {
@@ -118,11 +154,12 @@ export const useStore = create(
         const tomorrow = addDays(today, 1);
         
         const srsDataMap = get().srsDataMap;
+        const allCards = [...cardsData, ...(get().customCards || [])];
         
         // Filter cards by deck if a specific deck is requested
         const filteredCardsData = deckName && deckName !== 'all'
-          ? cardsData.filter(card => card.deck === deckName)
-          : cardsData;
+          ? allCards.filter(card => card.deck === deckName)
+          : allCards;
         
         // Count how many new cards have been introduced today (for this deck/all)
         let introducedTodayCount = 0;
@@ -140,7 +177,8 @@ export const useStore = create(
         const dayIncrements = get().newCardsLimitIncrements?.[todayStr] || {};
         const increment = dayIncrements[deckName] || 0;
         
-        const DAILY_NEW_LIMIT = 20 + increment;
+        const baseLimit = get().dailyNewLimit || 20;
+        const DAILY_NEW_LIMIT = baseLimit + increment;
         const newBudget = Math.max(0, DAILY_NEW_LIMIT - introducedTodayCount);
         
         const reviewCardsDue = [];
@@ -170,7 +208,8 @@ export const useStore = create(
       },
 
       getAllCards: () => {
-        return cardsData.map(card => ({
+        const allCards = [...cardsData, ...(get().customCards || [])];
+        return allCards.map(card => ({
           ...card,
           srsData: get().srsDataMap[card.id] || { ...defaultSrs, nextReviewDate: new Date().toISOString() }
         }));
@@ -180,12 +219,39 @@ export const useStore = create(
         set({
           srsDataMap: {},
           stats: { 
-            totalReviews: 0, 
-            cardsLearned: 0,
-            qualityDistribution: { 1: 0, 3: 0, 4: 0, 5: 0, 6: 0 }
+          totalReviews: 0, 
+          cardsLearned: 0,
+          qualityDistribution: { 1: 0, 3: 0, 4: 0, 5: 0, 6: 0 }
           },
           favorites: [],
-          newCardsLimitIncrements: {}
+          newCardsLimitIncrements: {},
+          customCards: [],
+          dailyNewLimit: 20
+        });
+      },
+
+      resetDeckProgress: (deckName) => {
+        set((state) => {
+          const allCards = [...cardsData, ...(state.customCards || [])];
+          const cardsInDeck = allCards.filter(card => card.deck === deckName);
+          const updatedSrsDataMap = { ...state.srsDataMap };
+          
+          cardsInDeck.forEach(card => {
+            delete updatedSrsDataMap[card.id];
+          });
+          
+          const todayStr = startOfDay(new Date()).toISOString().split('T')[0];
+          const updatedIncrements = { ...state.newCardsLimitIncrements };
+          if (updatedIncrements[todayStr]) {
+            const dayIncrements = { ...updatedIncrements[todayStr] };
+            delete dayIncrements[deckName];
+            updatedIncrements[todayStr] = dayIncrements;
+          }
+          
+          return {
+            srsDataMap: updatedSrsDataMap,
+            newCardsLimitIncrements: updatedIncrements
+          };
         });
       },
 
@@ -195,7 +261,9 @@ export const useStore = create(
           srsDataMap: importedData.srsDataMap || state.srsDataMap,
           stats: importedData.stats || state.stats,
           favorites: importedData.favorites || state.favorites,
-          newCardsLimitIncrements: importedData.newCardsLimitIncrements || state.newCardsLimitIncrements || {}
+          newCardsLimitIncrements: importedData.newCardsLimitIncrements || state.newCardsLimitIncrements || {},
+          customCards: importedData.customCards || state.customCards || [],
+          dailyNewLimit: importedData.dailyNewLimit || state.dailyNewLimit || 20
         }));
       }
     }),
@@ -205,7 +273,9 @@ export const useStore = create(
         srsDataMap: state.srsDataMap, 
         stats: state.stats,
         favorites: state.favorites,
-        newCardsLimitIncrements: state.newCardsLimitIncrements
+        newCardsLimitIncrements: state.newCardsLimitIncrements,
+        customCards: state.customCards,
+        dailyNewLimit: state.dailyNewLimit
       }),
     }
   )

@@ -72,6 +72,22 @@ const StudySession = ({ mode = 'all', onFinish }) => {
   };
 
   // Calculate remaining unseen cards in this deck/all to see if they can study more
+  const handlePracticeRestart = () => {
+    let cards = [];
+    if (mode === 'favorites') {
+      const currentFavorites = useStore.getState().favorites;
+      cards = getAllCards().filter(card => currentFavorites.includes(card.id));
+    } else {
+      cards = mode === 'all' ? getAllCards() : getAllCards().filter(c => c.deck === mode);
+    }
+    const shuffled = shuffleArray(cards);
+    setCardsToStudy(shuffled);
+    setInitialTotalCards(shuffled.length);
+    setCompletedCount(0);
+    setCurrentIndex(0);
+    setIsFinished(false);
+  };
+
   const allCards = getAllCards();
   const deckCards = mode === 'all' ? allCards : allCards.filter(c => c.deck === mode);
   const unseenCount = deckCards.filter(c => !c.srsData || !c.srsData.introducedDate).length;
@@ -104,6 +120,15 @@ const StudySession = ({ mode = 'all', onFinish }) => {
               className="w-full mt-3 bg-slate-700 hover:bg-slate-600 text-white font-bold py-3 px-4 rounded-xl transition-colors border border-slate-600 shadow-md animate-in fade-in slide-in-from-bottom-2 duration-300"
             >
               Weitere 20 neue Karten lernen
+            </button>
+          )}
+          {!canStudyMore && deckCards.length > 0 && (
+            <button 
+              onClick={handlePracticeRestart}
+              className="w-full mt-3 bg-slate-800 hover:bg-slate-700 text-indigo-400 font-bold py-3 px-4 rounded-xl transition-colors border border-slate-700 shadow-md flex items-center justify-center gap-2 animate-in fade-in slide-in-from-bottom-2 duration-300"
+            >
+              <RefreshCw size={16} />
+              Stapel üben (Alle Karten)
             </button>
           )}
         </div>
@@ -184,7 +209,7 @@ const StudySession = ({ mode = 'all', onFinish }) => {
             >
               <RefreshCw size={18} className="text-red-400 mb-1" />
               <span className="font-bold text-[10px] sm:text-sm mt-auto w-full text-center leading-tight tracking-tight break-words">Nochmal</span>
-              <span className="text-[9px] sm:text-xs text-slate-400">{getIntervalLabel(1)}</span>
+              <span className="text-[9px] sm:text-xs text-slate-400 invisible pointer-events-none select-none">1t</span>
             </button>
             <button 
               onClick={() => handleReview(3)}

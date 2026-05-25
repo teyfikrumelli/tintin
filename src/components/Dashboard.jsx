@@ -1,6 +1,6 @@
-import React, { useRef } from 'react';
+import React, { useRef, useState, useMemo } from 'react';
 import { useStore } from '../store/useStore';
-import { Brain, Flame, Target, BookOpen, Settings, Download, Upload } from 'lucide-react';
+import { Brain, Flame, Target, BookOpen, Settings, Download, Upload, Trash2, Plus, RotateCcw } from 'lucide-react';
 import { isBefore, addDays, startOfDay, parseISO } from 'date-fns';
 import { isDue, isLearned, isLearning } from '../lib/srsUtils';
 
@@ -9,8 +9,12 @@ const Dashboard = () => {
   const getCardsDueToday = useStore(state => state.getCardsDueToday);
   const stats = useStore(state => state.stats);
   const resetProgress = useStore(state => state.resetProgress);
+  const resetDeckProgress = useStore(state => state.resetDeckProgress);
+  const dailyNewLimit = useStore(state => state.dailyNewLimit || 20);
+  const setDailyNewLimit = useStore(state => state.setDailyNewLimit);
   const fileInputRef = useRef(null);
-  
+
+
   const today = startOfDay(new Date());
   const dueCards = getCardsDueToday();
 
@@ -193,9 +197,22 @@ const Dashboard = () => {
             
             return (
               <div key={deck.name} className="flex flex-col gap-2 p-3 bg-slate-900/50 rounded-xl">
-                <div className="flex justify-between items-center">
-                  <span className="font-medium text-white truncate" title={deck.name}>{deck.name}</span>
-                  <div className="flex gap-2 text-xs font-bold text-slate-400">
+                <div className="flex justify-between items-center gap-4">
+                  <div className="flex items-center gap-2 min-w-0">
+                    <span className="font-medium text-white truncate" title={deck.name}>{deck.name}</span>
+                    <button
+                      onClick={() => {
+                        if (window.confirm(`Sind Sie sicher, dass Sie den Lernfortschritt für "${deck.name}" zurücksetzen möchten?`)) {
+                          resetDeckProgress(deck.name);
+                        }
+                      }}
+                      className="p-1 text-slate-500 hover:text-red-400 hover:bg-red-500/10 rounded transition-colors shrink-0"
+                      title="Stapel-Fortschritt zurücksetzen"
+                    >
+                      <RotateCcw size={12} />
+                    </button>
+                  </div>
+                  <div className="flex gap-2 text-xs font-bold text-slate-400 shrink-0">
                     <span className="text-green-400">{deck.learned} Gelernt</span>
                     <span className="text-yellow-500">{deck.learning} Lernen</span>
                   </div>
@@ -242,6 +259,36 @@ const Dashboard = () => {
           })}
         </div>
       </div>
+
+      {/* Settings Section */}
+      <div className="bg-slate-800/80 backdrop-blur border border-slate-700/50 p-6 rounded-2xl flex flex-col gap-6 animate-in fade-in slide-in-from-bottom-4 duration-500">
+        <h2 className="text-xl font-bold flex items-center gap-2 text-white">
+          <Settings className="text-indigo-400" size={20} />
+          Einstellungen
+        </h2>
+        <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 p-4 bg-slate-900/50 rounded-xl border border-slate-700/50">
+          <div>
+            <h3 className="font-bold text-white text-sm">Tägliches Limit für neue Karten</h3>
+            <p className="text-xs text-slate-400 mt-0.5">Maximale Anzahl neuer Karten, die täglich aus den Stapeln gelernt werden.</p>
+          </div>
+          <div className="flex items-center gap-3">
+            <button
+              onClick={() => setDailyNewLimit(Math.max(5, dailyNewLimit - 5))}
+              className="w-10 h-10 bg-slate-800 hover:bg-slate-700 border border-slate-700 rounded-xl flex items-center justify-center font-bold text-white transition-colors"
+            >
+              -
+            </button>
+            <span className="text-xl font-bold text-white w-12 text-center">{dailyNewLimit}</span>
+            <button
+              onClick={() => setDailyNewLimit(Math.min(100, dailyNewLimit + 5))}
+              className="w-10 h-10 bg-slate-800 hover:bg-slate-700 border border-slate-700 rounded-xl flex items-center justify-center font-bold text-white transition-colors"
+            >
+              +
+            </button>
+          </div>
+        </div>
+      </div>
+
 
       <div className="bg-slate-800/80 backdrop-blur border border-slate-700/50 p-6 rounded-2xl">
         <h2 className="text-xl font-bold mb-4 flex items-center gap-2">

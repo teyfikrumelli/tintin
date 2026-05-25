@@ -4,10 +4,12 @@ import Dashboard from './components/Dashboard';
 import StudySession from './components/StudySession';
 import Favorites from './components/Favorites';
 import CardBrowser from './components/CardBrowser';
-import { Book, LayoutDashboard, Layers, Heart, Search } from 'lucide-react';
+import KullanimKilavuzu from './components/KullanimKilavuzu';
+import CustomCardManager from './components/CustomCardManager';
+import { Book, LayoutDashboard, Layers, Heart, Search, HelpCircle, PlusSquare } from 'lucide-react';
 
 function App() {
-  const [currentView, setCurrentView] = useState('home'); // home, dashboard, favorites, study
+  const [currentView, setCurrentView] = useState('home'); // home, dashboard, favorites, study, editor
   const [studyMode, setStudyMode] = useState('all'); // all, favorites
 
   const renderView = () => {
@@ -22,6 +24,10 @@ function App() {
         return <Favorites onStartStudy={() => { setStudyMode('favorites'); setCurrentView('study'); }} />;
       case 'study':
         return <StudySession mode={studyMode} onFinish={() => setCurrentView(studyMode === 'favorites' ? 'favorites' : 'home')} />;
+      case 'editor':
+        return <CustomCardManager />;
+      case 'help':
+        return <KullanimKilavuzu />;
       default:
         return <Home onStartStudy={() => setCurrentView('study')} />;
     }
@@ -70,12 +76,28 @@ function App() {
                 <span className="hidden sm:inline">Suche</span>
               </button>
               <button
+                onClick={() => setCurrentView('editor')}
+                className={`p-2 rounded-md transition-colors flex items-center gap-2 text-sm font-medium ${currentView === 'editor' ? 'bg-slate-700 text-white' : 'text-slate-400 hover:text-slate-200'
+                  }`}
+              >
+                <PlusSquare size={16} />
+                <span className="hidden sm:inline">Editor</span>
+              </button>
+              <button
                 onClick={() => setCurrentView('dashboard')}
                 className={`p-2 rounded-md transition-colors flex items-center gap-2 text-sm font-medium ${currentView === 'dashboard' ? 'bg-slate-700 text-white' : 'text-slate-400 hover:text-slate-200'
                   }`}
               >
                 <LayoutDashboard size={16} />
                 <span className="hidden sm:inline">Übersicht</span>
+              </button>
+              <button
+                onClick={() => setCurrentView('help')}
+                className={`p-2 rounded-md transition-colors flex items-center gap-2 text-sm font-medium ${currentView === 'help' ? 'bg-slate-700 text-white' : 'text-slate-400 hover:text-slate-200'
+                  }`}
+              >
+                <HelpCircle size={16} />
+                <span className="hidden sm:inline">Hilfe</span>
               </button>
             </nav>
           )}
