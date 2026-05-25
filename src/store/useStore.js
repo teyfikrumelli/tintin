@@ -120,10 +120,19 @@ export const useStore = create(
           stats: { 
             totalReviews: 0, 
             cardsLearned: 0,
-            qualityDistribution: { 1: 0, 3: 0, 4: 0, 5: 0 }
+            qualityDistribution: { 1: 0, 3: 0, 4: 0, 5: 0, 6: 0 }
           },
           favorites: []
         });
+      },
+
+      importProgress: (importedData) => {
+        if (!importedData || typeof importedData !== 'object') return;
+        set((state) => ({
+          srsDataMap: importedData.srsDataMap || state.srsDataMap,
+          stats: importedData.stats || state.stats,
+          favorites: importedData.favorites || state.favorites
+        }));
       }
     }),
     {

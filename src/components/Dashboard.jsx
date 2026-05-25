@@ -1,6 +1,6 @@
-import React from 'react';
+import React, { useRef } from 'react';
 import { useStore } from '../store/useStore';
-import { Brain, Flame, Target, BookOpen, Settings } from 'lucide-react';
+import { Brain, Flame, Target, BookOpen, Settings, Download, Upload } from 'lucide-react';
 import { isBefore, addDays, startOfDay, parseISO } from 'date-fns';
 import { isDue, isLearned, isLearning } from '../lib/srsUtils';
 
@@ -8,8 +8,49 @@ const Dashboard = () => {
   const cards = useStore(state => state.getAllCards());
   const stats = useStore(state => state.stats);
   const resetProgress = useStore(state => state.resetProgress);
+  const fileInputRef = useRef(null);
   
   const today = startOfDay(new Date());
+
+  const handleExport = () => {
+    const state = useStore.getState();
+    const exportData = {
+      srsDataMap: state.srsDataMap,
+      stats: state.stats,
+      favorites: state.favorites
+    };
+    const blob = new Blob([JSON.stringify(exportData, null, 2)], { type: 'application/json' });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = 'karteikarten-backup.json';
+    a.click();
+    URL.revokeObjectURL(url);
+  };
+
+  const handleImport = (event) => {
+    const file = event.target.files[0];
+    if (!file) return;
+
+    if (window.confirm('Möchten Sie Ihren aktuellen Fortschritt wirklich mit diesem Backup überschreiben?')) {
+      const reader = new FileReader();
+      reader.onload = (e) => {
+        try {
+          const importedData = JSON.parse(e.target.result);
+          if (importedData && (importedData.srsDataMap || importedData.stats)) {
+            useStore.getState().importProgress(importedData);
+            alert('Fortschritt erfolgreich importiert!');
+          } else {
+            alert('Ungültige Backup-Datei.');
+          }
+        } catch (error) {
+          alert('Fehler beim Lesen der Datei.');
+        }
+      };
+      reader.readAsText(file);
+    }
+    event.target.value = '';
+  };
 
   const totalCards = cards.length;
   const dueTodayCount = cards.filter(card => isDue(card, today)).length;
@@ -197,9 +238,44 @@ const Dashboard = () => {
         </div>
       </div>
 
+      <div className="bg-slate-800/80 backdrop-blur border border-slate-700/50 p-6 rounded-2xl">
+        <h2 className="text-xl font-bold mb-4 flex items-center gap-2">
+          <Settings className="text-indigo-400" size={20} />
+          Daten synchronisieren
+        </h2>
+        <div className="flex flex-col sm:flex-row gap-4">
+          <button 
+            onClick={handleExport}
+            className="flex-1 flex items-center justify-center gap-2 px-6 py-3 bg-indigo-500/10 text-indigo-400 hover:bg-indigo-500/20 font-medium rounded-xl transition-colors border border-indigo-500/20"
+          >
+            <Download size={20} />
+            Fortschritt exportieren
+          </button>
+          
+          <button 
+            onClick={() => fileInputRef.current?.click()}
+            className="flex-1 flex items-center justify-center gap-2 px-6 py-3 bg-slate-700/50 text-white hover:bg-slate-700 font-medium rounded-xl transition-colors border border-slate-600"
+          >
+            <Upload size={20} />
+            Fortschritt importieren
+          </button>
+          <input 
+            type="file" 
+            accept=".json"
+            ref={fileInputRef}
+            onChange={handleImport}
+            className="hidden"
+          />
+        </div>
+      </div>
+
       <div className="flex justify-end mt-4">
         <button 
-          onClick={resetProgress}
+          onClick={() => {
+            if (window.confirm('Sind Sie sicher, dass Sie Ihren gesamten Fortschritt löschen möchten? Dies kann nicht rückgängig gemacht werden!')) {
+              resetProgress();
+            }
+          }}
           className="w-full sm:w-auto px-6 py-3 bg-red-500/10 text-red-400 hover:bg-red-500/20 font-medium rounded-xl transition-colors border border-red-500/20"
         >
           Fortschritt zurücksetzen
