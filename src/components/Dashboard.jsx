@@ -12,6 +12,7 @@ const Dashboard = () => {
   const resetDeckProgress = useStore(state => state.resetDeckProgress);
   const dailyNewLimit = useStore(state => state.dailyNewLimit || 20);
   const setDailyNewLimit = useStore(state => state.setDailyNewLimit);
+  const activeDecks = useStore(state => state.activeDecks || {});
   const fileInputRef = useRef(null);
 
 
@@ -78,7 +79,7 @@ const Dashboard = () => {
   const deckStatsMap = cards.reduce((acc, card) => {
     const deckName = card.deck || 'Uncategorized';
     if (!acc[deckName]) {
-      acc[deckName] = { name: deckName, total: 0, learned: 0, learning: 0, new: 0, due: 0, q1: 0, q3: 0, q4: 0, q5: 0, q6: 0 };
+      acc[deckName] = { name: deckName, deckId: card.deckId, total: 0, learned: 0, learning: 0, new: 0, due: 0, q1: 0, q3: 0, q4: 0, q5: 0, q6: 0 };
     }
     acc[deckName].total += 1;
     if (isLearned(card)) acc[deckName].learned += 1;
@@ -198,12 +199,18 @@ const Dashboard = () => {
           {deckStatsList.map(deck => {
             const learnedPercent = deck.total > 0 ? (deck.learned / deck.total) * 100 : 0;
             const learningPercent = deck.total > 0 ? (deck.learning / deck.total) * 100 : 0;
+            const isActive = activeDecks[deck.deckId] !== false;
             
             return (
-              <div key={deck.name} className="flex flex-col gap-2 p-3 bg-slate-900/50 rounded-xl">
+              <div key={deck.name} className={`flex flex-col gap-2 p-3 bg-slate-900/50 rounded-xl transition-opacity duration-300 ${isActive ? '' : 'opacity-60'}`}>
                 <div className="flex justify-between items-center gap-4">
                   <div className="flex items-center gap-2 min-w-0">
                     <span className="font-medium text-white truncate" title={deck.name}>{deck.name}</span>
+                    {!isActive && (
+                      <span className="text-[10px] bg-slate-800 text-slate-500 px-1.5 py-0.5 rounded-md font-semibold select-none">
+                        Inaktiv
+                      </span>
+                    )}
                     <button
                       onClick={() => {
                         if (window.confirm(`Sind Sie sicher, dass Sie den Lernfortschritt für "${deck.name}" zurücksetzen möchten?`)) {

@@ -37,6 +37,7 @@ export const useStore = create(
       newCardsLimitIncrements: {}, // Maps dateStr -> increment amount
       customCards: [], // Array of custom cards created by the user
       dailyNewLimit: 20, // Daily new cards limit
+      activeDecks: {}, // Maps deckId -> boolean (default true)
       stats: {
         totalReviews: 0,
         cardsLearned: 0,
@@ -46,6 +47,18 @@ export const useStore = create(
           4: 0,
           5: 0
         }
+      },
+
+      toggleDeckActive: (deckId) => {
+        set((state) => {
+          const current = state.activeDecks?.[deckId] !== false;
+          return {
+            activeDecks: {
+              ...(state.activeDecks || {}),
+              [deckId]: !current
+            }
+          };
+        });
       },
 
       increaseNewCardsLimit: (deckName, amount) => {
@@ -176,11 +189,20 @@ export const useStore = create(
         
         const srsDataMap = get().srsDataMap;
         const allCards = [...cardsData, ...(get().customCards || [])];
+        const activeDecks = get().activeDecks || {};
         
         // Filter cards by deck if a specific deck is requested
-        const filteredCardsData = deckName && deckName !== 'all'
-          ? allCards.filter(card => card.deck === deckName)
-          : allCards;
+        let filteredCardsData = allCards;
+        if (deckName && deckName !== 'all') {
+          const deckCards = allCards.filter(card => card.deck === deckName);
+          const deckId = deckCards[0]?.deckId;
+          if (deckId && activeDecks[deckId] === false) {
+            return [];
+          }
+          filteredCardsData = deckCards;
+        } else {
+          filteredCardsData = allCards.filter(card => activeDecks[card.deckId] !== false);
+        }
         
         // Count how many new cards have been introduced today (for this deck/all)
         let introducedTodayCount = 0;
@@ -247,7 +269,8 @@ export const useStore = create(
           favorites: [],
           newCardsLimitIncrements: {},
           customCards: [],
-          dailyNewLimit: 20
+          dailyNewLimit: 20,
+          activeDecks: {}
         });
       },
 
@@ -284,7 +307,8 @@ export const useStore = create(
           favorites: importedData.favorites || state.favorites,
           newCardsLimitIncrements: importedData.newCardsLimitIncrements || state.newCardsLimitIncrements || {},
           customCards: importedData.customCards || state.customCards || [],
-          dailyNewLimit: importedData.dailyNewLimit || state.dailyNewLimit || 20
+          dailyNewLimit: importedData.dailyNewLimit || state.dailyNewLimit || 20,
+          activeDecks: importedData.activeDecks || state.activeDecks || {}
         }));
       }
     }),
@@ -296,7 +320,8 @@ export const useStore = create(
         favorites: state.favorites,
         newCardsLimitIncrements: state.newCardsLimitIncrements,
         customCards: state.customCards,
-        dailyNewLimit: state.dailyNewLimit
+        dailyNewLimit: state.dailyNewLimit,
+        activeDecks: state.activeDecks
       }),
     }
   )
