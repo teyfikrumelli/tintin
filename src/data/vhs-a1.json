@@ -1,0 +1,4650 @@
+[
+  {
+    "id": "vhs_a1_001",
+    "type": "Nomen",
+    "german": "Entschuldigung",
+    "turkish": "özür/afedersiniz",
+    "germanExample": "Entschuldigung, wo ist der Bahnhof?",
+    "turkishExample": "Afedersiniz, tren istasyonu nerede?"
+  },
+  {
+    "id": "vhs_a1_002",
+    "type": "Verb",
+    "german": "kommen (aus)",
+    "turkish": "gelmek",
+    "germanExample": "Ich komme aus der Türkei.",
+    "turkishExample": "Ben Türkiye'den geliyorum."
+  },
+  {
+    "id": "vhs_a1_003",
+    "type": "Nomen",
+    "german": "Frau",
+    "turkish": "kadın/bayan",
+    "germanExample": "Das ist Frau Müller.",
+    "turkishExample": "Bu Bayan Müller."
+  },
+  {
+    "id": "vhs_a1_004",
+    "type": "Nomen",
+    "german": "Herr",
+    "turkish": "bay",
+    "germanExample": "Guten Tag, Herr Schmidt.",
+    "turkishExample": "İyi günler, Bay Schmidt."
+  },
+  {
+    "id": "vhs_a1_005",
+    "type": "Verb",
+    "german": "heißen",
+    "turkish": "adı olmak",
+    "germanExample": "Ich heiße Ahmet.",
+    "turkishExample": "Benim adım Ahmet."
+  },
+  {
+    "id": "vhs_a1_006",
+    "type": "Pronomen",
+    "german": "ich",
+    "turkish": "ben",
+    "germanExample": "Ich bin müde.",
+    "turkishExample": "Ben yorgunum."
+  },
+  {
+    "id": "vhs_a1_007",
+    "type": "Nomen",
+    "german": "der Name",
+    "turkish": "isim",
+    "germanExample": "Mein Name ist Ali.",
+    "turkishExample": "Benim ismim Ali."
+  },
+  {
+    "id": "vhs_a1_008",
+    "type": "Nomen",
+    "german": "das Land",
+    "turkish": "ülke",
+    "germanExample": "Deutschland ist ein schönes Land.",
+    "turkishExample": "Almanya güzel bir ülkedir."
+  },
+  {
+    "id": "vhs_a1_009",
+    "type": "Nomen",
+    "german": "Deutschland",
+    "turkish": "Almanya",
+    "germanExample": "Ich lebe in Deutschland.",
+    "turkishExample": "Almanya'da yaşıyorum."
+  },
+  {
+    "id": "vhs_a1_010",
+    "type": "Nomen",
+    "german": "die Türkei",
+    "turkish": "Türkiye",
+    "germanExample": "Die Türkei ist groß.",
+    "turkishExample": "Türkiye büyüktür."
+  },
+  {
+    "id": "vhs_a1_011",
+    "type": "Nomen",
+    "german": "Syrien",
+    "turkish": "Suriye",
+    "germanExample": "Er kommt aus Syrien.",
+    "turkishExample": "O Suriye'den geliyor."
+  },
+  {
+    "id": "vhs_a1_012",
+    "type": "Nomen",
+    "german": "Polen",
+    "turkish": "Polonya",
+    "germanExample": "Sie wohnt in Polen.",
+    "turkishExample": "O Polonya'da yaşıyor."
+  },
+  {
+    "id": "vhs_a1_013",
+    "type": "Nomen",
+    "german": "Bulgarien",
+    "turkish": "Bulgaristan",
+    "germanExample": "Sofia ist in Bulgarien.",
+    "turkishExample": "Sofya Bulgaristan'dadır."
+  },
+  {
+    "id": "vhs_a1_014",
+    "type": "Nomen",
+    "german": "Spanien",
+    "turkish": "İspanya",
+    "germanExample": "Wir fliegen nach Spanien.",
+    "turkishExample": "İspanya'ya uçuyoruz."
+  },
+  {
+    "id": "vhs_a1_015",
+    "type": "Nomen",
+    "german": "Italien",
+    "turkish": "İtalya",
+    "germanExample": "Pizza kommt aus Italien.",
+    "turkishExample": "Pizza İtalya'dan gelir."
+  },
+  {
+    "id": "vhs_a1_016",
+    "type": "Nomen",
+    "german": "Griechenland",
+    "turkish": "Yunanistan",
+    "germanExample": "Griechenland ist warm.",
+    "turkishExample": "Yunanistan sıcaktır."
+  },
+  {
+    "id": "vhs_a1_017",
+    "type": "Nomen",
+    "german": "Russland",
+    "turkish": "Rusya",
+    "germanExample": "Russland ist sehr groß.",
+    "turkishExample": "Rusya çok büyüktür."
+  },
+  {
+    "id": "vhs_a1_018",
+    "type": "Nomen",
+    "german": "Afghanistan",
+    "turkish": "Afganistan",
+    "germanExample": "Er ist aus Afghanistan.",
+    "turkishExample": "O Afganistanlı."
+  },
+  {
+    "id": "vhs_a1_019",
+    "type": "Nomen",
+    "german": "der Irak",
+    "turkish": "Irak",
+    "germanExample": "Sie kommt aus dem Irak.",
+    "turkishExample": "O Irak'tan geliyor."
+  },
+  {
+    "id": "vhs_a1_020",
+    "type": "Nomen",
+    "german": "Eritrea",
+    "turkish": "Eritre",
+    "germanExample": "Eritrea liegt in Afrika.",
+    "turkishExample": "Eritre Afrika'dadır."
+  },
+  {
+    "id": "vhs_a1_021",
+    "type": "Nomen",
+    "german": "die Ukraine",
+    "turkish": "Ukrayna",
+    "germanExample": "Kiew ist in der Ukraine.",
+    "turkishExample": "Kiev Ukrayna'dadır."
+  },
+  {
+    "id": "vhs_a1_022",
+    "type": "Nomen",
+    "german": "der Iran",
+    "turkish": "İran",
+    "germanExample": "Er reist in den Iran.",
+    "turkishExample": "O İran'a seyahat ediyor."
+  },
+  {
+    "id": "vhs_a1_023",
+    "type": "Pronomen",
+    "german": "du / Sie",
+    "turkish": "sen / siz",
+    "germanExample": "Wie heißt du?",
+    "turkishExample": "Senin adın ne?"
+  },
+  {
+    "id": "vhs_a1_024",
+    "type": "Adjektiv",
+    "german": "gut",
+    "turkish": "iyi",
+    "germanExample": "Das Essen ist gut.",
+    "turkishExample": "Yemek iyidir."
+  },
+  {
+    "id": "vhs_a1_025",
+    "type": "Adverb",
+    "german": "sehr gut",
+    "turkish": "çok iyi",
+    "germanExample": "Du sprichst sehr gut Deutsch.",
+    "turkishExample": "Çok iyi Almanca konuşuyorsun."
+  },
+  {
+    "id": "vhs_a1_026",
+    "type": "Adjektiv",
+    "german": "schlecht",
+    "turkish": "kötü",
+    "germanExample": "Das Wetter ist schlecht.",
+    "turkishExample": "Hava kötü."
+  },
+  {
+    "id": "vhs_a1_027",
+    "type": "Adjektiv",
+    "german": "super",
+    "turkish": "harika",
+    "germanExample": "Das ist eine super Idee!",
+    "turkishExample": "Bu harika bir fikir!"
+  },
+  {
+    "id": "vhs_a1_028",
+    "type": "Ausdruck",
+    "german": "es geht",
+    "turkish": "şöyle böyle/idare eder",
+    "germanExample": "Wie geht es dir? - Es geht.",
+    "turkishExample": "Nasılsın? - İdare eder."
+  },
+  {
+    "id": "vhs_a1_029",
+    "type": "Ausdruck",
+    "german": "nicht so gut",
+    "turkish": "pek iyi değil",
+    "germanExample": "Mir geht es nicht so gut.",
+    "turkishExample": "Pek iyi değilim."
+  },
+  {
+    "id": "vhs_a1_030",
+    "type": "Adverb",
+    "german": "auch",
+    "turkish": "da/de",
+    "germanExample": "Ich komme auch mit.",
+    "turkishExample": "Ben de geliyorum."
+  },
+  {
+    "id": "vhs_a1_031",
+    "type": "Ausdruck",
+    "german": "danke",
+    "turkish": "teşekkürler",
+    "germanExample": "Mir geht es gut, danke.",
+    "turkishExample": "İyiyim, teşekkürler."
+  },
+  {
+    "id": "vhs_a1_032",
+    "type": "Nomen",
+    "german": "die Sprache",
+    "turkish": "dil",
+    "germanExample": "Welche Sprache sprichst du?",
+    "turkishExample": "Hangi dili konuşuyorsun?"
+  },
+  {
+    "id": "vhs_a1_033",
+    "type": "Verb",
+    "german": "sprechen",
+    "turkish": "konuşmak",
+    "germanExample": "Ich spreche Deutsch.",
+    "turkishExample": "Almanca konuşuyorum."
+  },
+  {
+    "id": "vhs_a1_034",
+    "type": "Nomen",
+    "german": "Deutsch",
+    "turkish": "Almanca",
+    "germanExample": "Wir lernen Deutsch.",
+    "turkishExample": "Almanca öğreniyoruz."
+  },
+  {
+    "id": "vhs_a1_035",
+    "type": "Nomen",
+    "german": "Türkisch",
+    "turkish": "Türkçe",
+    "germanExample": "Meine Muttersprache ist Türkisch.",
+    "turkishExample": "Anadilim Türkçedir."
+  },
+  {
+    "id": "vhs_a1_036",
+    "type": "Nomen",
+    "german": "Englisch",
+    "turkish": "İngilizce",
+    "germanExample": "Sprechen Sie Englisch?",
+    "turkishExample": "İngilizce konuşuyor musunuz?"
+  },
+  {
+    "id": "vhs_a1_037",
+    "type": "Nomen",
+    "german": "Dari",
+    "turkish": "Darice",
+    "germanExample": "Er spricht Dari.",
+    "turkishExample": "O Darice konuşuyor."
+  },
+  {
+    "id": "vhs_a1_038",
+    "type": "Nomen",
+    "german": "Polnisch",
+    "turkish": "Lehçe",
+    "germanExample": "Sie lernt Polnisch.",
+    "turkishExample": "O Lehçe öğreniyor."
+  },
+  {
+    "id": "vhs_a1_039",
+    "type": "Nomen",
+    "german": "Spanisch",
+    "turkish": "İspanyolca",
+    "germanExample": "Spanisch ist eine schöne Sprache.",
+    "turkishExample": "İspanyolca güzel bir dildir."
+  },
+  {
+    "id": "vhs_a1_040",
+    "type": "Nomen",
+    "german": "Italienisch",
+    "turkish": "İtalyanca",
+    "germanExample": "Ich verstehe Italienisch.",
+    "turkishExample": "İtalyanca anlıyorum."
+  },
+  {
+    "id": "vhs_a1_041",
+    "type": "Nomen",
+    "german": "Russisch",
+    "turkish": "Rusça",
+    "germanExample": "Er liest ein Buch auf Russisch.",
+    "turkishExample": "Rusça bir kitap okuyor."
+  },
+  {
+    "id": "vhs_a1_042",
+    "type": "Nomen",
+    "german": "Arabisch",
+    "turkish": "Arapça",
+    "germanExample": "Arabisch hat ein anderes Alphabet.",
+    "turkishExample": "Arapçanın farklı bir alfabesi var."
+  },
+  {
+    "id": "vhs_a1_043",
+    "type": "Nomen",
+    "german": "Paschtu",
+    "turkish": "Peştuca",
+    "germanExample": "Sie sprechen Paschtu.",
+    "turkishExample": "Onlar Peştuca konuşuyor."
+  },
+  {
+    "id": "vhs_a1_044",
+    "type": "Ausdruck",
+    "german": "ein bisschen",
+    "turkish": "biraz",
+    "germanExample": "Ich spreche ein bisschen Deutsch.",
+    "turkishExample": "Biraz Almanca konuşuyorum."
+  },
+  {
+    "id": "vhs_a1_045",
+    "type": "Ausdruck",
+    "german": "ja / nein",
+    "turkish": "evet / hayır",
+    "germanExample": "Ja, ich komme aus Berlin.",
+    "turkishExample": "Evet, Berlin'den geliyorum."
+  },
+  {
+    "id": "vhs_a1_046",
+    "type": "Ausdruck",
+    "german": "Hallo",
+    "turkish": "merhaba",
+    "germanExample": "Hallo, wie geht es dir?",
+    "turkishExample": "Merhaba, nasılsın?"
+  },
+  {
+    "id": "vhs_a1_047",
+    "type": "Ausdruck",
+    "german": "Tschüss",
+    "turkish": "hoşça kal",
+    "germanExample": "Tschüss, bis morgen!",
+    "turkishExample": "Hoşça kal, yarına kadar!"
+  },
+  {
+    "id": "vhs_a1_048",
+    "type": "Nomen",
+    "german": "die Familie",
+    "turkish": "aile",
+    "germanExample": "Meine Familie ist groß.",
+    "turkishExample": "Ailem büyüktür."
+  },
+  {
+    "id": "vhs_a1_049",
+    "type": "Nomen",
+    "german": "das Kind",
+    "turkish": "çocuk",
+    "germanExample": "Das Kind spielt.",
+    "turkishExample": "Çocuk oynuyor."
+  },
+  {
+    "id": "vhs_a1_050",
+    "type": "Verb",
+    "german": "haben",
+    "turkish": "sahip olmak",
+    "germanExample": "Ich habe ein Auto.",
+    "turkishExample": "Bir arabam var."
+  },
+  {
+    "id": "vhs_a1_051",
+    "type": "Pronomen",
+    "german": "wir",
+    "turkish": "biz",
+    "germanExample": "Wir gehen nach Hause.",
+    "turkishExample": "Biz eve gidiyoruz."
+  },
+  {
+    "id": "vhs_a1_052",
+    "type": "Pronomen",
+    "german": "ihr",
+    "turkish": "siz (çoğul)",
+    "germanExample": "Was macht ihr?",
+    "turkishExample": "Siz ne yapıyorsunuz?"
+  },
+  {
+    "id": "vhs_a1_053",
+    "type": "Pronomen",
+    "german": "er",
+    "turkish": "o (erkek)",
+    "germanExample": "Er ist mein Freund.",
+    "turkishExample": "O benim arkadaşım."
+  },
+  {
+    "id": "vhs_a1_054",
+    "type": "Pronomen",
+    "german": "sie",
+    "turkish": "o (kadın) / onlar",
+    "germanExample": "Sie ist sehr nett.",
+    "turkishExample": "O çok naziktir."
+  },
+  {
+    "id": "vhs_a1_055",
+    "type": "Verb",
+    "german": "sein",
+    "turkish": "olmak",
+    "germanExample": "Ich bin glücklich.",
+    "turkishExample": "Ben mutluyum."
+  },
+  {
+    "id": "vhs_a1_056",
+    "type": "Nomen",
+    "german": "der Mann",
+    "turkish": "adam/erkek",
+    "germanExample": "Der Mann liest.",
+    "turkishExample": "Adam okuyor."
+  },
+  {
+    "id": "vhs_a1_057",
+    "type": "Nomen",
+    "german": "die Frau",
+    "turkish": "kadın",
+    "germanExample": "Die Frau trinkt Kaffee.",
+    "turkishExample": "Kadın kahve içiyor."
+  },
+  {
+    "id": "vhs_a1_058",
+    "type": "Nomen",
+    "german": "der Sohn",
+    "turkish": "erkek evlat",
+    "germanExample": "Mein Sohn ist fünf Jahre alt.",
+    "turkishExample": "Oğlum beş yaşında."
+  },
+  {
+    "id": "vhs_a1_059",
+    "type": "Nomen",
+    "german": "die Tochter",
+    "turkish": "kız evlat",
+    "germanExample": "Ihre Tochter geht zur Schule.",
+    "turkishExample": "Onun kızı okula gidiyor."
+  },
+  {
+    "id": "vhs_a1_060",
+    "type": "Nomen",
+    "german": "die Eltern",
+    "turkish": "ebeveyn/anne-baba",
+    "germanExample": "Meine Eltern wohnen hier.",
+    "turkishExample": "Annem ve babam burada yaşıyor."
+  },
+  {
+    "id": "vhs_a1_061",
+    "type": "Nomen",
+    "german": "der Vater",
+    "turkish": "baba",
+    "germanExample": "Sein Vater ist Arzt.",
+    "turkishExample": "Onun babası doktordur."
+  },
+  {
+    "id": "vhs_a1_062",
+    "type": "Nomen",
+    "german": "die Mutter",
+    "turkish": "anne",
+    "germanExample": "Meine Mutter kocht gut.",
+    "turkishExample": "Annem iyi yemek yapar."
+  },
+  {
+    "id": "vhs_a1_063",
+    "type": "Nomen",
+    "german": "die Schwester",
+    "turkish": "kız kardeş",
+    "germanExample": "Ich habe eine Schwester.",
+    "turkishExample": "Bir kız kardeşim var."
+  },
+  {
+    "id": "vhs_a1_064",
+    "type": "Nomen",
+    "german": "der Bruder",
+    "turkish": "erkek kardeş",
+    "germanExample": "Mein Bruder studiert.",
+    "turkishExample": "Erkek kardeşim üniversite okuyor."
+  },
+  {
+    "id": "vhs_a1_065",
+    "type": "Pronomen",
+    "german": "mein / meine",
+    "turkish": "benim",
+    "germanExample": "Das ist mein Buch.",
+    "turkishExample": "Bu benim kitabım."
+  },
+  {
+    "id": "vhs_a1_066",
+    "type": "Pronomen",
+    "german": "dein / deine",
+    "turkish": "senin",
+    "germanExample": "Ist das deine Tasche?",
+    "turkishExample": "Bu senin çantan mı?"
+  },
+  {
+    "id": "vhs_a1_067",
+    "type": "Pronomen",
+    "german": "Ihr / Ihre",
+    "turkish": "sizin (kibar)",
+    "germanExample": "Wo ist Ihre Jacke?",
+    "turkishExample": "Ceketiniz nerede?"
+  },
+  {
+    "id": "vhs_a1_068",
+    "type": "Adjektiv",
+    "german": "verheiratet",
+    "turkish": "evli",
+    "germanExample": "Ich bin verheiratet.",
+    "turkishExample": "Ben evliyim."
+  },
+  {
+    "id": "vhs_a1_069",
+    "type": "Adjektiv",
+    "german": "ledig",
+    "turkish": "bekar",
+    "germanExample": "Er ist ledig.",
+    "turkishExample": "O bekar."
+  },
+  {
+    "id": "vhs_a1_070",
+    "type": "Zahl",
+    "german": "eins",
+    "turkish": "bir",
+    "germanExample": "Ich habe ein Kind.",
+    "turkishExample": "Bir çocuğum var."
+  },
+  {
+    "id": "vhs_a1_071",
+    "type": "Zahl",
+    "german": "zwei",
+    "turkish": "iki",
+    "germanExample": "Wir haben zwei Katzen.",
+    "turkishExample": "İki kedimiz var."
+  },
+  {
+    "id": "vhs_a1_072",
+    "type": "Zahl",
+    "german": "drei",
+    "turkish": "üç",
+    "germanExample": "Drei Kaffee, bitte.",
+    "turkishExample": "Üç kahve lütfen."
+  },
+  {
+    "id": "vhs_a1_073",
+    "type": "Zahl",
+    "german": "vier",
+    "turkish": "dört",
+    "germanExample": "Das Auto hat vier Türen.",
+    "turkishExample": "Arabanın dört kapısı var."
+  },
+  {
+    "id": "vhs_a1_074",
+    "type": "Zahl",
+    "german": "fünf",
+    "turkish": "beş",
+    "germanExample": "Es ist fünf Uhr.",
+    "turkishExample": "Saat beştir."
+  },
+  {
+    "id": "vhs_a1_075",
+    "type": "Zahl",
+    "german": "sechs",
+    "turkish": "altı",
+    "germanExample": "Ich arbeite sechs Tage.",
+    "turkishExample": "Altı gün çalışıyorum."
+  },
+  {
+    "id": "vhs_a1_076",
+    "type": "Zahl",
+    "german": "sieben",
+    "turkish": "yedi",
+    "germanExample": "Eine Woche hat sieben Tage.",
+    "turkishExample": "Bir haftanın yedi günü vardır."
+  },
+  {
+    "id": "vhs_a1_077",
+    "type": "Zahl",
+    "german": "acht",
+    "turkish": "sekiz",
+    "germanExample": "Der Unterricht beginnt um acht.",
+    "turkishExample": "Ders sekizde başlıyor."
+  },
+  {
+    "id": "vhs_a1_078",
+    "type": "Zahl",
+    "german": "neun",
+    "turkish": "dokuz",
+    "germanExample": "Neun Personen sind hier.",
+    "turkishExample": "Dokuz kişi burada."
+  },
+  {
+    "id": "vhs_a1_079",
+    "type": "Zahl",
+    "german": "zehn",
+    "turkish": "on",
+    "germanExample": "Das kostet zehn Euro.",
+    "turkishExample": "Bu on Euro tutuyor."
+  },
+  {
+    "id": "vhs_a1_080",
+    "type": "Zahl",
+    "german": "elf",
+    "turkish": "on bir",
+    "germanExample": "Er ist elf Jahre alt.",
+    "turkishExample": "O on bir yaşında."
+  },
+  {
+    "id": "vhs_a1_081",
+    "type": "Zahl",
+    "german": "zwölf",
+    "turkish": "on iki",
+    "germanExample": "Wir treffen uns um zwölf.",
+    "turkishExample": "On ikide buluşuyoruz."
+  },
+  {
+    "id": "vhs_a1_082",
+    "type": "Zahl",
+    "german": "sechzehn",
+    "turkish": "on altı",
+    "germanExample": "Sie ist sechzehn Jahre alt.",
+    "turkishExample": "O on altı yaşında."
+  },
+  {
+    "id": "vhs_a1_083",
+    "type": "Zahl",
+    "german": "siebzehn",
+    "turkish": "on yedi",
+    "germanExample": "Das Haus hat Nummer siebzehn.",
+    "turkishExample": "Evin numarası on yedidir."
+  },
+  {
+    "id": "vhs_a1_084",
+    "type": "Zahl",
+    "german": "zwanzig",
+    "turkish": "yirmi",
+    "germanExample": "Ich habe zwanzig Euro.",
+    "turkishExample": "Yirmi Eurom var."
+  },
+  {
+    "id": "vhs_a1_085",
+    "type": "Verb",
+    "german": "wohnen",
+    "turkish": "ikamet etmek",
+    "germanExample": "Ich wohne in Berlin.",
+    "turkishExample": "Berlin'de yaşıyorum."
+  },
+  {
+    "id": "vhs_a1_086",
+    "type": "Adjektiv",
+    "german": "geschieden",
+    "turkish": "boşanmış",
+    "germanExample": "Sie sind geschieden.",
+    "turkishExample": "Onlar boşanmış."
+  },
+  {
+    "id": "vhs_a1_087",
+    "type": "Nomen",
+    "german": "der Vorname",
+    "turkish": "ad",
+    "germanExample": "Mein Vorname ist Thomas.",
+    "turkishExample": "Benim adım Thomas."
+  },
+  {
+    "id": "vhs_a1_088",
+    "type": "Nomen",
+    "german": "die Großmutter",
+    "turkish": "büyükanne/nine",
+    "germanExample": "Meine Oma bäckt Kuchen.",
+    "turkishExample": "Ninem kek pişirir."
+  },
+  {
+    "id": "vhs_a1_089",
+    "type": "Nomen",
+    "german": "der Großvater",
+    "turkish": "büyükbaba/dede",
+    "germanExample": "Mein Opa ist alt.",
+    "turkishExample": "Dedem yaşlıdır."
+  },
+  {
+    "id": "vhs_a1_090",
+    "type": "Nomen",
+    "german": "die Tante",
+    "turkish": "teyze/hala",
+    "germanExample": "Meine Tante kommt heute.",
+    "turkishExample": "Teyzem bugün geliyor."
+  },
+  {
+    "id": "vhs_a1_091",
+    "type": "Nomen",
+    "german": "der Onkel",
+    "turkish": "amca/dayı",
+    "germanExample": "Mein Onkel wohnt in München.",
+    "turkishExample": "Amcam Münih'te yaşıyor."
+  },
+  {
+    "id": "vhs_a1_092",
+    "type": "Nomen",
+    "german": "der Cousin",
+    "turkish": "erkek kuzen",
+    "germanExample": "Das ist mein Cousin.",
+    "turkishExample": "Bu benim kuzenim."
+  },
+  {
+    "id": "vhs_a1_093",
+    "type": "Nomen",
+    "german": "die Cousine",
+    "turkish": "kız kuzen",
+    "germanExample": "Meine Cousine ist Lehrerin.",
+    "turkishExample": "Kuzenim öğretmendir."
+  },
+  {
+    "id": "vhs_a1_094",
+    "type": "Nomen",
+    "german": "der Familienname",
+    "turkish": "soyadı",
+    "germanExample": "Wie ist Ihr Familienname?",
+    "turkishExample": "Soyadınız nedir?"
+  },
+  {
+    "id": "vhs_a1_095",
+    "type": "Nomen",
+    "german": "der Familienstand",
+    "turkish": "medeni hal",
+    "germanExample": "Was ist Ihr Familienstand?",
+    "turkishExample": "Medeni haliniz nedir?"
+  },
+  {
+    "id": "vhs_a1_096",
+    "type": "Nomen",
+    "german": "die Straße",
+    "turkish": "cadde/sokak",
+    "germanExample": "Die Straße ist lang.",
+    "turkishExample": "Sokak uzundur."
+  },
+  {
+    "id": "vhs_a1_097",
+    "type": "Nomen",
+    "german": "die Hausnummer",
+    "turkish": "kapı numarası",
+    "germanExample": "Meine Hausnummer ist fünf.",
+    "turkishExample": "Kapı numaram beştir."
+  },
+  {
+    "id": "vhs_a1_098",
+    "type": "Nomen",
+    "german": "die Stadt",
+    "turkish": "şehir",
+    "germanExample": "Berlin ist eine große Stadt.",
+    "turkishExample": "Berlin büyük bir şehirdir."
+  },
+  {
+    "id": "vhs_a1_099",
+    "type": "Nomen",
+    "german": "die Postleitzahl",
+    "turkish": "posta kodu",
+    "germanExample": "Wie ist die Postleitzahl?",
+    "turkishExample": "Posta kodu nedir?"
+  },
+  {
+    "id": "vhs_a1_100",
+    "type": "Nomen",
+    "german": "die Telefonnummer",
+    "turkish": "telefon numarası",
+    "germanExample": "Gib mir deine Telefonnummer.",
+    "turkishExample": "Bana telefon numaranı ver."
+  },
+  {
+    "id": "vhs_a1_101",
+    "type": "Zahl",
+    "german": "einundzwanzig",
+    "turkish": "yirmi bir",
+    "germanExample": "Er ist einundzwanzig.",
+    "turkishExample": "O yirmi bir yaşında."
+  },
+  {
+    "id": "vhs_a1_102",
+    "type": "Zahl",
+    "german": "dreißig",
+    "turkish": "otuz",
+    "germanExample": "Das Buch hat dreißig Seiten.",
+    "turkishExample": "Kitabın otuz sayfası var."
+  },
+  {
+    "id": "vhs_a1_103",
+    "type": "Zahl",
+    "german": "siebzig",
+    "turkish": "yetmiş",
+    "germanExample": "Mein Opa ist siebzig.",
+    "turkishExample": "Dedem yetmiş yaşında."
+  },
+  {
+    "id": "vhs_a1_104",
+    "type": "Zahl",
+    "german": "hundert",
+    "turkish": "yüz",
+    "germanExample": "Hundert Prozent richtig.",
+    "turkishExample": "Yüzde yüz doğru."
+  },
+  {
+    "id": "vhs_a1_105",
+    "type": "Nomen",
+    "german": "die Adresse",
+    "turkish": "adres",
+    "germanExample": "Das ist meine Adresse.",
+    "turkishExample": "Bu benim adresim."
+  },
+  {
+    "id": "vhs_a1_106",
+    "type": "Nomen",
+    "german": "das Alter",
+    "turkish": "yaş",
+    "germanExample": "Alter spielt keine Rolle.",
+    "turkishExample": "Yaşın önemi yok."
+  },
+  {
+    "id": "vhs_a1_107",
+    "type": "Nomen",
+    "german": "der Geburtsort",
+    "turkish": "doğum yeri",
+    "germanExample": "Mein Geburtsort ist Istanbul.",
+    "turkishExample": "Doğum yerim İstanbul."
+  },
+  {
+    "id": "vhs_a1_108",
+    "type": "Nomen",
+    "german": "der Wohnort",
+    "turkish": "ikamet yeri",
+    "germanExample": "Sein Wohnort ist Hamburg.",
+    "turkishExample": "Onun ikamet yeri Hamburg'dur."
+  },
+  {
+    "id": "vhs_a1_109",
+    "type": "Nomen",
+    "german": "der Stuhl",
+    "turkish": "sandalye",
+    "germanExample": "Der Stuhl ist bequem.",
+    "turkishExample": "Sandalye rahattır."
+  },
+  {
+    "id": "vhs_a1_110",
+    "type": "Nomen",
+    "german": "der Stift",
+    "turkish": "kalem",
+    "germanExample": "Hast du einen Stift?",
+    "turkishExample": "Bir kalemin var mı?"
+  },
+  {
+    "id": "vhs_a1_111",
+    "type": "Nomen",
+    "german": "das Buch",
+    "turkish": "kitap",
+    "germanExample": "Das Buch ist spannend.",
+    "turkishExample": "Kitap heyecan verici."
+  },
+  {
+    "id": "vhs_a1_112",
+    "type": "Nomen",
+    "german": "der Computer",
+    "turkish": "bilgisayar",
+    "germanExample": "Der Computer ist neu.",
+    "turkishExample": "Bilgisayar yeni."
+  },
+  {
+    "id": "vhs_a1_113",
+    "type": "Nomen",
+    "german": "die Maus",
+    "turkish": "fare",
+    "germanExample": "Die Maus ist kaputt.",
+    "turkishExample": "Fare bozuk."
+  },
+  {
+    "id": "vhs_a1_114",
+    "type": "Nomen",
+    "german": "die Tastatur",
+    "turkish": "klavye",
+    "germanExample": "Ich brauche eine Tastatur.",
+    "turkishExample": "Bir klavyeye ihtiyacım var."
+  },
+  {
+    "id": "vhs_a1_115",
+    "type": "Nomen",
+    "german": "der Bildschirm",
+    "turkish": "ekran",
+    "germanExample": "Der Bildschirm ist groß.",
+    "turkishExample": "Ekran büyük."
+  },
+  {
+    "id": "vhs_a1_116",
+    "type": "Nomen",
+    "german": "das Handy",
+    "turkish": "cep telefonu",
+    "germanExample": "Mein Handy klingelt.",
+    "turkishExample": "Cep telefonum çalıyor."
+  },
+  {
+    "id": "vhs_a1_117",
+    "type": "Nomen",
+    "german": "die Tasche",
+    "turkish": "çanta",
+    "germanExample": "Die Tasche ist schwer.",
+    "turkishExample": "Çanta ağır."
+  },
+  {
+    "id": "vhs_a1_118",
+    "type": "Nomen",
+    "german": "die E-Mail",
+    "turkish": "e-posta",
+    "germanExample": "Ich schreibe eine E-Mail.",
+    "turkishExample": "Bir e-posta yazıyorum."
+  },
+  {
+    "id": "vhs_a1_119",
+    "type": "Nomen",
+    "german": "die Musik",
+    "turkish": "müzik",
+    "germanExample": "Ich höre gerne Musik.",
+    "turkishExample": "Müzik dinlemeyi severim."
+  },
+  {
+    "id": "vhs_a1_120",
+    "type": "Verb",
+    "german": "lesen",
+    "turkish": "okumak",
+    "germanExample": "Er liest ein Buch.",
+    "turkishExample": "O bir kitap okuyor."
+  },
+  {
+    "id": "vhs_a1_121",
+    "type": "Verb",
+    "german": "schreiben",
+    "turkish": "yazmak",
+    "germanExample": "Wir schreiben einen Test.",
+    "turkishExample": "Bir test yazıyoruz."
+  },
+  {
+    "id": "vhs_a1_122",
+    "type": "Verb",
+    "german": "hören",
+    "turkish": "duymak/dinlemek",
+    "germanExample": "Hörst du mich?",
+    "turkishExample": "Beni duyuyor musun?"
+  },
+  {
+    "id": "vhs_a1_123",
+    "type": "Verb",
+    "german": "lernen",
+    "turkish": "öğrenmek",
+    "germanExample": "Sie lernt schnell.",
+    "turkishExample": "O hızlı öğreniyor."
+  },
+  {
+    "id": "vhs_a1_124",
+    "type": "Nomen",
+    "german": "der Lehrer",
+    "turkish": "öğretmen",
+    "germanExample": "Der Lehrer erklärt gut.",
+    "turkishExample": "Öğretmen iyi açıklıyor."
+  },
+  {
+    "id": "vhs_a1_125",
+    "type": "Nomen",
+    "german": "das Tablet",
+    "turkish": "tablet",
+    "germanExample": "Das Tablet ist teuer.",
+    "turkishExample": "Tablet pahalı."
+  },
+  {
+    "id": "vhs_a1_126",
+    "type": "Nomen",
+    "german": "der Laptop",
+    "turkish": "dizüstü bilgisayar",
+    "germanExample": "Der Laptop ist auf dem Tisch.",
+    "turkishExample": "Dizüstü bilgisayar masanın üstünde."
+  },
+  {
+    "id": "vhs_a1_127",
+    "type": "Nomen",
+    "german": "der Kuli",
+    "turkish": "tükenmez kalem",
+    "germanExample": "Gib mir den Kuli.",
+    "turkishExample": "Bana tükenmez kalemi ver."
+  },
+  {
+    "id": "vhs_a1_128",
+    "type": "Nomen",
+    "german": "die Übung",
+    "turkish": "alıştırma",
+    "germanExample": "Die Übung ist einfach.",
+    "turkishExample": "Alıştırma kolay."
+  },
+  {
+    "id": "vhs_a1_129",
+    "type": "Adjektiv",
+    "german": "neu",
+    "turkish": "yeni",
+    "germanExample": "Das Auto ist neu.",
+    "turkishExample": "Araba yeni."
+  },
+  {
+    "id": "vhs_a1_130",
+    "type": "Adjektiv",
+    "german": "schön",
+    "turkish": "güzel",
+    "germanExample": "Das Wetter ist schön.",
+    "turkishExample": "Hava güzel."
+  },
+  {
+    "id": "vhs_a1_131",
+    "type": "Adjektiv",
+    "german": "groß",
+    "turkish": "büyük",
+    "germanExample": "Das Haus ist groß.",
+    "turkishExample": "Ev büyük."
+  },
+  {
+    "id": "vhs_a1_132",
+    "type": "Adjektiv",
+    "german": "klein",
+    "turkish": "küçük",
+    "germanExample": "Der Hund ist klein.",
+    "turkishExample": "Köpek küçük."
+  },
+  {
+    "id": "vhs_a1_133",
+    "type": "Adjektiv",
+    "german": "interessant",
+    "turkish": "ilginç",
+    "germanExample": "Der Film ist interessant.",
+    "turkishExample": "Film ilginç."
+  },
+  {
+    "id": "vhs_a1_134",
+    "type": "Adjektiv",
+    "german": "einfach",
+    "turkish": "kolay/basit",
+    "germanExample": "Die Aufgabe ist einfach.",
+    "turkishExample": "Görev basit."
+  },
+  {
+    "id": "vhs_a1_135",
+    "type": "Adjektiv",
+    "german": "schwierig",
+    "turkish": "zor",
+    "germanExample": "Deutsch ist nicht schwierig.",
+    "turkishExample": "Almanca zor değil."
+  },
+  {
+    "id": "vhs_a1_136",
+    "type": "Adjektiv",
+    "german": "richtig",
+    "turkish": "doğru",
+    "germanExample": "Die Antwort ist richtig.",
+    "turkishExample": "Cevap doğru."
+  },
+  {
+    "id": "vhs_a1_137",
+    "type": "Adjektiv",
+    "german": "falsch",
+    "turkish": "yanlış",
+    "germanExample": "Das ist leider falsch.",
+    "turkishExample": "Bu maalesef yanlış."
+  },
+  {
+    "id": "vhs_a1_138",
+    "type": "Nomen",
+    "german": "der Satz",
+    "turkish": "cümle",
+    "germanExample": "Bitte lies den Satz.",
+    "turkishExample": "Lütfen cümleyi oku."
+  },
+  {
+    "id": "vhs_a1_139",
+    "type": "Ausdruck",
+    "german": "einen Deutschkurs machen",
+    "turkish": "Almanca kursu yapmak",
+    "germanExample": "Ich mache einen Deutschkurs.",
+    "turkishExample": "Ben bir Almanca kursu yapıyorum."
+  },
+  {
+    "id": "vhs_a1_140",
+    "type": "Adjektiv",
+    "german": "nett",
+    "turkish": "nazik/kibar",
+    "germanExample": "Sie ist sehr nett.",
+    "turkishExample": "O çok nazik."
+  },
+  {
+    "id": "vhs_a1_141",
+    "type": "Verb",
+    "german": "fragen",
+    "turkish": "sormak",
+    "germanExample": "Darf ich etwas fragen?",
+    "turkishExample": "Bir şey sorabilir miyim?"
+  },
+  {
+    "id": "vhs_a1_142",
+    "type": "Verb",
+    "german": "antworten",
+    "turkish": "cevap vermek",
+    "germanExample": "Bitte antworte mir.",
+    "turkishExample": "Lütfen bana cevap ver."
+  },
+  {
+    "id": "vhs_a1_143",
+    "type": "Nomen",
+    "german": "der Montag",
+    "turkish": "Pazartesi",
+    "germanExample": "Am Montag arbeite ich.",
+    "turkishExample": "Pazartesi günü çalışıyorum."
+  },
+  {
+    "id": "vhs_a1_144",
+    "type": "Nomen",
+    "german": "der Dienstag",
+    "turkish": "Salı",
+    "germanExample": "Dienstag ist der zweite Tag.",
+    "turkishExample": "Salı ikinci gündür."
+  },
+  {
+    "id": "vhs_a1_145",
+    "type": "Nomen",
+    "german": "der Mittwoch",
+    "turkish": "Çarşamba",
+    "germanExample": "Wir treffen uns am Mittwoch.",
+    "turkishExample": "Çarşamba günü buluşuyoruz."
+  },
+  {
+    "id": "vhs_a1_146",
+    "type": "Nomen",
+    "german": "der Donnerstag",
+    "turkish": "Perşembe",
+    "germanExample": "Donnerstag habe ich Zeit.",
+    "turkishExample": "Perşembe zamanım var."
+  },
+  {
+    "id": "vhs_a1_147",
+    "type": "Nomen",
+    "german": "der Freitag",
+    "turkish": "Cuma",
+    "germanExample": "Endlich Freitag!",
+    "turkishExample": "Sonunda Cuma!"
+  },
+  {
+    "id": "vhs_a1_148",
+    "type": "Nomen",
+    "german": "der Samstag",
+    "turkish": "Cumartesi",
+    "germanExample": "Samstag spiele ich Fußball.",
+    "turkishExample": "Cumartesi futbol oynarım."
+  },
+  {
+    "id": "vhs_a1_149",
+    "type": "Nomen",
+    "german": "der Sonntag",
+    "turkish": "Pazar",
+    "germanExample": "Sonntag ist ein Ruhetag.",
+    "turkishExample": "Pazar dinlenme günüdür."
+  },
+  {
+    "id": "vhs_a1_150",
+    "type": "Adverb",
+    "german": "gestern",
+    "turkish": "dün",
+    "germanExample": "Gestern war ich krank.",
+    "turkishExample": "Dün hastaydım."
+  },
+  {
+    "id": "vhs_a1_151",
+    "type": "Adverb",
+    "german": "heute",
+    "turkish": "bugün",
+    "germanExample": "Heute scheint die Sonne.",
+    "turkishExample": "Bugün güneş parlıyor."
+  },
+  {
+    "id": "vhs_a1_152",
+    "type": "Adverb",
+    "german": "morgen",
+    "turkish": "yarın",
+    "germanExample": "Morgen gehen wir ins Kino.",
+    "turkishExample": "Yarın sinemaya gidiyoruz."
+  },
+  {
+    "id": "vhs_a1_153",
+    "type": "Nomen",
+    "german": "die Brille",
+    "turkish": "gözlük",
+    "germanExample": "Ich brauche meine Brille.",
+    "turkishExample": "Gözlüğüme ihtiyacım var."
+  },
+  {
+    "id": "vhs_a1_154",
+    "type": "Nomen",
+    "german": "die Tür",
+    "turkish": "kapı",
+    "germanExample": "Mach die Tür zu.",
+    "turkishExample": "Kapıyı kapat."
+  },
+  {
+    "id": "vhs_a1_155",
+    "type": "Nomen",
+    "german": "das Wörterbuch",
+    "turkish": "sözlük",
+    "germanExample": "Ich suche ein Wort im Wörterbuch.",
+    "turkishExample": "Sözlükte bir kelime arıyorum."
+  },
+  {
+    "id": "vhs_a1_156",
+    "type": "Nomen",
+    "german": "das Gemüse",
+    "turkish": "sebze",
+    "germanExample": "Gemüse ist sehr gesund.",
+    "turkishExample": "Sebze çok sağlıklıdır."
+  },
+  {
+    "id": "vhs_a1_157",
+    "type": "Nomen",
+    "german": "der Salat",
+    "turkish": "salata",
+    "germanExample": "Ich mache einen Salat.",
+    "turkishExample": "Ben bir salata yapıyorum."
+  },
+  {
+    "id": "vhs_a1_158",
+    "type": "Nomen",
+    "german": "das Fleisch",
+    "turkish": "et",
+    "germanExample": "Er isst kein Fleisch.",
+    "turkishExample": "O et yemez."
+  },
+  {
+    "id": "vhs_a1_159",
+    "type": "Nomen",
+    "german": "die Wurst",
+    "turkish": "sosis/sucuk",
+    "germanExample": "Ich kaufe eine Wurst.",
+    "turkishExample": "Bir sosis alıyorum."
+  },
+  {
+    "id": "vhs_a1_160",
+    "type": "Nomen",
+    "german": "das Obst",
+    "turkish": "meyve",
+    "germanExample": "Das Obst ist frisch.",
+    "turkishExample": "Meyve tazedir."
+  },
+  {
+    "id": "vhs_a1_161",
+    "type": "Nomen",
+    "german": "die Milch",
+    "turkish": "süt",
+    "germanExample": "Trinkst du Milch?",
+    "turkishExample": "Süt içer misin?"
+  },
+  {
+    "id": "vhs_a1_162",
+    "type": "Nomen",
+    "german": "das Wasser",
+    "turkish": "su",
+    "germanExample": "Ich trinke ein Glas Wasser.",
+    "turkishExample": "Bir bardak su içiyorum."
+  },
+  {
+    "id": "vhs_a1_163",
+    "type": "Nomen",
+    "german": "der Saft",
+    "turkish": "meyve suyu",
+    "germanExample": "Der Apfelsaft ist süß.",
+    "turkishExample": "Elma suyu tatlıdır."
+  },
+  {
+    "id": "vhs_a1_164",
+    "type": "Nomen",
+    "german": "der Fisch",
+    "turkish": "balık",
+    "germanExample": "Wir essen heute Fisch.",
+    "turkishExample": "Bugün balık yiyoruz."
+  },
+  {
+    "id": "vhs_a1_165",
+    "type": "Nomen",
+    "german": "der Kuchen",
+    "turkish": "pasta/kek",
+    "germanExample": "Der Kuchen ist lecker.",
+    "turkishExample": "Pasta lezzetli."
+  },
+  {
+    "id": "vhs_a1_166",
+    "type": "Nomen",
+    "german": "das Eis",
+    "turkish": "dondurma/buz",
+    "germanExample": "Die Kinder lieben Eis.",
+    "turkishExample": "Çocuklar dondurmayı sever."
+  },
+  {
+    "id": "vhs_a1_167",
+    "type": "Nomen",
+    "german": "das Schweinefleisch",
+    "turkish": "domuz eti",
+    "germanExample": "Ich esse kein Schweinefleisch.",
+    "turkishExample": "Domuz eti yemiyorum."
+  },
+  {
+    "id": "vhs_a1_168",
+    "type": "Nomen",
+    "german": "der Tee",
+    "turkish": "çay",
+    "germanExample": "Möchtest du Tee trinken?",
+    "turkishExample": "Çay içmek ister misin?"
+  },
+  {
+    "id": "vhs_a1_169",
+    "type": "Nomen",
+    "german": "der Joghurt",
+    "turkish": "yoğurt",
+    "germanExample": "Ich esse Joghurt zum Frühstück.",
+    "turkishExample": "Kahvaltıda yoğurt yerim."
+  },
+  {
+    "id": "vhs_a1_170",
+    "type": "Nomen",
+    "german": "der Reis",
+    "turkish": "pirinç/pilav",
+    "germanExample": "Wir kochen Reis mit Hähnchen.",
+    "turkishExample": "Tavukla pilav pişiriyoruz."
+  },
+  {
+    "id": "vhs_a1_171",
+    "type": "Nomen",
+    "german": "das Brot",
+    "turkish": "ekmek",
+    "germanExample": "Brot mit Käse schmeckt gut.",
+    "turkishExample": "Peynirli ekmek lezzetlidir."
+  },
+  {
+    "id": "vhs_a1_172",
+    "type": "Nomen",
+    "german": "das Brötchen",
+    "turkish": "küçük ekmek",
+    "germanExample": "Ich esse zwei Brötchen.",
+    "turkishExample": "İki küçük ekmek yiyorum."
+  },
+  {
+    "id": "vhs_a1_173",
+    "type": "Nomen",
+    "german": "der Kaffee",
+    "turkish": "kahve",
+    "germanExample": "Mein Kaffee ist heiß.",
+    "turkishExample": "Kahvem sıcak."
+  },
+  {
+    "id": "vhs_a1_174",
+    "type": "Nomen",
+    "german": "der Käse",
+    "turkish": "peynir",
+    "germanExample": "Der Käse ist aus der Türkei.",
+    "turkishExample": "Peynir Türkiye'dendir."
+  },
+  {
+    "id": "vhs_a1_175",
+    "type": "Nomen",
+    "german": "das Hähnchen",
+    "turkish": "tavuk",
+    "germanExample": "Das Hähnchen ist im Ofen.",
+    "turkishExample": "Tavuk fırında."
+  },
+  {
+    "id": "vhs_a1_176",
+    "type": "Verb",
+    "german": "mögen",
+    "turkish": "hoşlanmak/sevmek",
+    "germanExample": "Ich mag keine Tomaten.",
+    "turkishExample": "Domates sevmem."
+  },
+  {
+    "id": "vhs_a1_177",
+    "type": "Verb",
+    "german": "essen",
+    "turkish": "yemek",
+    "germanExample": "Was isst du gern?",
+    "turkishExample": "Ne yemeyi seversin?"
+  },
+  {
+    "id": "vhs_a1_178",
+    "type": "Verb",
+    "german": "trinken",
+    "turkish": "içmek",
+    "germanExample": "Wir trinken zusammen Kaffee.",
+    "turkishExample": "Birlikte kahve içiyoruz."
+  },
+  {
+    "id": "vhs_a1_179",
+    "type": "Nomen",
+    "german": "der Apfel",
+    "turkish": "elma",
+    "germanExample": "Der Apfel ist rot.",
+    "turkishExample": "Elma kırmızıdır."
+  },
+  {
+    "id": "vhs_a1_180",
+    "type": "Nomen",
+    "german": "die Banane",
+    "turkish": "muz",
+    "germanExample": "Die Banane ist gelb.",
+    "turkishExample": "Muz sarıdır."
+  },
+  {
+    "id": "vhs_a1_181",
+    "type": "Nomen",
+    "german": "das Ei",
+    "turkish": "yumurta",
+    "germanExample": "Ich brauche drei Eier.",
+    "turkishExample": "Üç yumurtaya ihtiyacım var."
+  },
+  {
+    "id": "vhs_a1_182",
+    "type": "Nomen",
+    "german": "die Gurke",
+    "turkish": "salatalık",
+    "germanExample": "Schneide die Gurke.",
+    "turkishExample": "Salatalığı kes."
+  },
+  {
+    "id": "vhs_a1_183",
+    "type": "Nomen",
+    "german": "das Getränk",
+    "turkish": "içecek",
+    "germanExample": "Welches Getränk möchtest du?",
+    "turkishExample": "Hangi içeceği istersin?"
+  },
+  {
+    "id": "vhs_a1_184",
+    "type": "Nomen",
+    "german": "der Paprika",
+    "turkish": "biber",
+    "germanExample": "Ich schneide den Paprika.",
+    "turkishExample": "Biberi doğruyorum."
+  },
+  {
+    "id": "vhs_a1_185",
+    "type": "Nomen",
+    "german": "die Nudel",
+    "turkish": "makarna",
+    "germanExample": "Wir essen oft Nudeln.",
+    "turkishExample": "Sık sık makarna yeriz."
+  },
+  {
+    "id": "vhs_a1_186",
+    "type": "Nomen",
+    "german": "die Möhre",
+    "turkish": "havuç",
+    "germanExample": "Die Möhre ist orange.",
+    "turkishExample": "Havuç turuncudur."
+  },
+  {
+    "id": "vhs_a1_187",
+    "type": "Nomen",
+    "german": "die Tomate",
+    "turkish": "domates",
+    "germanExample": "Tomaten sind rot.",
+    "turkishExample": "Domatesler kırmızıdır."
+  },
+  {
+    "id": "vhs_a1_188",
+    "type": "Nomen",
+    "german": "die Zwiebel",
+    "turkish": "soğan",
+    "germanExample": "Die Zwiebel ist scharf.",
+    "turkishExample": "Soğan acıdır."
+  },
+  {
+    "id": "vhs_a1_189",
+    "type": "Verb",
+    "german": "brauchen",
+    "turkish": "ihtiyacı olmak",
+    "germanExample": "Ich brauche Hilfe.",
+    "turkishExample": "Yardıma ihtiyacım var."
+  },
+  {
+    "id": "vhs_a1_190",
+    "type": "Verb",
+    "german": "kaufen",
+    "turkish": "satın almak",
+    "germanExample": "Wir kaufen im Supermarkt ein.",
+    "turkishExample": "Süpermarketten alışveriş yapıyoruz."
+  },
+  {
+    "id": "vhs_a1_191",
+    "type": "Verb",
+    "german": "kochen",
+    "turkish": "pişirmek",
+    "germanExample": "Mein Vater kocht sehr gut.",
+    "turkishExample": "Babam çok iyi yemek pişirir."
+  },
+  {
+    "id": "vhs_a1_192",
+    "type": "Nomen",
+    "german": "das Kilo",
+    "turkish": "kilo",
+    "germanExample": "Ich kaufe ein Kilo Äpfel.",
+    "turkishExample": "Bir kilo elma alıyorum."
+  },
+  {
+    "id": "vhs_a1_193",
+    "type": "Nomen",
+    "german": "der Liter",
+    "turkish": "litre",
+    "germanExample": "Ich brauche einen Liter Milch.",
+    "turkishExample": "Bir litre süte ihtiyacım var."
+  },
+  {
+    "id": "vhs_a1_194",
+    "type": "Nomen",
+    "german": "das Stück",
+    "turkish": "parça/adet",
+    "germanExample": "Ein Stück Kuchen, bitte.",
+    "turkishExample": "Bir dilim (parça) pasta lütfen."
+  },
+  {
+    "id": "vhs_a1_195",
+    "type": "Nomen",
+    "german": "die Tüte",
+    "turkish": "poşet/külah",
+    "germanExample": "Die Tüte kostet 10 Cent.",
+    "turkishExample": "Poşet 10 Cent tutuyor."
+  },
+  {
+    "id": "vhs_a1_196",
+    "type": "Nomen",
+    "german": "die Flasche",
+    "turkish": "şişe",
+    "germanExample": "Hier ist eine Flasche Wasser.",
+    "turkishExample": "İşte bir şişe su."
+  },
+  {
+    "id": "vhs_a1_197",
+    "type": "Nomen",
+    "german": "das Glas",
+    "turkish": "bardak",
+    "germanExample": "Ein Glas Tee, bitte.",
+    "turkishExample": "Bir bardak çay lütfen."
+  },
+  {
+    "id": "vhs_a1_198",
+    "type": "Nomen",
+    "german": "der Supermarkt",
+    "turkish": "süpermarket",
+    "germanExample": "Der Supermarkt ist um die Ecke.",
+    "turkishExample": "Süpermarket köşede."
+  },
+  {
+    "id": "vhs_a1_199",
+    "type": "Nomen",
+    "german": "der Euro",
+    "turkish": "Euro",
+    "germanExample": "Das kostet fünf Euro.",
+    "turkishExample": "Bu beş Euro tutuyor."
+  },
+  {
+    "id": "vhs_a1_200",
+    "type": "Nomen",
+    "german": "der Cent",
+    "turkish": "Cent",
+    "germanExample": "Ich habe 50 Cent.",
+    "turkishExample": "50 Centim var."
+  },
+  {
+    "id": "vhs_a1_201",
+    "type": "Verb",
+    "german": "kosten",
+    "turkish": "fiyatı olmak",
+    "germanExample": "Wie viel kostet das?",
+    "turkishExample": "Bunun fiyatı ne kadar?"
+  },
+  {
+    "id": "vhs_a1_202",
+    "type": "Nomen",
+    "german": "der Preis",
+    "turkish": "fiyat",
+    "germanExample": "Der Preis ist gut.",
+    "turkishExample": "Fiyat iyidir."
+  },
+  {
+    "id": "vhs_a1_203",
+    "type": "Nomen",
+    "german": "das Mittagessen",
+    "turkish": "öğle yemeği",
+    "germanExample": "Wir machen das Mittagessen.",
+    "turkishExample": "Öğle yemeğini hazırlıyoruz."
+  },
+  {
+    "id": "vhs_a1_204",
+    "type": "Nomen",
+    "german": "das Abendessen",
+    "turkish": "akşam yemeği",
+    "germanExample": "Das Abendessen ist fertig.",
+    "turkishExample": "Akşam yemeği hazır."
+  },
+  {
+    "id": "vhs_a1_205",
+    "type": "Nomen",
+    "german": "das Frühstück",
+    "turkish": "kahvaltı",
+    "germanExample": "Zum Frühstück esse ich Brot.",
+    "turkishExample": "Kahvaltıda ekmek yerim."
+  },
+  {
+    "id": "vhs_a1_206",
+    "type": "Nomen",
+    "german": "die Marmelade",
+    "turkish": "marmelat/reçel",
+    "germanExample": "Ich mache Erdbeermarmelade.",
+    "turkishExample": "Çilek reçeli yapıyorum."
+  },
+  {
+    "id": "vhs_a1_207",
+    "type": "Adjektiv",
+    "german": "süß",
+    "turkish": "tatlı",
+    "germanExample": "Der Tee ist sehr süß.",
+    "turkishExample": "Çay çok tatlı."
+  },
+  {
+    "id": "vhs_a1_208",
+    "type": "Adjektiv",
+    "german": "sauer",
+    "turkish": "ekşi",
+    "germanExample": "Die Zitrone ist sauer.",
+    "turkishExample": "Limon ekşidir."
+  },
+  {
+    "id": "vhs_a1_209",
+    "type": "Adjektiv",
+    "german": "salzig",
+    "turkish": "tuzlu",
+    "germanExample": "Die Suppe ist salzig.",
+    "turkishExample": "Çorba tuzludur."
+  },
+  {
+    "id": "vhs_a1_210",
+    "type": "Adjektiv",
+    "german": "scharf",
+    "turkish": "acı",
+    "germanExample": "Das Essen ist scharf.",
+    "turkishExample": "Yemek acıdır."
+  },
+  {
+    "id": "vhs_a1_211",
+    "type": "Nomen",
+    "german": "der Zucker",
+    "turkish": "şeker",
+    "germanExample": "Kaffee ohne Zucker, bitte.",
+    "turkishExample": "Şekersiz kahve lütfen."
+  },
+  {
+    "id": "vhs_a1_212",
+    "type": "Nomen",
+    "german": "der Tag",
+    "turkish": "gün",
+    "germanExample": "Guten Tag!",
+    "turkishExample": "İyi günler!"
+  },
+  {
+    "id": "vhs_a1_213",
+    "type": "Nomen",
+    "german": "der Morgen",
+    "turkish": "sabah",
+    "germanExample": "Guten Morgen!",
+    "turkishExample": "Günaydın!"
+  },
+  {
+    "id": "vhs_a1_214",
+    "type": "Nomen",
+    "german": "der Vormittag",
+    "turkish": "öğleden önce",
+    "germanExample": "Am Vormittag arbeite ich.",
+    "turkishExample": "Öğleden önce çalışıyorum."
+  },
+  {
+    "id": "vhs_a1_215",
+    "type": "Nomen",
+    "german": "der Mittag",
+    "turkish": "öğle",
+    "germanExample": "Am Mittag esse ich.",
+    "turkishExample": "Öğlen yemek yerim."
+  },
+  {
+    "id": "vhs_a1_216",
+    "type": "Nomen",
+    "german": "der Nachmittag",
+    "turkish": "öğleden sonra",
+    "germanExample": "Wir treffen uns am Nachmittag.",
+    "turkishExample": "Öğleden sonra buluşuyoruz."
+  },
+  {
+    "id": "vhs_a1_217",
+    "type": "Nomen",
+    "german": "der Abend",
+    "turkish": "akşam",
+    "germanExample": "Guten Abend!",
+    "turkishExample": "İyi akşamlar!"
+  },
+  {
+    "id": "vhs_a1_218",
+    "type": "Nomen",
+    "german": "die Nacht",
+    "turkish": "gece",
+    "germanExample": "Gute Nacht!",
+    "turkishExample": "İyi geceler!"
+  },
+  {
+    "id": "vhs_a1_219",
+    "type": "Verb",
+    "german": "frühstücken",
+    "turkish": "kahvaltı yapmak",
+    "germanExample": "Ich frühstücke um 8 Uhr.",
+    "turkishExample": "Saat 8'de kahvaltı yaparım."
+  },
+  {
+    "id": "vhs_a1_220",
+    "type": "Verb",
+    "german": "duschen",
+    "turkish": "duş almak",
+    "germanExample": "Ich dusche am Morgen.",
+    "turkishExample": "Sabahları duş alırım."
+  },
+  {
+    "id": "vhs_a1_221",
+    "type": "Verb",
+    "german": "schlafen",
+    "turkish": "uyumak",
+    "germanExample": "Das Kind schläft.",
+    "turkishExample": "Çocuk uyuyor."
+  },
+  {
+    "id": "vhs_a1_222",
+    "type": "Verb",
+    "german": "arbeiten",
+    "turkish": "çalışmak",
+    "germanExample": "Ich arbeite jeden Tag.",
+    "turkishExample": "Her gün çalışıyorum."
+  },
+  {
+    "id": "vhs_a1_223",
+    "type": "Nomen",
+    "german": "die Arbeit",
+    "turkish": "iş",
+    "germanExample": "Die Arbeit ist anstrengend.",
+    "turkishExample": "İş yorucudur."
+  },
+  {
+    "id": "vhs_a1_224",
+    "type": "Ausdruck",
+    "german": "die Hausaufgaben machen",
+    "turkish": "ödev yapmak",
+    "germanExample": "Die Schüler machen die Hausaufgaben.",
+    "turkishExample": "Öğrenciler ödev yapıyor."
+  },
+  {
+    "id": "vhs_a1_225",
+    "type": "Verb",
+    "german": "telefonieren",
+    "turkish": "telefonla görüşmek",
+    "germanExample": "Ich telefoniere mit meiner Mutter.",
+    "turkishExample": "Annemle telefonda konuşuyorum."
+  },
+  {
+    "id": "vhs_a1_226",
+    "type": "Ausdruck",
+    "german": "Fußball spielen",
+    "turkish": "futbol oynamak",
+    "germanExample": "Wir spielen am Wochenende Fußball.",
+    "turkishExample": "Hafta sonu futbol oynuyoruz."
+  },
+  {
+    "id": "vhs_a1_227",
+    "type": "Ausdruck",
+    "german": "Sport machen",
+    "turkish": "spor yapmak",
+    "germanExample": "Ich mache dreimal pro Woche Sport.",
+    "turkishExample": "Haftada üç kez spor yapıyorum."
+  },
+  {
+    "id": "vhs_a1_228",
+    "type": "Ausdruck",
+    "german": "Musik hören",
+    "turkish": "müzik dinlemek",
+    "germanExample": "Er hört im Auto Musik.",
+    "turkishExample": "O arabada müzik dinler."
+  },
+  {
+    "id": "vhs_a1_229",
+    "type": "Verb",
+    "german": "putzen",
+    "turkish": "temizlemek",
+    "germanExample": "Ich putze das Fenster.",
+    "turkishExample": "Pencereyi temizliyorum."
+  },
+  {
+    "id": "vhs_a1_230",
+    "type": "Verb",
+    "german": "tanzen",
+    "turkish": "dans etmek",
+    "germanExample": "Wir tanzen auf der Party.",
+    "turkishExample": "Partide dans ediyoruz."
+  },
+  {
+    "id": "vhs_a1_231",
+    "type": "Ausdruck",
+    "german": "Gitarre spielen",
+    "turkish": "gitar çalmak",
+    "germanExample": "Sie kann gut Gitarre spielen.",
+    "turkishExample": "O iyi gitar çalabilir."
+  },
+  {
+    "id": "vhs_a1_232",
+    "type": "Verb",
+    "german": "treffen",
+    "turkish": "buluşmak",
+    "germanExample": "Ich treffe meine Freunde.",
+    "turkishExample": "Arkadaşlarımla buluşuyorum."
+  },
+  {
+    "id": "vhs_a1_233",
+    "type": "Verb",
+    "german": "aufstehen",
+    "turkish": "kalkmak",
+    "germanExample": "Ich stehe früh auf.",
+    "turkishExample": "Erken kalkarım."
+  },
+  {
+    "id": "vhs_a1_234",
+    "type": "Verb",
+    "german": "fernsehen",
+    "turkish": "televizyon izlemek",
+    "germanExample": "Abends sehe ich fern.",
+    "turkishExample": "Akşamları televizyon izlerim."
+  },
+  {
+    "id": "vhs_a1_235",
+    "type": "Verb",
+    "german": "einkaufen",
+    "turkish": "alışveriş yapmak",
+    "germanExample": "Wir gehen im Supermarkt einkaufen.",
+    "turkishExample": "Süpermarkette alışverişe gidiyoruz."
+  },
+  {
+    "id": "vhs_a1_236",
+    "type": "Verb",
+    "german": "aufräumen",
+    "turkish": "ortalığı toplamak",
+    "germanExample": "Räum bitte dein Zimmer auf.",
+    "turkishExample": "Lütfen odanı topla."
+  },
+  {
+    "id": "vhs_a1_237",
+    "type": "Verb",
+    "german": "vorlesen",
+    "turkish": "sesli okumak",
+    "germanExample": "Der Vater liest ein Buch vor.",
+    "turkishExample": "Baba bir kitabı sesli okuyor."
+  },
+  {
+    "id": "vhs_a1_238",
+    "type": "Verb",
+    "german": "anrufen",
+    "turkish": "aramak (telefonla)",
+    "germanExample": "Ruf mich morgen an.",
+    "turkishExample": "Beni yarın ara."
+  },
+  {
+    "id": "vhs_a1_239",
+    "type": "Verb",
+    "german": "abholen",
+    "turkish": "gidip almak",
+    "germanExample": "Ich hole dich vom Bahnhof ab.",
+    "turkishExample": "Seni istasyondan alacağım."
+  },
+  {
+    "id": "vhs_a1_240",
+    "type": "Verb",
+    "german": "anfangen",
+    "turkish": "başlamak",
+    "germanExample": "Der Kurs fängt um 9 Uhr an.",
+    "turkishExample": "Kurs saat 9'da başlıyor."
+  },
+  {
+    "id": "vhs_a1_241",
+    "type": "Adverb",
+    "german": "früh",
+    "turkish": "erken",
+    "germanExample": "Er kommt immer früh.",
+    "turkishExample": "O her zaman erken gelir."
+  },
+  {
+    "id": "vhs_a1_242",
+    "type": "Adverb",
+    "german": "spät",
+    "turkish": "geç",
+    "germanExample": "Es ist schon spät.",
+    "turkishExample": "Saat artık geç oldu."
+  },
+  {
+    "id": "vhs_a1_243",
+    "type": "Nomen",
+    "german": "die Stunde",
+    "turkish": "saat (süre)",
+    "germanExample": "Eine Stunde hat 60 Minuten.",
+    "turkishExample": "Bir saat 60 dakikadır."
+  },
+  {
+    "id": "vhs_a1_244",
+    "type": "Nomen",
+    "german": "die Pause",
+    "turkish": "mola",
+    "germanExample": "Wir machen 10 Minuten Pause.",
+    "turkishExample": "10 dakika mola veriyoruz."
+  },
+  {
+    "id": "vhs_a1_245",
+    "type": "Nomen",
+    "german": "das Wochenende",
+    "turkish": "hafta sonu",
+    "germanExample": "Schönes Wochenende!",
+    "turkishExample": "İyi hafta sonları!"
+  },
+  {
+    "id": "vhs_a1_246",
+    "type": "Adverb",
+    "german": "meistens",
+    "turkish": "çoğunlukla",
+    "germanExample": "Meistens trinke ich Kaffee.",
+    "turkishExample": "Çoğunlukla kahve içerim."
+  },
+  {
+    "id": "vhs_a1_247",
+    "type": "Adverb",
+    "german": "immer",
+    "turkish": "her zaman",
+    "germanExample": "Er ist immer pünktlich.",
+    "turkishExample": "O her zaman dakiktir."
+  },
+  {
+    "id": "vhs_a1_248",
+    "type": "Adverb",
+    "german": "oft",
+    "turkish": "sık sık",
+    "germanExample": "Ich gehe oft spazieren.",
+    "turkishExample": "Sık sık yürüyüşe çıkarım."
+  },
+  {
+    "id": "vhs_a1_249",
+    "type": "Adverb",
+    "german": "manchmal",
+    "turkish": "bazen",
+    "germanExample": "Manchmal esse ich Schokolade.",
+    "turkishExample": "Bazen çikolata yerim."
+  },
+  {
+    "id": "vhs_a1_250",
+    "type": "Adverb",
+    "german": "selten",
+    "turkish": "nadiren",
+    "germanExample": "Ich gehe selten ins Kino.",
+    "turkishExample": "Sinemaya nadiren giderim."
+  },
+  {
+    "id": "vhs_a1_251",
+    "type": "Adverb",
+    "german": "nie",
+    "turkish": "hiç/asla",
+    "germanExample": "Ich rauche nie.",
+    "turkishExample": "Hiç sigara içmem."
+  },
+  {
+    "id": "vhs_a1_252",
+    "type": "Verb",
+    "german": "mitkommen",
+    "turkish": "birlikte gelmek",
+    "germanExample": "Kommst du mit?",
+    "turkishExample": "Birlikte geliyor musun?"
+  },
+  {
+    "id": "vhs_a1_253",
+    "type": "Verb",
+    "german": "gehen",
+    "turkish": "gitmek",
+    "germanExample": "Ich gehe in die Schule.",
+    "turkishExample": "Okula gidiyorum."
+  },
+  {
+    "id": "vhs_a1_254",
+    "type": "Nomen",
+    "german": "die Wohnung",
+    "turkish": "daire",
+    "germanExample": "Die Wohnung ist im zweiten Stock.",
+    "turkishExample": "Daire ikinci kattadır."
+  },
+  {
+    "id": "vhs_a1_255",
+    "type": "Nomen",
+    "german": "die Küche",
+    "turkish": "mutfak",
+    "germanExample": "Die Küche ist modern.",
+    "turkishExample": "Mutfak moderndir."
+  },
+  {
+    "id": "vhs_a1_256",
+    "type": "Nomen",
+    "german": "der Balkon",
+    "turkish": "balkon",
+    "germanExample": "Wir frühstücken auf dem Balkon.",
+    "turkishExample": "Balkonda kahvaltı yapıyoruz."
+  },
+  {
+    "id": "vhs_a1_257",
+    "type": "Nomen",
+    "german": "das Badezimmer / das Bad",
+    "turkish": "banyo",
+    "germanExample": "Das Badezimmer ist klein.",
+    "turkishExample": "Banyo küçüktür."
+  },
+  {
+    "id": "vhs_a1_258",
+    "type": "Adjektiv",
+    "german": "hell",
+    "turkish": "aydınlık",
+    "germanExample": "Das Zimmer ist sehr hell.",
+    "turkishExample": "Oda çok aydınlık."
+  },
+  {
+    "id": "vhs_a1_259",
+    "type": "Nomen",
+    "german": "das Fenster",
+    "turkish": "pencere",
+    "germanExample": "Das Fenster ist geschlossen.",
+    "turkishExample": "Pencere kapalı."
+  },
+  {
+    "id": "vhs_a1_260",
+    "type": "Nomen",
+    "german": "das Wohnzimmer",
+    "turkish": "oturma odası",
+    "germanExample": "Im Wohnzimmer steht ein Sofa.",
+    "turkishExample": "Oturma odasında bir kanepe var."
+  },
+  {
+    "id": "vhs_a1_261",
+    "type": "Nomen",
+    "german": "das Schlafzimmer",
+    "turkish": "yatak odası",
+    "germanExample": "Das Schlafzimmer ist groß.",
+    "turkishExample": "Yatak odası büyüktür."
+  },
+  {
+    "id": "vhs_a1_262",
+    "type": "Nomen",
+    "german": "das Sofa",
+    "turkish": "kanepe",
+    "germanExample": "Das Sofa ist bequem.",
+    "turkishExample": "Kanepe rahattır."
+  },
+  {
+    "id": "vhs_a1_263",
+    "type": "Nomen",
+    "german": "das Kinderzimmer",
+    "turkish": "çocuk odası",
+    "germanExample": "Das Kinderzimmer ist bunt.",
+    "turkishExample": "Çocuk odası renklidir."
+  },
+  {
+    "id": "vhs_a1_264",
+    "type": "Nomen",
+    "german": "der Flur",
+    "turkish": "koridor",
+    "germanExample": "Die Schuhe stehen im Flur.",
+    "turkishExample": "Ayakkabılar koridorda duruyor."
+  },
+  {
+    "id": "vhs_a1_265",
+    "type": "Nomen",
+    "german": "das Haus",
+    "turkish": "ev",
+    "germanExample": "Wir haben ein schönes Haus.",
+    "turkishExample": "Güzel bir evimiz var."
+  },
+  {
+    "id": "vhs_a1_266",
+    "type": "Nomen",
+    "german": "die Garage",
+    "turkish": "garaj",
+    "germanExample": "Das Auto steht in der Garage.",
+    "turkishExample": "Araba garajda duruyor."
+  },
+  {
+    "id": "vhs_a1_267",
+    "type": "Nomen",
+    "german": "der Garten",
+    "turkish": "bahçe",
+    "germanExample": "Der Garten hat viele Blumen.",
+    "turkishExample": "Bahçede çok çiçek var."
+  },
+  {
+    "id": "vhs_a1_268",
+    "type": "Nomen",
+    "german": "das Zimmer",
+    "turkish": "oda",
+    "germanExample": "Die Wohnung hat drei Zimmer.",
+    "turkishExample": "Dairenin üç odası var."
+  },
+  {
+    "id": "vhs_a1_269",
+    "type": "Zahl",
+    "german": "zweihundert",
+    "turkish": "iki yüz",
+    "germanExample": "Das kostet zweihundert Euro.",
+    "turkishExample": "Bu iki yüz Euro tutar."
+  },
+  {
+    "id": "vhs_a1_270",
+    "type": "Zahl",
+    "german": "tausend",
+    "turkish": "bin",
+    "germanExample": "Ein Auto kostet tausend Euro.",
+    "turkishExample": "Bir araba bin Euro tutar."
+  },
+  {
+    "id": "vhs_a1_271",
+    "type": "Zahl",
+    "german": "zweitausend",
+    "turkish": "iki bin",
+    "germanExample": "Er verdient zweitausend Euro.",
+    "turkishExample": "O iki bin Euro kazanıyor."
+  },
+  {
+    "id": "vhs_a1_272",
+    "type": "Nomen",
+    "german": "das Geld",
+    "turkish": "para",
+    "germanExample": "Ich habe genug Geld.",
+    "turkishExample": "Yeterince param var."
+  },
+  {
+    "id": "vhs_a1_273",
+    "type": "Nomen",
+    "german": "das Auto",
+    "turkish": "araba",
+    "germanExample": "Das Auto ist schnell.",
+    "turkishExample": "Araba hızlıdır."
+  },
+  {
+    "id": "vhs_a1_274",
+    "type": "Nomen",
+    "german": "das Erdgeschoss (EG)",
+    "turkish": "zemin kat",
+    "germanExample": "Meine Wohnung ist im Erdgeschoss.",
+    "turkishExample": "Dairem zemin kattadır."
+  },
+  {
+    "id": "vhs_a1_275",
+    "type": "Nomen",
+    "german": "der Keller",
+    "turkish": "bodrum",
+    "germanExample": "Die Fahrräder sind im Keller.",
+    "turkishExample": "Bisikletler bodrumdadır."
+  },
+  {
+    "id": "vhs_a1_276",
+    "type": "Nomen",
+    "german": "die Nebenkosten (NK)",
+    "turkish": "ek giderler (aidat)",
+    "germanExample": "Die Nebenkosten sind hoch.",
+    "turkishExample": "Ek giderler yüksektir."
+  },
+  {
+    "id": "vhs_a1_277",
+    "type": "Nomen",
+    "german": "das Stadtzentrum / die Stadtmitte",
+    "turkish": "şehir merkezi",
+    "germanExample": "Wir wohnen im Stadtzentrum.",
+    "turkishExample": "Şehir merkezinde yaşıyoruz."
+  },
+  {
+    "id": "vhs_a1_278",
+    "type": "Nomen",
+    "german": "die Heizung",
+    "turkish": "kalorifer/ısıtıcı",
+    "germanExample": "Die Heizung ist warm.",
+    "turkishExample": "Kalorifer sıcak."
+  },
+  {
+    "id": "vhs_a1_279",
+    "type": "Nomen",
+    "german": "die Kaution",
+    "turkish": "depozito",
+    "germanExample": "Wir bezahlen drei Monatsmieten Kaution.",
+    "turkishExample": "Üç aylık kira depozito ödüyoruz."
+  },
+  {
+    "id": "vhs_a1_280",
+    "type": "Nomen",
+    "german": "die Monatsmiete",
+    "turkish": "aylık kira",
+    "germanExample": "Die Monatsmiete ist 800 Euro.",
+    "turkishExample": "Aylık kira 800 Euro'dur."
+  },
+  {
+    "id": "vhs_a1_281",
+    "type": "Nomen",
+    "german": "der Strom",
+    "turkish": "elektrik",
+    "germanExample": "Der Strom fällt aus.",
+    "turkishExample": "Elektrik kesiliyor."
+  },
+  {
+    "id": "vhs_a1_282",
+    "type": "Adjektiv",
+    "german": "möbliert",
+    "turkish": "eşyalı",
+    "germanExample": "Die Wohnung ist möbliert.",
+    "turkishExample": "Daire eşyalıdır."
+  },
+  {
+    "id": "vhs_a1_283",
+    "type": "Adjektiv",
+    "german": "dunkel",
+    "turkish": "karanlık",
+    "germanExample": "Es ist draußen dunkel.",
+    "turkishExample": "Dışarısı karanlık."
+  },
+  {
+    "id": "vhs_a1_284",
+    "type": "Adjektiv",
+    "german": "laut",
+    "turkish": "gürültülü",
+    "germanExample": "Die Musik ist zu laut.",
+    "turkishExample": "Müzik çok gürültülü."
+  },
+  {
+    "id": "vhs_a1_285",
+    "type": "Adjektiv",
+    "german": "ruhig",
+    "turkish": "sessiz",
+    "germanExample": "Bitte seid ruhig.",
+    "turkishExample": "Lütfen sessiz olun."
+  },
+  {
+    "id": "vhs_a1_286",
+    "type": "Adjektiv",
+    "german": "billig",
+    "turkish": "ucuz",
+    "germanExample": "Der Teppich ist billig.",
+    "turkishExample": "Halı ucuzdur."
+  },
+  {
+    "id": "vhs_a1_287",
+    "type": "Nomen",
+    "german": "die Wohnungsanzeige",
+    "turkish": "ev ilanı",
+    "germanExample": "Ich lese eine Wohnungsanzeige.",
+    "turkishExample": "Bir ev ilanı okuyorum."
+  },
+  {
+    "id": "vhs_a1_288",
+    "type": "Adjektiv",
+    "german": "gemütlich",
+    "turkish": "rahat (ortam)",
+    "germanExample": "Das Zimmer ist sehr gemütlich.",
+    "turkishExample": "Oda çok rahat."
+  },
+  {
+    "id": "vhs_a1_289",
+    "type": "Nomen",
+    "german": "der Vermieter",
+    "turkish": "ev sahibi",
+    "germanExample": "Der Vermieter repariert die Heizung.",
+    "turkishExample": "Ev sahibi kaloriferi tamir ediyor."
+  },
+  {
+    "id": "vhs_a1_290",
+    "type": "Nomen",
+    "german": "die Dusche",
+    "turkish": "duş",
+    "germanExample": "Das Wasser in der Dusche ist kalt.",
+    "turkishExample": "Duştaki su soğuk."
+  },
+  {
+    "id": "vhs_a1_291",
+    "type": "Verb",
+    "german": "mieten",
+    "turkish": "kiralamak",
+    "germanExample": "Wir mieten ein Haus.",
+    "turkishExample": "Bir ev kiralıyoruz."
+  },
+  {
+    "id": "vhs_a1_292",
+    "type": "Nomen",
+    "german": "der Tisch",
+    "turkish": "masa",
+    "germanExample": "Das Buch liegt auf dem Tisch.",
+    "turkishExample": "Kitap masanın üstünde duruyor."
+  },
+  {
+    "id": "vhs_a1_293",
+    "type": "Nomen",
+    "german": "der Schrank",
+    "turkish": "dolap",
+    "germanExample": "Die Kleidung ist im Schrank.",
+    "turkishExample": "Kıyafetler dolaptadır."
+  },
+  {
+    "id": "vhs_a1_294",
+    "type": "Nomen",
+    "german": "der Teppich",
+    "turkish": "halı",
+    "germanExample": "Der Teppich ist rot.",
+    "turkishExample": "Halı kırmızıdır."
+  },
+  {
+    "id": "vhs_a1_295",
+    "type": "Nomen",
+    "german": "das Bett",
+    "turkish": "yatak",
+    "germanExample": "Das Bett ist weich.",
+    "turkishExample": "Yatak yumuşaktır."
+  },
+  {
+    "id": "vhs_a1_296",
+    "type": "Nomen",
+    "german": "der Sessel",
+    "turkish": "koltuk",
+    "germanExample": "Der Sessel ist blau.",
+    "turkishExample": "Koltuk mavidir."
+  },
+  {
+    "id": "vhs_a1_297",
+    "type": "Nomen",
+    "german": "das Regal",
+    "turkish": "raf/kitaplık",
+    "germanExample": "Die Bücher stehen im Regal.",
+    "turkishExample": "Kitaplar rafta duruyor."
+  },
+  {
+    "id": "vhs_a1_298",
+    "type": "Nomen",
+    "german": "der Fernseher",
+    "turkish": "televizyon",
+    "germanExample": "Der Fernseher ist aus.",
+    "turkishExample": "Televizyon kapalı."
+  },
+  {
+    "id": "vhs_a1_299",
+    "type": "Nomen",
+    "german": "der Herd",
+    "turkish": "ocak",
+    "germanExample": "Der Topf steht auf dem Herd.",
+    "turkishExample": "Tencere ocakta duruyor."
+  },
+  {
+    "id": "vhs_a1_300",
+    "type": "Nomen",
+    "german": "der Kühlschrank",
+    "turkish": "buzdolabı",
+    "germanExample": "Die Milch ist im Kühlschrank.",
+    "turkishExample": "Süt buzdolabındadır."
+  },
+  {
+    "id": "vhs_a1_301",
+    "type": "Nomen",
+    "german": "die Waschmaschine",
+    "turkish": "çamaşır makinesi",
+    "germanExample": "Die Waschmaschine wäscht gut.",
+    "turkishExample": "Çamaşır makinesi iyi yıkıyor."
+  },
+  {
+    "id": "vhs_a1_302",
+    "type": "Nomen",
+    "german": "die Spülmaschine",
+    "turkish": "bulaşık makinesi",
+    "germanExample": "Wir brauchen eine Spülmaschine.",
+    "turkishExample": "Bir bulaşık makinesine ihtiyacımız var."
+  },
+  {
+    "id": "vhs_a1_303",
+    "type": "Nomen",
+    "german": "das Möbel",
+    "turkish": "mobilya",
+    "germanExample": "Wir kaufen neue Möbel.",
+    "turkishExample": "Yeni mobilyalar alıyoruz."
+  },
+  {
+    "id": "vhs_a1_304",
+    "type": "Adjektiv",
+    "german": "schmal",
+    "turkish": "dar",
+    "germanExample": "Die Straße ist schmal.",
+    "turkishExample": "Sokak dardır."
+  },
+  {
+    "id": "vhs_a1_305",
+    "type": "Adjektiv",
+    "german": "breit",
+    "turkish": "geniş",
+    "germanExample": "Der Weg ist breit.",
+    "turkishExample": "Yol geniştir."
+  },
+  {
+    "id": "vhs_a1_306",
+    "type": "Adjektiv",
+    "german": "hässlich",
+    "turkish": "çirkin",
+    "germanExample": "Das Gebäude ist hässlich.",
+    "turkishExample": "Bina çirkindir."
+  },
+  {
+    "id": "vhs_a1_307",
+    "type": "Ausdruck",
+    "german": "das Geschirr spülen",
+    "turkish": "bulaşık yıkamak",
+    "germanExample": "Ich muss das Geschirr spülen.",
+    "turkishExample": "Bulaşıkları yıkamam lazım."
+  },
+  {
+    "id": "vhs_a1_308",
+    "type": "Ausdruck",
+    "german": "Staub saugen",
+    "turkish": "elektrik süpürgesiyle süpürmek",
+    "germanExample": "Ich sauge jede Woche Staub.",
+    "turkishExample": "Her hafta elektrik süpürgesiyle süpürürüm."
+  },
+  {
+    "id": "vhs_a1_309",
+    "type": "Verb",
+    "german": "waschen",
+    "turkish": "yıkamak",
+    "germanExample": "Ich wasche mein Auto.",
+    "turkishExample": "Arabamı yıkıyorum."
+  },
+  {
+    "id": "vhs_a1_310",
+    "type": "Nomen",
+    "german": "der Parkplatz",
+    "turkish": "otopark",
+    "germanExample": "Der Parkplatz ist voll.",
+    "turkishExample": "Otopark dolu."
+  },
+  {
+    "id": "vhs_a1_311",
+    "type": "Nomen",
+    "german": "der Bus",
+    "turkish": "otobüs",
+    "germanExample": "Der Bus kommt pünktlich.",
+    "turkishExample": "Otobüs vaktinde geliyor."
+  },
+  {
+    "id": "vhs_a1_312",
+    "type": "Nomen",
+    "german": "die Linie",
+    "turkish": "hat/çizgi",
+    "germanExample": "Welche Linie fährst du?",
+    "turkishExample": "Hangi hatla gidiyorsun?"
+  },
+  {
+    "id": "vhs_a1_313",
+    "type": "Nomen",
+    "german": "die U-Bahn",
+    "turkish": "metro",
+    "germanExample": "Ich fahre mit der U-Bahn.",
+    "turkishExample": "Metro ile gidiyorum."
+  },
+  {
+    "id": "vhs_a1_314",
+    "type": "Nomen",
+    "german": "die Straßenbahn",
+    "turkish": "tramvay",
+    "germanExample": "Die Straßenbahn ist schnell.",
+    "turkishExample": "Tramvay hızlıdır."
+  },
+  {
+    "id": "vhs_a1_315",
+    "type": "Nomen",
+    "german": "das Fahrrad",
+    "turkish": "bisiklet",
+    "germanExample": "Ich fahre gern Fahrrad.",
+    "turkishExample": "Bisiklet sürmeyi severim."
+  },
+  {
+    "id": "vhs_a1_316",
+    "type": "Nomen",
+    "german": "der Zug",
+    "turkish": "tren",
+    "germanExample": "Der Zug fährt nach Berlin.",
+    "turkishExample": "Tren Berlin'e gidiyor."
+  },
+  {
+    "id": "vhs_a1_317",
+    "type": "Ausdruck",
+    "german": "zu Fuß gehen",
+    "turkish": "yürümek/yayan gitmek",
+    "germanExample": "Wir gehen zu Fuß.",
+    "turkishExample": "Biz yürüyerek gidiyoruz."
+  },
+  {
+    "id": "vhs_a1_318",
+    "type": "Nomen",
+    "german": "das Verkehrsmittel",
+    "turkish": "ulaşım aracı",
+    "germanExample": "Das ist ein öffentliches Verkehrsmittel.",
+    "turkishExample": "Bu bir toplu taşıma aracıdır."
+  },
+  {
+    "id": "vhs_a1_319",
+    "type": "Verb",
+    "german": "fahren",
+    "turkish": "araçla gitmek/sürmek",
+    "germanExample": "Ich fahre nach Hause.",
+    "turkishExample": "Eve (araçla) gidiyorum."
+  },
+  {
+    "id": "vhs_a1_320",
+    "type": "Verb",
+    "german": "ankommen",
+    "turkish": "varmak/ulaşmak",
+    "germanExample": "Wann kommen wir an?",
+    "turkishExample": "Ne zaman varacağız?"
+  },
+  {
+    "id": "vhs_a1_321",
+    "type": "Nomen",
+    "german": "der Bahnhof",
+    "turkish": "tren istasyonu",
+    "germanExample": "Ich warte am Bahnhof.",
+    "turkishExample": "Tren istasyonunda bekliyorum."
+  },
+  {
+    "id": "vhs_a1_322",
+    "type": "Nomen",
+    "german": "die Haltestelle",
+    "turkish": "durak",
+    "germanExample": "Die Haltestelle ist nah.",
+    "turkishExample": "Durak yakındır."
+  },
+  {
+    "id": "vhs_a1_323",
+    "type": "Nomen",
+    "german": "der Fahrplan",
+    "turkish": "sefer tarifesi",
+    "germanExample": "Ich schaue auf den Fahrplan.",
+    "turkishExample": "Sefer tarifesine bakıyorum."
+  },
+  {
+    "id": "vhs_a1_324",
+    "type": "Nomen",
+    "german": "die Apotheke",
+    "turkish": "eczane",
+    "germanExample": "Ich kaufe Medizin in der Apotheke.",
+    "turkishExample": "Eczaneden ilaç alıyorum."
+  },
+  {
+    "id": "vhs_a1_325",
+    "type": "Verb",
+    "german": "suchen",
+    "turkish": "aramak",
+    "germanExample": "Ich suche meine Schlüssel.",
+    "turkishExample": "Anahtarlarımı arıyorum."
+  },
+  {
+    "id": "vhs_a1_326",
+    "type": "Nomen",
+    "german": "die Bücherei",
+    "turkish": "kütüphane",
+    "germanExample": "Ich lese ein Buch in der Bücherei.",
+    "turkishExample": "Kütüphanede bir kitap okuyorum."
+  },
+  {
+    "id": "vhs_a1_327",
+    "type": "Nomen",
+    "german": "das Rathaus",
+    "turkish": "belediye binası",
+    "germanExample": "Das Rathaus ist im Zentrum.",
+    "turkishExample": "Belediye binası merkezdedir."
+  },
+  {
+    "id": "vhs_a1_328",
+    "type": "Nomen",
+    "german": "die Bank",
+    "turkish": "banka",
+    "germanExample": "Ich hole Geld von der Bank.",
+    "turkishExample": "Bankadan para çekiyorum."
+  },
+  {
+    "id": "vhs_a1_329",
+    "type": "Nomen",
+    "german": "die Schule",
+    "turkish": "okul",
+    "germanExample": "Die Kinder sind in der Schule.",
+    "turkishExample": "Çocuklar okuldadır."
+  },
+  {
+    "id": "vhs_a1_330",
+    "type": "Nomen",
+    "german": "der Park",
+    "turkish": "park",
+    "germanExample": "Wir gehen in den Park.",
+    "turkishExample": "Parka gidiyoruz."
+  },
+  {
+    "id": "vhs_a1_331",
+    "type": "Nomen",
+    "german": "die Polizei",
+    "turkish": "polis",
+    "germanExample": "Ruf die Polizei!",
+    "turkishExample": "Polisi ara!"
+  },
+  {
+    "id": "vhs_a1_332",
+    "type": "Nomen",
+    "german": "das Museum",
+    "turkish": "müze",
+    "germanExample": "Das Museum ist interessant.",
+    "turkishExample": "Müze ilginçtir."
+  },
+  {
+    "id": "vhs_a1_333",
+    "type": "Nomen",
+    "german": "der Friseur",
+    "turkish": "kuaför",
+    "germanExample": "Ich gehe heute zum Friseur.",
+    "turkishExample": "Bugün kuaföre gidiyorum."
+  },
+  {
+    "id": "vhs_a1_334",
+    "type": "Nomen",
+    "german": "das Krankenhaus",
+    "turkish": "hastane",
+    "germanExample": "Er liegt im Krankenhaus.",
+    "turkishExample": "O hastanede yatıyor."
+  },
+  {
+    "id": "vhs_a1_335",
+    "type": "Nomen",
+    "german": "die Kirche",
+    "turkish": "kilise",
+    "germanExample": "Die Kirche ist sehr alt.",
+    "turkishExample": "Kilise çok eskidir."
+  },
+  {
+    "id": "vhs_a1_336",
+    "type": "Nomen",
+    "german": "die Bäckerei",
+    "turkish": "fırın",
+    "germanExample": "Ich kaufe Brot in der Bäckerei.",
+    "turkishExample": "Fırından ekmek alıyorum."
+  },
+  {
+    "id": "vhs_a1_337",
+    "type": "Verb",
+    "german": "schwimmen",
+    "turkish": "yüzmek",
+    "germanExample": "Ich schwimme im Pool.",
+    "turkishExample": "Havuzda yüzüyorum."
+  },
+  {
+    "id": "vhs_a1_338",
+    "type": "Nomen",
+    "german": "der Spielplatz",
+    "turkish": "oyun parkı",
+    "germanExample": "Die Kinder sind auf dem Spielplatz.",
+    "turkishExample": "Çocuklar oyun parkında."
+  },
+  {
+    "id": "vhs_a1_339",
+    "type": "Nomen",
+    "german": "das W-Lan",
+    "turkish": "Wi-Fi",
+    "germanExample": "Gibt es hier W-Lan?",
+    "turkishExample": "Burada Wi-Fi var mı?"
+  },
+  {
+    "id": "vhs_a1_340",
+    "type": "Nomen",
+    "german": "das Taxi",
+    "turkish": "taksi",
+    "germanExample": "Wir nehmen ein Taxi.",
+    "turkishExample": "Bir taksi tutuyoruz."
+  },
+  {
+    "id": "vhs_a1_341",
+    "type": "Nomen",
+    "german": "der Norden",
+    "turkish": "kuzey",
+    "germanExample": "Hamburg liegt im Norden.",
+    "turkishExample": "Hamburg kuzeydedir."
+  },
+  {
+    "id": "vhs_a1_342",
+    "type": "Nomen",
+    "german": "der Osten",
+    "turkish": "doğu",
+    "germanExample": "Die Sonne geht im Osten auf.",
+    "turkishExample": "Güneş doğudan doğar."
+  },
+  {
+    "id": "vhs_a1_343",
+    "type": "Nomen",
+    "german": "der Süden",
+    "turkish": "güney",
+    "germanExample": "Wir fahren in den Süden.",
+    "turkishExample": "Güneye gidiyoruz."
+  },
+  {
+    "id": "vhs_a1_344",
+    "type": "Nomen",
+    "german": "der Westen",
+    "turkish": "batı",
+    "germanExample": "Der Wind weht aus dem Westen.",
+    "turkishExample": "Rüzgar batıdan esiyor."
+  },
+  {
+    "id": "vhs_a1_345",
+    "type": "Verb",
+    "german": "aussteigen",
+    "turkish": "araçtan inmek",
+    "germanExample": "Ich steige hier aus.",
+    "turkishExample": "Ben burada iniyorum."
+  },
+  {
+    "id": "vhs_a1_346",
+    "type": "Verb",
+    "german": "einsteigen",
+    "turkish": "araca binmek",
+    "germanExample": "Bitte schnell einsteigen!",
+    "turkishExample": "Lütfen hızlıca binin!"
+  },
+  {
+    "id": "vhs_a1_347",
+    "type": "Adverb",
+    "german": "rechts",
+    "turkish": "sağ",
+    "germanExample": "Biegen Sie rechts ab.",
+    "turkishExample": "Sağa dönün."
+  },
+  {
+    "id": "vhs_a1_348",
+    "type": "Adverb",
+    "german": "links",
+    "turkish": "sol",
+    "germanExample": "Mein Haus ist auf der linken Seite.",
+    "turkishExample": "Evim sol tarafta."
+  },
+  {
+    "id": "vhs_a1_349",
+    "type": "Adverb",
+    "german": "geradeaus",
+    "turkish": "dümdüz/doğruca",
+    "germanExample": "Gehen Sie immer geradeaus.",
+    "turkishExample": "Hep dümdüz gidin."
+  },
+  {
+    "id": "vhs_a1_350",
+    "type": "Nomen",
+    "german": "die Kreuzung",
+    "turkish": "kavşak",
+    "germanExample": "An der Kreuzung rechts.",
+    "turkishExample": "Kavşaktan sağa."
+  },
+  {
+    "id": "vhs_a1_351",
+    "type": "Nomen",
+    "german": "die Ampel",
+    "turkish": "trafik lambası",
+    "germanExample": "Die Ampel ist rot.",
+    "turkishExample": "Trafik lambası kırmızı."
+  },
+  {
+    "id": "vhs_a1_352",
+    "type": "Verb",
+    "german": "umsteigen",
+    "turkish": "aktarma yapmak",
+    "germanExample": "Wir müssen in Berlin umsteigen.",
+    "turkishExample": "Berlin'de aktarma yapmalıyız."
+  },
+  {
+    "id": "vhs_a1_353",
+    "type": "Verb",
+    "german": "abbiegen",
+    "turkish": "dönmek (araç/yol)",
+    "germanExample": "Sie müssen links abbiegen.",
+    "turkishExample": "Sola dönmelisiniz."
+  },
+  {
+    "id": "vhs_a1_354",
+    "type": "Verb",
+    "german": "holen",
+    "turkish": "getirmek/alıp gelmek",
+    "germanExample": "Ich hole ein Glas Wasser.",
+    "turkishExample": "Bir bardak su getiriyorum."
+  },
+  {
+    "id": "vhs_a1_355",
+    "type": "Nomen",
+    "german": "die Fahrkarte",
+    "turkish": "bilet",
+    "germanExample": "Ich kaufe eine Fahrkarte.",
+    "turkishExample": "Bir bilet alıyorum."
+  },
+  {
+    "id": "vhs_a1_356",
+    "type": "Nomen",
+    "german": "der Schein",
+    "turkish": "banknot",
+    "germanExample": "Ich habe einen 50-Euro-Schein.",
+    "turkishExample": "50 Euroluk banknotum var."
+  },
+  {
+    "id": "vhs_a1_357",
+    "type": "Nomen",
+    "german": "die EC-Karte",
+    "turkish": "banka kartı",
+    "germanExample": "Kann ich mit EC-Karte zahlen?",
+    "turkishExample": "Banka kartıyla ödeyebilir miyim?"
+  },
+  {
+    "id": "vhs_a1_358",
+    "type": "Nomen",
+    "german": "die Münze",
+    "turkish": "bozuk para",
+    "germanExample": "Ich brauche Münzen für den Automaten.",
+    "turkishExample": "Otomat için bozuk paraya ihtiyacım var."
+  },
+  {
+    "id": "vhs_a1_359",
+    "type": "Nomen",
+    "german": "der Erwachsene",
+    "turkish": "yetişkin",
+    "germanExample": "Zwei Erwachsene, bitte.",
+    "turkishExample": "İki yetişkin, lütfen."
+  },
+  {
+    "id": "vhs_a1_360",
+    "type": "Nomen",
+    "german": "die Verspätung",
+    "turkish": "gecikme/rötar",
+    "germanExample": "Der Zug hat Verspätung.",
+    "turkishExample": "Trenin rötarı var."
+  },
+  {
+    "id": "vhs_a1_361",
+    "type": "Nomen",
+    "german": "die Information",
+    "turkish": "bilgi/danışma",
+    "germanExample": "Fragen Sie an der Information.",
+    "turkishExample": "Danışmaya sorun."
+  },
+  {
+    "id": "vhs_a1_362",
+    "type": "Nomen",
+    "german": "die Toilette",
+    "turkish": "tuvalet",
+    "germanExample": "Wo ist die Toilette?",
+    "turkishExample": "Tuvalet nerede?"
+  },
+  {
+    "id": "vhs_a1_363",
+    "type": "Verb",
+    "german": "warten",
+    "turkish": "beklemek",
+    "germanExample": "Ich warte auf den Bus.",
+    "turkishExample": "Otobüsü bekliyorum."
+  },
+  {
+    "id": "vhs_a1_364",
+    "type": "Nomen",
+    "german": "der Beruf",
+    "turkish": "meslek",
+    "germanExample": "Was ist dein Beruf?",
+    "turkishExample": "Mesleğin nedir?"
+  },
+  {
+    "id": "vhs_a1_365",
+    "type": "Nomen",
+    "german": "der Krankenpfleger",
+    "turkish": "erkek hemşire/hasta bakıcı",
+    "germanExample": "Der Krankenpfleger hilft dem Arzt.",
+    "turkishExample": "Hasta bakıcı doktora yardım eder."
+  },
+  {
+    "id": "vhs_a1_366",
+    "type": "Nomen",
+    "german": "der Kellner",
+    "turkish": "garson",
+    "germanExample": "Der Kellner bringt das Essen.",
+    "turkishExample": "Garson yemeği getiriyor."
+  },
+  {
+    "id": "vhs_a1_367",
+    "type": "Nomen",
+    "german": "der Bankkaufmann",
+    "turkish": "bankacı",
+    "germanExample": "Der Bankkaufmann arbeitet in der Bank.",
+    "turkishExample": "Bankacı bankada çalışır."
+  },
+  {
+    "id": "vhs_a1_368",
+    "type": "Nomen",
+    "german": "der Polizist",
+    "turkish": "polis memuru",
+    "germanExample": "Der Polizist regelt den Verkehr.",
+    "turkishExample": "Polis trafiği yönetiyor."
+  },
+  {
+    "id": "vhs_a1_369",
+    "type": "Nomen",
+    "german": "der Student",
+    "turkish": "üniversite öğrencisi",
+    "germanExample": "Der Student lernt für die Prüfung.",
+    "turkishExample": "Öğrenci sınava çalışıyor."
+  },
+  {
+    "id": "vhs_a1_370",
+    "type": "Nomen",
+    "german": "der Verkäufer",
+    "turkish": "satıcı",
+    "germanExample": "Der Verkäufer ist sehr freundlich.",
+    "turkishExample": "Satıcı çok naziktir."
+  },
+  {
+    "id": "vhs_a1_371",
+    "type": "Nomen",
+    "german": "der Koch",
+    "turkish": "aşçı",
+    "germanExample": "Der Koch macht eine Suppe.",
+    "turkishExample": "Aşçı bir çorba yapıyor."
+  },
+  {
+    "id": "vhs_a1_372",
+    "type": "Nomen",
+    "german": "der Arzt",
+    "turkish": "doktor",
+    "germanExample": "Der Arzt untersucht den Patienten.",
+    "turkishExample": "Doktor hastayı muayene ediyor."
+  },
+  {
+    "id": "vhs_a1_373",
+    "type": "Verb",
+    "german": "servieren",
+    "turkish": "servis yapmak",
+    "germanExample": "Sie serviert den Kaffee.",
+    "turkishExample": "O kahveyi servis ediyor."
+  },
+  {
+    "id": "vhs_a1_374",
+    "type": "Nomen",
+    "german": "der Kunde",
+    "turkish": "müşteri",
+    "germanExample": "Der Kunde bezahlt an der Kasse.",
+    "turkishExample": "Müşteri kasada ödüyor."
+  },
+  {
+    "id": "vhs_a1_375",
+    "type": "Verb",
+    "german": "unterrichten",
+    "turkish": "ders vermek",
+    "germanExample": "Die Lehrerin unterrichtet Deutsch.",
+    "turkishExample": "Öğretmen Almanca dersi veriyor."
+  },
+  {
+    "id": "vhs_a1_376",
+    "type": "Nomen",
+    "german": "das Büro",
+    "turkish": "ofis",
+    "germanExample": "Ich arbeite im Büro.",
+    "turkishExample": "Ofiste çalışıyorum."
+  },
+  {
+    "id": "vhs_a1_377",
+    "type": "Nomen",
+    "german": "der Bürokaufmann",
+    "turkish": "ofis çalışanı",
+    "germanExample": "Er ist Bürokaufmann.",
+    "turkishExample": "O bir ofis çalışanıdır."
+  },
+  {
+    "id": "vhs_a1_378",
+    "type": "Nomen",
+    "german": "der Ingenieur",
+    "turkish": "mühendis",
+    "germanExample": "Der Ingenieur plant das Haus.",
+    "turkishExample": "Mühendis evi planlıyor."
+  },
+  {
+    "id": "vhs_a1_379",
+    "type": "Nomen",
+    "german": "der Automechaniker",
+    "turkish": "oto tamircisi",
+    "germanExample": "Der Automechaniker repariert das Auto.",
+    "turkishExample": "Oto tamircisi arabayı tamir ediyor."
+  },
+  {
+    "id": "vhs_a1_380",
+    "type": "Nomen",
+    "german": "das Hotel",
+    "turkish": "otel",
+    "germanExample": "Das Hotel ist sehr teuer.",
+    "turkishExample": "Otel çok pahalı."
+  },
+  {
+    "id": "vhs_a1_381",
+    "type": "Verb",
+    "german": "backen",
+    "turkish": "fırında pişirmek",
+    "germanExample": "Ich backe einen Kuchen.",
+    "turkishExample": "Bir kek pişiriyorum."
+  },
+  {
+    "id": "vhs_a1_382",
+    "type": "Verb",
+    "german": "organisieren",
+    "turkish": "organize etmek",
+    "germanExample": "Wir organisieren eine Party.",
+    "turkishExample": "Bir parti organize ediyoruz."
+  },
+  {
+    "id": "vhs_a1_383",
+    "type": "Verb",
+    "german": "reparieren",
+    "turkish": "tamir etmek",
+    "germanExample": "Er repariert das Fahrrad.",
+    "turkishExample": "Bisikleti tamir ediyor."
+  },
+  {
+    "id": "vhs_a1_384",
+    "type": "Verb",
+    "german": "schneiden",
+    "turkish": "kesmek",
+    "germanExample": "Ich schneide das Brot.",
+    "turkishExample": "Ekmeği kesiyorum."
+  },
+  {
+    "id": "vhs_a1_385",
+    "type": "Verb",
+    "german": "können",
+    "turkish": "yapabilmek (yetenek/ihtimal)",
+    "germanExample": "Ich kann Deutsch sprechen.",
+    "turkishExample": "Almanca konuşabiliyorum."
+  },
+  {
+    "id": "vhs_a1_386",
+    "type": "Verb",
+    "german": "singen",
+    "turkish": "şarkı söylemek",
+    "germanExample": "Sie singt sehr schön.",
+    "turkishExample": "O çok güzel şarkı söylüyor."
+  },
+  {
+    "id": "vhs_a1_387",
+    "type": "Ausdruck",
+    "german": "zu Hause bleiben",
+    "turkish": "evde kalmak",
+    "germanExample": "Ich möchte zu Hause bleiben.",
+    "turkishExample": "Evde kalmak istiyorum."
+  },
+  {
+    "id": "vhs_a1_388",
+    "type": "Verb",
+    "german": "müssen",
+    "turkish": "zorunda olmak/mecburiyet",
+    "germanExample": "Ich muss morgen früh aufstehen.",
+    "turkishExample": "Yarın erken kalkmak zorundayım."
+  },
+  {
+    "id": "vhs_a1_389",
+    "type": "Adjektiv",
+    "german": "leise",
+    "turkish": "sessiz/alçak sesle",
+    "germanExample": "Bitte sprich leise.",
+    "turkishExample": "Lütfen sessiz konuş."
+  },
+  {
+    "id": "vhs_a1_390",
+    "type": "Verb",
+    "german": "parken",
+    "turkish": "park etmek",
+    "germanExample": "Hier dürfen Sie nicht parken.",
+    "turkishExample": "Buraya park edemezsiniz."
+  },
+  {
+    "id": "vhs_a1_391",
+    "type": "Nomen",
+    "german": "der Feierabend",
+    "turkish": "mesai bitimi",
+    "germanExample": "Wann hast du Feierabend?",
+    "turkishExample": "Mesain ne zaman bitiyor?"
+  },
+  {
+    "id": "vhs_a1_392",
+    "type": "Nomen",
+    "german": "der Dienstplan",
+    "turkish": "nöbet/çalışma çizelgesi",
+    "germanExample": "Ich lese den Dienstplan.",
+    "turkishExample": "Çalışma çizelgesini okuyorum."
+  },
+  {
+    "id": "vhs_a1_393",
+    "type": "Verb",
+    "german": "unterschreiben",
+    "turkish": "imzalamak",
+    "germanExample": "Bitte hier unterschreiben.",
+    "turkishExample": "Lütfen burayı imzalayın."
+  },
+  {
+    "id": "vhs_a1_394",
+    "type": "Nomen",
+    "german": "der Schüler",
+    "turkish": "öğrenci (okul)",
+    "germanExample": "Der Schüler macht Hausaufgaben.",
+    "turkishExample": "Öğrenci ödev yapıyor."
+  },
+  {
+    "id": "vhs_a1_395",
+    "type": "Ausdruck",
+    "german": "eine Ausbildung machen",
+    "turkish": "mesleki eğitim almak",
+    "germanExample": "Er macht eine Ausbildung zum Koch.",
+    "turkishExample": "O aşçılık mesleki eğitimi alıyor."
+  },
+  {
+    "id": "vhs_a1_396",
+    "type": "Nomen",
+    "german": "die Aushilfe",
+    "turkish": "yardımcı eleman",
+    "germanExample": "Wir suchen eine Aushilfe.",
+    "turkishExample": "Yardımcı eleman arıyoruz."
+  },
+  {
+    "id": "vhs_a1_397",
+    "type": "Ausdruck",
+    "german": "Geld verdienen",
+    "turkish": "para kazanmak",
+    "germanExample": "Ich möchte Geld verdienen.",
+    "turkishExample": "Para kazanmak istiyorum."
+  },
+  {
+    "id": "vhs_a1_398",
+    "type": "Verb",
+    "german": "möchten",
+    "turkish": "istemek (kibarca)",
+    "germanExample": "Ich möchte einen Tee trinken.",
+    "turkishExample": "Bir çay içmek istiyorum."
+  },
+  {
+    "id": "vhs_a1_399",
+    "type": "Nomen",
+    "german": "der Schuh",
+    "turkish": "ayakkabı",
+    "germanExample": "Der Schuh ist zu klein.",
+    "turkishExample": "Ayakkabı çok küçük."
+  },
+  {
+    "id": "vhs_a1_400",
+    "type": "Nomen",
+    "german": "die Arbeitszeit",
+    "turkish": "çalışma saati",
+    "germanExample": "Die Arbeitszeit beginnt um 8 Uhr.",
+    "turkishExample": "Çalışma saati 8'de başlıyor."
+  },
+  {
+    "id": "vhs_a1_401",
+    "type": "Adjektiv",
+    "german": "freundlich",
+    "turkish": "dostane/güler yüzlü",
+    "germanExample": "Die Leute sind sehr freundlich.",
+    "turkishExample": "İnsanlar çok güler yüzlü."
+  },
+  {
+    "id": "vhs_a1_402",
+    "type": "Adjektiv",
+    "german": "flexibel",
+    "turkish": "esnek",
+    "germanExample": "Ich bin zeitlich flexibel.",
+    "turkishExample": "Zaman konusunda esneğim."
+  },
+  {
+    "id": "vhs_a1_403",
+    "type": "Adjektiv",
+    "german": "pünktlich",
+    "turkish": "dakik/tam vaktinde",
+    "germanExample": "Sei bitte pünktlich.",
+    "turkishExample": "Lütfen dakik ol."
+  },
+  {
+    "id": "vhs_a1_404",
+    "type": "Ausdruck",
+    "german": "frei haben",
+    "turkish": "boş vakti/izni olmak",
+    "germanExample": "Morgen habe ich frei.",
+    "turkishExample": "Yarın iznim var."
+  },
+  {
+    "id": "vhs_a1_405",
+    "type": "Nomen",
+    "german": "die Stellenanzeige",
+    "turkish": "iş ilanı",
+    "germanExample": "Ich lese die Stellenanzeigen.",
+    "turkishExample": "İş ilanlarını okuyorum."
+  },
+  {
+    "id": "vhs_a1_406",
+    "type": "Adjektiv",
+    "german": "krank",
+    "turkish": "hasta",
+    "germanExample": "Ich bin heute krank.",
+    "turkishExample": "Bugün hastayım."
+  },
+  {
+    "id": "vhs_a1_407",
+    "type": "Nomen",
+    "german": "der Hals",
+    "turkish": "boyun/boğaz",
+    "germanExample": "Mein Hals tut weh.",
+    "turkishExample": "Boğazım ağrıyor."
+  },
+  {
+    "id": "vhs_a1_408",
+    "type": "Nomen",
+    "german": "der Husten",
+    "turkish": "öksürük",
+    "germanExample": "Ich habe starken Husten.",
+    "turkishExample": "Şiddetli öksürüğüm var."
+  },
+  {
+    "id": "vhs_a1_409",
+    "type": "Nomen",
+    "german": "der Schnupfen",
+    "turkish": "nezle",
+    "germanExample": "Er hat Schnupfen.",
+    "turkishExample": "O nezle oldu."
+  },
+  {
+    "id": "vhs_a1_410",
+    "type": "Nomen",
+    "german": "der Mund",
+    "turkish": "ağız",
+    "germanExample": "Mach den Mund auf.",
+    "turkishExample": "Ağzını aç."
+  },
+  {
+    "id": "vhs_a1_411",
+    "type": "Adjektiv",
+    "german": "entzündet",
+    "turkish": "iltihaplı",
+    "germanExample": "Mein Hals ist entzündet.",
+    "turkishExample": "Boğazım iltihaplı."
+  },
+  {
+    "id": "vhs_a1_412",
+    "type": "Nomen",
+    "german": "das Fieber",
+    "turkish": "ateş (vücut)",
+    "germanExample": "Das Kind hat Fieber.",
+    "turkishExample": "Çocuğun ateşi var."
+  },
+  {
+    "id": "vhs_a1_413",
+    "type": "Nomen",
+    "german": "das Rezept",
+    "turkish": "reçete",
+    "germanExample": "Ich brauche ein Rezept vom Arzt.",
+    "turkishExample": "Doktordan reçeteye ihtiyacım var."
+  },
+  {
+    "id": "vhs_a1_414",
+    "type": "Nomen",
+    "german": "das Medikament",
+    "turkish": "ilaç",
+    "germanExample": "Nimmst du deine Medikamente?",
+    "turkishExample": "İlaçlarını alıyor musun?"
+  },
+  {
+    "id": "vhs_a1_415",
+    "type": "Nomen",
+    "german": "der Kopf",
+    "turkish": "baş/kafa",
+    "germanExample": "Mein Kopf tut weh.",
+    "turkishExample": "Başım ağrıyor."
+  },
+  {
+    "id": "vhs_a1_416",
+    "type": "Nomen",
+    "german": "der Bauch",
+    "turkish": "karın",
+    "germanExample": "Ich habe Bauchschmerzen.",
+    "turkishExample": "Karın ağrım var."
+  },
+  {
+    "id": "vhs_a1_417",
+    "type": "Nomen",
+    "german": "das Bein",
+    "turkish": "bacak",
+    "germanExample": "Mein Bein ist gebrochen.",
+    "turkishExample": "Bacağım kırık."
+  },
+  {
+    "id": "vhs_a1_418",
+    "type": "Nomen",
+    "german": "der Fuß",
+    "turkish": "ayak",
+    "germanExample": "Der Fuß ist geschwollen.",
+    "turkishExample": "Ayak şişmiş."
+  },
+  {
+    "id": "vhs_a1_419",
+    "type": "Nomen",
+    "german": "der Arm",
+    "turkish": "kol",
+    "germanExample": "Ich hebe den Arm.",
+    "turkishExample": "Kolumu kaldırıyorum."
+  },
+  {
+    "id": "vhs_a1_420",
+    "type": "Nomen",
+    "german": "die Hand",
+    "turkish": "el",
+    "germanExample": "Gib mir deine Hand.",
+    "turkishExample": "Bana elini ver."
+  },
+  {
+    "id": "vhs_a1_421",
+    "type": "Nomen",
+    "german": "die Nase",
+    "turkish": "burun",
+    "germanExample": "Meine Nase läuft.",
+    "turkishExample": "Burnum akıyor."
+  },
+  {
+    "id": "vhs_a1_422",
+    "type": "Nomen",
+    "german": "das Auge",
+    "turkish": "göz",
+    "germanExample": "Ihre Augen sind blau.",
+    "turkishExample": "Onun gözleri mavi."
+  },
+  {
+    "id": "vhs_a1_423",
+    "type": "Nomen",
+    "german": "das Ohr",
+    "turkish": "kulak",
+    "germanExample": "Mein Ohr tut weh.",
+    "turkishExample": "Kulağım ağrıyor."
+  },
+  {
+    "id": "vhs_a1_424",
+    "type": "Nomen",
+    "german": "der Zahn",
+    "turkish": "diş",
+    "germanExample": "Ich muss zum Zahnarzt.",
+    "turkishExample": "Diş hekimine gitmem lazım."
+  },
+  {
+    "id": "vhs_a1_425",
+    "type": "Nomen",
+    "german": "das Haar",
+    "turkish": "saç",
+    "germanExample": "Sie hat lange Haare.",
+    "turkishExample": "Onun uzun saçları var."
+  },
+  {
+    "id": "vhs_a1_426",
+    "type": "Nomen",
+    "german": "das Gesicht",
+    "turkish": "yüz/surat",
+    "germanExample": "Wasch dein Gesicht.",
+    "turkishExample": "Yüzünü yıka."
+  },
+  {
+    "id": "vhs_a1_427",
+    "type": "Nomen",
+    "german": "der Rücken",
+    "turkish": "sırt",
+    "germanExample": "Ich habe Rückenschmerzen.",
+    "turkishExample": "Sırt ağrım var."
+  },
+  {
+    "id": "vhs_a1_428",
+    "type": "Nomen",
+    "german": "der Patient",
+    "turkish": "hasta (kişi)",
+    "germanExample": "Der Patient braucht Ruhe.",
+    "turkishExample": "Hastanın dinlenmeye ihtiyacı var."
+  },
+  {
+    "id": "vhs_a1_429",
+    "type": "Nomen",
+    "german": "der Finger",
+    "turkish": "parmak",
+    "germanExample": "Ich habe mich in den Finger geschnitten.",
+    "turkishExample": "Parmağımı kestim."
+  },
+  {
+    "id": "vhs_a1_430",
+    "type": "Nomen",
+    "german": "die Erkältung",
+    "turkish": "soğuk algınlığı",
+    "germanExample": "Ich habe eine Erkältung.",
+    "turkishExample": "Soğuk algınlığım var."
+  },
+  {
+    "id": "vhs_a1_431",
+    "type": "Adjektiv",
+    "german": "schwanger",
+    "turkish": "hamile",
+    "germanExample": "Meine Frau ist schwanger.",
+    "turkishExample": "Eşim hamile."
+  },
+  {
+    "id": "vhs_a1_432",
+    "type": "Adjektiv",
+    "german": "erkältet",
+    "turkish": "üşütmüş",
+    "germanExample": "Ich bin leicht erkältet.",
+    "turkishExample": "Hafif üşütmüşüm."
+  },
+  {
+    "id": "vhs_a1_433",
+    "type": "Nomen",
+    "german": "die Grippe",
+    "turkish": "grip",
+    "germanExample": "Er liegt mit Grippe im Bett.",
+    "turkishExample": "Grip ile yatakta yatıyor."
+  },
+  {
+    "id": "vhs_a1_434",
+    "type": "Adjektiv",
+    "german": "gesund",
+    "turkish": "sağlıklı",
+    "germanExample": "Ich bin wieder gesund.",
+    "turkishExample": "Tekrar sağlıklıyım."
+  },
+  {
+    "id": "vhs_a1_435",
+    "type": "Nomen",
+    "german": "die Tablette",
+    "turkish": "hap",
+    "germanExample": "Nimm diese Tablette nach dem Essen.",
+    "turkishExample": "Bu hapı yemekten sonra al."
+  },
+  {
+    "id": "vhs_a1_436",
+    "type": "Nomen",
+    "german": "der Hausarzt",
+    "turkish": "aile hekimi",
+    "germanExample": "Mein Hausarzt ist im Urlaub.",
+    "turkishExample": "Aile hekimim tatilde."
+  },
+  {
+    "id": "vhs_a1_437",
+    "type": "Nomen",
+    "german": "die Praxis",
+    "turkish": "muayenehane",
+    "germanExample": "Die Praxis öffnet um 8 Uhr.",
+    "turkishExample": "Muayenehane saat 8'de açılıyor."
+  },
+  {
+    "id": "vhs_a1_438",
+    "type": "Nomen",
+    "german": "die Versichertenkarte",
+    "turkish": "sağlık sigorta kartı",
+    "germanExample": "Bitte geben Sie mir Ihre Versichertenkarte.",
+    "turkishExample": "Lütfen bana sigorta kartınızı verin."
+  },
+  {
+    "id": "vhs_a1_439",
+    "type": "Nomen",
+    "german": "die Krankenversicherung",
+    "turkish": "sağlık sigortası",
+    "germanExample": "Hast du eine Krankenversicherung?",
+    "turkishExample": "Sağlık sigortan var mı?"
+  },
+  {
+    "id": "vhs_a1_440",
+    "type": "Nomen",
+    "german": "die Krankheit",
+    "turkish": "hastalık",
+    "germanExample": "Das ist eine seltene Krankheit.",
+    "turkishExample": "Bu nadir bir hastalıktır."
+  },
+  {
+    "id": "vhs_a1_441",
+    "type": "Adjektiv",
+    "german": "verletzt",
+    "turkish": "yaralı/incinmiş",
+    "germanExample": "Ich habe mich beim Sport verletzt.",
+    "turkishExample": "Sporda yaralandım."
+  },
+  {
+    "id": "vhs_a1_442",
+    "type": "Nomen",
+    "german": "der Notfall",
+    "turkish": "acil durum",
+    "germanExample": "Das ist ein Notfall!",
+    "turkishExample": "Bu bir acil durum!"
+  },
+  {
+    "id": "vhs_a1_443",
+    "type": "Nomen",
+    "german": "der Krankenwagen",
+    "turkish": "ambulans",
+    "germanExample": "Ruf den Krankenwagen!",
+    "turkishExample": "Ambulansı ara!"
+  },
+  {
+    "id": "vhs_a1_444",
+    "type": "Nomen",
+    "german": "die Sprechstunde",
+    "turkish": "görüşme saati",
+    "germanExample": "Die Sprechstunde ist vormittags.",
+    "turkishExample": "Görüşme saati öğleden öncedir."
+  },
+  {
+    "id": "vhs_a1_445",
+    "type": "Nomen",
+    "german": "die Spritze",
+    "turkish": "iğne/enjeksiyon",
+    "germanExample": "Ich habe Angst vor Spritzen.",
+    "turkishExample": "İğneden korkarım."
+  },
+  {
+    "id": "vhs_a1_446",
+    "type": "Nomen",
+    "german": "der Verband",
+    "turkish": "sargı bezi/pansuman",
+    "germanExample": "Der Arzt wechselt den Verband.",
+    "turkishExample": "Doktor sargıyı değiştiriyor."
+  },
+  {
+    "id": "vhs_a1_447",
+    "type": "Nomen",
+    "german": "das Pflaster",
+    "turkish": "yara bandı",
+    "germanExample": "Ich brauche ein Pflaster.",
+    "turkishExample": "Bir yara bandına ihtiyacım var."
+  },
+  {
+    "id": "vhs_a1_448",
+    "type": "Nomen",
+    "german": "die Untersuchung",
+    "turkish": "muayene",
+    "germanExample": "Die Untersuchung dauert 10 Minuten.",
+    "turkishExample": "Muayene 10 dakika sürüyor."
+  },
+  {
+    "id": "vhs_a1_449",
+    "type": "Adjektiv",
+    "german": "müde",
+    "turkish": "yorgun",
+    "germanExample": "Ich bin sehr müde.",
+    "turkishExample": "Ben çok yorgunum."
+  },
+  {
+    "id": "vhs_a1_450",
+    "type": "Nomen",
+    "german": "der Körper",
+    "turkish": "vücut/beden",
+    "germanExample": "Der Körper braucht Schlaf.",
+    "turkishExample": "Vücudun uykuya ihtiyacı var."
+  },
+  {
+    "id": "vhs_a1_451",
+    "type": "Nomen",
+    "german": "der Schmerz",
+    "turkish": "ağrı/sızı",
+    "germanExample": "Der Schmerz ist stark.",
+    "turkishExample": "Ağrı şiddetli."
+  },
+  {
+    "id": "vhs_a1_452",
+    "type": "Nomen",
+    "german": "die Krankschreibung / das Attest",
+    "turkish": "sağlık raporu",
+    "germanExample": "Ich brauche ein Attest für die Arbeit.",
+    "turkishExample": "İş için sağlık raporuna ihtiyacım var."
+  },
+  {
+    "id": "vhs_a1_453",
+    "type": "Nomen",
+    "german": "der Arbeitgeber",
+    "turkish": "işveren",
+    "germanExample": "Mein Arbeitgeber ist eine große Firma.",
+    "turkishExample": "İşverenim büyük bir şirket."
+  },
+  {
+    "id": "vhs_a1_454",
+    "type": "Nomen",
+    "german": "die Entschuldigung",
+    "turkish": "mazeret/özür",
+    "germanExample": "Ich brauche eine Entschuldigung für die Schule.",
+    "turkishExample": "Okul için bir mazerete ihtiyacım var."
+  },
+  {
+    "id": "vhs_a1_455",
+    "type": "Verb",
+    "german": "schicken",
+    "turkish": "göndermek",
+    "germanExample": "Ich schicke dir eine Nachricht.",
+    "turkishExample": "Sana bir mesaj gönderiyorum."
+  },
+  {
+    "id": "vhs_a1_456",
+    "type": "Nomen",
+    "german": "der Unfall",
+    "turkish": "kaza",
+    "germanExample": "Es gab einen Unfall auf der Straße.",
+    "turkishExample": "Sokakta bir kaza oldu."
+  },
+  {
+    "id": "vhs_a1_457",
+    "type": "Nomen",
+    "german": "der Notarzt",
+    "turkish": "acil doktoru",
+    "germanExample": "Der Notarzt ist schnell gekommen.",
+    "turkishExample": "Acil doktoru hızlı geldi."
+  },
+  {
+    "id": "vhs_a1_458",
+    "type": "Nomen",
+    "german": "der Koffer",
+    "turkish": "valiz",
+    "germanExample": "Ich packe meinen Koffer.",
+    "turkishExample": "Valizimi topluyorum."
+  },
+  {
+    "id": "vhs_a1_459",
+    "type": "Nomen",
+    "german": "die Badehose",
+    "turkish": "mayo (erkek)",
+    "germanExample": "Er kauft eine neue Badehose.",
+    "turkishExample": "O yeni bir mayo alıyor."
+  },
+  {
+    "id": "vhs_a1_460",
+    "type": "Nomen",
+    "german": "der Badeanzug",
+    "turkish": "mayo (kadın)",
+    "germanExample": "Der Badeanzug ist rot.",
+    "turkishExample": "Mayo kırmızıdır."
+  },
+  {
+    "id": "vhs_a1_461",
+    "type": "Verb",
+    "german": "liegen",
+    "turkish": "yatmak/uzanmak (yatay durmak)",
+    "germanExample": "Das Buch liegt auf dem Tisch.",
+    "turkishExample": "Kitap masada (yatay) duruyor."
+  },
+  {
+    "id": "vhs_a1_462",
+    "type": "Verb",
+    "german": "packen",
+    "turkish": "paketlemek/toplamak",
+    "germanExample": "Wir müssen die Taschen packen.",
+    "turkishExample": "Çantaları toplamalıyız."
+  },
+  {
+    "id": "vhs_a1_463",
+    "type": "Verb",
+    "german": "stellen",
+    "turkish": "koymak (dikine yerleştirmek)",
+    "germanExample": "Ich stelle die Flasche auf den Tisch.",
+    "turkishExample": "Şişeyi masaya koyuyorum."
+  },
+  {
+    "id": "vhs_a1_464",
+    "type": "Verb",
+    "german": "sehen",
+    "turkish": "görmek",
+    "germanExample": "Ich sehe ein Auto.",
+    "turkishExample": "Bir araba görüyorum."
+  },
+  {
+    "id": "vhs_a1_465",
+    "type": "Verb",
+    "german": "legen",
+    "turkish": "koymak (yatay yerleştirmek)",
+    "germanExample": "Er legt das Buch auf das Bett.",
+    "turkishExample": "Kitabı yatağa koyuyor."
+  },
+  {
+    "id": "vhs_a1_466",
+    "type": "Nomen",
+    "german": "der Urlaub",
+    "turkish": "tatil",
+    "germanExample": "Wir fahren im Sommer in den Urlaub.",
+    "turkishExample": "Yazın tatile gidiyoruz."
+  },
+  {
+    "id": "vhs_a1_467",
+    "type": "Verb",
+    "german": "vergessen",
+    "turkish": "unutmak",
+    "germanExample": "Ich habe meinen Schlüssel vergessen.",
+    "turkishExample": "Anahtarımı unuttum."
+  },
+  {
+    "id": "vhs_a1_468",
+    "type": "Verb",
+    "german": "losfahren",
+    "turkish": "yola çıkmak",
+    "germanExample": "Wann fahren wir los?",
+    "turkishExample": "Ne zaman yola çıkıyoruz?"
+  },
+  {
+    "id": "vhs_a1_469",
+    "type": "Verb",
+    "german": "besuchen",
+    "turkish": "ziyaret etmek",
+    "germanExample": "Ich besuche meine Freunde.",
+    "turkishExample": "Arkadaşlarımı ziyaret ediyorum."
+  },
+  {
+    "id": "vhs_a1_470",
+    "type": "Verb",
+    "german": "finden",
+    "turkish": "bulmak",
+    "germanExample": "Ich kann meine Brille nicht finden.",
+    "turkishExample": "Gözlüğümü bulamıyorum."
+  },
+  {
+    "id": "vhs_a1_471",
+    "type": "Ausdruck",
+    "german": "einen Spaziergang machen",
+    "turkish": "yürüyüş yapmak",
+    "germanExample": "Wir machen am Abend einen Spaziergang.",
+    "turkishExample": "Akşamları yürüyüş yapıyoruz."
+  },
+  {
+    "id": "vhs_a1_472",
+    "type": "Ausdruck",
+    "german": "Fußball gucken",
+    "turkish": "futbol izlemek",
+    "germanExample": "Er guckt am Wochenende Fußball.",
+    "turkishExample": "O hafta sonu futbol izler."
+  },
+  {
+    "id": "vhs_a1_473",
+    "type": "Nomen",
+    "german": "der Zoo",
+    "turkish": "hayvanat bahçesi",
+    "germanExample": "Wir gehen heute in den Zoo.",
+    "turkishExample": "Bugün hayvanat bahçesine gidiyoruz."
+  },
+  {
+    "id": "vhs_a1_474",
+    "type": "Verb",
+    "german": "fotografieren",
+    "turkish": "fotoğraf çekmek",
+    "germanExample": "Ich fotografiere gerne.",
+    "turkishExample": "Fotoğraf çekmeyi severim."
+  },
+  {
+    "id": "vhs_a1_475",
+    "type": "Verb",
+    "german": "bleiben",
+    "turkish": "kalmak",
+    "germanExample": "Ich bleibe heute zu Hause.",
+    "turkishExample": "Bugün evde kalıyorum."
+  },
+  {
+    "id": "vhs_a1_476",
+    "type": "Verb",
+    "german": "studieren",
+    "turkish": "üniversite okumak",
+    "germanExample": "Sie studiert in Berlin.",
+    "turkishExample": "O Berlin'de üniversite okuyor."
+  },
+  {
+    "id": "vhs_a1_477",
+    "type": "Nomen",
+    "german": "das Geburtsdatum",
+    "turkish": "doğum tarihi",
+    "germanExample": "Wie lautet Ihr Geburtsdatum?",
+    "turkishExample": "Doğum tarihiniz nedir?"
+  },
+  {
+    "id": "vhs_a1_478",
+    "type": "Ausdruck",
+    "german": "Spaß haben",
+    "turkish": "eğlenmek",
+    "germanExample": "Wir haben viel Spaß auf der Party.",
+    "turkishExample": "Partide çok eğleniyoruz."
+  },
+  {
+    "id": "vhs_a1_479",
+    "type": "Ausdruck",
+    "german": "Ski fahren",
+    "turkish": "kayak yapmak",
+    "germanExample": "Im Winter fahren wir Ski.",
+    "turkishExample": "Kışın kayak yaparız."
+  },
+  {
+    "id": "vhs_a1_480",
+    "type": "Adjektiv",
+    "german": "stressig",
+    "turkish": "stresli",
+    "germanExample": "Meine Arbeit ist sehr stressig.",
+    "turkishExample": "İşim çok stresli."
+  },
+  {
+    "id": "vhs_a1_481",
+    "type": "Nomen",
+    "german": "das Kleid",
+    "turkish": "elbise",
+    "germanExample": "Das Kleid ist sehr schön.",
+    "turkishExample": "Elbise çok güzel."
+  },
+  {
+    "id": "vhs_a1_482",
+    "type": "Nomen",
+    "german": "die Hose",
+    "turkish": "pantolon",
+    "germanExample": "Ich brauche eine neue Hose.",
+    "turkishExample": "Yeni bir pantolona ihtiyacım var."
+  },
+  {
+    "id": "vhs_a1_483",
+    "type": "Nomen",
+    "german": "die Jacke",
+    "turkish": "ceket/mont",
+    "germanExample": "Zieh deine Jacke an.",
+    "turkishExample": "Ceketini giy."
+  },
+  {
+    "id": "vhs_a1_484",
+    "type": "Nomen",
+    "german": "der Rock",
+    "turkish": "etek",
+    "germanExample": "Der Rock ist zu kurz.",
+    "turkishExample": "Etek çok kısa."
+  },
+  {
+    "id": "vhs_a1_485",
+    "type": "Nomen",
+    "german": "das T-Shirt",
+    "turkish": "tişört",
+    "germanExample": "Ich trage ein weißes T-Shirt.",
+    "turkishExample": "Beyaz bir tişört giyiyorum."
+  },
+  {
+    "id": "vhs_a1_486",
+    "type": "Nomen",
+    "german": "der Pullover",
+    "turkish": "kazak",
+    "germanExample": "Der Pullover ist warm.",
+    "turkishExample": "Kazak sıcaktır."
+  },
+  {
+    "id": "vhs_a1_487",
+    "type": "Nomen",
+    "german": "die Bluse",
+    "turkish": "bluz",
+    "germanExample": "Die Bluse passt mir gut.",
+    "turkishExample": "Bluz bana iyi uyuyor."
+  },
+  {
+    "id": "vhs_a1_488",
+    "type": "Nomen",
+    "german": "das Hemd",
+    "turkish": "gömlek",
+    "germanExample": "Er trägt ein blaues Hemd.",
+    "turkishExample": "Mavi bir gömlek giyiyor."
+  },
+  {
+    "id": "vhs_a1_489",
+    "type": "Nomen",
+    "german": "der Mantel",
+    "turkish": "palto/manto",
+    "germanExample": "Im Winter brauche ich einen Mantel.",
+    "turkishExample": "Kışın bir paltoya ihtiyacım var."
+  },
+  {
+    "id": "vhs_a1_490",
+    "type": "Adjektiv",
+    "german": "sportlich",
+    "turkish": "sportif",
+    "germanExample": "Er ist sehr sportlich.",
+    "turkishExample": "O çok sportiftir."
+  },
+  {
+    "id": "vhs_a1_491",
+    "type": "Adjektiv",
+    "german": "elegant",
+    "turkish": "zarif/şık",
+    "germanExample": "Sie sieht elegant aus.",
+    "turkishExample": "O şık görünüyor."
+  },
+  {
+    "id": "vhs_a1_492",
+    "type": "Nomen",
+    "german": "die Farbe",
+    "turkish": "renk",
+    "germanExample": "Welche Farbe hat dein Auto?",
+    "turkishExample": "Arabanın rengi ne?"
+  },
+  {
+    "id": "vhs_a1_493",
+    "type": "Adjektiv",
+    "german": "bunt",
+    "turkish": "renkli",
+    "germanExample": "Das Bild ist sehr bunt.",
+    "turkishExample": "Resim çok renklidir."
+  },
+  {
+    "id": "vhs_a1_494",
+    "type": "Adjektiv",
+    "german": "blau",
+    "turkish": "mavi",
+    "germanExample": "Der Himmel ist blau.",
+    "turkishExample": "Gökyüzü mavidir."
+  },
+  {
+    "id": "vhs_a1_495",
+    "type": "Nomen",
+    "german": "der Gürtel",
+    "turkish": "kemer",
+    "germanExample": "Ich kaufe einen braunen Gürtel.",
+    "turkishExample": "Kahverengi bir kemer alıyorum."
+  },
+  {
+    "id": "vhs_a1_496",
+    "type": "Adjektiv",
+    "german": "rot",
+    "turkish": "kırmızı",
+    "germanExample": "Die Tomate ist rot.",
+    "turkishExample": "Domates kırmızıdır."
+  },
+  {
+    "id": "vhs_a1_497",
+    "type": "Adjektiv",
+    "german": "braun",
+    "turkish": "kahverengi",
+    "germanExample": "Ihre Augen sind braun.",
+    "turkishExample": "Onun gözleri kahverengidir."
+  },
+  {
+    "id": "vhs_a1_498",
+    "type": "Nomen",
+    "german": "die Mütze",
+    "turkish": "bere",
+    "germanExample": "Ich setze meine Mütze auf.",
+    "turkishExample": "Beremi takıyorum."
+  },
+  {
+    "id": "vhs_a1_499",
+    "type": "Nomen",
+    "german": "der Schal",
+    "turkish": "atkı/şal",
+    "germanExample": "Der Schal hält mich warm.",
+    "turkishExample": "Atkı beni sıcak tutuyor."
+  },
+  {
+    "id": "vhs_a1_500",
+    "type": "Nomen",
+    "german": "der Handschuh",
+    "turkish": "eldiven",
+    "germanExample": "Ich habe meine Handschuhe vergessen.",
+    "turkishExample": "Eldivenlerimi unuttum."
+  },
+  {
+    "id": "vhs_a1_501",
+    "type": "Adjektiv",
+    "german": "grün",
+    "turkish": "yeşil",
+    "germanExample": "Das Gras ist grün.",
+    "turkishExample": "Çimen yeşildir."
+  },
+  {
+    "id": "vhs_a1_502",
+    "type": "Adjektiv",
+    "german": "weiß",
+    "turkish": "beyaz",
+    "germanExample": "Schnee ist weiß.",
+    "turkishExample": "Kar beyazdır."
+  },
+  {
+    "id": "vhs_a1_503",
+    "type": "Adjektiv",
+    "german": "schwarz",
+    "turkish": "siyah",
+    "germanExample": "Die Katze ist schwarz.",
+    "turkishExample": "Kedi siyahtır."
+  },
+  {
+    "id": "vhs_a1_504",
+    "type": "Adjektiv",
+    "german": "gelb",
+    "turkish": "sarı",
+    "germanExample": "Die Zitrone ist gelb.",
+    "turkishExample": "Limon sarıdır."
+  },
+  {
+    "id": "vhs_a1_505",
+    "type": "Nomen",
+    "german": "die Socke",
+    "turkish": "çorap",
+    "germanExample": "Meine Socken sind nass.",
+    "turkishExample": "Çoraplarım ıslak."
+  },
+  {
+    "id": "vhs_a1_506",
+    "type": "Nomen",
+    "german": "die Krawatte",
+    "turkish": "kravat",
+    "germanExample": "Er trägt oft eine Krawatte.",
+    "turkishExample": "O sık sık kravat takar."
+  },
+  {
+    "id": "vhs_a1_507",
+    "type": "Adjektiv",
+    "german": "grau",
+    "turkish": "gri",
+    "germanExample": "Das Wetter ist heute grau.",
+    "turkishExample": "Hava bugün gri."
+  },
+  {
+    "id": "vhs_a1_508",
+    "type": "Nomen",
+    "german": "der Stiefel",
+    "turkish": "çizme/bot",
+    "germanExample": "Die Stiefel sind bequem.",
+    "turkishExample": "Çizmeler rahattır."
+  },
+  {
+    "id": "vhs_a1_509",
+    "type": "Nomen",
+    "german": "das Kopftuch",
+    "turkish": "başörtüsü",
+    "germanExample": "Sie trägt ein Kopftuch.",
+    "turkishExample": "O bir başörtüsü takıyor."
+  },
+  {
+    "id": "vhs_a1_510",
+    "type": "Verb",
+    "german": "tragen",
+    "turkish": "giymek/taşımak",
+    "germanExample": "Ich trage eine Brille.",
+    "turkishExample": "Ben gözlük takıyorum."
+  },
+  {
+    "id": "vhs_a1_511",
+    "type": "Verb",
+    "german": "anziehen",
+    "turkish": "giyinmek",
+    "germanExample": "Ich ziehe mich an.",
+    "turkishExample": "Giyiniyorum."
+  },
+  {
+    "id": "vhs_a1_512",
+    "type": "Adjektiv",
+    "german": "bequem",
+    "turkish": "rahat",
+    "germanExample": "Das Sofa ist sehr bequem.",
+    "turkishExample": "Kanepe çok rahat."
+  },
+  {
+    "id": "vhs_a1_513",
+    "type": "Nomen",
+    "german": "die Umkleidekabine",
+    "turkish": "deneme kabini",
+    "germanExample": "Wo ist die Umkleidekabine?",
+    "turkishExample": "Deneme kabini nerede?"
+  },
+  {
+    "id": "vhs_a1_514",
+    "type": "Adjektiv",
+    "german": "weit",
+    "turkish": "bol/geniş",
+    "germanExample": "Die Hose ist mir zu weit.",
+    "turkishExample": "Pantolon bana çok bol."
+  },
+  {
+    "id": "vhs_a1_515",
+    "type": "Adjektiv",
+    "german": "eng",
+    "turkish": "dar",
+    "germanExample": "Das T-Shirt ist eng.",
+    "turkishExample": "Tişört dar."
+  },
+  {
+    "id": "vhs_a1_516",
+    "type": "Adjektiv",
+    "german": "kurz",
+    "turkish": "kısa",
+    "germanExample": "Ihre Haare sind kurz.",
+    "turkishExample": "Onun saçları kısadır."
+  },
+  {
+    "id": "vhs_a1_517",
+    "type": "Adjektiv",
+    "german": "lang",
+    "turkish": "uzun",
+    "germanExample": "Der Weg ist lang.",
+    "turkishExample": "Yol uzundur."
+  },
+  {
+    "id": "vhs_a1_518",
+    "type": "Adjektiv",
+    "german": "unbequem",
+    "turkish": "rahatsız",
+    "germanExample": "Der Stuhl ist unbequem.",
+    "turkishExample": "Sandalye rahatsızdır."
+  },
+  {
+    "id": "vhs_a1_519",
+    "type": "Adjektiv",
+    "german": "günstig",
+    "turkish": "uygun fiyatlı",
+    "germanExample": "Das Hotel war günstig.",
+    "turkishExample": "Otel uygun fiyatlıydı."
+  },
+  {
+    "id": "vhs_a1_520",
+    "type": "Nomen",
+    "german": "das Sonderangebot",
+    "turkish": "özel teklif/indirim",
+    "germanExample": "Heute gibt es viele Sonderangebote.",
+    "turkishExample": "Bugün birçok indirim var."
+  },
+  {
+    "id": "vhs_a1_521",
+    "type": "Adjektiv",
+    "german": "reduziert",
+    "turkish": "indirimli",
+    "germanExample": "Die Schuhe sind reduziert.",
+    "turkishExample": "Ayakkabılar indirimli."
+  },
+  {
+    "id": "vhs_a1_522",
+    "type": "Verb",
+    "german": "umtauschen",
+    "turkish": "değiştirmek (iade/ürün)",
+    "germanExample": "Kann ich das Kleid umtauschen?",
+    "turkishExample": "Elbiseyi değiştirebilir miyim?"
+  },
+  {
+    "id": "vhs_a1_523",
+    "type": "Adjektiv",
+    "german": "kaputt",
+    "turkish": "bozuk/kırık",
+    "germanExample": "Mein Handy ist kaputt.",
+    "turkishExample": "Cep telefonum bozuk."
+  },
+  {
+    "id": "vhs_a1_524",
+    "type": "Nomen",
+    "german": "der Kassenbon",
+    "turkish": "fiş",
+    "germanExample": "Haben Sie den Kassenbon?",
+    "turkishExample": "Fişiniz var mı?"
+  },
+  {
+    "id": "vhs_a1_525",
+    "type": "Nomen",
+    "german": "die Sache",
+    "turkish": "eşya/şey",
+    "germanExample": "Ich packe meine Sachen.",
+    "turkishExample": "Eşyalarımı topluyorum."
+  },
+  {
+    "id": "vhs_a1_526",
+    "type": "Nomen",
+    "german": "das Wetter",
+    "turkish": "hava durumu",
+    "germanExample": "Wie ist das Wetter heute?",
+    "turkishExample": "Bugün hava nasıl?"
+  },
+  {
+    "id": "vhs_a1_527",
+    "type": "Nomen",
+    "german": "die Jahreszeit",
+    "turkish": "mevsim",
+    "germanExample": "Welche Jahreszeit magst du?",
+    "turkishExample": "Hangi mevsimi seversin?"
+  },
+  {
+    "id": "vhs_a1_528",
+    "type": "Adjektiv",
+    "german": "sonnig",
+    "turkish": "güneşli",
+    "germanExample": "Es ist heute sonnig.",
+    "turkishExample": "Bugün hava güneşli."
+  },
+  {
+    "id": "vhs_a1_529",
+    "type": "Verb",
+    "german": "regnen",
+    "turkish": "yağmur yağmak",
+    "germanExample": "Es regnet stark.",
+    "turkishExample": "Şiddetli yağmur yağıyor."
+  },
+  {
+    "id": "vhs_a1_530",
+    "type": "Verb",
+    "german": "schneien",
+    "turkish": "kar yağmak",
+    "germanExample": "Im Winter schneit es.",
+    "turkishExample": "Kışın kar yağar."
+  },
+  {
+    "id": "vhs_a1_531",
+    "type": "Adjektiv",
+    "german": "bewölkt",
+    "turkish": "bulutlu",
+    "germanExample": "Der Himmel ist bewölkt.",
+    "turkishExample": "Gökyüzü bulutludur."
+  },
+  {
+    "id": "vhs_a1_532",
+    "type": "Adjektiv",
+    "german": "heiß",
+    "turkish": "çok sıcak",
+    "germanExample": "Es ist sehr heiß draußen.",
+    "turkishExample": "Dışarısı çok sıcak."
+  },
+  {
+    "id": "vhs_a1_533",
+    "type": "Adjektiv",
+    "german": "kalt",
+    "turkish": "soğuk",
+    "germanExample": "Mir ist kalt.",
+    "turkishExample": "Üşüyorum."
+  },
+  {
+    "id": "vhs_a1_534",
+    "type": "Adjektiv",
+    "german": "windig",
+    "turkish": "rüzgarlı",
+    "germanExample": "Heute ist es windig.",
+    "turkishExample": "Bugün hava rüzgarlı."
+  },
+  {
+    "id": "vhs_a1_535",
+    "type": "Nomen",
+    "german": "die Sonne",
+    "turkish": "güneş",
+    "germanExample": "Die Sonne scheint.",
+    "turkishExample": "Güneş parlıyor."
+  },
+  {
+    "id": "vhs_a1_536",
+    "type": "Verb",
+    "german": "scheinen",
+    "turkish": "parlamak",
+    "germanExample": "Die Sonne scheint hell.",
+    "turkishExample": "Güneş parlak bir şekilde parlıyor."
+  },
+  {
+    "id": "vhs_a1_537",
+    "type": "Nomen",
+    "german": "die Temperatur",
+    "turkish": "sıcaklık",
+    "germanExample": "Die Temperatur sinkt.",
+    "turkishExample": "Sıcaklık düşüyor."
+  },
+  {
+    "id": "vhs_a1_538",
+    "type": "Nomen",
+    "german": "der Regen",
+    "turkish": "yağmur",
+    "germanExample": "Ich mag den Regen nicht.",
+    "turkishExample": "Yağmuru sevmem."
+  },
+  {
+    "id": "vhs_a1_539",
+    "type": "Nomen",
+    "german": "der Schnee",
+    "turkish": "kar",
+    "germanExample": "Die Kinder spielen im Schnee.",
+    "turkishExample": "Çocuklar karda oynuyor."
+  },
+  {
+    "id": "vhs_a1_540",
+    "type": "Nomen",
+    "german": "der Wind",
+    "turkish": "rüzgar",
+    "germanExample": "Der Wind ist kalt.",
+    "turkishExample": "Rüzgar soğuktur."
+  },
+  {
+    "id": "vhs_a1_541",
+    "type": "Nomen",
+    "german": "die Wolke",
+    "turkish": "bulut",
+    "germanExample": "Es gibt viele Wolken am Himmel.",
+    "turkishExample": "Gökyüzünde çok bulut var."
+  },
+  {
+    "id": "vhs_a1_542",
+    "type": "Nomen",
+    "german": "der Frühling",
+    "turkish": "ilkbahar",
+    "germanExample": "Im Frühling blühen die Blumen.",
+    "turkishExample": "İlkbaharda çiçekler açar."
+  },
+  {
+    "id": "vhs_a1_543",
+    "type": "Nomen",
+    "german": "der Sommer",
+    "turkish": "yaz",
+    "germanExample": "Der Sommer in der Türkei ist heiß.",
+    "turkishExample": "Türkiye'de yaz sıcaktır."
+  },
+  {
+    "id": "vhs_a1_544",
+    "type": "Nomen",
+    "german": "der Herbst",
+    "turkish": "sonbahar",
+    "germanExample": "Im Herbst fallen die Blätter.",
+    "turkishExample": "Sonbaharda yapraklar düşer."
+  },
+  {
+    "id": "vhs_a1_545",
+    "type": "Nomen",
+    "german": "der Winter",
+    "turkish": "kış",
+    "germanExample": "Der Winter ist kalt.",
+    "turkishExample": "Kış soğuktur."
+  },
+  {
+    "id": "vhs_a1_546",
+    "type": "Ausdruck",
+    "german": "ein Picknick machen",
+    "turkish": "piknik yapmak",
+    "germanExample": "Wir machen am Wochenende ein Picknick.",
+    "turkishExample": "Hafta sonu piknik yapıyoruz."
+  },
+  {
+    "id": "vhs_a1_547",
+    "type": "Ausdruck",
+    "german": "spazieren gehen",
+    "turkish": "yürüyüşe çıkmak",
+    "germanExample": "Lass uns spazieren gehen.",
+    "turkishExample": "Hadi yürüyüşe çıkalım."
+  },
+  {
+    "id": "vhs_a1_548",
+    "type": "Verb",
+    "german": "wollen",
+    "turkish": "istemek",
+    "germanExample": "Ich will nach Hause gehen.",
+    "turkishExample": "Eve gitmek istiyorum."
+  },
+  {
+    "id": "vhs_a1_549",
+    "type": "Nomen",
+    "german": "der See",
+    "turkish": "göl",
+    "germanExample": "Wir schwimmen im See.",
+    "turkishExample": "Gölde yüzüyoruz."
+  },
+  {
+    "id": "vhs_a1_550",
+    "type": "Ausdruck",
+    "german": "einen Ausflug machen",
+    "turkish": "geziye çıkmak",
+    "germanExample": "Die Klasse macht einen Ausflug.",
+    "turkishExample": "Sınıf geziye çıkıyor."
+  },
+  {
+    "id": "vhs_a1_551",
+    "type": "Nomen",
+    "german": "das Foto",
+    "turkish": "fotoğraf",
+    "germanExample": "Das ist ein schönes Foto.",
+    "turkishExample": "Bu güzel bir fotoğraf."
+  },
+  {
+    "id": "vhs_a1_552",
+    "type": "Nomen",
+    "german": "der Brief",
+    "turkish": "mektup",
+    "germanExample": "Ich schreibe einen Brief.",
+    "turkishExample": "Bir mektup yazıyorum."
+  },
+  {
+    "id": "vhs_a1_553",
+    "type": "Nomen",
+    "german": "der Monat",
+    "turkish": "ay",
+    "germanExample": "Ein Jahr hat zwölf Monate.",
+    "turkishExample": "Bir yıl on iki aydır."
+  },
+  {
+    "id": "vhs_a1_554",
+    "type": "Nomen",
+    "german": "der Januar",
+    "turkish": "ocak",
+    "germanExample": "Im Januar ist es kalt.",
+    "turkishExample": "Ocak ayında hava soğuktur."
+  },
+  {
+    "id": "vhs_a1_555",
+    "type": "Nomen",
+    "german": "der Februar",
+    "turkish": "şubat",
+    "germanExample": "Der Februar hat 28 Tage.",
+    "turkishExample": "Şubat 28 gündür."
+  },
+  {
+    "id": "vhs_a1_556",
+    "type": "Nomen",
+    "german": "der März",
+    "turkish": "mart",
+    "germanExample": "Im März beginnt der Frühling.",
+    "turkishExample": "Mart ayında ilkbahar başlar."
+  },
+  {
+    "id": "vhs_a1_557",
+    "type": "Nomen",
+    "german": "der April",
+    "turkish": "nisan",
+    "germanExample": "Wir treffen uns im April.",
+    "turkishExample": "Nisan ayında buluşuyoruz."
+  },
+  {
+    "id": "vhs_a1_558",
+    "type": "Nomen",
+    "german": "der Mai",
+    "turkish": "mayıs",
+    "germanExample": "Mein Geburtstag ist im Mai.",
+    "turkishExample": "Doğum günüm mayıstadır."
+  },
+  {
+    "id": "vhs_a1_559",
+    "type": "Nomen",
+    "german": "der Juni",
+    "turkish": "haziran",
+    "germanExample": "Im Juni beginnt der Sommer.",
+    "turkishExample": "Haziran'da yaz başlar."
+  },
+  {
+    "id": "vhs_a1_560",
+    "type": "Nomen",
+    "german": "der Juli",
+    "turkish": "temmuz",
+    "germanExample": "Wir fahren im Juli ans Meer.",
+    "turkishExample": "Temmuz'da denize gidiyoruz."
+  },
+  {
+    "id": "vhs_a1_561",
+    "type": "Nomen",
+    "german": "der August",
+    "turkish": "ağustos",
+    "germanExample": "Der August ist sehr warm.",
+    "turkishExample": "Ağustos çok sıcaktır."
+  },
+  {
+    "id": "vhs_a1_562",
+    "type": "Nomen",
+    "german": "der September",
+    "turkish": "eylül",
+    "germanExample": "Die Schule beginnt im September.",
+    "turkishExample": "Okul eylül ayında başlar."
+  },
+  {
+    "id": "vhs_a1_563",
+    "type": "Nomen",
+    "german": "der Oktober",
+    "turkish": "ekim",
+    "germanExample": "Im Oktober regnet es oft.",
+    "turkishExample": "Ekim ayında sık yağmur yağar."
+  },
+  {
+    "id": "vhs_a1_564",
+    "type": "Nomen",
+    "german": "der November",
+    "turkish": "kasım",
+    "germanExample": "Der November ist grau.",
+    "turkishExample": "Kasım ayı gridir."
+  },
+  {
+    "id": "vhs_a1_565",
+    "type": "Nomen",
+    "german": "der Dezember",
+    "turkish": "aralık",
+    "germanExample": "Weihnachten ist im Dezember.",
+    "turkishExample": "Noel aralık ayındadır."
+  },
+  {
+    "id": "vhs_a1_566",
+    "type": "Verb",
+    "german": "heiraten",
+    "turkish": "evlenmek",
+    "germanExample": "Wir heiraten nächstes Jahr.",
+    "turkishExample": "Gelecek yıl evleniyoruz."
+  },
+  {
+    "id": "vhs_a1_567",
+    "type": "Nomen",
+    "german": "das Geschenk",
+    "turkish": "hediye",
+    "germanExample": "Danke für das Geschenk.",
+    "turkishExample": "Hediye için teşekkürler."
+  },
+  {
+    "id": "vhs_a1_568",
+    "type": "Nomen",
+    "german": "der Geburtstag",
+    "turkish": "doğum günü",
+    "germanExample": "Alles Gute zum Geburtstag!",
+    "turkishExample": "Doğum günün kutlu olsun!"
+  },
+  {
+    "id": "vhs_a1_569",
+    "type": "Nomen",
+    "german": "die Hochzeit",
+    "turkish": "düğün",
+    "germanExample": "Die Hochzeit ist am Samstag.",
+    "turkishExample": "Düğün cumartesi günü."
+  },
+  {
+    "id": "vhs_a1_570",
+    "type": "Nomen",
+    "german": "Weihnachten",
+    "turkish": "Noel",
+    "germanExample": "Frohe Weihnachten!",
+    "turkishExample": "Mutlu Noeller!"
+  },
+  {
+    "id": "vhs_a1_571",
+    "type": "Nomen",
+    "german": "Ostern",
+    "turkish": "Paskalya",
+    "germanExample": "Zu Ostern suchen die Kinder Eier.",
+    "turkishExample": "Paskalya'da çocuklar yumurta arar."
+  },
+  {
+    "id": "vhs_a1_572",
+    "type": "Nomen",
+    "german": "Silvester",
+    "turkish": "Yılbaşı Gecesi",
+    "germanExample": "Wir feiern Silvester mit Freunden.",
+    "turkishExample": "Yılbaşı gecesini arkadaşlarla kutluyoruz."
+  },
+  {
+    "id": "vhs_a1_573",
+    "type": "Nomen",
+    "german": "der Feiertag",
+    "turkish": "resmi tatil/bayram",
+    "germanExample": "Morgen ist ein Feiertag.",
+    "turkishExample": "Yarın resmi tatil."
+  },
+  {
+    "id": "vhs_a1_574",
+    "type": "Nomen",
+    "german": "das Fest / die Feier",
+    "turkish": "kutlama/festival",
+    "germanExample": "Das Fest war sehr schön.",
+    "turkishExample": "Kutlama çok güzeldi."
+  },
+  {
+    "id": "vhs_a1_575",
+    "type": "Nomen",
+    "german": "das Datum",
+    "turkish": "tarih",
+    "germanExample": "Welches Datum haben wir heute?",
+    "turkishExample": "Bugün tarih ne?"
+  },
+  {
+    "id": "vhs_a1_576",
+    "type": "Nomen",
+    "german": "die Einladung",
+    "turkish": "davetiye",
+    "germanExample": "Danke für die Einladung.",
+    "turkishExample": "Davet için teşekkürler."
+  },
+  {
+    "id": "vhs_a1_577",
+    "type": "Verb",
+    "german": "einladen",
+    "turkish": "davet etmek",
+    "germanExample": "Ich lade dich zu meiner Party ein.",
+    "turkishExample": "Seni partime davet ediyorum."
+  },
+  {
+    "id": "vhs_a1_578",
+    "type": "Verb",
+    "german": "feiern",
+    "turkish": "kutlamak",
+    "germanExample": "Wir feiern meinen Geburtstag.",
+    "turkishExample": "Doğum günümü kutluyoruz."
+  },
+  {
+    "id": "vhs_a1_579",
+    "type": "Nomen",
+    "german": "die Idee",
+    "turkish": "fikir",
+    "germanExample": "Das ist eine gute Idee.",
+    "turkishExample": "Bu iyi bir fikir."
+  },
+  {
+    "id": "vhs_a1_580",
+    "type": "Nomen",
+    "german": "die Blume",
+    "turkish": "çiçek",
+    "germanExample": "Ich kaufe Blumen für meine Mutter.",
+    "turkishExample": "Annem için çiçek alıyorum."
+  },
+  {
+    "id": "vhs_a1_581",
+    "type": "Nomen",
+    "german": "das Spielzeug",
+    "turkish": "oyuncak",
+    "germanExample": "Das Kind spielt mit dem Spielzeug.",
+    "turkishExample": "Çocuk oyuncakla oynuyor."
+  }
+]

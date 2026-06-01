@@ -14,7 +14,10 @@ const cardsData = Object.entries(jsonModules).flatMap(([path, module]) => {
   // Format the name nicely for display (e.g., 'verben-mit-blabla' -> 'Verben Mit Blabla')
   const deckDisplayName = deckFileName
     .split('-')
-    .map(word => word.charAt(0).toUpperCase() + word.slice(1))
+    .map(word => {
+      if (word.toLowerCase() === 'vhs') return 'VHS';
+      return word.charAt(0).toUpperCase() + word.slice(1);
+    })
     .join(' ');
 
   return (module.default || module).map(card => ({
