@@ -4,7 +4,9 @@ import { Search, Heart, Volume2, LayoutList } from 'lucide-react';
 import { isLearned, isLearning } from '../lib/srsUtils';
 
 const CardBrowser = () => {
-  const cards = useStore(state => state.getAllCards());
+  const allCards = useStore(state => state.getAllCards());
+  // Derived cards (TR → DE / Artikel) are duplicates of the originals, so hide them here
+  const cards = useMemo(() => allCards.filter(card => !card.variant), [allCards]);
   const favorites = useStore(state => state.favorites);
   const toggleFavorite = useStore(state => state.toggleFavorite);
 

@@ -1,8 +1,9 @@
 import React from 'react';
 import { useStore } from '../store/useStore';
-import { Layers, Play, BookOpen } from 'lucide-react';
+import { Layers, Play, BookOpen, Repeat, Tag } from 'lucide-react';
 import { isBefore, addDays, startOfDay, parseISO } from 'date-fns';
 import { isDue, isLearned, isLearning } from '../lib/srsUtils';
+import { isDeckActive, VARIANT_REVERSE, VARIANT_ARTIKEL } from '../lib/cardVariants';
 
 const Home = ({ onStartStudy }) => {
   const cards = useStore(state => state.getAllCards());
@@ -20,6 +21,7 @@ const Home = ({ onStartStudy }) => {
       acc[deckName] = { 
         name: deckName, 
         deckId: card.deckId, 
+        variant: card.variant || null,
         total: 0, 
         due: 0, 
         learned: 0, 
@@ -43,8 +45,8 @@ const Home = ({ onStartStudy }) => {
 
   // Sort: active decks on top, then alphabetically
   const decksList = Object.values(decksMap).sort((a, b) => {
-    const aActive = activeDecks[a.deckId] !== false;
-    const bActive = activeDecks[b.deckId] !== false;
+    const aActive = isDeckActive(activeDecks, a.deckId);
+    const bActive = isDeckActive(activeDecks, b.deckId);
     if (aActive && !bActive) return -1;
     if (!aActive && bActive) return 1;
     return a.name.localeCompare(b.name);
@@ -61,7 +63,8 @@ const Home = ({ onStartStudy }) => {
 
         {/* Individual Sub-Decks */}
         {decksList.map(deck => {
-          const isActive = activeDecks[deck.deckId] !== false;
+          const isActive = isDeckActive(activeDecks, deck.deckId);
+          const DeckIcon = deck.variant === VARIANT_REVERSE ? Repeat : deck.variant === VARIANT_ARTIKEL ? Tag : BookOpen;
           
           return (
             <div 
@@ -80,11 +83,25 @@ const Home = ({ onStartStudy }) => {
                       ? 'bg-slate-700/50 text-slate-300 group-hover:text-white' 
                       : 'bg-slate-800/80 text-slate-600'
                   }`}>
-                    <BookOpen size={20} />
+                    <DeckIcon size={20} />
                   </div>
-                  <h3 className={`text-lg font-bold truncate ${isActive ? 'text-white' : 'text-slate-500'}`}>
-                    {deck.name}
-                  </h3>
+                  <div className="min-w-0">
+                    <h3 className={`text-lg font-bold truncate ${isActive ? 'text-white' : 'text-slate-500'}`}>
+                      {deck.name}
+                    </h3>
+                    {deck.variant === VARIANT_REVERSE && (
+                      <span className="inline-block mt-0.5 text-[10px] font-bold uppercase tracking-wider px-1.5 py-0.5 rounded bg-amber-500/15 text-amber-400">
+                        Türkisch → Deutsch
+                      </span>
+                    )}
+                    {deck.variant === VARIANT_ARTIKEL && (
+                      <span className="inline-flex gap-1 mt-0.5 text-[10px] font-bold uppercase tracking-wider">
+                        <span className="px-1.5 py-0.5 rounded bg-sky-500/15 text-sky-400">der</span>
+                        <span className="px-1.5 py-0.5 rounded bg-rose-500/15 text-rose-400">die</span>
+                        <span className="px-1.5 py-0.5 rounded bg-emerald-500/15 text-emerald-400">das</span>
+                      </span>
+                    )}
+                  </div>
                 </div>
                 
                 {/* Active/Inactive Toggle Switch */}

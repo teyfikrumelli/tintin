@@ -5,7 +5,9 @@
     "german": "Entschuldigung",
     "turkish": "özür/afedersiniz",
     "germanExample": "Entschuldigung, wo ist der Bahnhof?",
-    "turkishExample": "Afedersiniz, tren istasyonu nerede?"
+    "turkishExample": "Afedersiniz, tren istasyonu nerede?",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_002",
@@ -13,7 +15,9 @@
     "german": "kommen (aus)",
     "turkish": "gelmek",
     "germanExample": "Ich komme aus der Türkei.",
-    "turkishExample": "Ben Türkiye'den geliyorum."
+    "turkishExample": "Ben Türkiye'den geliyorum.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_003",
@@ -21,7 +25,9 @@
     "german": "Frau",
     "turkish": "kadın/bayan",
     "germanExample": "Das ist Frau Müller.",
-    "turkishExample": "Bu Bayan Müller."
+    "turkishExample": "Bu Bayan Müller.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_004",
@@ -29,7 +35,9 @@
     "german": "Herr",
     "turkish": "bay",
     "germanExample": "Guten Tag, Herr Schmidt.",
-    "turkishExample": "İyi günler, Bay Schmidt."
+    "turkishExample": "İyi günler, Bay Schmidt.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_005",
@@ -37,7 +45,9 @@
     "german": "heißen",
     "turkish": "adı olmak",
     "germanExample": "Ich heiße Ahmet.",
-    "turkishExample": "Benim adım Ahmet."
+    "turkishExample": "Benim adım Ahmet.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_006",
@@ -45,7 +55,9 @@
     "german": "ich",
     "turkish": "ben",
     "germanExample": "Ich bin müde.",
-    "turkishExample": "Ben yorgunum."
+    "turkishExample": "Ben yorgunum.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_007",
@@ -53,7 +65,9 @@
     "german": "der Name",
     "turkish": "isim",
     "germanExample": "Mein Name ist Ali.",
-    "turkishExample": "Benim ismim Ali."
+    "turkishExample": "Benim ismim Ali.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_008",
@@ -61,7 +75,9 @@
     "german": "das Land",
     "turkish": "ülke",
     "germanExample": "Deutschland ist ein schönes Land.",
-    "turkishExample": "Almanya güzel bir ülkedir."
+    "turkishExample": "Almanya güzel bir ülkedir.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_009",
@@ -69,7 +85,9 @@
     "german": "Deutschland",
     "turkish": "Almanya",
     "germanExample": "Ich lebe in Deutschland.",
-    "turkishExample": "Almanya'da yaşıyorum."
+    "turkishExample": "Almanya'da yaşıyorum.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_010",
@@ -77,7 +95,9 @@
     "german": "die Türkei",
     "turkish": "Türkiye",
     "germanExample": "Die Türkei ist groß.",
-    "turkishExample": "Türkiye büyüktür."
+    "turkishExample": "Türkiye büyüktür.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_011",
@@ -85,7 +105,9 @@
     "german": "Syrien",
     "turkish": "Suriye",
     "germanExample": "Er kommt aus Syrien.",
-    "turkishExample": "O Suriye'den geliyor."
+    "turkishExample": "O Suriye'den geliyor.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_012",
@@ -93,7 +115,9 @@
     "german": "Polen",
     "turkish": "Polonya",
     "germanExample": "Sie wohnt in Polen.",
-    "turkishExample": "O Polonya'da yaşıyor."
+    "turkishExample": "O Polonya'da yaşıyor.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_013",
@@ -101,7 +125,9 @@
     "german": "Bulgarien",
     "turkish": "Bulgaristan",
     "germanExample": "Sofia ist in Bulgarien.",
-    "turkishExample": "Sofya Bulgaristan'dadır."
+    "turkishExample": "Sofya Bulgaristan'dadır.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_014",
@@ -109,7 +135,9 @@
     "german": "Spanien",
     "turkish": "İspanya",
     "germanExample": "Wir fliegen nach Spanien.",
-    "turkishExample": "İspanya'ya uçuyoruz."
+    "turkishExample": "İspanya'ya uçuyoruz.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_015",
@@ -117,7 +145,9 @@
     "german": "Italien",
     "turkish": "İtalya",
     "germanExample": "Pizza kommt aus Italien.",
-    "turkishExample": "Pizza İtalya'dan gelir."
+    "turkishExample": "Pizza İtalya'dan gelir.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_016",
@@ -125,7 +155,9 @@
     "german": "Griechenland",
     "turkish": "Yunanistan",
     "germanExample": "Griechenland ist warm.",
-    "turkishExample": "Yunanistan sıcaktır."
+    "turkishExample": "Yunanistan sıcaktır.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_017",
@@ -133,7 +165,9 @@
     "german": "Russland",
     "turkish": "Rusya",
     "germanExample": "Russland ist sehr groß.",
-    "turkishExample": "Rusya çok büyüktür."
+    "turkishExample": "Rusya çok büyüktür.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_018",
@@ -141,7 +175,9 @@
     "german": "Afghanistan",
     "turkish": "Afganistan",
     "germanExample": "Er ist aus Afghanistan.",
-    "turkishExample": "O Afganistanlı."
+    "turkishExample": "O Afganistanlı.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_019",
@@ -149,7 +185,9 @@
     "german": "der Irak",
     "turkish": "Irak",
     "germanExample": "Sie kommt aus dem Irak.",
-    "turkishExample": "O Irak'tan geliyor."
+    "turkishExample": "O Irak'tan geliyor.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_020",
@@ -157,7 +195,9 @@
     "german": "Eritrea",
     "turkish": "Eritre",
     "germanExample": "Eritrea liegt in Afrika.",
-    "turkishExample": "Eritre Afrika'dadır."
+    "turkishExample": "Eritre Afrika'dadır.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_021",
@@ -165,7 +205,9 @@
     "german": "die Ukraine",
     "turkish": "Ukrayna",
     "germanExample": "Kiew ist in der Ukraine.",
-    "turkishExample": "Kiev Ukrayna'dadır."
+    "turkishExample": "Kiev Ukrayna'dadır.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_022",
@@ -173,7 +215,9 @@
     "german": "der Iran",
     "turkish": "İran",
     "germanExample": "Er reist in den Iran.",
-    "turkishExample": "O İran'a seyahat ediyor."
+    "turkishExample": "O İran'a seyahat ediyor.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_023",
@@ -181,7 +225,9 @@
     "german": "du / Sie",
     "turkish": "sen / siz",
     "germanExample": "Wie heißt du?",
-    "turkishExample": "Senin adın ne?"
+    "turkishExample": "Senin adın ne?",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_024",
@@ -189,7 +235,9 @@
     "german": "gut",
     "turkish": "iyi",
     "germanExample": "Das Essen ist gut.",
-    "turkishExample": "Yemek iyidir."
+    "turkishExample": "Yemek iyidir.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_025",
@@ -197,7 +245,9 @@
     "german": "sehr gut",
     "turkish": "çok iyi",
     "germanExample": "Du sprichst sehr gut Deutsch.",
-    "turkishExample": "Çok iyi Almanca konuşuyorsun."
+    "turkishExample": "Çok iyi Almanca konuşuyorsun.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_026",
@@ -205,7 +255,9 @@
     "german": "schlecht",
     "turkish": "kötü",
     "germanExample": "Das Wetter ist schlecht.",
-    "turkishExample": "Hava kötü."
+    "turkishExample": "Hava kötü.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_027",
@@ -213,7 +265,9 @@
     "german": "super",
     "turkish": "harika",
     "germanExample": "Das ist eine super Idee!",
-    "turkishExample": "Bu harika bir fikir!"
+    "turkishExample": "Bu harika bir fikir!",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_028",
@@ -221,7 +275,9 @@
     "german": "es geht",
     "turkish": "şöyle böyle/idare eder",
     "germanExample": "Wie geht es dir? - Es geht.",
-    "turkishExample": "Nasılsın? - İdare eder."
+    "turkishExample": "Nasılsın? - İdare eder.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_029",
@@ -229,7 +285,9 @@
     "german": "nicht so gut",
     "turkish": "pek iyi değil",
     "germanExample": "Mir geht es nicht so gut.",
-    "turkishExample": "Pek iyi değilim."
+    "turkishExample": "Pek iyi değilim.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_030",
@@ -237,7 +295,9 @@
     "german": "auch",
     "turkish": "da/de",
     "germanExample": "Ich komme auch mit.",
-    "turkishExample": "Ben de geliyorum."
+    "turkishExample": "Ben de geliyorum.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_031",
@@ -245,7 +305,9 @@
     "german": "danke",
     "turkish": "teşekkürler",
     "germanExample": "Mir geht es gut, danke.",
-    "turkishExample": "İyiyim, teşekkürler."
+    "turkishExample": "İyiyim, teşekkürler.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_032",
@@ -253,7 +315,9 @@
     "german": "die Sprache",
     "turkish": "dil",
     "germanExample": "Welche Sprache sprichst du?",
-    "turkishExample": "Hangi dili konuşuyorsun?"
+    "turkishExample": "Hangi dili konuşuyorsun?",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_033",
@@ -261,7 +325,9 @@
     "german": "sprechen",
     "turkish": "konuşmak",
     "germanExample": "Ich spreche Deutsch.",
-    "turkishExample": "Almanca konuşuyorum."
+    "turkishExample": "Almanca konuşuyorum.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_034",
@@ -269,7 +335,9 @@
     "german": "Deutsch",
     "turkish": "Almanca",
     "germanExample": "Wir lernen Deutsch.",
-    "turkishExample": "Almanca öğreniyoruz."
+    "turkishExample": "Almanca öğreniyoruz.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_035",
@@ -277,7 +345,9 @@
     "german": "Türkisch",
     "turkish": "Türkçe",
     "germanExample": "Meine Muttersprache ist Türkisch.",
-    "turkishExample": "Anadilim Türkçedir."
+    "turkishExample": "Anadilim Türkçedir.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_036",
@@ -285,7 +355,9 @@
     "german": "Englisch",
     "turkish": "İngilizce",
     "germanExample": "Sprechen Sie Englisch?",
-    "turkishExample": "İngilizce konuşuyor musunuz?"
+    "turkishExample": "İngilizce konuşuyor musunuz?",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_037",
@@ -293,7 +365,9 @@
     "german": "Dari",
     "turkish": "Darice",
     "germanExample": "Er spricht Dari.",
-    "turkishExample": "O Darice konuşuyor."
+    "turkishExample": "O Darice konuşuyor.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_038",
@@ -301,7 +375,9 @@
     "german": "Polnisch",
     "turkish": "Lehçe",
     "germanExample": "Sie lernt Polnisch.",
-    "turkishExample": "O Lehçe öğreniyor."
+    "turkishExample": "O Lehçe öğreniyor.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_039",
@@ -309,7 +385,9 @@
     "german": "Spanisch",
     "turkish": "İspanyolca",
     "germanExample": "Spanisch ist eine schöne Sprache.",
-    "turkishExample": "İspanyolca güzel bir dildir."
+    "turkishExample": "İspanyolca güzel bir dildir.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_040",
@@ -317,7 +395,9 @@
     "german": "Italienisch",
     "turkish": "İtalyanca",
     "germanExample": "Ich verstehe Italienisch.",
-    "turkishExample": "İtalyanca anlıyorum."
+    "turkishExample": "İtalyanca anlıyorum.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_041",
@@ -325,7 +405,9 @@
     "german": "Russisch",
     "turkish": "Rusça",
     "germanExample": "Er liest ein Buch auf Russisch.",
-    "turkishExample": "Rusça bir kitap okuyor."
+    "turkishExample": "Rusça bir kitap okuyor.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_042",
@@ -333,7 +415,9 @@
     "german": "Arabisch",
     "turkish": "Arapça",
     "germanExample": "Arabisch hat ein anderes Alphabet.",
-    "turkishExample": "Arapçanın farklı bir alfabesi var."
+    "turkishExample": "Arapçanın farklı bir alfabesi var.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_043",
@@ -341,7 +425,9 @@
     "german": "Paschtu",
     "turkish": "Peştuca",
     "germanExample": "Sie sprechen Paschtu.",
-    "turkishExample": "Onlar Peştuca konuşuyor."
+    "turkishExample": "Onlar Peştuca konuşuyor.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_044",
@@ -349,7 +435,9 @@
     "german": "ein bisschen",
     "turkish": "biraz",
     "germanExample": "Ich spreche ein bisschen Deutsch.",
-    "turkishExample": "Biraz Almanca konuşuyorum."
+    "turkishExample": "Biraz Almanca konuşuyorum.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_045",
@@ -357,7 +445,9 @@
     "german": "ja / nein",
     "turkish": "evet / hayır",
     "germanExample": "Ja, ich komme aus Berlin.",
-    "turkishExample": "Evet, Berlin'den geliyorum."
+    "turkishExample": "Evet, Berlin'den geliyorum.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_046",
@@ -365,7 +455,9 @@
     "german": "Hallo",
     "turkish": "merhaba",
     "germanExample": "Hallo, wie geht es dir?",
-    "turkishExample": "Merhaba, nasılsın?"
+    "turkishExample": "Merhaba, nasılsın?",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_047",
@@ -373,7 +465,9 @@
     "german": "Tschüss",
     "turkish": "hoşça kal",
     "germanExample": "Tschüss, bis morgen!",
-    "turkishExample": "Hoşça kal, yarına kadar!"
+    "turkishExample": "Hoşça kal, yarına kadar!",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_048",
@@ -381,7 +475,9 @@
     "german": "die Familie",
     "turkish": "aile",
     "germanExample": "Meine Familie ist groß.",
-    "turkishExample": "Ailem büyüktür."
+    "turkishExample": "Ailem büyüktür.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_049",
@@ -389,7 +485,9 @@
     "german": "das Kind",
     "turkish": "çocuk",
     "germanExample": "Das Kind spielt.",
-    "turkishExample": "Çocuk oynuyor."
+    "turkishExample": "Çocuk oynuyor.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_050",
@@ -397,7 +495,9 @@
     "german": "haben",
     "turkish": "sahip olmak",
     "germanExample": "Ich habe ein Auto.",
-    "turkishExample": "Bir arabam var."
+    "turkishExample": "Bir arabam var.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_051",
@@ -405,7 +505,9 @@
     "german": "wir",
     "turkish": "biz",
     "germanExample": "Wir gehen nach Hause.",
-    "turkishExample": "Biz eve gidiyoruz."
+    "turkishExample": "Biz eve gidiyoruz.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_052",
@@ -413,7 +515,9 @@
     "german": "ihr",
     "turkish": "siz (çoğul)",
     "germanExample": "Was macht ihr?",
-    "turkishExample": "Siz ne yapıyorsunuz?"
+    "turkishExample": "Siz ne yapıyorsunuz?",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_053",
@@ -421,7 +525,9 @@
     "german": "er",
     "turkish": "o (erkek)",
     "germanExample": "Er ist mein Freund.",
-    "turkishExample": "O benim arkadaşım."
+    "turkishExample": "O benim arkadaşım.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_054",
@@ -429,7 +535,9 @@
     "german": "sie",
     "turkish": "o (kadın) / onlar",
     "germanExample": "Sie ist sehr nett.",
-    "turkishExample": "O çok naziktir."
+    "turkishExample": "O çok naziktir.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_055",
@@ -437,7 +545,9 @@
     "german": "sein",
     "turkish": "olmak",
     "germanExample": "Ich bin glücklich.",
-    "turkishExample": "Ben mutluyum."
+    "turkishExample": "Ben mutluyum.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_056",
@@ -445,7 +555,9 @@
     "german": "der Mann",
     "turkish": "adam/erkek",
     "germanExample": "Der Mann liest.",
-    "turkishExample": "Adam okuyor."
+    "turkishExample": "Adam okuyor.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_057",
@@ -453,7 +565,9 @@
     "german": "die Frau",
     "turkish": "kadın",
     "germanExample": "Die Frau trinkt Kaffee.",
-    "turkishExample": "Kadın kahve içiyor."
+    "turkishExample": "Kadın kahve içiyor.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_058",
@@ -461,7 +575,9 @@
     "german": "der Sohn",
     "turkish": "erkek evlat",
     "germanExample": "Mein Sohn ist fünf Jahre alt.",
-    "turkishExample": "Oğlum beş yaşında."
+    "turkishExample": "Oğlum beş yaşında.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_059",
@@ -469,7 +585,9 @@
     "german": "die Tochter",
     "turkish": "kız evlat",
     "germanExample": "Ihre Tochter geht zur Schule.",
-    "turkishExample": "Onun kızı okula gidiyor."
+    "turkishExample": "Onun kızı okula gidiyor.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_060",
@@ -477,7 +595,9 @@
     "german": "die Eltern",
     "turkish": "ebeveyn/anne-baba",
     "germanExample": "Meine Eltern wohnen hier.",
-    "turkishExample": "Annem ve babam burada yaşıyor."
+    "turkishExample": "Annem ve babam burada yaşıyor.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_061",
@@ -485,7 +605,9 @@
     "german": "der Vater",
     "turkish": "baba",
     "germanExample": "Sein Vater ist Arzt.",
-    "turkishExample": "Onun babası doktordur."
+    "turkishExample": "Onun babası doktordur.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_062",
@@ -493,7 +615,9 @@
     "german": "die Mutter",
     "turkish": "anne",
     "germanExample": "Meine Mutter kocht gut.",
-    "turkishExample": "Annem iyi yemek yapar."
+    "turkishExample": "Annem iyi yemek yapar.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_063",
@@ -501,7 +625,9 @@
     "german": "die Schwester",
     "turkish": "kız kardeş",
     "germanExample": "Ich habe eine Schwester.",
-    "turkishExample": "Bir kız kardeşim var."
+    "turkishExample": "Bir kız kardeşim var.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_064",
@@ -509,7 +635,9 @@
     "german": "der Bruder",
     "turkish": "erkek kardeş",
     "germanExample": "Mein Bruder studiert.",
-    "turkishExample": "Erkek kardeşim üniversite okuyor."
+    "turkishExample": "Erkek kardeşim üniversite okuyor.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_065",
@@ -517,7 +645,9 @@
     "german": "mein / meine",
     "turkish": "benim",
     "germanExample": "Das ist mein Buch.",
-    "turkishExample": "Bu benim kitabım."
+    "turkishExample": "Bu benim kitabım.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_066",
@@ -525,7 +655,9 @@
     "german": "dein / deine",
     "turkish": "senin",
     "germanExample": "Ist das deine Tasche?",
-    "turkishExample": "Bu senin çantan mı?"
+    "turkishExample": "Bu senin çantan mı?",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_067",
@@ -533,7 +665,9 @@
     "german": "Ihr / Ihre",
     "turkish": "sizin (kibar)",
     "germanExample": "Wo ist Ihre Jacke?",
-    "turkishExample": "Ceketiniz nerede?"
+    "turkishExample": "Ceketiniz nerede?",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_068",
@@ -541,7 +675,9 @@
     "german": "verheiratet",
     "turkish": "evli",
     "germanExample": "Ich bin verheiratet.",
-    "turkishExample": "Ben evliyim."
+    "turkishExample": "Ben evliyim.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_069",
@@ -549,7 +685,9 @@
     "german": "ledig",
     "turkish": "bekar",
     "germanExample": "Er ist ledig.",
-    "turkishExample": "O bekar."
+    "turkishExample": "O bekar.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_070",
@@ -557,7 +695,9 @@
     "german": "eins",
     "turkish": "bir",
     "germanExample": "Ich habe ein Kind.",
-    "turkishExample": "Bir çocuğum var."
+    "turkishExample": "Bir çocuğum var.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_071",
@@ -565,7 +705,9 @@
     "german": "zwei",
     "turkish": "iki",
     "germanExample": "Wir haben zwei Katzen.",
-    "turkishExample": "İki kedimiz var."
+    "turkishExample": "İki kedimiz var.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_072",
@@ -573,7 +715,9 @@
     "german": "drei",
     "turkish": "üç",
     "germanExample": "Drei Kaffee, bitte.",
-    "turkishExample": "Üç kahve lütfen."
+    "turkishExample": "Üç kahve lütfen.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_073",
@@ -581,7 +725,9 @@
     "german": "vier",
     "turkish": "dört",
     "germanExample": "Das Auto hat vier Türen.",
-    "turkishExample": "Arabanın dört kapısı var."
+    "turkishExample": "Arabanın dört kapısı var.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_074",
@@ -589,7 +735,9 @@
     "german": "fünf",
     "turkish": "beş",
     "germanExample": "Es ist fünf Uhr.",
-    "turkishExample": "Saat beştir."
+    "turkishExample": "Saat beştir.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_075",
@@ -597,7 +745,9 @@
     "german": "sechs",
     "turkish": "altı",
     "germanExample": "Ich arbeite sechs Tage.",
-    "turkishExample": "Altı gün çalışıyorum."
+    "turkishExample": "Altı gün çalışıyorum.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_076",
@@ -605,7 +755,9 @@
     "german": "sieben",
     "turkish": "yedi",
     "germanExample": "Eine Woche hat sieben Tage.",
-    "turkishExample": "Bir haftanın yedi günü vardır."
+    "turkishExample": "Bir haftanın yedi günü vardır.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_077",
@@ -613,7 +765,9 @@
     "german": "acht",
     "turkish": "sekiz",
     "germanExample": "Der Unterricht beginnt um acht.",
-    "turkishExample": "Ders sekizde başlıyor."
+    "turkishExample": "Ders sekizde başlıyor.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_078",
@@ -621,7 +775,9 @@
     "german": "neun",
     "turkish": "dokuz",
     "germanExample": "Neun Personen sind hier.",
-    "turkishExample": "Dokuz kişi burada."
+    "turkishExample": "Dokuz kişi burada.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_079",
@@ -629,7 +785,9 @@
     "german": "zehn",
     "turkish": "on",
     "germanExample": "Das kostet zehn Euro.",
-    "turkishExample": "Bu on Euro tutuyor."
+    "turkishExample": "Bu on Euro tutuyor.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_080",
@@ -637,7 +795,9 @@
     "german": "elf",
     "turkish": "on bir",
     "germanExample": "Er ist elf Jahre alt.",
-    "turkishExample": "O on bir yaşında."
+    "turkishExample": "O on bir yaşında.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_081",
@@ -645,7 +805,9 @@
     "german": "zwölf",
     "turkish": "on iki",
     "germanExample": "Wir treffen uns um zwölf.",
-    "turkishExample": "On ikide buluşuyoruz."
+    "turkishExample": "On ikide buluşuyoruz.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_082",
@@ -653,7 +815,9 @@
     "german": "sechzehn",
     "turkish": "on altı",
     "germanExample": "Sie ist sechzehn Jahre alt.",
-    "turkishExample": "O on altı yaşında."
+    "turkishExample": "O on altı yaşında.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_083",
@@ -661,7 +825,9 @@
     "german": "siebzehn",
     "turkish": "on yedi",
     "germanExample": "Das Haus hat Nummer siebzehn.",
-    "turkishExample": "Evin numarası on yedidir."
+    "turkishExample": "Evin numarası on yedidir.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_084",
@@ -669,7 +835,9 @@
     "german": "zwanzig",
     "turkish": "yirmi",
     "germanExample": "Ich habe zwanzig Euro.",
-    "turkishExample": "Yirmi Eurom var."
+    "turkishExample": "Yirmi Eurom var.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_085",
@@ -677,7 +845,9 @@
     "german": "wohnen",
     "turkish": "ikamet etmek",
     "germanExample": "Ich wohne in Berlin.",
-    "turkishExample": "Berlin'de yaşıyorum."
+    "turkishExample": "Berlin'de yaşıyorum.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_086",
@@ -685,7 +855,9 @@
     "german": "geschieden",
     "turkish": "boşanmış",
     "germanExample": "Sie sind geschieden.",
-    "turkishExample": "Onlar boşanmış."
+    "turkishExample": "Onlar boşanmış.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_087",
@@ -693,7 +865,9 @@
     "german": "der Vorname",
     "turkish": "ad",
     "germanExample": "Mein Vorname ist Thomas.",
-    "turkishExample": "Benim adım Thomas."
+    "turkishExample": "Benim adım Thomas.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_088",
@@ -701,7 +875,9 @@
     "german": "die Großmutter",
     "turkish": "büyükanne/nine",
     "germanExample": "Meine Oma bäckt Kuchen.",
-    "turkishExample": "Ninem kek pişirir."
+    "turkishExample": "Ninem kek pişirir.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_089",
@@ -709,7 +885,9 @@
     "german": "der Großvater",
     "turkish": "büyükbaba/dede",
     "germanExample": "Mein Opa ist alt.",
-    "turkishExample": "Dedem yaşlıdır."
+    "turkishExample": "Dedem yaşlıdır.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_090",
@@ -717,7 +895,9 @@
     "german": "die Tante",
     "turkish": "teyze/hala",
     "germanExample": "Meine Tante kommt heute.",
-    "turkishExample": "Teyzem bugün geliyor."
+    "turkishExample": "Teyzem bugün geliyor.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_091",
@@ -725,7 +905,9 @@
     "german": "der Onkel",
     "turkish": "amca/dayı",
     "germanExample": "Mein Onkel wohnt in München.",
-    "turkishExample": "Amcam Münih'te yaşıyor."
+    "turkishExample": "Amcam Münih'te yaşıyor.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_092",
@@ -733,7 +915,9 @@
     "german": "der Cousin",
     "turkish": "erkek kuzen",
     "germanExample": "Das ist mein Cousin.",
-    "turkishExample": "Bu benim kuzenim."
+    "turkishExample": "Bu benim kuzenim.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_093",
@@ -741,7 +925,9 @@
     "german": "die Cousine",
     "turkish": "kız kuzen",
     "germanExample": "Meine Cousine ist Lehrerin.",
-    "turkishExample": "Kuzenim öğretmendir."
+    "turkishExample": "Kuzenim öğretmendir.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_094",
@@ -749,7 +935,9 @@
     "german": "der Familienname",
     "turkish": "soyadı",
     "germanExample": "Wie ist Ihr Familienname?",
-    "turkishExample": "Soyadınız nedir?"
+    "turkishExample": "Soyadınız nedir?",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_095",
@@ -757,7 +945,9 @@
     "german": "der Familienstand",
     "turkish": "medeni hal",
     "germanExample": "Was ist Ihr Familienstand?",
-    "turkishExample": "Medeni haliniz nedir?"
+    "turkishExample": "Medeni haliniz nedir?",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_096",
@@ -765,7 +955,9 @@
     "german": "die Straße",
     "turkish": "cadde/sokak",
     "germanExample": "Die Straße ist lang.",
-    "turkishExample": "Sokak uzundur."
+    "turkishExample": "Sokak uzundur.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_097",
@@ -773,7 +965,9 @@
     "german": "die Hausnummer",
     "turkish": "kapı numarası",
     "germanExample": "Meine Hausnummer ist fünf.",
-    "turkishExample": "Kapı numaram beştir."
+    "turkishExample": "Kapı numaram beştir.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_098",
@@ -781,7 +975,9 @@
     "german": "die Stadt",
     "turkish": "şehir",
     "germanExample": "Berlin ist eine große Stadt.",
-    "turkishExample": "Berlin büyük bir şehirdir."
+    "turkishExample": "Berlin büyük bir şehirdir.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_099",
@@ -789,7 +985,9 @@
     "german": "die Postleitzahl",
     "turkish": "posta kodu",
     "germanExample": "Wie ist die Postleitzahl?",
-    "turkishExample": "Posta kodu nedir?"
+    "turkishExample": "Posta kodu nedir?",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_100",
@@ -797,7 +995,9 @@
     "german": "die Telefonnummer",
     "turkish": "telefon numarası",
     "germanExample": "Gib mir deine Telefonnummer.",
-    "turkishExample": "Bana telefon numaranı ver."
+    "turkishExample": "Bana telefon numaranı ver.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_101",
@@ -805,7 +1005,9 @@
     "german": "einundzwanzig",
     "turkish": "yirmi bir",
     "germanExample": "Er ist einundzwanzig.",
-    "turkishExample": "O yirmi bir yaşında."
+    "turkishExample": "O yirmi bir yaşında.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_102",
@@ -813,7 +1015,9 @@
     "german": "dreißig",
     "turkish": "otuz",
     "germanExample": "Das Buch hat dreißig Seiten.",
-    "turkishExample": "Kitabın otuz sayfası var."
+    "turkishExample": "Kitabın otuz sayfası var.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_103",
@@ -821,7 +1025,9 @@
     "german": "siebzig",
     "turkish": "yetmiş",
     "germanExample": "Mein Opa ist siebzig.",
-    "turkishExample": "Dedem yetmiş yaşında."
+    "turkishExample": "Dedem yetmiş yaşında.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_104",
@@ -829,7 +1035,9 @@
     "german": "hundert",
     "turkish": "yüz",
     "germanExample": "Hundert Prozent richtig.",
-    "turkishExample": "Yüzde yüz doğru."
+    "turkishExample": "Yüzde yüz doğru.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_105",
@@ -837,7 +1045,9 @@
     "german": "die Adresse",
     "turkish": "adres",
     "germanExample": "Das ist meine Adresse.",
-    "turkishExample": "Bu benim adresim."
+    "turkishExample": "Bu benim adresim.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_106",
@@ -845,7 +1055,9 @@
     "german": "das Alter",
     "turkish": "yaş",
     "germanExample": "Alter spielt keine Rolle.",
-    "turkishExample": "Yaşın önemi yok."
+    "turkishExample": "Yaşın önemi yok.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_107",
@@ -853,7 +1065,9 @@
     "german": "der Geburtsort",
     "turkish": "doğum yeri",
     "germanExample": "Mein Geburtsort ist Istanbul.",
-    "turkishExample": "Doğum yerim İstanbul."
+    "turkishExample": "Doğum yerim İstanbul.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_108",
@@ -861,7 +1075,9 @@
     "german": "der Wohnort",
     "turkish": "ikamet yeri",
     "germanExample": "Sein Wohnort ist Hamburg.",
-    "turkishExample": "Onun ikamet yeri Hamburg'dur."
+    "turkishExample": "Onun ikamet yeri Hamburg'dur.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_109",
@@ -869,7 +1085,9 @@
     "german": "der Stuhl",
     "turkish": "sandalye",
     "germanExample": "Der Stuhl ist bequem.",
-    "turkishExample": "Sandalye rahattır."
+    "turkishExample": "Sandalye rahattır.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_110",
@@ -877,7 +1095,9 @@
     "german": "der Stift",
     "turkish": "kalem",
     "germanExample": "Hast du einen Stift?",
-    "turkishExample": "Bir kalemin var mı?"
+    "turkishExample": "Bir kalemin var mı?",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_111",
@@ -885,7 +1105,9 @@
     "german": "das Buch",
     "turkish": "kitap",
     "germanExample": "Das Buch ist spannend.",
-    "turkishExample": "Kitap heyecan verici."
+    "turkishExample": "Kitap heyecan verici.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_112",
@@ -893,7 +1115,9 @@
     "german": "der Computer",
     "turkish": "bilgisayar",
     "germanExample": "Der Computer ist neu.",
-    "turkishExample": "Bilgisayar yeni."
+    "turkishExample": "Bilgisayar yeni.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_113",
@@ -901,7 +1125,9 @@
     "german": "die Maus",
     "turkish": "fare",
     "germanExample": "Die Maus ist kaputt.",
-    "turkishExample": "Fare bozuk."
+    "turkishExample": "Fare bozuk.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_114",
@@ -909,7 +1135,9 @@
     "german": "die Tastatur",
     "turkish": "klavye",
     "germanExample": "Ich brauche eine Tastatur.",
-    "turkishExample": "Bir klavyeye ihtiyacım var."
+    "turkishExample": "Bir klavyeye ihtiyacım var.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_115",
@@ -917,7 +1145,9 @@
     "german": "der Bildschirm",
     "turkish": "ekran",
     "germanExample": "Der Bildschirm ist groß.",
-    "turkishExample": "Ekran büyük."
+    "turkishExample": "Ekran büyük.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_116",
@@ -925,7 +1155,9 @@
     "german": "das Handy",
     "turkish": "cep telefonu",
     "germanExample": "Mein Handy klingelt.",
-    "turkishExample": "Cep telefonum çalıyor."
+    "turkishExample": "Cep telefonum çalıyor.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_117",
@@ -933,7 +1165,9 @@
     "german": "die Tasche",
     "turkish": "çanta",
     "germanExample": "Die Tasche ist schwer.",
-    "turkishExample": "Çanta ağır."
+    "turkishExample": "Çanta ağır.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_118",
@@ -941,7 +1175,9 @@
     "german": "die E-Mail",
     "turkish": "e-posta",
     "germanExample": "Ich schreibe eine E-Mail.",
-    "turkishExample": "Bir e-posta yazıyorum."
+    "turkishExample": "Bir e-posta yazıyorum.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_119",
@@ -949,7 +1185,9 @@
     "german": "die Musik",
     "turkish": "müzik",
     "germanExample": "Ich höre gerne Musik.",
-    "turkishExample": "Müzik dinlemeyi severim."
+    "turkishExample": "Müzik dinlemeyi severim.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_120",
@@ -957,7 +1195,9 @@
     "german": "lesen",
     "turkish": "okumak",
     "germanExample": "Er liest ein Buch.",
-    "turkishExample": "O bir kitap okuyor."
+    "turkishExample": "O bir kitap okuyor.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_121",
@@ -965,7 +1205,9 @@
     "german": "schreiben",
     "turkish": "yazmak",
     "germanExample": "Wir schreiben einen Test.",
-    "turkishExample": "Bir test yazıyoruz."
+    "turkishExample": "Bir test yazıyoruz.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_122",
@@ -973,7 +1215,9 @@
     "german": "hören",
     "turkish": "duymak/dinlemek",
     "germanExample": "Hörst du mich?",
-    "turkishExample": "Beni duyuyor musun?"
+    "turkishExample": "Beni duyuyor musun?",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_123",
@@ -981,7 +1225,9 @@
     "german": "lernen",
     "turkish": "öğrenmek",
     "germanExample": "Sie lernt schnell.",
-    "turkishExample": "O hızlı öğreniyor."
+    "turkishExample": "O hızlı öğreniyor.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_124",
@@ -989,7 +1235,9 @@
     "german": "der Lehrer",
     "turkish": "öğretmen",
     "germanExample": "Der Lehrer erklärt gut.",
-    "turkishExample": "Öğretmen iyi açıklıyor."
+    "turkishExample": "Öğretmen iyi açıklıyor.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_125",
@@ -997,7 +1245,9 @@
     "german": "das Tablet",
     "turkish": "tablet",
     "germanExample": "Das Tablet ist teuer.",
-    "turkishExample": "Tablet pahalı."
+    "turkishExample": "Tablet pahalı.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_126",
@@ -1005,7 +1255,9 @@
     "german": "der Laptop",
     "turkish": "dizüstü bilgisayar",
     "germanExample": "Der Laptop ist auf dem Tisch.",
-    "turkishExample": "Dizüstü bilgisayar masanın üstünde."
+    "turkishExample": "Dizüstü bilgisayar masanın üstünde.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_127",
@@ -1013,7 +1265,9 @@
     "german": "der Kuli",
     "turkish": "tükenmez kalem",
     "germanExample": "Gib mir den Kuli.",
-    "turkishExample": "Bana tükenmez kalemi ver."
+    "turkishExample": "Bana tükenmez kalemi ver.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_128",
@@ -1021,7 +1275,9 @@
     "german": "die Übung",
     "turkish": "alıştırma",
     "germanExample": "Die Übung ist einfach.",
-    "turkishExample": "Alıştırma kolay."
+    "turkishExample": "Alıştırma kolay.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_129",
@@ -1029,7 +1285,9 @@
     "german": "neu",
     "turkish": "yeni",
     "germanExample": "Das Auto ist neu.",
-    "turkishExample": "Araba yeni."
+    "turkishExample": "Araba yeni.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_130",
@@ -1037,7 +1295,9 @@
     "german": "schön",
     "turkish": "güzel",
     "germanExample": "Das Wetter ist schön.",
-    "turkishExample": "Hava güzel."
+    "turkishExample": "Hava güzel.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_131",
@@ -1045,7 +1305,9 @@
     "german": "groß",
     "turkish": "büyük",
     "germanExample": "Das Haus ist groß.",
-    "turkishExample": "Ev büyük."
+    "turkishExample": "Ev büyük.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_132",
@@ -1053,7 +1315,9 @@
     "german": "klein",
     "turkish": "küçük",
     "germanExample": "Der Hund ist klein.",
-    "turkishExample": "Köpek küçük."
+    "turkishExample": "Köpek küçük.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_133",
@@ -1061,7 +1325,9 @@
     "german": "interessant",
     "turkish": "ilginç",
     "germanExample": "Der Film ist interessant.",
-    "turkishExample": "Film ilginç."
+    "turkishExample": "Film ilginç.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_134",
@@ -1069,7 +1335,9 @@
     "german": "einfach",
     "turkish": "kolay/basit",
     "germanExample": "Die Aufgabe ist einfach.",
-    "turkishExample": "Görev basit."
+    "turkishExample": "Görev basit.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_135",
@@ -1077,7 +1345,9 @@
     "german": "schwierig",
     "turkish": "zor",
     "germanExample": "Deutsch ist nicht schwierig.",
-    "turkishExample": "Almanca zor değil."
+    "turkishExample": "Almanca zor değil.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_136",
@@ -1085,7 +1355,9 @@
     "german": "richtig",
     "turkish": "doğru",
     "germanExample": "Die Antwort ist richtig.",
-    "turkishExample": "Cevap doğru."
+    "turkishExample": "Cevap doğru.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_137",
@@ -1093,7 +1365,9 @@
     "german": "falsch",
     "turkish": "yanlış",
     "germanExample": "Das ist leider falsch.",
-    "turkishExample": "Bu maalesef yanlış."
+    "turkishExample": "Bu maalesef yanlış.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_138",
@@ -1101,7 +1375,9 @@
     "german": "der Satz",
     "turkish": "cümle",
     "germanExample": "Bitte lies den Satz.",
-    "turkishExample": "Lütfen cümleyi oku."
+    "turkishExample": "Lütfen cümleyi oku.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_139",
@@ -1109,7 +1385,9 @@
     "german": "einen Deutschkurs machen",
     "turkish": "Almanca kursu yapmak",
     "germanExample": "Ich mache einen Deutschkurs.",
-    "turkishExample": "Ben bir Almanca kursu yapıyorum."
+    "turkishExample": "Ben bir Almanca kursu yapıyorum.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_140",
@@ -1117,7 +1395,9 @@
     "german": "nett",
     "turkish": "nazik/kibar",
     "germanExample": "Sie ist sehr nett.",
-    "turkishExample": "O çok nazik."
+    "turkishExample": "O çok nazik.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_141",
@@ -1125,7 +1405,9 @@
     "german": "fragen",
     "turkish": "sormak",
     "germanExample": "Darf ich etwas fragen?",
-    "turkishExample": "Bir şey sorabilir miyim?"
+    "turkishExample": "Bir şey sorabilir miyim?",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_142",
@@ -1133,7 +1415,9 @@
     "german": "antworten",
     "turkish": "cevap vermek",
     "germanExample": "Bitte antworte mir.",
-    "turkishExample": "Lütfen bana cevap ver."
+    "turkishExample": "Lütfen bana cevap ver.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_143",
@@ -1141,7 +1425,9 @@
     "german": "der Montag",
     "turkish": "Pazartesi",
     "germanExample": "Am Montag arbeite ich.",
-    "turkishExample": "Pazartesi günü çalışıyorum."
+    "turkishExample": "Pazartesi günü çalışıyorum.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_144",
@@ -1149,7 +1435,9 @@
     "german": "der Dienstag",
     "turkish": "Salı",
     "germanExample": "Dienstag ist der zweite Tag.",
-    "turkishExample": "Salı ikinci gündür."
+    "turkishExample": "Salı ikinci gündür.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_145",
@@ -1157,7 +1445,9 @@
     "german": "der Mittwoch",
     "turkish": "Çarşamba",
     "germanExample": "Wir treffen uns am Mittwoch.",
-    "turkishExample": "Çarşamba günü buluşuyoruz."
+    "turkishExample": "Çarşamba günü buluşuyoruz.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_146",
@@ -1165,7 +1455,9 @@
     "german": "der Donnerstag",
     "turkish": "Perşembe",
     "germanExample": "Donnerstag habe ich Zeit.",
-    "turkishExample": "Perşembe zamanım var."
+    "turkishExample": "Perşembe zamanım var.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_147",
@@ -1173,7 +1465,9 @@
     "german": "der Freitag",
     "turkish": "Cuma",
     "germanExample": "Endlich Freitag!",
-    "turkishExample": "Sonunda Cuma!"
+    "turkishExample": "Sonunda Cuma!",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_148",
@@ -1181,7 +1475,9 @@
     "german": "der Samstag",
     "turkish": "Cumartesi",
     "germanExample": "Samstag spiele ich Fußball.",
-    "turkishExample": "Cumartesi futbol oynarım."
+    "turkishExample": "Cumartesi futbol oynarım.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_149",
@@ -1189,7 +1485,9 @@
     "german": "der Sonntag",
     "turkish": "Pazar",
     "germanExample": "Sonntag ist ein Ruhetag.",
-    "turkishExample": "Pazar dinlenme günüdür."
+    "turkishExample": "Pazar dinlenme günüdür.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_150",
@@ -1197,7 +1495,9 @@
     "german": "gestern",
     "turkish": "dün",
     "germanExample": "Gestern war ich krank.",
-    "turkishExample": "Dün hastaydım."
+    "turkishExample": "Dün hastaydım.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_151",
@@ -1205,7 +1505,9 @@
     "german": "heute",
     "turkish": "bugün",
     "germanExample": "Heute scheint die Sonne.",
-    "turkishExample": "Bugün güneş parlıyor."
+    "turkishExample": "Bugün güneş parlıyor.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_152",
@@ -1213,7 +1515,9 @@
     "german": "morgen",
     "turkish": "yarın",
     "germanExample": "Morgen gehen wir ins Kino.",
-    "turkishExample": "Yarın sinemaya gidiyoruz."
+    "turkishExample": "Yarın sinemaya gidiyoruz.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_153",
@@ -1221,7 +1525,9 @@
     "german": "die Brille",
     "turkish": "gözlük",
     "germanExample": "Ich brauche meine Brille.",
-    "turkishExample": "Gözlüğüme ihtiyacım var."
+    "turkishExample": "Gözlüğüme ihtiyacım var.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_154",
@@ -1229,7 +1535,9 @@
     "german": "die Tür",
     "turkish": "kapı",
     "germanExample": "Mach die Tür zu.",
-    "turkishExample": "Kapıyı kapat."
+    "turkishExample": "Kapıyı kapat.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_155",
@@ -1237,7 +1545,9 @@
     "german": "das Wörterbuch",
     "turkish": "sözlük",
     "germanExample": "Ich suche ein Wort im Wörterbuch.",
-    "turkishExample": "Sözlükte bir kelime arıyorum."
+    "turkishExample": "Sözlükte bir kelime arıyorum.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_156",
@@ -1245,7 +1555,9 @@
     "german": "das Gemüse",
     "turkish": "sebze",
     "germanExample": "Gemüse ist sehr gesund.",
-    "turkishExample": "Sebze çok sağlıklıdır."
+    "turkishExample": "Sebze çok sağlıklıdır.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_157",
@@ -1253,7 +1565,9 @@
     "german": "der Salat",
     "turkish": "salata",
     "germanExample": "Ich mache einen Salat.",
-    "turkishExample": "Ben bir salata yapıyorum."
+    "turkishExample": "Ben bir salata yapıyorum.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_158",
@@ -1261,7 +1575,9 @@
     "german": "das Fleisch",
     "turkish": "et",
     "germanExample": "Er isst kein Fleisch.",
-    "turkishExample": "O et yemez."
+    "turkishExample": "O et yemez.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_159",
@@ -1269,7 +1585,9 @@
     "german": "die Wurst",
     "turkish": "sosis/sucuk",
     "germanExample": "Ich kaufe eine Wurst.",
-    "turkishExample": "Bir sosis alıyorum."
+    "turkishExample": "Bir sosis alıyorum.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_160",
@@ -1277,7 +1595,9 @@
     "german": "das Obst",
     "turkish": "meyve",
     "germanExample": "Das Obst ist frisch.",
-    "turkishExample": "Meyve tazedir."
+    "turkishExample": "Meyve tazedir.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_161",
@@ -1285,7 +1605,9 @@
     "german": "die Milch",
     "turkish": "süt",
     "germanExample": "Trinkst du Milch?",
-    "turkishExample": "Süt içer misin?"
+    "turkishExample": "Süt içer misin?",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_162",
@@ -1293,7 +1615,9 @@
     "german": "das Wasser",
     "turkish": "su",
     "germanExample": "Ich trinke ein Glas Wasser.",
-    "turkishExample": "Bir bardak su içiyorum."
+    "turkishExample": "Bir bardak su içiyorum.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_163",
@@ -1301,7 +1625,9 @@
     "german": "der Saft",
     "turkish": "meyve suyu",
     "germanExample": "Der Apfelsaft ist süß.",
-    "turkishExample": "Elma suyu tatlıdır."
+    "turkishExample": "Elma suyu tatlıdır.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_164",
@@ -1309,7 +1635,9 @@
     "german": "der Fisch",
     "turkish": "balık",
     "germanExample": "Wir essen heute Fisch.",
-    "turkishExample": "Bugün balık yiyoruz."
+    "turkishExample": "Bugün balık yiyoruz.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_165",
@@ -1317,7 +1645,9 @@
     "german": "der Kuchen",
     "turkish": "pasta/kek",
     "germanExample": "Der Kuchen ist lecker.",
-    "turkishExample": "Pasta lezzetli."
+    "turkishExample": "Pasta lezzetli.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_166",
@@ -1325,7 +1655,9 @@
     "german": "das Eis",
     "turkish": "dondurma/buz",
     "germanExample": "Die Kinder lieben Eis.",
-    "turkishExample": "Çocuklar dondurmayı sever."
+    "turkishExample": "Çocuklar dondurmayı sever.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_167",
@@ -1333,7 +1665,9 @@
     "german": "das Schweinefleisch",
     "turkish": "domuz eti",
     "germanExample": "Ich esse kein Schweinefleisch.",
-    "turkishExample": "Domuz eti yemiyorum."
+    "turkishExample": "Domuz eti yemiyorum.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_168",
@@ -1341,7 +1675,9 @@
     "german": "der Tee",
     "turkish": "çay",
     "germanExample": "Möchtest du Tee trinken?",
-    "turkishExample": "Çay içmek ister misin?"
+    "turkishExample": "Çay içmek ister misin?",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_169",
@@ -1349,7 +1685,9 @@
     "german": "der Joghurt",
     "turkish": "yoğurt",
     "germanExample": "Ich esse Joghurt zum Frühstück.",
-    "turkishExample": "Kahvaltıda yoğurt yerim."
+    "turkishExample": "Kahvaltıda yoğurt yerim.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_170",
@@ -1357,7 +1695,9 @@
     "german": "der Reis",
     "turkish": "pirinç/pilav",
     "germanExample": "Wir kochen Reis mit Hähnchen.",
-    "turkishExample": "Tavukla pilav pişiriyoruz."
+    "turkishExample": "Tavukla pilav pişiriyoruz.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_171",
@@ -1365,7 +1705,9 @@
     "german": "das Brot",
     "turkish": "ekmek",
     "germanExample": "Brot mit Käse schmeckt gut.",
-    "turkishExample": "Peynirli ekmek lezzetlidir."
+    "turkishExample": "Peynirli ekmek lezzetlidir.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_172",
@@ -1373,7 +1715,9 @@
     "german": "das Brötchen",
     "turkish": "küçük ekmek",
     "germanExample": "Ich esse zwei Brötchen.",
-    "turkishExample": "İki küçük ekmek yiyorum."
+    "turkishExample": "İki küçük ekmek yiyorum.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_173",
@@ -1381,7 +1725,9 @@
     "german": "der Kaffee",
     "turkish": "kahve",
     "germanExample": "Mein Kaffee ist heiß.",
-    "turkishExample": "Kahvem sıcak."
+    "turkishExample": "Kahvem sıcak.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_174",
@@ -1389,7 +1735,9 @@
     "german": "der Käse",
     "turkish": "peynir",
     "germanExample": "Der Käse ist aus der Türkei.",
-    "turkishExample": "Peynir Türkiye'dendir."
+    "turkishExample": "Peynir Türkiye'dendir.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_175",
@@ -1397,7 +1745,9 @@
     "german": "das Hähnchen",
     "turkish": "tavuk",
     "germanExample": "Das Hähnchen ist im Ofen.",
-    "turkishExample": "Tavuk fırında."
+    "turkishExample": "Tavuk fırında.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_176",
@@ -1405,7 +1755,9 @@
     "german": "mögen",
     "turkish": "hoşlanmak/sevmek",
     "germanExample": "Ich mag keine Tomaten.",
-    "turkishExample": "Domates sevmem."
+    "turkishExample": "Domates sevmem.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_177",
@@ -1413,7 +1765,9 @@
     "german": "essen",
     "turkish": "yemek",
     "germanExample": "Was isst du gern?",
-    "turkishExample": "Ne yemeyi seversin?"
+    "turkishExample": "Ne yemeyi seversin?",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_178",
@@ -1421,7 +1775,9 @@
     "german": "trinken",
     "turkish": "içmek",
     "germanExample": "Wir trinken zusammen Kaffee.",
-    "turkishExample": "Birlikte kahve içiyoruz."
+    "turkishExample": "Birlikte kahve içiyoruz.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_179",
@@ -1429,7 +1785,9 @@
     "german": "der Apfel",
     "turkish": "elma",
     "germanExample": "Der Apfel ist rot.",
-    "turkishExample": "Elma kırmızıdır."
+    "turkishExample": "Elma kırmızıdır.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_180",
@@ -1437,7 +1795,9 @@
     "german": "die Banane",
     "turkish": "muz",
     "germanExample": "Die Banane ist gelb.",
-    "turkishExample": "Muz sarıdır."
+    "turkishExample": "Muz sarıdır.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_181",
@@ -1445,7 +1805,9 @@
     "german": "das Ei",
     "turkish": "yumurta",
     "germanExample": "Ich brauche drei Eier.",
-    "turkishExample": "Üç yumurtaya ihtiyacım var."
+    "turkishExample": "Üç yumurtaya ihtiyacım var.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_182",
@@ -1453,7 +1815,9 @@
     "german": "die Gurke",
     "turkish": "salatalık",
     "germanExample": "Schneide die Gurke.",
-    "turkishExample": "Salatalığı kes."
+    "turkishExample": "Salatalığı kes.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_183",
@@ -1461,7 +1825,9 @@
     "german": "das Getränk",
     "turkish": "içecek",
     "germanExample": "Welches Getränk möchtest du?",
-    "turkishExample": "Hangi içeceği istersin?"
+    "turkishExample": "Hangi içeceği istersin?",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_184",
@@ -1469,7 +1835,9 @@
     "german": "der Paprika",
     "turkish": "biber",
     "germanExample": "Ich schneide den Paprika.",
-    "turkishExample": "Biberi doğruyorum."
+    "turkishExample": "Biberi doğruyorum.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_185",
@@ -1477,7 +1845,9 @@
     "german": "die Nudel",
     "turkish": "makarna",
     "germanExample": "Wir essen oft Nudeln.",
-    "turkishExample": "Sık sık makarna yeriz."
+    "turkishExample": "Sık sık makarna yeriz.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_186",
@@ -1485,7 +1855,9 @@
     "german": "die Möhre",
     "turkish": "havuç",
     "germanExample": "Die Möhre ist orange.",
-    "turkishExample": "Havuç turuncudur."
+    "turkishExample": "Havuç turuncudur.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_187",
@@ -1493,7 +1865,9 @@
     "german": "die Tomate",
     "turkish": "domates",
     "germanExample": "Tomaten sind rot.",
-    "turkishExample": "Domatesler kırmızıdır."
+    "turkishExample": "Domatesler kırmızıdır.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_188",
@@ -1501,7 +1875,9 @@
     "german": "die Zwiebel",
     "turkish": "soğan",
     "germanExample": "Die Zwiebel ist scharf.",
-    "turkishExample": "Soğan acıdır."
+    "turkishExample": "Soğan acıdır.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_189",
@@ -1509,7 +1885,9 @@
     "german": "brauchen",
     "turkish": "ihtiyacı olmak",
     "germanExample": "Ich brauche Hilfe.",
-    "turkishExample": "Yardıma ihtiyacım var."
+    "turkishExample": "Yardıma ihtiyacım var.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_190",
@@ -1517,7 +1895,9 @@
     "german": "kaufen",
     "turkish": "satın almak",
     "germanExample": "Wir kaufen im Supermarkt ein.",
-    "turkishExample": "Süpermarketten alışveriş yapıyoruz."
+    "turkishExample": "Süpermarketten alışveriş yapıyoruz.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_191",
@@ -1525,7 +1905,9 @@
     "german": "kochen",
     "turkish": "pişirmek",
     "germanExample": "Mein Vater kocht sehr gut.",
-    "turkishExample": "Babam çok iyi yemek pişirir."
+    "turkishExample": "Babam çok iyi yemek pişirir.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_192",
@@ -1533,7 +1915,9 @@
     "german": "das Kilo",
     "turkish": "kilo",
     "germanExample": "Ich kaufe ein Kilo Äpfel.",
-    "turkishExample": "Bir kilo elma alıyorum."
+    "turkishExample": "Bir kilo elma alıyorum.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_193",
@@ -1541,7 +1925,9 @@
     "german": "der Liter",
     "turkish": "litre",
     "germanExample": "Ich brauche einen Liter Milch.",
-    "turkishExample": "Bir litre süte ihtiyacım var."
+    "turkishExample": "Bir litre süte ihtiyacım var.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_194",
@@ -1549,7 +1935,9 @@
     "german": "das Stück",
     "turkish": "parça/adet",
     "germanExample": "Ein Stück Kuchen, bitte.",
-    "turkishExample": "Bir dilim (parça) pasta lütfen."
+    "turkishExample": "Bir dilim (parça) pasta lütfen.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_195",
@@ -1557,7 +1945,9 @@
     "german": "die Tüte",
     "turkish": "poşet/külah",
     "germanExample": "Die Tüte kostet 10 Cent.",
-    "turkishExample": "Poşet 10 Cent tutuyor."
+    "turkishExample": "Poşet 10 Cent tutuyor.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_196",
@@ -1565,7 +1955,9 @@
     "german": "die Flasche",
     "turkish": "şişe",
     "germanExample": "Hier ist eine Flasche Wasser.",
-    "turkishExample": "İşte bir şişe su."
+    "turkishExample": "İşte bir şişe su.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_197",
@@ -1573,7 +1965,9 @@
     "german": "das Glas",
     "turkish": "bardak",
     "germanExample": "Ein Glas Tee, bitte.",
-    "turkishExample": "Bir bardak çay lütfen."
+    "turkishExample": "Bir bardak çay lütfen.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_198",
@@ -1581,7 +1975,9 @@
     "german": "der Supermarkt",
     "turkish": "süpermarket",
     "germanExample": "Der Supermarkt ist um die Ecke.",
-    "turkishExample": "Süpermarket köşede."
+    "turkishExample": "Süpermarket köşede.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_199",
@@ -1589,7 +1985,9 @@
     "german": "der Euro",
     "turkish": "Euro",
     "germanExample": "Das kostet fünf Euro.",
-    "turkishExample": "Bu beş Euro tutuyor."
+    "turkishExample": "Bu beş Euro tutuyor.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_200",
@@ -1597,7 +1995,9 @@
     "german": "der Cent",
     "turkish": "Cent",
     "germanExample": "Ich habe 50 Cent.",
-    "turkishExample": "50 Centim var."
+    "turkishExample": "50 Centim var.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_201",
@@ -1605,7 +2005,9 @@
     "german": "kosten",
     "turkish": "fiyatı olmak",
     "germanExample": "Wie viel kostet das?",
-    "turkishExample": "Bunun fiyatı ne kadar?"
+    "turkishExample": "Bunun fiyatı ne kadar?",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_202",
@@ -1613,7 +2015,9 @@
     "german": "der Preis",
     "turkish": "fiyat",
     "germanExample": "Der Preis ist gut.",
-    "turkishExample": "Fiyat iyidir."
+    "turkishExample": "Fiyat iyidir.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_203",
@@ -1621,7 +2025,9 @@
     "german": "das Mittagessen",
     "turkish": "öğle yemeği",
     "germanExample": "Wir machen das Mittagessen.",
-    "turkishExample": "Öğle yemeğini hazırlıyoruz."
+    "turkishExample": "Öğle yemeğini hazırlıyoruz.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_204",
@@ -1629,7 +2035,9 @@
     "german": "das Abendessen",
     "turkish": "akşam yemeği",
     "germanExample": "Das Abendessen ist fertig.",
-    "turkishExample": "Akşam yemeği hazır."
+    "turkishExample": "Akşam yemeği hazır.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_205",
@@ -1637,7 +2045,9 @@
     "german": "das Frühstück",
     "turkish": "kahvaltı",
     "germanExample": "Zum Frühstück esse ich Brot.",
-    "turkishExample": "Kahvaltıda ekmek yerim."
+    "turkishExample": "Kahvaltıda ekmek yerim.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_206",
@@ -1645,7 +2055,9 @@
     "german": "die Marmelade",
     "turkish": "marmelat/reçel",
     "germanExample": "Ich mache Erdbeermarmelade.",
-    "turkishExample": "Çilek reçeli yapıyorum."
+    "turkishExample": "Çilek reçeli yapıyorum.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_207",
@@ -1653,7 +2065,9 @@
     "german": "süß",
     "turkish": "tatlı",
     "germanExample": "Der Tee ist sehr süß.",
-    "turkishExample": "Çay çok tatlı."
+    "turkishExample": "Çay çok tatlı.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_208",
@@ -1661,7 +2075,9 @@
     "german": "sauer",
     "turkish": "ekşi",
     "germanExample": "Die Zitrone ist sauer.",
-    "turkishExample": "Limon ekşidir."
+    "turkishExample": "Limon ekşidir.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_209",
@@ -1669,7 +2085,9 @@
     "german": "salzig",
     "turkish": "tuzlu",
     "germanExample": "Die Suppe ist salzig.",
-    "turkishExample": "Çorba tuzludur."
+    "turkishExample": "Çorba tuzludur.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_210",
@@ -1677,7 +2095,9 @@
     "german": "scharf",
     "turkish": "acı",
     "germanExample": "Das Essen ist scharf.",
-    "turkishExample": "Yemek acıdır."
+    "turkishExample": "Yemek acıdır.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_211",
@@ -1685,7 +2105,9 @@
     "german": "der Zucker",
     "turkish": "şeker",
     "germanExample": "Kaffee ohne Zucker, bitte.",
-    "turkishExample": "Şekersiz kahve lütfen."
+    "turkishExample": "Şekersiz kahve lütfen.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_212",
@@ -1693,7 +2115,9 @@
     "german": "der Tag",
     "turkish": "gün",
     "germanExample": "Guten Tag!",
-    "turkishExample": "İyi günler!"
+    "turkishExample": "İyi günler!",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_213",
@@ -1701,7 +2125,9 @@
     "german": "der Morgen",
     "turkish": "sabah",
     "germanExample": "Guten Morgen!",
-    "turkishExample": "Günaydın!"
+    "turkishExample": "Günaydın!",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_214",
@@ -1709,7 +2135,9 @@
     "german": "der Vormittag",
     "turkish": "öğleden önce",
     "germanExample": "Am Vormittag arbeite ich.",
-    "turkishExample": "Öğleden önce çalışıyorum."
+    "turkishExample": "Öğleden önce çalışıyorum.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_215",
@@ -1717,7 +2145,9 @@
     "german": "der Mittag",
     "turkish": "öğle",
     "germanExample": "Am Mittag esse ich.",
-    "turkishExample": "Öğlen yemek yerim."
+    "turkishExample": "Öğlen yemek yerim.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_216",
@@ -1725,7 +2155,9 @@
     "german": "der Nachmittag",
     "turkish": "öğleden sonra",
     "germanExample": "Wir treffen uns am Nachmittag.",
-    "turkishExample": "Öğleden sonra buluşuyoruz."
+    "turkishExample": "Öğleden sonra buluşuyoruz.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_217",
@@ -1733,7 +2165,9 @@
     "german": "der Abend",
     "turkish": "akşam",
     "germanExample": "Guten Abend!",
-    "turkishExample": "İyi akşamlar!"
+    "turkishExample": "İyi akşamlar!",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_218",
@@ -1741,7 +2175,9 @@
     "german": "die Nacht",
     "turkish": "gece",
     "germanExample": "Gute Nacht!",
-    "turkishExample": "İyi geceler!"
+    "turkishExample": "İyi geceler!",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_219",
@@ -1749,7 +2185,9 @@
     "german": "frühstücken",
     "turkish": "kahvaltı yapmak",
     "germanExample": "Ich frühstücke um 8 Uhr.",
-    "turkishExample": "Saat 8'de kahvaltı yaparım."
+    "turkishExample": "Saat 8'de kahvaltı yaparım.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_220",
@@ -1757,7 +2195,9 @@
     "german": "duschen",
     "turkish": "duş almak",
     "germanExample": "Ich dusche am Morgen.",
-    "turkishExample": "Sabahları duş alırım."
+    "turkishExample": "Sabahları duş alırım.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_221",
@@ -1765,7 +2205,9 @@
     "german": "schlafen",
     "turkish": "uyumak",
     "germanExample": "Das Kind schläft.",
-    "turkishExample": "Çocuk uyuyor."
+    "turkishExample": "Çocuk uyuyor.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_222",
@@ -1773,7 +2215,9 @@
     "german": "arbeiten",
     "turkish": "çalışmak",
     "germanExample": "Ich arbeite jeden Tag.",
-    "turkishExample": "Her gün çalışıyorum."
+    "turkishExample": "Her gün çalışıyorum.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_223",
@@ -1781,7 +2225,9 @@
     "german": "die Arbeit",
     "turkish": "iş",
     "germanExample": "Die Arbeit ist anstrengend.",
-    "turkishExample": "İş yorucudur."
+    "turkishExample": "İş yorucudur.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_224",
@@ -1789,7 +2235,9 @@
     "german": "die Hausaufgaben machen",
     "turkish": "ödev yapmak",
     "germanExample": "Die Schüler machen die Hausaufgaben.",
-    "turkishExample": "Öğrenciler ödev yapıyor."
+    "turkishExample": "Öğrenciler ödev yapıyor.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_225",
@@ -1797,7 +2245,9 @@
     "german": "telefonieren",
     "turkish": "telefonla görüşmek",
     "germanExample": "Ich telefoniere mit meiner Mutter.",
-    "turkishExample": "Annemle telefonda konuşuyorum."
+    "turkishExample": "Annemle telefonda konuşuyorum.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_226",
@@ -1805,7 +2255,9 @@
     "german": "Fußball spielen",
     "turkish": "futbol oynamak",
     "germanExample": "Wir spielen am Wochenende Fußball.",
-    "turkishExample": "Hafta sonu futbol oynuyoruz."
+    "turkishExample": "Hafta sonu futbol oynuyoruz.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_227",
@@ -1813,7 +2265,9 @@
     "german": "Sport machen",
     "turkish": "spor yapmak",
     "germanExample": "Ich mache dreimal pro Woche Sport.",
-    "turkishExample": "Haftada üç kez spor yapıyorum."
+    "turkishExample": "Haftada üç kez spor yapıyorum.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_228",
@@ -1821,7 +2275,9 @@
     "german": "Musik hören",
     "turkish": "müzik dinlemek",
     "germanExample": "Er hört im Auto Musik.",
-    "turkishExample": "O arabada müzik dinler."
+    "turkishExample": "O arabada müzik dinler.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_229",
@@ -1829,7 +2285,9 @@
     "german": "putzen",
     "turkish": "temizlemek",
     "germanExample": "Ich putze das Fenster.",
-    "turkishExample": "Pencereyi temizliyorum."
+    "turkishExample": "Pencereyi temizliyorum.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_230",
@@ -1837,7 +2295,9 @@
     "german": "tanzen",
     "turkish": "dans etmek",
     "germanExample": "Wir tanzen auf der Party.",
-    "turkishExample": "Partide dans ediyoruz."
+    "turkishExample": "Partide dans ediyoruz.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_231",
@@ -1845,7 +2305,9 @@
     "german": "Gitarre spielen",
     "turkish": "gitar çalmak",
     "germanExample": "Sie kann gut Gitarre spielen.",
-    "turkishExample": "O iyi gitar çalabilir."
+    "turkishExample": "O iyi gitar çalabilir.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_232",
@@ -1853,7 +2315,9 @@
     "german": "treffen",
     "turkish": "buluşmak",
     "germanExample": "Ich treffe meine Freunde.",
-    "turkishExample": "Arkadaşlarımla buluşuyorum."
+    "turkishExample": "Arkadaşlarımla buluşuyorum.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_233",
@@ -1861,7 +2325,9 @@
     "german": "aufstehen",
     "turkish": "kalkmak",
     "germanExample": "Ich stehe früh auf.",
-    "turkishExample": "Erken kalkarım."
+    "turkishExample": "Erken kalkarım.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_234",
@@ -1869,7 +2335,9 @@
     "german": "fernsehen",
     "turkish": "televizyon izlemek",
     "germanExample": "Abends sehe ich fern.",
-    "turkishExample": "Akşamları televizyon izlerim."
+    "turkishExample": "Akşamları televizyon izlerim.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_235",
@@ -1877,7 +2345,9 @@
     "german": "einkaufen",
     "turkish": "alışveriş yapmak",
     "germanExample": "Wir gehen im Supermarkt einkaufen.",
-    "turkishExample": "Süpermarkette alışverişe gidiyoruz."
+    "turkishExample": "Süpermarkette alışverişe gidiyoruz.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_236",
@@ -1885,7 +2355,9 @@
     "german": "aufräumen",
     "turkish": "ortalığı toplamak",
     "germanExample": "Räum bitte dein Zimmer auf.",
-    "turkishExample": "Lütfen odanı topla."
+    "turkishExample": "Lütfen odanı topla.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_237",
@@ -1893,7 +2365,9 @@
     "german": "vorlesen",
     "turkish": "sesli okumak",
     "germanExample": "Der Vater liest ein Buch vor.",
-    "turkishExample": "Baba bir kitabı sesli okuyor."
+    "turkishExample": "Baba bir kitabı sesli okuyor.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_238",
@@ -1901,7 +2375,9 @@
     "german": "anrufen",
     "turkish": "aramak (telefonla)",
     "germanExample": "Ruf mich morgen an.",
-    "turkishExample": "Beni yarın ara."
+    "turkishExample": "Beni yarın ara.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_239",
@@ -1909,7 +2385,9 @@
     "german": "abholen",
     "turkish": "gidip almak",
     "germanExample": "Ich hole dich vom Bahnhof ab.",
-    "turkishExample": "Seni istasyondan alacağım."
+    "turkishExample": "Seni istasyondan alacağım.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_240",
@@ -1917,7 +2395,9 @@
     "german": "anfangen",
     "turkish": "başlamak",
     "germanExample": "Der Kurs fängt um 9 Uhr an.",
-    "turkishExample": "Kurs saat 9'da başlıyor."
+    "turkishExample": "Kurs saat 9'da başlıyor.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_241",
@@ -1925,7 +2405,9 @@
     "german": "früh",
     "turkish": "erken",
     "germanExample": "Er kommt immer früh.",
-    "turkishExample": "O her zaman erken gelir."
+    "turkishExample": "O her zaman erken gelir.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_242",
@@ -1933,7 +2415,9 @@
     "german": "spät",
     "turkish": "geç",
     "germanExample": "Es ist schon spät.",
-    "turkishExample": "Saat artık geç oldu."
+    "turkishExample": "Saat artık geç oldu.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_243",
@@ -1941,7 +2425,9 @@
     "german": "die Stunde",
     "turkish": "saat (süre)",
     "germanExample": "Eine Stunde hat 60 Minuten.",
-    "turkishExample": "Bir saat 60 dakikadır."
+    "turkishExample": "Bir saat 60 dakikadır.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_244",
@@ -1949,7 +2435,9 @@
     "german": "die Pause",
     "turkish": "mola",
     "germanExample": "Wir machen 10 Minuten Pause.",
-    "turkishExample": "10 dakika mola veriyoruz."
+    "turkishExample": "10 dakika mola veriyoruz.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_245",
@@ -1957,7 +2445,9 @@
     "german": "das Wochenende",
     "turkish": "hafta sonu",
     "germanExample": "Schönes Wochenende!",
-    "turkishExample": "İyi hafta sonları!"
+    "turkishExample": "İyi hafta sonları!",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_246",
@@ -1965,7 +2455,9 @@
     "german": "meistens",
     "turkish": "çoğunlukla",
     "germanExample": "Meistens trinke ich Kaffee.",
-    "turkishExample": "Çoğunlukla kahve içerim."
+    "turkishExample": "Çoğunlukla kahve içerim.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_247",
@@ -1973,7 +2465,9 @@
     "german": "immer",
     "turkish": "her zaman",
     "germanExample": "Er ist immer pünktlich.",
-    "turkishExample": "O her zaman dakiktir."
+    "turkishExample": "O her zaman dakiktir.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_248",
@@ -1981,7 +2475,9 @@
     "german": "oft",
     "turkish": "sık sık",
     "germanExample": "Ich gehe oft spazieren.",
-    "turkishExample": "Sık sık yürüyüşe çıkarım."
+    "turkishExample": "Sık sık yürüyüşe çıkarım.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_249",
@@ -1989,7 +2485,9 @@
     "german": "manchmal",
     "turkish": "bazen",
     "germanExample": "Manchmal esse ich Schokolade.",
-    "turkishExample": "Bazen çikolata yerim."
+    "turkishExample": "Bazen çikolata yerim.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_250",
@@ -1997,7 +2495,9 @@
     "german": "selten",
     "turkish": "nadiren",
     "germanExample": "Ich gehe selten ins Kino.",
-    "turkishExample": "Sinemaya nadiren giderim."
+    "turkishExample": "Sinemaya nadiren giderim.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_251",
@@ -2005,7 +2505,9 @@
     "german": "nie",
     "turkish": "hiç/asla",
     "germanExample": "Ich rauche nie.",
-    "turkishExample": "Hiç sigara içmem."
+    "turkishExample": "Hiç sigara içmem.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_252",
@@ -2013,7 +2515,9 @@
     "german": "mitkommen",
     "turkish": "birlikte gelmek",
     "germanExample": "Kommst du mit?",
-    "turkishExample": "Birlikte geliyor musun?"
+    "turkishExample": "Birlikte geliyor musun?",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_253",
@@ -2021,7 +2525,9 @@
     "german": "gehen",
     "turkish": "gitmek",
     "germanExample": "Ich gehe in die Schule.",
-    "turkishExample": "Okula gidiyorum."
+    "turkishExample": "Okula gidiyorum.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_254",
@@ -2029,7 +2535,9 @@
     "german": "die Wohnung",
     "turkish": "daire",
     "germanExample": "Die Wohnung ist im zweiten Stock.",
-    "turkishExample": "Daire ikinci kattadır."
+    "turkishExample": "Daire ikinci kattadır.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_255",
@@ -2037,7 +2545,9 @@
     "german": "die Küche",
     "turkish": "mutfak",
     "germanExample": "Die Küche ist modern.",
-    "turkishExample": "Mutfak moderndir."
+    "turkishExample": "Mutfak moderndir.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_256",
@@ -2045,7 +2555,9 @@
     "german": "der Balkon",
     "turkish": "balkon",
     "germanExample": "Wir frühstücken auf dem Balkon.",
-    "turkishExample": "Balkonda kahvaltı yapıyoruz."
+    "turkishExample": "Balkonda kahvaltı yapıyoruz.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_257",
@@ -2053,7 +2565,9 @@
     "german": "das Badezimmer / das Bad",
     "turkish": "banyo",
     "germanExample": "Das Badezimmer ist klein.",
-    "turkishExample": "Banyo küçüktür."
+    "turkishExample": "Banyo küçüktür.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_258",
@@ -2061,7 +2575,9 @@
     "german": "hell",
     "turkish": "aydınlık",
     "germanExample": "Das Zimmer ist sehr hell.",
-    "turkishExample": "Oda çok aydınlık."
+    "turkishExample": "Oda çok aydınlık.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_259",
@@ -2069,7 +2585,9 @@
     "german": "das Fenster",
     "turkish": "pencere",
     "germanExample": "Das Fenster ist geschlossen.",
-    "turkishExample": "Pencere kapalı."
+    "turkishExample": "Pencere kapalı.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_260",
@@ -2077,7 +2595,9 @@
     "german": "das Wohnzimmer",
     "turkish": "oturma odası",
     "germanExample": "Im Wohnzimmer steht ein Sofa.",
-    "turkishExample": "Oturma odasında bir kanepe var."
+    "turkishExample": "Oturma odasında bir kanepe var.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_261",
@@ -2085,7 +2605,9 @@
     "german": "das Schlafzimmer",
     "turkish": "yatak odası",
     "germanExample": "Das Schlafzimmer ist groß.",
-    "turkishExample": "Yatak odası büyüktür."
+    "turkishExample": "Yatak odası büyüktür.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_262",
@@ -2093,7 +2615,9 @@
     "german": "das Sofa",
     "turkish": "kanepe",
     "germanExample": "Das Sofa ist bequem.",
-    "turkishExample": "Kanepe rahattır."
+    "turkishExample": "Kanepe rahattır.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_263",
@@ -2101,7 +2625,9 @@
     "german": "das Kinderzimmer",
     "turkish": "çocuk odası",
     "germanExample": "Das Kinderzimmer ist bunt.",
-    "turkishExample": "Çocuk odası renklidir."
+    "turkishExample": "Çocuk odası renklidir.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_264",
@@ -2109,7 +2635,9 @@
     "german": "der Flur",
     "turkish": "koridor",
     "germanExample": "Die Schuhe stehen im Flur.",
-    "turkishExample": "Ayakkabılar koridorda duruyor."
+    "turkishExample": "Ayakkabılar koridorda duruyor.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_265",
@@ -2117,7 +2645,9 @@
     "german": "das Haus",
     "turkish": "ev",
     "germanExample": "Wir haben ein schönes Haus.",
-    "turkishExample": "Güzel bir evimiz var."
+    "turkishExample": "Güzel bir evimiz var.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_266",
@@ -2125,7 +2655,9 @@
     "german": "die Garage",
     "turkish": "garaj",
     "germanExample": "Das Auto steht in der Garage.",
-    "turkishExample": "Araba garajda duruyor."
+    "turkishExample": "Araba garajda duruyor.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_267",
@@ -2133,7 +2665,9 @@
     "german": "der Garten",
     "turkish": "bahçe",
     "germanExample": "Der Garten hat viele Blumen.",
-    "turkishExample": "Bahçede çok çiçek var."
+    "turkishExample": "Bahçede çok çiçek var.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_268",
@@ -2141,7 +2675,9 @@
     "german": "das Zimmer",
     "turkish": "oda",
     "germanExample": "Die Wohnung hat drei Zimmer.",
-    "turkishExample": "Dairenin üç odası var."
+    "turkishExample": "Dairenin üç odası var.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_269",
@@ -2149,7 +2685,9 @@
     "german": "zweihundert",
     "turkish": "iki yüz",
     "germanExample": "Das kostet zweihundert Euro.",
-    "turkishExample": "Bu iki yüz Euro tutar."
+    "turkishExample": "Bu iki yüz Euro tutar.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_270",
@@ -2157,7 +2695,9 @@
     "german": "tausend",
     "turkish": "bin",
     "germanExample": "Ein Auto kostet tausend Euro.",
-    "turkishExample": "Bir araba bin Euro tutar."
+    "turkishExample": "Bir araba bin Euro tutar.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_271",
@@ -2165,7 +2705,9 @@
     "german": "zweitausend",
     "turkish": "iki bin",
     "germanExample": "Er verdient zweitausend Euro.",
-    "turkishExample": "O iki bin Euro kazanıyor."
+    "turkishExample": "O iki bin Euro kazanıyor.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_272",
@@ -2173,7 +2715,9 @@
     "german": "das Geld",
     "turkish": "para",
     "germanExample": "Ich habe genug Geld.",
-    "turkishExample": "Yeterince param var."
+    "turkishExample": "Yeterince param var.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_273",
@@ -2181,7 +2725,9 @@
     "german": "das Auto",
     "turkish": "araba",
     "germanExample": "Das Auto ist schnell.",
-    "turkishExample": "Araba hızlıdır."
+    "turkishExample": "Araba hızlıdır.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_274",
@@ -2189,7 +2735,9 @@
     "german": "das Erdgeschoss (EG)",
     "turkish": "zemin kat",
     "germanExample": "Meine Wohnung ist im Erdgeschoss.",
-    "turkishExample": "Dairem zemin kattadır."
+    "turkishExample": "Dairem zemin kattadır.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_275",
@@ -2197,7 +2745,9 @@
     "german": "der Keller",
     "turkish": "bodrum",
     "germanExample": "Die Fahrräder sind im Keller.",
-    "turkishExample": "Bisikletler bodrumdadır."
+    "turkishExample": "Bisikletler bodrumdadır.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_276",
@@ -2205,7 +2755,9 @@
     "german": "die Nebenkosten (NK)",
     "turkish": "ek giderler (aidat)",
     "germanExample": "Die Nebenkosten sind hoch.",
-    "turkishExample": "Ek giderler yüksektir."
+    "turkishExample": "Ek giderler yüksektir.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_277",
@@ -2213,7 +2765,9 @@
     "german": "das Stadtzentrum / die Stadtmitte",
     "turkish": "şehir merkezi",
     "germanExample": "Wir wohnen im Stadtzentrum.",
-    "turkishExample": "Şehir merkezinde yaşıyoruz."
+    "turkishExample": "Şehir merkezinde yaşıyoruz.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_278",
@@ -2221,7 +2775,9 @@
     "german": "die Heizung",
     "turkish": "kalorifer/ısıtıcı",
     "germanExample": "Die Heizung ist warm.",
-    "turkishExample": "Kalorifer sıcak."
+    "turkishExample": "Kalorifer sıcak.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_279",
@@ -2229,7 +2785,9 @@
     "german": "die Kaution",
     "turkish": "depozito",
     "germanExample": "Wir bezahlen drei Monatsmieten Kaution.",
-    "turkishExample": "Üç aylık kira depozito ödüyoruz."
+    "turkishExample": "Üç aylık kira depozito ödüyoruz.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_280",
@@ -2237,7 +2795,9 @@
     "german": "die Monatsmiete",
     "turkish": "aylık kira",
     "germanExample": "Die Monatsmiete ist 800 Euro.",
-    "turkishExample": "Aylık kira 800 Euro'dur."
+    "turkishExample": "Aylık kira 800 Euro'dur.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_281",
@@ -2245,7 +2805,9 @@
     "german": "der Strom",
     "turkish": "elektrik",
     "germanExample": "Der Strom fällt aus.",
-    "turkishExample": "Elektrik kesiliyor."
+    "turkishExample": "Elektrik kesiliyor.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_282",
@@ -2253,7 +2815,9 @@
     "german": "möbliert",
     "turkish": "eşyalı",
     "germanExample": "Die Wohnung ist möbliert.",
-    "turkishExample": "Daire eşyalıdır."
+    "turkishExample": "Daire eşyalıdır.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_283",
@@ -2261,7 +2825,9 @@
     "german": "dunkel",
     "turkish": "karanlık",
     "germanExample": "Es ist draußen dunkel.",
-    "turkishExample": "Dışarısı karanlık."
+    "turkishExample": "Dışarısı karanlık.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_284",
@@ -2269,7 +2835,9 @@
     "german": "laut",
     "turkish": "gürültülü",
     "germanExample": "Die Musik ist zu laut.",
-    "turkishExample": "Müzik çok gürültülü."
+    "turkishExample": "Müzik çok gürültülü.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_285",
@@ -2277,7 +2845,9 @@
     "german": "ruhig",
     "turkish": "sessiz",
     "germanExample": "Bitte seid ruhig.",
-    "turkishExample": "Lütfen sessiz olun."
+    "turkishExample": "Lütfen sessiz olun.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_286",
@@ -2285,7 +2855,9 @@
     "german": "billig",
     "turkish": "ucuz",
     "germanExample": "Der Teppich ist billig.",
-    "turkishExample": "Halı ucuzdur."
+    "turkishExample": "Halı ucuzdur.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_287",
@@ -2293,7 +2865,9 @@
     "german": "die Wohnungsanzeige",
     "turkish": "ev ilanı",
     "germanExample": "Ich lese eine Wohnungsanzeige.",
-    "turkishExample": "Bir ev ilanı okuyorum."
+    "turkishExample": "Bir ev ilanı okuyorum.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_288",
@@ -2301,7 +2875,9 @@
     "german": "gemütlich",
     "turkish": "rahat (ortam)",
     "germanExample": "Das Zimmer ist sehr gemütlich.",
-    "turkishExample": "Oda çok rahat."
+    "turkishExample": "Oda çok rahat.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_289",
@@ -2309,7 +2885,9 @@
     "german": "der Vermieter",
     "turkish": "ev sahibi",
     "germanExample": "Der Vermieter repariert die Heizung.",
-    "turkishExample": "Ev sahibi kaloriferi tamir ediyor."
+    "turkishExample": "Ev sahibi kaloriferi tamir ediyor.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_290",
@@ -2317,7 +2895,9 @@
     "german": "die Dusche",
     "turkish": "duş",
     "germanExample": "Das Wasser in der Dusche ist kalt.",
-    "turkishExample": "Duştaki su soğuk."
+    "turkishExample": "Duştaki su soğuk.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_291",
@@ -2325,7 +2905,9 @@
     "german": "mieten",
     "turkish": "kiralamak",
     "germanExample": "Wir mieten ein Haus.",
-    "turkishExample": "Bir ev kiralıyoruz."
+    "turkishExample": "Bir ev kiralıyoruz.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_292",
@@ -2333,7 +2915,9 @@
     "german": "der Tisch",
     "turkish": "masa",
     "germanExample": "Das Buch liegt auf dem Tisch.",
-    "turkishExample": "Kitap masanın üstünde duruyor."
+    "turkishExample": "Kitap masanın üstünde duruyor.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_293",
@@ -2341,7 +2925,9 @@
     "german": "der Schrank",
     "turkish": "dolap",
     "germanExample": "Die Kleidung ist im Schrank.",
-    "turkishExample": "Kıyafetler dolaptadır."
+    "turkishExample": "Kıyafetler dolaptadır.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_294",
@@ -2349,7 +2935,9 @@
     "german": "der Teppich",
     "turkish": "halı",
     "germanExample": "Der Teppich ist rot.",
-    "turkishExample": "Halı kırmızıdır."
+    "turkishExample": "Halı kırmızıdır.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_295",
@@ -2357,7 +2945,9 @@
     "german": "das Bett",
     "turkish": "yatak",
     "germanExample": "Das Bett ist weich.",
-    "turkishExample": "Yatak yumuşaktır."
+    "turkishExample": "Yatak yumuşaktır.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_296",
@@ -2365,7 +2955,9 @@
     "german": "der Sessel",
     "turkish": "koltuk",
     "germanExample": "Der Sessel ist blau.",
-    "turkishExample": "Koltuk mavidir."
+    "turkishExample": "Koltuk mavidir.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_297",
@@ -2373,7 +2965,9 @@
     "german": "das Regal",
     "turkish": "raf/kitaplık",
     "germanExample": "Die Bücher stehen im Regal.",
-    "turkishExample": "Kitaplar rafta duruyor."
+    "turkishExample": "Kitaplar rafta duruyor.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_298",
@@ -2381,7 +2975,9 @@
     "german": "der Fernseher",
     "turkish": "televizyon",
     "germanExample": "Der Fernseher ist aus.",
-    "turkishExample": "Televizyon kapalı."
+    "turkishExample": "Televizyon kapalı.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_299",
@@ -2389,7 +2985,9 @@
     "german": "der Herd",
     "turkish": "ocak",
     "germanExample": "Der Topf steht auf dem Herd.",
-    "turkishExample": "Tencere ocakta duruyor."
+    "turkishExample": "Tencere ocakta duruyor.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_300",
@@ -2397,7 +2995,9 @@
     "german": "der Kühlschrank",
     "turkish": "buzdolabı",
     "germanExample": "Die Milch ist im Kühlschrank.",
-    "turkishExample": "Süt buzdolabındadır."
+    "turkishExample": "Süt buzdolabındadır.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_301",
@@ -2405,7 +3005,9 @@
     "german": "die Waschmaschine",
     "turkish": "çamaşır makinesi",
     "germanExample": "Die Waschmaschine wäscht gut.",
-    "turkishExample": "Çamaşır makinesi iyi yıkıyor."
+    "turkishExample": "Çamaşır makinesi iyi yıkıyor.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_302",
@@ -2413,7 +3015,9 @@
     "german": "die Spülmaschine",
     "turkish": "bulaşık makinesi",
     "germanExample": "Wir brauchen eine Spülmaschine.",
-    "turkishExample": "Bir bulaşık makinesine ihtiyacımız var."
+    "turkishExample": "Bir bulaşık makinesine ihtiyacımız var.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_303",
@@ -2421,7 +3025,9 @@
     "german": "das Möbel",
     "turkish": "mobilya",
     "germanExample": "Wir kaufen neue Möbel.",
-    "turkishExample": "Yeni mobilyalar alıyoruz."
+    "turkishExample": "Yeni mobilyalar alıyoruz.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_304",
@@ -2429,7 +3035,9 @@
     "german": "schmal",
     "turkish": "dar",
     "germanExample": "Die Straße ist schmal.",
-    "turkishExample": "Sokak dardır."
+    "turkishExample": "Sokak dardır.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_305",
@@ -2437,7 +3045,9 @@
     "german": "breit",
     "turkish": "geniş",
     "germanExample": "Der Weg ist breit.",
-    "turkishExample": "Yol geniştir."
+    "turkishExample": "Yol geniştir.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_306",
@@ -2445,7 +3055,9 @@
     "german": "hässlich",
     "turkish": "çirkin",
     "germanExample": "Das Gebäude ist hässlich.",
-    "turkishExample": "Bina çirkindir."
+    "turkishExample": "Bina çirkindir.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_307",
@@ -2453,7 +3065,9 @@
     "german": "das Geschirr spülen",
     "turkish": "bulaşık yıkamak",
     "germanExample": "Ich muss das Geschirr spülen.",
-    "turkishExample": "Bulaşıkları yıkamam lazım."
+    "turkishExample": "Bulaşıkları yıkamam lazım.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_308",
@@ -2461,7 +3075,9 @@
     "german": "Staub saugen",
     "turkish": "elektrik süpürgesiyle süpürmek",
     "germanExample": "Ich sauge jede Woche Staub.",
-    "turkishExample": "Her hafta elektrik süpürgesiyle süpürürüm."
+    "turkishExample": "Her hafta elektrik süpürgesiyle süpürürüm.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_309",
@@ -2469,7 +3085,9 @@
     "german": "waschen",
     "turkish": "yıkamak",
     "germanExample": "Ich wasche mein Auto.",
-    "turkishExample": "Arabamı yıkıyorum."
+    "turkishExample": "Arabamı yıkıyorum.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_310",
@@ -2477,7 +3095,9 @@
     "german": "der Parkplatz",
     "turkish": "otopark",
     "germanExample": "Der Parkplatz ist voll.",
-    "turkishExample": "Otopark dolu."
+    "turkishExample": "Otopark dolu.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_311",
@@ -2485,7 +3105,9 @@
     "german": "der Bus",
     "turkish": "otobüs",
     "germanExample": "Der Bus kommt pünktlich.",
-    "turkishExample": "Otobüs vaktinde geliyor."
+    "turkishExample": "Otobüs vaktinde geliyor.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_312",
@@ -2493,7 +3115,9 @@
     "german": "die Linie",
     "turkish": "hat/çizgi",
     "germanExample": "Welche Linie fährst du?",
-    "turkishExample": "Hangi hatla gidiyorsun?"
+    "turkishExample": "Hangi hatla gidiyorsun?",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_313",
@@ -2501,7 +3125,9 @@
     "german": "die U-Bahn",
     "turkish": "metro",
     "germanExample": "Ich fahre mit der U-Bahn.",
-    "turkishExample": "Metro ile gidiyorum."
+    "turkishExample": "Metro ile gidiyorum.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_314",
@@ -2509,7 +3135,9 @@
     "german": "die Straßenbahn",
     "turkish": "tramvay",
     "germanExample": "Die Straßenbahn ist schnell.",
-    "turkishExample": "Tramvay hızlıdır."
+    "turkishExample": "Tramvay hızlıdır.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_315",
@@ -2517,7 +3145,9 @@
     "german": "das Fahrrad",
     "turkish": "bisiklet",
     "germanExample": "Ich fahre gern Fahrrad.",
-    "turkishExample": "Bisiklet sürmeyi severim."
+    "turkishExample": "Bisiklet sürmeyi severim.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_316",
@@ -2525,7 +3155,9 @@
     "german": "der Zug",
     "turkish": "tren",
     "germanExample": "Der Zug fährt nach Berlin.",
-    "turkishExample": "Tren Berlin'e gidiyor."
+    "turkishExample": "Tren Berlin'e gidiyor.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_317",
@@ -2533,7 +3165,9 @@
     "german": "zu Fuß gehen",
     "turkish": "yürümek/yayan gitmek",
     "germanExample": "Wir gehen zu Fuß.",
-    "turkishExample": "Biz yürüyerek gidiyoruz."
+    "turkishExample": "Biz yürüyerek gidiyoruz.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_318",
@@ -2541,7 +3175,9 @@
     "german": "das Verkehrsmittel",
     "turkish": "ulaşım aracı",
     "germanExample": "Das ist ein öffentliches Verkehrsmittel.",
-    "turkishExample": "Bu bir toplu taşıma aracıdır."
+    "turkishExample": "Bu bir toplu taşıma aracıdır.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_319",
@@ -2549,7 +3185,9 @@
     "german": "fahren",
     "turkish": "araçla gitmek/sürmek",
     "germanExample": "Ich fahre nach Hause.",
-    "turkishExample": "Eve (araçla) gidiyorum."
+    "turkishExample": "Eve (araçla) gidiyorum.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_320",
@@ -2557,7 +3195,9 @@
     "german": "ankommen",
     "turkish": "varmak/ulaşmak",
     "germanExample": "Wann kommen wir an?",
-    "turkishExample": "Ne zaman varacağız?"
+    "turkishExample": "Ne zaman varacağız?",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_321",
@@ -2565,7 +3205,9 @@
     "german": "der Bahnhof",
     "turkish": "tren istasyonu",
     "germanExample": "Ich warte am Bahnhof.",
-    "turkishExample": "Tren istasyonunda bekliyorum."
+    "turkishExample": "Tren istasyonunda bekliyorum.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_322",
@@ -2573,7 +3215,9 @@
     "german": "die Haltestelle",
     "turkish": "durak",
     "germanExample": "Die Haltestelle ist nah.",
-    "turkishExample": "Durak yakındır."
+    "turkishExample": "Durak yakındır.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_323",
@@ -2581,7 +3225,9 @@
     "german": "der Fahrplan",
     "turkish": "sefer tarifesi",
     "germanExample": "Ich schaue auf den Fahrplan.",
-    "turkishExample": "Sefer tarifesine bakıyorum."
+    "turkishExample": "Sefer tarifesine bakıyorum.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_324",
@@ -2589,7 +3235,9 @@
     "german": "die Apotheke",
     "turkish": "eczane",
     "germanExample": "Ich kaufe Medizin in der Apotheke.",
-    "turkishExample": "Eczaneden ilaç alıyorum."
+    "turkishExample": "Eczaneden ilaç alıyorum.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_325",
@@ -2597,7 +3245,9 @@
     "german": "suchen",
     "turkish": "aramak",
     "germanExample": "Ich suche meine Schlüssel.",
-    "turkishExample": "Anahtarlarımı arıyorum."
+    "turkishExample": "Anahtarlarımı arıyorum.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_326",
@@ -2605,7 +3255,9 @@
     "german": "die Bücherei",
     "turkish": "kütüphane",
     "germanExample": "Ich lese ein Buch in der Bücherei.",
-    "turkishExample": "Kütüphanede bir kitap okuyorum."
+    "turkishExample": "Kütüphanede bir kitap okuyorum.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_327",
@@ -2613,7 +3265,9 @@
     "german": "das Rathaus",
     "turkish": "belediye binası",
     "germanExample": "Das Rathaus ist im Zentrum.",
-    "turkishExample": "Belediye binası merkezdedir."
+    "turkishExample": "Belediye binası merkezdedir.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_328",
@@ -2621,7 +3275,9 @@
     "german": "die Bank",
     "turkish": "banka",
     "germanExample": "Ich hole Geld von der Bank.",
-    "turkishExample": "Bankadan para çekiyorum."
+    "turkishExample": "Bankadan para çekiyorum.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_329",
@@ -2629,7 +3285,9 @@
     "german": "die Schule",
     "turkish": "okul",
     "germanExample": "Die Kinder sind in der Schule.",
-    "turkishExample": "Çocuklar okuldadır."
+    "turkishExample": "Çocuklar okuldadır.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_330",
@@ -2637,7 +3295,9 @@
     "german": "der Park",
     "turkish": "park",
     "germanExample": "Wir gehen in den Park.",
-    "turkishExample": "Parka gidiyoruz."
+    "turkishExample": "Parka gidiyoruz.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_331",
@@ -2645,7 +3305,9 @@
     "german": "die Polizei",
     "turkish": "polis",
     "germanExample": "Ruf die Polizei!",
-    "turkishExample": "Polisi ara!"
+    "turkishExample": "Polisi ara!",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_332",
@@ -2653,7 +3315,9 @@
     "german": "das Museum",
     "turkish": "müze",
     "germanExample": "Das Museum ist interessant.",
-    "turkishExample": "Müze ilginçtir."
+    "turkishExample": "Müze ilginçtir.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_333",
@@ -2661,7 +3325,9 @@
     "german": "der Friseur",
     "turkish": "kuaför",
     "germanExample": "Ich gehe heute zum Friseur.",
-    "turkishExample": "Bugün kuaföre gidiyorum."
+    "turkishExample": "Bugün kuaföre gidiyorum.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_334",
@@ -2669,7 +3335,9 @@
     "german": "das Krankenhaus",
     "turkish": "hastane",
     "germanExample": "Er liegt im Krankenhaus.",
-    "turkishExample": "O hastanede yatıyor."
+    "turkishExample": "O hastanede yatıyor.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_335",
@@ -2677,7 +3345,9 @@
     "german": "die Kirche",
     "turkish": "kilise",
     "germanExample": "Die Kirche ist sehr alt.",
-    "turkishExample": "Kilise çok eskidir."
+    "turkishExample": "Kilise çok eskidir.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_336",
@@ -2685,7 +3355,9 @@
     "german": "die Bäckerei",
     "turkish": "fırın",
     "germanExample": "Ich kaufe Brot in der Bäckerei.",
-    "turkishExample": "Fırından ekmek alıyorum."
+    "turkishExample": "Fırından ekmek alıyorum.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_337",
@@ -2693,7 +3365,9 @@
     "german": "schwimmen",
     "turkish": "yüzmek",
     "germanExample": "Ich schwimme im Pool.",
-    "turkishExample": "Havuzda yüzüyorum."
+    "turkishExample": "Havuzda yüzüyorum.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_338",
@@ -2701,7 +3375,9 @@
     "german": "der Spielplatz",
     "turkish": "oyun parkı",
     "germanExample": "Die Kinder sind auf dem Spielplatz.",
-    "turkishExample": "Çocuklar oyun parkında."
+    "turkishExample": "Çocuklar oyun parkında.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_339",
@@ -2709,7 +3385,9 @@
     "german": "das W-Lan",
     "turkish": "Wi-Fi",
     "germanExample": "Gibt es hier W-Lan?",
-    "turkishExample": "Burada Wi-Fi var mı?"
+    "turkishExample": "Burada Wi-Fi var mı?",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_340",
@@ -2717,7 +3395,9 @@
     "german": "das Taxi",
     "turkish": "taksi",
     "germanExample": "Wir nehmen ein Taxi.",
-    "turkishExample": "Bir taksi tutuyoruz."
+    "turkishExample": "Bir taksi tutuyoruz.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_341",
@@ -2725,7 +3405,9 @@
     "german": "der Norden",
     "turkish": "kuzey",
     "germanExample": "Hamburg liegt im Norden.",
-    "turkishExample": "Hamburg kuzeydedir."
+    "turkishExample": "Hamburg kuzeydedir.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_342",
@@ -2733,7 +3415,9 @@
     "german": "der Osten",
     "turkish": "doğu",
     "germanExample": "Die Sonne geht im Osten auf.",
-    "turkishExample": "Güneş doğudan doğar."
+    "turkishExample": "Güneş doğudan doğar.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_343",
@@ -2741,7 +3425,9 @@
     "german": "der Süden",
     "turkish": "güney",
     "germanExample": "Wir fahren in den Süden.",
-    "turkishExample": "Güneye gidiyoruz."
+    "turkishExample": "Güneye gidiyoruz.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_344",
@@ -2749,7 +3435,9 @@
     "german": "der Westen",
     "turkish": "batı",
     "germanExample": "Der Wind weht aus dem Westen.",
-    "turkishExample": "Rüzgar batıdan esiyor."
+    "turkishExample": "Rüzgar batıdan esiyor.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_345",
@@ -2757,7 +3445,9 @@
     "german": "aussteigen",
     "turkish": "araçtan inmek",
     "germanExample": "Ich steige hier aus.",
-    "turkishExample": "Ben burada iniyorum."
+    "turkishExample": "Ben burada iniyorum.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_346",
@@ -2765,7 +3455,9 @@
     "german": "einsteigen",
     "turkish": "araca binmek",
     "germanExample": "Bitte schnell einsteigen!",
-    "turkishExample": "Lütfen hızlıca binin!"
+    "turkishExample": "Lütfen hızlıca binin!",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_347",
@@ -2773,7 +3465,9 @@
     "german": "rechts",
     "turkish": "sağ",
     "germanExample": "Biegen Sie rechts ab.",
-    "turkishExample": "Sağa dönün."
+    "turkishExample": "Sağa dönün.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_348",
@@ -2781,7 +3475,9 @@
     "german": "links",
     "turkish": "sol",
     "germanExample": "Mein Haus ist auf der linken Seite.",
-    "turkishExample": "Evim sol tarafta."
+    "turkishExample": "Evim sol tarafta.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_349",
@@ -2789,7 +3485,9 @@
     "german": "geradeaus",
     "turkish": "dümdüz/doğruca",
     "germanExample": "Gehen Sie immer geradeaus.",
-    "turkishExample": "Hep dümdüz gidin."
+    "turkishExample": "Hep dümdüz gidin.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_350",
@@ -2797,7 +3495,9 @@
     "german": "die Kreuzung",
     "turkish": "kavşak",
     "germanExample": "An der Kreuzung rechts.",
-    "turkishExample": "Kavşaktan sağa."
+    "turkishExample": "Kavşaktan sağa.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_351",
@@ -2805,7 +3505,9 @@
     "german": "die Ampel",
     "turkish": "trafik lambası",
     "germanExample": "Die Ampel ist rot.",
-    "turkishExample": "Trafik lambası kırmızı."
+    "turkishExample": "Trafik lambası kırmızı.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_352",
@@ -2813,7 +3515,9 @@
     "german": "umsteigen",
     "turkish": "aktarma yapmak",
     "germanExample": "Wir müssen in Berlin umsteigen.",
-    "turkishExample": "Berlin'de aktarma yapmalıyız."
+    "turkishExample": "Berlin'de aktarma yapmalıyız.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_353",
@@ -2821,7 +3525,9 @@
     "german": "abbiegen",
     "turkish": "dönmek (araç/yol)",
     "germanExample": "Sie müssen links abbiegen.",
-    "turkishExample": "Sola dönmelisiniz."
+    "turkishExample": "Sola dönmelisiniz.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_354",
@@ -2829,7 +3535,9 @@
     "german": "holen",
     "turkish": "getirmek/alıp gelmek",
     "germanExample": "Ich hole ein Glas Wasser.",
-    "turkishExample": "Bir bardak su getiriyorum."
+    "turkishExample": "Bir bardak su getiriyorum.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_355",
@@ -2837,7 +3545,9 @@
     "german": "die Fahrkarte",
     "turkish": "bilet",
     "germanExample": "Ich kaufe eine Fahrkarte.",
-    "turkishExample": "Bir bilet alıyorum."
+    "turkishExample": "Bir bilet alıyorum.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_356",
@@ -2845,7 +3555,9 @@
     "german": "der Schein",
     "turkish": "banknot",
     "germanExample": "Ich habe einen 50-Euro-Schein.",
-    "turkishExample": "50 Euroluk banknotum var."
+    "turkishExample": "50 Euroluk banknotum var.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_357",
@@ -2853,7 +3565,9 @@
     "german": "die EC-Karte",
     "turkish": "banka kartı",
     "germanExample": "Kann ich mit EC-Karte zahlen?",
-    "turkishExample": "Banka kartıyla ödeyebilir miyim?"
+    "turkishExample": "Banka kartıyla ödeyebilir miyim?",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_358",
@@ -2861,7 +3575,9 @@
     "german": "die Münze",
     "turkish": "bozuk para",
     "germanExample": "Ich brauche Münzen für den Automaten.",
-    "turkishExample": "Otomat için bozuk paraya ihtiyacım var."
+    "turkishExample": "Otomat için bozuk paraya ihtiyacım var.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_359",
@@ -2869,7 +3585,9 @@
     "german": "der Erwachsene",
     "turkish": "yetişkin",
     "germanExample": "Zwei Erwachsene, bitte.",
-    "turkishExample": "İki yetişkin, lütfen."
+    "turkishExample": "İki yetişkin, lütfen.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_360",
@@ -2877,7 +3595,9 @@
     "german": "die Verspätung",
     "turkish": "gecikme/rötar",
     "germanExample": "Der Zug hat Verspätung.",
-    "turkishExample": "Trenin rötarı var."
+    "turkishExample": "Trenin rötarı var.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_361",
@@ -2885,7 +3605,9 @@
     "german": "die Information",
     "turkish": "bilgi/danışma",
     "germanExample": "Fragen Sie an der Information.",
-    "turkishExample": "Danışmaya sorun."
+    "turkishExample": "Danışmaya sorun.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_362",
@@ -2893,7 +3615,9 @@
     "german": "die Toilette",
     "turkish": "tuvalet",
     "germanExample": "Wo ist die Toilette?",
-    "turkishExample": "Tuvalet nerede?"
+    "turkishExample": "Tuvalet nerede?",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_363",
@@ -2901,7 +3625,9 @@
     "german": "warten",
     "turkish": "beklemek",
     "germanExample": "Ich warte auf den Bus.",
-    "turkishExample": "Otobüsü bekliyorum."
+    "turkishExample": "Otobüsü bekliyorum.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_364",
@@ -2909,7 +3635,9 @@
     "german": "der Beruf",
     "turkish": "meslek",
     "germanExample": "Was ist dein Beruf?",
-    "turkishExample": "Mesleğin nedir?"
+    "turkishExample": "Mesleğin nedir?",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_365",
@@ -2917,7 +3645,9 @@
     "german": "der Krankenpfleger",
     "turkish": "erkek hemşire/hasta bakıcı",
     "germanExample": "Der Krankenpfleger hilft dem Arzt.",
-    "turkishExample": "Hasta bakıcı doktora yardım eder."
+    "turkishExample": "Hasta bakıcı doktora yardım eder.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_366",
@@ -2925,7 +3655,9 @@
     "german": "der Kellner",
     "turkish": "garson",
     "germanExample": "Der Kellner bringt das Essen.",
-    "turkishExample": "Garson yemeği getiriyor."
+    "turkishExample": "Garson yemeği getiriyor.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_367",
@@ -2933,7 +3665,9 @@
     "german": "der Bankkaufmann",
     "turkish": "bankacı",
     "germanExample": "Der Bankkaufmann arbeitet in der Bank.",
-    "turkishExample": "Bankacı bankada çalışır."
+    "turkishExample": "Bankacı bankada çalışır.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_368",
@@ -2941,7 +3675,9 @@
     "german": "der Polizist",
     "turkish": "polis memuru",
     "germanExample": "Der Polizist regelt den Verkehr.",
-    "turkishExample": "Polis trafiği yönetiyor."
+    "turkishExample": "Polis trafiği yönetiyor.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_369",
@@ -2949,7 +3685,9 @@
     "german": "der Student",
     "turkish": "üniversite öğrencisi",
     "germanExample": "Der Student lernt für die Prüfung.",
-    "turkishExample": "Öğrenci sınava çalışıyor."
+    "turkishExample": "Öğrenci sınava çalışıyor.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_370",
@@ -2957,7 +3695,9 @@
     "german": "der Verkäufer",
     "turkish": "satıcı",
     "germanExample": "Der Verkäufer ist sehr freundlich.",
-    "turkishExample": "Satıcı çok naziktir."
+    "turkishExample": "Satıcı çok naziktir.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_371",
@@ -2965,7 +3705,9 @@
     "german": "der Koch",
     "turkish": "aşçı",
     "germanExample": "Der Koch macht eine Suppe.",
-    "turkishExample": "Aşçı bir çorba yapıyor."
+    "turkishExample": "Aşçı bir çorba yapıyor.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_372",
@@ -2973,7 +3715,9 @@
     "german": "der Arzt",
     "turkish": "doktor",
     "germanExample": "Der Arzt untersucht den Patienten.",
-    "turkishExample": "Doktor hastayı muayene ediyor."
+    "turkishExample": "Doktor hastayı muayene ediyor.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_373",
@@ -2981,7 +3725,9 @@
     "german": "servieren",
     "turkish": "servis yapmak",
     "germanExample": "Sie serviert den Kaffee.",
-    "turkishExample": "O kahveyi servis ediyor."
+    "turkishExample": "O kahveyi servis ediyor.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_374",
@@ -2989,7 +3735,9 @@
     "german": "der Kunde",
     "turkish": "müşteri",
     "germanExample": "Der Kunde bezahlt an der Kasse.",
-    "turkishExample": "Müşteri kasada ödüyor."
+    "turkishExample": "Müşteri kasada ödüyor.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_375",
@@ -2997,7 +3745,9 @@
     "german": "unterrichten",
     "turkish": "ders vermek",
     "germanExample": "Die Lehrerin unterrichtet Deutsch.",
-    "turkishExample": "Öğretmen Almanca dersi veriyor."
+    "turkishExample": "Öğretmen Almanca dersi veriyor.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_376",
@@ -3005,7 +3755,9 @@
     "german": "das Büro",
     "turkish": "ofis",
     "germanExample": "Ich arbeite im Büro.",
-    "turkishExample": "Ofiste çalışıyorum."
+    "turkishExample": "Ofiste çalışıyorum.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_377",
@@ -3013,7 +3765,9 @@
     "german": "der Bürokaufmann",
     "turkish": "ofis çalışanı",
     "germanExample": "Er ist Bürokaufmann.",
-    "turkishExample": "O bir ofis çalışanıdır."
+    "turkishExample": "O bir ofis çalışanıdır.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_378",
@@ -3021,7 +3775,9 @@
     "german": "der Ingenieur",
     "turkish": "mühendis",
     "germanExample": "Der Ingenieur plant das Haus.",
-    "turkishExample": "Mühendis evi planlıyor."
+    "turkishExample": "Mühendis evi planlıyor.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_379",
@@ -3029,7 +3785,9 @@
     "german": "der Automechaniker",
     "turkish": "oto tamircisi",
     "germanExample": "Der Automechaniker repariert das Auto.",
-    "turkishExample": "Oto tamircisi arabayı tamir ediyor."
+    "turkishExample": "Oto tamircisi arabayı tamir ediyor.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_380",
@@ -3037,7 +3795,9 @@
     "german": "das Hotel",
     "turkish": "otel",
     "germanExample": "Das Hotel ist sehr teuer.",
-    "turkishExample": "Otel çok pahalı."
+    "turkishExample": "Otel çok pahalı.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_381",
@@ -3045,7 +3805,9 @@
     "german": "backen",
     "turkish": "fırında pişirmek",
     "germanExample": "Ich backe einen Kuchen.",
-    "turkishExample": "Bir kek pişiriyorum."
+    "turkishExample": "Bir kek pişiriyorum.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_382",
@@ -3053,7 +3815,9 @@
     "german": "organisieren",
     "turkish": "organize etmek",
     "germanExample": "Wir organisieren eine Party.",
-    "turkishExample": "Bir parti organize ediyoruz."
+    "turkishExample": "Bir parti organize ediyoruz.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_383",
@@ -3061,7 +3825,9 @@
     "german": "reparieren",
     "turkish": "tamir etmek",
     "germanExample": "Er repariert das Fahrrad.",
-    "turkishExample": "Bisikleti tamir ediyor."
+    "turkishExample": "Bisikleti tamir ediyor.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_384",
@@ -3069,7 +3835,9 @@
     "german": "schneiden",
     "turkish": "kesmek",
     "germanExample": "Ich schneide das Brot.",
-    "turkishExample": "Ekmeği kesiyorum."
+    "turkishExample": "Ekmeği kesiyorum.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_385",
@@ -3077,7 +3845,9 @@
     "german": "können",
     "turkish": "yapabilmek (yetenek/ihtimal)",
     "germanExample": "Ich kann Deutsch sprechen.",
-    "turkishExample": "Almanca konuşabiliyorum."
+    "turkishExample": "Almanca konuşabiliyorum.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_386",
@@ -3085,7 +3855,9 @@
     "german": "singen",
     "turkish": "şarkı söylemek",
     "germanExample": "Sie singt sehr schön.",
-    "turkishExample": "O çok güzel şarkı söylüyor."
+    "turkishExample": "O çok güzel şarkı söylüyor.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_387",
@@ -3093,7 +3865,9 @@
     "german": "zu Hause bleiben",
     "turkish": "evde kalmak",
     "germanExample": "Ich möchte zu Hause bleiben.",
-    "turkishExample": "Evde kalmak istiyorum."
+    "turkishExample": "Evde kalmak istiyorum.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_388",
@@ -3101,7 +3875,9 @@
     "german": "müssen",
     "turkish": "zorunda olmak/mecburiyet",
     "germanExample": "Ich muss morgen früh aufstehen.",
-    "turkishExample": "Yarın erken kalkmak zorundayım."
+    "turkishExample": "Yarın erken kalkmak zorundayım.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_389",
@@ -3109,7 +3885,9 @@
     "german": "leise",
     "turkish": "sessiz/alçak sesle",
     "germanExample": "Bitte sprich leise.",
-    "turkishExample": "Lütfen sessiz konuş."
+    "turkishExample": "Lütfen sessiz konuş.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_390",
@@ -3117,7 +3895,9 @@
     "german": "parken",
     "turkish": "park etmek",
     "germanExample": "Hier dürfen Sie nicht parken.",
-    "turkishExample": "Buraya park edemezsiniz."
+    "turkishExample": "Buraya park edemezsiniz.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_391",
@@ -3125,7 +3905,9 @@
     "german": "der Feierabend",
     "turkish": "mesai bitimi",
     "germanExample": "Wann hast du Feierabend?",
-    "turkishExample": "Mesain ne zaman bitiyor?"
+    "turkishExample": "Mesain ne zaman bitiyor?",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_392",
@@ -3133,7 +3915,9 @@
     "german": "der Dienstplan",
     "turkish": "nöbet/çalışma çizelgesi",
     "germanExample": "Ich lese den Dienstplan.",
-    "turkishExample": "Çalışma çizelgesini okuyorum."
+    "turkishExample": "Çalışma çizelgesini okuyorum.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_393",
@@ -3141,7 +3925,9 @@
     "german": "unterschreiben",
     "turkish": "imzalamak",
     "germanExample": "Bitte hier unterschreiben.",
-    "turkishExample": "Lütfen burayı imzalayın."
+    "turkishExample": "Lütfen burayı imzalayın.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_394",
@@ -3149,7 +3935,9 @@
     "german": "der Schüler",
     "turkish": "öğrenci (okul)",
     "germanExample": "Der Schüler macht Hausaufgaben.",
-    "turkishExample": "Öğrenci ödev yapıyor."
+    "turkishExample": "Öğrenci ödev yapıyor.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_395",
@@ -3157,7 +3945,9 @@
     "german": "eine Ausbildung machen",
     "turkish": "mesleki eğitim almak",
     "germanExample": "Er macht eine Ausbildung zum Koch.",
-    "turkishExample": "O aşçılık mesleki eğitimi alıyor."
+    "turkishExample": "O aşçılık mesleki eğitimi alıyor.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_396",
@@ -3165,7 +3955,9 @@
     "german": "die Aushilfe",
     "turkish": "yardımcı eleman",
     "germanExample": "Wir suchen eine Aushilfe.",
-    "turkishExample": "Yardımcı eleman arıyoruz."
+    "turkishExample": "Yardımcı eleman arıyoruz.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_397",
@@ -3173,7 +3965,9 @@
     "german": "Geld verdienen",
     "turkish": "para kazanmak",
     "germanExample": "Ich möchte Geld verdienen.",
-    "turkishExample": "Para kazanmak istiyorum."
+    "turkishExample": "Para kazanmak istiyorum.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_398",
@@ -3181,7 +3975,9 @@
     "german": "möchten",
     "turkish": "istemek (kibarca)",
     "germanExample": "Ich möchte einen Tee trinken.",
-    "turkishExample": "Bir çay içmek istiyorum."
+    "turkishExample": "Bir çay içmek istiyorum.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_399",
@@ -3189,7 +3985,9 @@
     "german": "der Schuh",
     "turkish": "ayakkabı",
     "germanExample": "Der Schuh ist zu klein.",
-    "turkishExample": "Ayakkabı çok küçük."
+    "turkishExample": "Ayakkabı çok küçük.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_400",
@@ -3197,7 +3995,9 @@
     "german": "die Arbeitszeit",
     "turkish": "çalışma saati",
     "germanExample": "Die Arbeitszeit beginnt um 8 Uhr.",
-    "turkishExample": "Çalışma saati 8'de başlıyor."
+    "turkishExample": "Çalışma saati 8'de başlıyor.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_401",
@@ -3205,7 +4005,9 @@
     "german": "freundlich",
     "turkish": "dostane/güler yüzlü",
     "germanExample": "Die Leute sind sehr freundlich.",
-    "turkishExample": "İnsanlar çok güler yüzlü."
+    "turkishExample": "İnsanlar çok güler yüzlü.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_402",
@@ -3213,7 +4015,9 @@
     "german": "flexibel",
     "turkish": "esnek",
     "germanExample": "Ich bin zeitlich flexibel.",
-    "turkishExample": "Zaman konusunda esneğim."
+    "turkishExample": "Zaman konusunda esneğim.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_403",
@@ -3221,7 +4025,9 @@
     "german": "pünktlich",
     "turkish": "dakik/tam vaktinde",
     "germanExample": "Sei bitte pünktlich.",
-    "turkishExample": "Lütfen dakik ol."
+    "turkishExample": "Lütfen dakik ol.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_404",
@@ -3229,7 +4035,9 @@
     "german": "frei haben",
     "turkish": "boş vakti/izni olmak",
     "germanExample": "Morgen habe ich frei.",
-    "turkishExample": "Yarın iznim var."
+    "turkishExample": "Yarın iznim var.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_405",
@@ -3237,7 +4045,9 @@
     "german": "die Stellenanzeige",
     "turkish": "iş ilanı",
     "germanExample": "Ich lese die Stellenanzeigen.",
-    "turkishExample": "İş ilanlarını okuyorum."
+    "turkishExample": "İş ilanlarını okuyorum.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_406",
@@ -3245,7 +4055,9 @@
     "german": "krank",
     "turkish": "hasta",
     "germanExample": "Ich bin heute krank.",
-    "turkishExample": "Bugün hastayım."
+    "turkishExample": "Bugün hastayım.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_407",
@@ -3253,7 +4065,9 @@
     "german": "der Hals",
     "turkish": "boyun/boğaz",
     "germanExample": "Mein Hals tut weh.",
-    "turkishExample": "Boğazım ağrıyor."
+    "turkishExample": "Boğazım ağrıyor.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_408",
@@ -3261,7 +4075,9 @@
     "german": "der Husten",
     "turkish": "öksürük",
     "germanExample": "Ich habe starken Husten.",
-    "turkishExample": "Şiddetli öksürüğüm var."
+    "turkishExample": "Şiddetli öksürüğüm var.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_409",
@@ -3269,7 +4085,9 @@
     "german": "der Schnupfen",
     "turkish": "nezle",
     "germanExample": "Er hat Schnupfen.",
-    "turkishExample": "O nezle oldu."
+    "turkishExample": "O nezle oldu.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_410",
@@ -3277,7 +4095,9 @@
     "german": "der Mund",
     "turkish": "ağız",
     "germanExample": "Mach den Mund auf.",
-    "turkishExample": "Ağzını aç."
+    "turkishExample": "Ağzını aç.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_411",
@@ -3285,7 +4105,9 @@
     "german": "entzündet",
     "turkish": "iltihaplı",
     "germanExample": "Mein Hals ist entzündet.",
-    "turkishExample": "Boğazım iltihaplı."
+    "turkishExample": "Boğazım iltihaplı.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_412",
@@ -3293,7 +4115,9 @@
     "german": "das Fieber",
     "turkish": "ateş (vücut)",
     "germanExample": "Das Kind hat Fieber.",
-    "turkishExample": "Çocuğun ateşi var."
+    "turkishExample": "Çocuğun ateşi var.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_413",
@@ -3301,7 +4125,9 @@
     "german": "das Rezept",
     "turkish": "reçete",
     "germanExample": "Ich brauche ein Rezept vom Arzt.",
-    "turkishExample": "Doktordan reçeteye ihtiyacım var."
+    "turkishExample": "Doktordan reçeteye ihtiyacım var.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_414",
@@ -3309,7 +4135,9 @@
     "german": "das Medikament",
     "turkish": "ilaç",
     "germanExample": "Nimmst du deine Medikamente?",
-    "turkishExample": "İlaçlarını alıyor musun?"
+    "turkishExample": "İlaçlarını alıyor musun?",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_415",
@@ -3317,7 +4145,9 @@
     "german": "der Kopf",
     "turkish": "baş/kafa",
     "germanExample": "Mein Kopf tut weh.",
-    "turkishExample": "Başım ağrıyor."
+    "turkishExample": "Başım ağrıyor.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_416",
@@ -3325,7 +4155,9 @@
     "german": "der Bauch",
     "turkish": "karın",
     "germanExample": "Ich habe Bauchschmerzen.",
-    "turkishExample": "Karın ağrım var."
+    "turkishExample": "Karın ağrım var.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_417",
@@ -3333,7 +4165,9 @@
     "german": "das Bein",
     "turkish": "bacak",
     "germanExample": "Mein Bein ist gebrochen.",
-    "turkishExample": "Bacağım kırık."
+    "turkishExample": "Bacağım kırık.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_418",
@@ -3341,7 +4175,9 @@
     "german": "der Fuß",
     "turkish": "ayak",
     "germanExample": "Der Fuß ist geschwollen.",
-    "turkishExample": "Ayak şişmiş."
+    "turkishExample": "Ayak şişmiş.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_419",
@@ -3349,7 +4185,9 @@
     "german": "der Arm",
     "turkish": "kol",
     "germanExample": "Ich hebe den Arm.",
-    "turkishExample": "Kolumu kaldırıyorum."
+    "turkishExample": "Kolumu kaldırıyorum.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_420",
@@ -3357,7 +4195,9 @@
     "german": "die Hand",
     "turkish": "el",
     "germanExample": "Gib mir deine Hand.",
-    "turkishExample": "Bana elini ver."
+    "turkishExample": "Bana elini ver.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_421",
@@ -3365,7 +4205,9 @@
     "german": "die Nase",
     "turkish": "burun",
     "germanExample": "Meine Nase läuft.",
-    "turkishExample": "Burnum akıyor."
+    "turkishExample": "Burnum akıyor.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_422",
@@ -3373,7 +4215,9 @@
     "german": "das Auge",
     "turkish": "göz",
     "germanExample": "Ihre Augen sind blau.",
-    "turkishExample": "Onun gözleri mavi."
+    "turkishExample": "Onun gözleri mavi.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_423",
@@ -3381,7 +4225,9 @@
     "german": "das Ohr",
     "turkish": "kulak",
     "germanExample": "Mein Ohr tut weh.",
-    "turkishExample": "Kulağım ağrıyor."
+    "turkishExample": "Kulağım ağrıyor.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_424",
@@ -3389,7 +4235,9 @@
     "german": "der Zahn",
     "turkish": "diş",
     "germanExample": "Ich muss zum Zahnarzt.",
-    "turkishExample": "Diş hekimine gitmem lazım."
+    "turkishExample": "Diş hekimine gitmem lazım.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_425",
@@ -3397,7 +4245,9 @@
     "german": "das Haar",
     "turkish": "saç",
     "germanExample": "Sie hat lange Haare.",
-    "turkishExample": "Onun uzun saçları var."
+    "turkishExample": "Onun uzun saçları var.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_426",
@@ -3405,7 +4255,9 @@
     "german": "das Gesicht",
     "turkish": "yüz/surat",
     "germanExample": "Wasch dein Gesicht.",
-    "turkishExample": "Yüzünü yıka."
+    "turkishExample": "Yüzünü yıka.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_427",
@@ -3413,7 +4265,9 @@
     "german": "der Rücken",
     "turkish": "sırt",
     "germanExample": "Ich habe Rückenschmerzen.",
-    "turkishExample": "Sırt ağrım var."
+    "turkishExample": "Sırt ağrım var.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_428",
@@ -3421,7 +4275,9 @@
     "german": "der Patient",
     "turkish": "hasta (kişi)",
     "germanExample": "Der Patient braucht Ruhe.",
-    "turkishExample": "Hastanın dinlenmeye ihtiyacı var."
+    "turkishExample": "Hastanın dinlenmeye ihtiyacı var.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_429",
@@ -3429,7 +4285,9 @@
     "german": "der Finger",
     "turkish": "parmak",
     "germanExample": "Ich habe mich in den Finger geschnitten.",
-    "turkishExample": "Parmağımı kestim."
+    "turkishExample": "Parmağımı kestim.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_430",
@@ -3437,7 +4295,9 @@
     "german": "die Erkältung",
     "turkish": "soğuk algınlığı",
     "germanExample": "Ich habe eine Erkältung.",
-    "turkishExample": "Soğuk algınlığım var."
+    "turkishExample": "Soğuk algınlığım var.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_431",
@@ -3445,7 +4305,9 @@
     "german": "schwanger",
     "turkish": "hamile",
     "germanExample": "Meine Frau ist schwanger.",
-    "turkishExample": "Eşim hamile."
+    "turkishExample": "Eşim hamile.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_432",
@@ -3453,7 +4315,9 @@
     "german": "erkältet",
     "turkish": "üşütmüş",
     "germanExample": "Ich bin leicht erkältet.",
-    "turkishExample": "Hafif üşütmüşüm."
+    "turkishExample": "Hafif üşütmüşüm.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_433",
@@ -3461,7 +4325,9 @@
     "german": "die Grippe",
     "turkish": "grip",
     "germanExample": "Er liegt mit Grippe im Bett.",
-    "turkishExample": "Grip ile yatakta yatıyor."
+    "turkishExample": "Grip ile yatakta yatıyor.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_434",
@@ -3469,7 +4335,9 @@
     "german": "gesund",
     "turkish": "sağlıklı",
     "germanExample": "Ich bin wieder gesund.",
-    "turkishExample": "Tekrar sağlıklıyım."
+    "turkishExample": "Tekrar sağlıklıyım.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_435",
@@ -3477,7 +4345,9 @@
     "german": "die Tablette",
     "turkish": "hap",
     "germanExample": "Nimm diese Tablette nach dem Essen.",
-    "turkishExample": "Bu hapı yemekten sonra al."
+    "turkishExample": "Bu hapı yemekten sonra al.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_436",
@@ -3485,7 +4355,9 @@
     "german": "der Hausarzt",
     "turkish": "aile hekimi",
     "germanExample": "Mein Hausarzt ist im Urlaub.",
-    "turkishExample": "Aile hekimim tatilde."
+    "turkishExample": "Aile hekimim tatilde.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_437",
@@ -3493,7 +4365,9 @@
     "german": "die Praxis",
     "turkish": "muayenehane",
     "germanExample": "Die Praxis öffnet um 8 Uhr.",
-    "turkishExample": "Muayenehane saat 8'de açılıyor."
+    "turkishExample": "Muayenehane saat 8'de açılıyor.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_438",
@@ -3501,7 +4375,9 @@
     "german": "die Versichertenkarte",
     "turkish": "sağlık sigorta kartı",
     "germanExample": "Bitte geben Sie mir Ihre Versichertenkarte.",
-    "turkishExample": "Lütfen bana sigorta kartınızı verin."
+    "turkishExample": "Lütfen bana sigorta kartınızı verin.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_439",
@@ -3509,7 +4385,9 @@
     "german": "die Krankenversicherung",
     "turkish": "sağlık sigortası",
     "germanExample": "Hast du eine Krankenversicherung?",
-    "turkishExample": "Sağlık sigortan var mı?"
+    "turkishExample": "Sağlık sigortan var mı?",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_440",
@@ -3517,7 +4395,9 @@
     "german": "die Krankheit",
     "turkish": "hastalık",
     "germanExample": "Das ist eine seltene Krankheit.",
-    "turkishExample": "Bu nadir bir hastalıktır."
+    "turkishExample": "Bu nadir bir hastalıktır.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_441",
@@ -3525,7 +4405,9 @@
     "german": "verletzt",
     "turkish": "yaralı/incinmiş",
     "germanExample": "Ich habe mich beim Sport verletzt.",
-    "turkishExample": "Sporda yaralandım."
+    "turkishExample": "Sporda yaralandım.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_442",
@@ -3533,7 +4415,9 @@
     "german": "der Notfall",
     "turkish": "acil durum",
     "germanExample": "Das ist ein Notfall!",
-    "turkishExample": "Bu bir acil durum!"
+    "turkishExample": "Bu bir acil durum!",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_443",
@@ -3541,7 +4425,9 @@
     "german": "der Krankenwagen",
     "turkish": "ambulans",
     "germanExample": "Ruf den Krankenwagen!",
-    "turkishExample": "Ambulansı ara!"
+    "turkishExample": "Ambulansı ara!",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_444",
@@ -3549,7 +4435,9 @@
     "german": "die Sprechstunde",
     "turkish": "görüşme saati",
     "germanExample": "Die Sprechstunde ist vormittags.",
-    "turkishExample": "Görüşme saati öğleden öncedir."
+    "turkishExample": "Görüşme saati öğleden öncedir.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_445",
@@ -3557,7 +4445,9 @@
     "german": "die Spritze",
     "turkish": "iğne/enjeksiyon",
     "germanExample": "Ich habe Angst vor Spritzen.",
-    "turkishExample": "İğneden korkarım."
+    "turkishExample": "İğneden korkarım.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_446",
@@ -3565,7 +4455,9 @@
     "german": "der Verband",
     "turkish": "sargı bezi/pansuman",
     "germanExample": "Der Arzt wechselt den Verband.",
-    "turkishExample": "Doktor sargıyı değiştiriyor."
+    "turkishExample": "Doktor sargıyı değiştiriyor.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_447",
@@ -3573,7 +4465,9 @@
     "german": "das Pflaster",
     "turkish": "yara bandı",
     "germanExample": "Ich brauche ein Pflaster.",
-    "turkishExample": "Bir yara bandına ihtiyacım var."
+    "turkishExample": "Bir yara bandına ihtiyacım var.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_448",
@@ -3581,7 +4475,9 @@
     "german": "die Untersuchung",
     "turkish": "muayene",
     "germanExample": "Die Untersuchung dauert 10 Minuten.",
-    "turkishExample": "Muayene 10 dakika sürüyor."
+    "turkishExample": "Muayene 10 dakika sürüyor.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_449",
@@ -3589,7 +4485,9 @@
     "german": "müde",
     "turkish": "yorgun",
     "germanExample": "Ich bin sehr müde.",
-    "turkishExample": "Ben çok yorgunum."
+    "turkishExample": "Ben çok yorgunum.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_450",
@@ -3597,7 +4495,9 @@
     "german": "der Körper",
     "turkish": "vücut/beden",
     "germanExample": "Der Körper braucht Schlaf.",
-    "turkishExample": "Vücudun uykuya ihtiyacı var."
+    "turkishExample": "Vücudun uykuya ihtiyacı var.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_451",
@@ -3605,7 +4505,9 @@
     "german": "der Schmerz",
     "turkish": "ağrı/sızı",
     "germanExample": "Der Schmerz ist stark.",
-    "turkishExample": "Ağrı şiddetli."
+    "turkishExample": "Ağrı şiddetli.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_452",
@@ -3613,7 +4515,9 @@
     "german": "die Krankschreibung / das Attest",
     "turkish": "sağlık raporu",
     "germanExample": "Ich brauche ein Attest für die Arbeit.",
-    "turkishExample": "İş için sağlık raporuna ihtiyacım var."
+    "turkishExample": "İş için sağlık raporuna ihtiyacım var.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_453",
@@ -3621,7 +4525,9 @@
     "german": "der Arbeitgeber",
     "turkish": "işveren",
     "germanExample": "Mein Arbeitgeber ist eine große Firma.",
-    "turkishExample": "İşverenim büyük bir şirket."
+    "turkishExample": "İşverenim büyük bir şirket.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_454",
@@ -3629,7 +4535,9 @@
     "german": "die Entschuldigung",
     "turkish": "mazeret/özür",
     "germanExample": "Ich brauche eine Entschuldigung für die Schule.",
-    "turkishExample": "Okul için bir mazerete ihtiyacım var."
+    "turkishExample": "Okul için bir mazerete ihtiyacım var.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_455",
@@ -3637,7 +4545,9 @@
     "german": "schicken",
     "turkish": "göndermek",
     "germanExample": "Ich schicke dir eine Nachricht.",
-    "turkishExample": "Sana bir mesaj gönderiyorum."
+    "turkishExample": "Sana bir mesaj gönderiyorum.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_456",
@@ -3645,7 +4555,9 @@
     "german": "der Unfall",
     "turkish": "kaza",
     "germanExample": "Es gab einen Unfall auf der Straße.",
-    "turkishExample": "Sokakta bir kaza oldu."
+    "turkishExample": "Sokakta bir kaza oldu.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_457",
@@ -3653,7 +4565,9 @@
     "german": "der Notarzt",
     "turkish": "acil doktoru",
     "germanExample": "Der Notarzt ist schnell gekommen.",
-    "turkishExample": "Acil doktoru hızlı geldi."
+    "turkishExample": "Acil doktoru hızlı geldi.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_458",
@@ -3661,7 +4575,9 @@
     "german": "der Koffer",
     "turkish": "valiz",
     "germanExample": "Ich packe meinen Koffer.",
-    "turkishExample": "Valizimi topluyorum."
+    "turkishExample": "Valizimi topluyorum.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_459",
@@ -3669,7 +4585,9 @@
     "german": "die Badehose",
     "turkish": "mayo (erkek)",
     "germanExample": "Er kauft eine neue Badehose.",
-    "turkishExample": "O yeni bir mayo alıyor."
+    "turkishExample": "O yeni bir mayo alıyor.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_460",
@@ -3677,7 +4595,9 @@
     "german": "der Badeanzug",
     "turkish": "mayo (kadın)",
     "germanExample": "Der Badeanzug ist rot.",
-    "turkishExample": "Mayo kırmızıdır."
+    "turkishExample": "Mayo kırmızıdır.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_461",
@@ -3685,7 +4605,9 @@
     "german": "liegen",
     "turkish": "yatmak/uzanmak (yatay durmak)",
     "germanExample": "Das Buch liegt auf dem Tisch.",
-    "turkishExample": "Kitap masada (yatay) duruyor."
+    "turkishExample": "Kitap masada (yatay) duruyor.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_462",
@@ -3693,7 +4615,9 @@
     "german": "packen",
     "turkish": "paketlemek/toplamak",
     "germanExample": "Wir müssen die Taschen packen.",
-    "turkishExample": "Çantaları toplamalıyız."
+    "turkishExample": "Çantaları toplamalıyız.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_463",
@@ -3701,7 +4625,9 @@
     "german": "stellen",
     "turkish": "koymak (dikine yerleştirmek)",
     "germanExample": "Ich stelle die Flasche auf den Tisch.",
-    "turkishExample": "Şişeyi masaya koyuyorum."
+    "turkishExample": "Şişeyi masaya koyuyorum.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_464",
@@ -3709,7 +4635,9 @@
     "german": "sehen",
     "turkish": "görmek",
     "germanExample": "Ich sehe ein Auto.",
-    "turkishExample": "Bir araba görüyorum."
+    "turkishExample": "Bir araba görüyorum.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_465",
@@ -3717,7 +4645,9 @@
     "german": "legen",
     "turkish": "koymak (yatay yerleştirmek)",
     "germanExample": "Er legt das Buch auf das Bett.",
-    "turkishExample": "Kitabı yatağa koyuyor."
+    "turkishExample": "Kitabı yatağa koyuyor.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_466",
@@ -3725,7 +4655,9 @@
     "german": "der Urlaub",
     "turkish": "tatil",
     "germanExample": "Wir fahren im Sommer in den Urlaub.",
-    "turkishExample": "Yazın tatile gidiyoruz."
+    "turkishExample": "Yazın tatile gidiyoruz.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_467",
@@ -3733,7 +4665,9 @@
     "german": "vergessen",
     "turkish": "unutmak",
     "germanExample": "Ich habe meinen Schlüssel vergessen.",
-    "turkishExample": "Anahtarımı unuttum."
+    "turkishExample": "Anahtarımı unuttum.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_468",
@@ -3741,7 +4675,9 @@
     "german": "losfahren",
     "turkish": "yola çıkmak",
     "germanExample": "Wann fahren wir los?",
-    "turkishExample": "Ne zaman yola çıkıyoruz?"
+    "turkishExample": "Ne zaman yola çıkıyoruz?",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_469",
@@ -3749,7 +4685,9 @@
     "german": "besuchen",
     "turkish": "ziyaret etmek",
     "germanExample": "Ich besuche meine Freunde.",
-    "turkishExample": "Arkadaşlarımı ziyaret ediyorum."
+    "turkishExample": "Arkadaşlarımı ziyaret ediyorum.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_470",
@@ -3757,7 +4695,9 @@
     "german": "finden",
     "turkish": "bulmak",
     "germanExample": "Ich kann meine Brille nicht finden.",
-    "turkishExample": "Gözlüğümü bulamıyorum."
+    "turkishExample": "Gözlüğümü bulamıyorum.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_471",
@@ -3765,7 +4705,9 @@
     "german": "einen Spaziergang machen",
     "turkish": "yürüyüş yapmak",
     "germanExample": "Wir machen am Abend einen Spaziergang.",
-    "turkishExample": "Akşamları yürüyüş yapıyoruz."
+    "turkishExample": "Akşamları yürüyüş yapıyoruz.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_472",
@@ -3773,7 +4715,9 @@
     "german": "Fußball gucken",
     "turkish": "futbol izlemek",
     "germanExample": "Er guckt am Wochenende Fußball.",
-    "turkishExample": "O hafta sonu futbol izler."
+    "turkishExample": "O hafta sonu futbol izler.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_473",
@@ -3781,7 +4725,9 @@
     "german": "der Zoo",
     "turkish": "hayvanat bahçesi",
     "germanExample": "Wir gehen heute in den Zoo.",
-    "turkishExample": "Bugün hayvanat bahçesine gidiyoruz."
+    "turkishExample": "Bugün hayvanat bahçesine gidiyoruz.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_474",
@@ -3789,7 +4735,9 @@
     "german": "fotografieren",
     "turkish": "fotoğraf çekmek",
     "germanExample": "Ich fotografiere gerne.",
-    "turkishExample": "Fotoğraf çekmeyi severim."
+    "turkishExample": "Fotoğraf çekmeyi severim.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_475",
@@ -3797,7 +4745,9 @@
     "german": "bleiben",
     "turkish": "kalmak",
     "germanExample": "Ich bleibe heute zu Hause.",
-    "turkishExample": "Bugün evde kalıyorum."
+    "turkishExample": "Bugün evde kalıyorum.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_476",
@@ -3805,7 +4755,9 @@
     "german": "studieren",
     "turkish": "üniversite okumak",
     "germanExample": "Sie studiert in Berlin.",
-    "turkishExample": "O Berlin'de üniversite okuyor."
+    "turkishExample": "O Berlin'de üniversite okuyor.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_477",
@@ -3813,7 +4765,9 @@
     "german": "das Geburtsdatum",
     "turkish": "doğum tarihi",
     "germanExample": "Wie lautet Ihr Geburtsdatum?",
-    "turkishExample": "Doğum tarihiniz nedir?"
+    "turkishExample": "Doğum tarihiniz nedir?",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_478",
@@ -3821,7 +4775,9 @@
     "german": "Spaß haben",
     "turkish": "eğlenmek",
     "germanExample": "Wir haben viel Spaß auf der Party.",
-    "turkishExample": "Partide çok eğleniyoruz."
+    "turkishExample": "Partide çok eğleniyoruz.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_479",
@@ -3829,7 +4785,9 @@
     "german": "Ski fahren",
     "turkish": "kayak yapmak",
     "germanExample": "Im Winter fahren wir Ski.",
-    "turkishExample": "Kışın kayak yaparız."
+    "turkishExample": "Kışın kayak yaparız.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_480",
@@ -3837,7 +4795,9 @@
     "german": "stressig",
     "turkish": "stresli",
     "germanExample": "Meine Arbeit ist sehr stressig.",
-    "turkishExample": "İşim çok stresli."
+    "turkishExample": "İşim çok stresli.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_481",
@@ -3845,7 +4805,9 @@
     "german": "das Kleid",
     "turkish": "elbise",
     "germanExample": "Das Kleid ist sehr schön.",
-    "turkishExample": "Elbise çok güzel."
+    "turkishExample": "Elbise çok güzel.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_482",
@@ -3853,7 +4815,9 @@
     "german": "die Hose",
     "turkish": "pantolon",
     "germanExample": "Ich brauche eine neue Hose.",
-    "turkishExample": "Yeni bir pantolona ihtiyacım var."
+    "turkishExample": "Yeni bir pantolona ihtiyacım var.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_483",
@@ -3861,7 +4825,9 @@
     "german": "die Jacke",
     "turkish": "ceket/mont",
     "germanExample": "Zieh deine Jacke an.",
-    "turkishExample": "Ceketini giy."
+    "turkishExample": "Ceketini giy.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_484",
@@ -3869,7 +4835,9 @@
     "german": "der Rock",
     "turkish": "etek",
     "germanExample": "Der Rock ist zu kurz.",
-    "turkishExample": "Etek çok kısa."
+    "turkishExample": "Etek çok kısa.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_485",
@@ -3877,7 +4845,9 @@
     "german": "das T-Shirt",
     "turkish": "tişört",
     "germanExample": "Ich trage ein weißes T-Shirt.",
-    "turkishExample": "Beyaz bir tişört giyiyorum."
+    "turkishExample": "Beyaz bir tişört giyiyorum.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_486",
@@ -3885,7 +4855,9 @@
     "german": "der Pullover",
     "turkish": "kazak",
     "germanExample": "Der Pullover ist warm.",
-    "turkishExample": "Kazak sıcaktır."
+    "turkishExample": "Kazak sıcaktır.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_487",
@@ -3893,7 +4865,9 @@
     "german": "die Bluse",
     "turkish": "bluz",
     "germanExample": "Die Bluse passt mir gut.",
-    "turkishExample": "Bluz bana iyi uyuyor."
+    "turkishExample": "Bluz bana iyi uyuyor.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_488",
@@ -3901,7 +4875,9 @@
     "german": "das Hemd",
     "turkish": "gömlek",
     "germanExample": "Er trägt ein blaues Hemd.",
-    "turkishExample": "Mavi bir gömlek giyiyor."
+    "turkishExample": "Mavi bir gömlek giyiyor.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_489",
@@ -3909,7 +4885,9 @@
     "german": "der Mantel",
     "turkish": "palto/manto",
     "germanExample": "Im Winter brauche ich einen Mantel.",
-    "turkishExample": "Kışın bir paltoya ihtiyacım var."
+    "turkishExample": "Kışın bir paltoya ihtiyacım var.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_490",
@@ -3917,7 +4895,9 @@
     "german": "sportlich",
     "turkish": "sportif",
     "germanExample": "Er ist sehr sportlich.",
-    "turkishExample": "O çok sportiftir."
+    "turkishExample": "O çok sportiftir.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_491",
@@ -3925,7 +4905,9 @@
     "german": "elegant",
     "turkish": "zarif/şık",
     "germanExample": "Sie sieht elegant aus.",
-    "turkishExample": "O şık görünüyor."
+    "turkishExample": "O şık görünüyor.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_492",
@@ -3933,7 +4915,9 @@
     "german": "die Farbe",
     "turkish": "renk",
     "germanExample": "Welche Farbe hat dein Auto?",
-    "turkishExample": "Arabanın rengi ne?"
+    "turkishExample": "Arabanın rengi ne?",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_493",
@@ -3941,7 +4925,9 @@
     "german": "bunt",
     "turkish": "renkli",
     "germanExample": "Das Bild ist sehr bunt.",
-    "turkishExample": "Resim çok renklidir."
+    "turkishExample": "Resim çok renklidir.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_494",
@@ -3949,7 +4935,9 @@
     "german": "blau",
     "turkish": "mavi",
     "germanExample": "Der Himmel ist blau.",
-    "turkishExample": "Gökyüzü mavidir."
+    "turkishExample": "Gökyüzü mavidir.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_495",
@@ -3957,7 +4945,9 @@
     "german": "der Gürtel",
     "turkish": "kemer",
     "germanExample": "Ich kaufe einen braunen Gürtel.",
-    "turkishExample": "Kahverengi bir kemer alıyorum."
+    "turkishExample": "Kahverengi bir kemer alıyorum.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_496",
@@ -3965,7 +4955,9 @@
     "german": "rot",
     "turkish": "kırmızı",
     "germanExample": "Die Tomate ist rot.",
-    "turkishExample": "Domates kırmızıdır."
+    "turkishExample": "Domates kırmızıdır.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_497",
@@ -3973,7 +4965,9 @@
     "german": "braun",
     "turkish": "kahverengi",
     "germanExample": "Ihre Augen sind braun.",
-    "turkishExample": "Onun gözleri kahverengidir."
+    "turkishExample": "Onun gözleri kahverengidir.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_498",
@@ -3981,7 +4975,9 @@
     "german": "die Mütze",
     "turkish": "bere",
     "germanExample": "Ich setze meine Mütze auf.",
-    "turkishExample": "Beremi takıyorum."
+    "turkishExample": "Beremi takıyorum.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_499",
@@ -3989,7 +4985,9 @@
     "german": "der Schal",
     "turkish": "atkı/şal",
     "germanExample": "Der Schal hält mich warm.",
-    "turkishExample": "Atkı beni sıcak tutuyor."
+    "turkishExample": "Atkı beni sıcak tutuyor.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_500",
@@ -3997,7 +4995,9 @@
     "german": "der Handschuh",
     "turkish": "eldiven",
     "germanExample": "Ich habe meine Handschuhe vergessen.",
-    "turkishExample": "Eldivenlerimi unuttum."
+    "turkishExample": "Eldivenlerimi unuttum.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_501",
@@ -4005,7 +5005,9 @@
     "german": "grün",
     "turkish": "yeşil",
     "germanExample": "Das Gras ist grün.",
-    "turkishExample": "Çimen yeşildir."
+    "turkishExample": "Çimen yeşildir.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_502",
@@ -4013,7 +5015,9 @@
     "german": "weiß",
     "turkish": "beyaz",
     "germanExample": "Schnee ist weiß.",
-    "turkishExample": "Kar beyazdır."
+    "turkishExample": "Kar beyazdır.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_503",
@@ -4021,7 +5025,9 @@
     "german": "schwarz",
     "turkish": "siyah",
     "germanExample": "Die Katze ist schwarz.",
-    "turkishExample": "Kedi siyahtır."
+    "turkishExample": "Kedi siyahtır.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_504",
@@ -4029,7 +5035,9 @@
     "german": "gelb",
     "turkish": "sarı",
     "germanExample": "Die Zitrone ist gelb.",
-    "turkishExample": "Limon sarıdır."
+    "turkishExample": "Limon sarıdır.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_505",
@@ -4037,7 +5045,9 @@
     "german": "die Socke",
     "turkish": "çorap",
     "germanExample": "Meine Socken sind nass.",
-    "turkishExample": "Çoraplarım ıslak."
+    "turkishExample": "Çoraplarım ıslak.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_506",
@@ -4045,7 +5055,9 @@
     "german": "die Krawatte",
     "turkish": "kravat",
     "germanExample": "Er trägt oft eine Krawatte.",
-    "turkishExample": "O sık sık kravat takar."
+    "turkishExample": "O sık sık kravat takar.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_507",
@@ -4053,7 +5065,9 @@
     "german": "grau",
     "turkish": "gri",
     "germanExample": "Das Wetter ist heute grau.",
-    "turkishExample": "Hava bugün gri."
+    "turkishExample": "Hava bugün gri.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_508",
@@ -4061,7 +5075,9 @@
     "german": "der Stiefel",
     "turkish": "çizme/bot",
     "germanExample": "Die Stiefel sind bequem.",
-    "turkishExample": "Çizmeler rahattır."
+    "turkishExample": "Çizmeler rahattır.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_509",
@@ -4069,7 +5085,9 @@
     "german": "das Kopftuch",
     "turkish": "başörtüsü",
     "germanExample": "Sie trägt ein Kopftuch.",
-    "turkishExample": "O bir başörtüsü takıyor."
+    "turkishExample": "O bir başörtüsü takıyor.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_510",
@@ -4077,7 +5095,9 @@
     "german": "tragen",
     "turkish": "giymek/taşımak",
     "germanExample": "Ich trage eine Brille.",
-    "turkishExample": "Ben gözlük takıyorum."
+    "turkishExample": "Ben gözlük takıyorum.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_511",
@@ -4085,7 +5105,9 @@
     "german": "anziehen",
     "turkish": "giyinmek",
     "germanExample": "Ich ziehe mich an.",
-    "turkishExample": "Giyiniyorum."
+    "turkishExample": "Giyiniyorum.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_512",
@@ -4093,7 +5115,9 @@
     "german": "bequem",
     "turkish": "rahat",
     "germanExample": "Das Sofa ist sehr bequem.",
-    "turkishExample": "Kanepe çok rahat."
+    "turkishExample": "Kanepe çok rahat.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_513",
@@ -4101,7 +5125,9 @@
     "german": "die Umkleidekabine",
     "turkish": "deneme kabini",
     "germanExample": "Wo ist die Umkleidekabine?",
-    "turkishExample": "Deneme kabini nerede?"
+    "turkishExample": "Deneme kabini nerede?",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_514",
@@ -4109,7 +5135,9 @@
     "german": "weit",
     "turkish": "bol/geniş",
     "germanExample": "Die Hose ist mir zu weit.",
-    "turkishExample": "Pantolon bana çok bol."
+    "turkishExample": "Pantolon bana çok bol.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_515",
@@ -4117,7 +5145,9 @@
     "german": "eng",
     "turkish": "dar",
     "germanExample": "Das T-Shirt ist eng.",
-    "turkishExample": "Tişört dar."
+    "turkishExample": "Tişört dar.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_516",
@@ -4125,7 +5155,9 @@
     "german": "kurz",
     "turkish": "kısa",
     "germanExample": "Ihre Haare sind kurz.",
-    "turkishExample": "Onun saçları kısadır."
+    "turkishExample": "Onun saçları kısadır.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_517",
@@ -4133,7 +5165,9 @@
     "german": "lang",
     "turkish": "uzun",
     "germanExample": "Der Weg ist lang.",
-    "turkishExample": "Yol uzundur."
+    "turkishExample": "Yol uzundur.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_518",
@@ -4141,7 +5175,9 @@
     "german": "unbequem",
     "turkish": "rahatsız",
     "germanExample": "Der Stuhl ist unbequem.",
-    "turkishExample": "Sandalye rahatsızdır."
+    "turkishExample": "Sandalye rahatsızdır.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_519",
@@ -4149,7 +5185,9 @@
     "german": "günstig",
     "turkish": "uygun fiyatlı",
     "germanExample": "Das Hotel war günstig.",
-    "turkishExample": "Otel uygun fiyatlıydı."
+    "turkishExample": "Otel uygun fiyatlıydı.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_520",
@@ -4157,7 +5195,9 @@
     "german": "das Sonderangebot",
     "turkish": "özel teklif/indirim",
     "germanExample": "Heute gibt es viele Sonderangebote.",
-    "turkishExample": "Bugün birçok indirim var."
+    "turkishExample": "Bugün birçok indirim var.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_521",
@@ -4165,7 +5205,9 @@
     "german": "reduziert",
     "turkish": "indirimli",
     "germanExample": "Die Schuhe sind reduziert.",
-    "turkishExample": "Ayakkabılar indirimli."
+    "turkishExample": "Ayakkabılar indirimli.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_522",
@@ -4173,7 +5215,9 @@
     "german": "umtauschen",
     "turkish": "değiştirmek (iade/ürün)",
     "germanExample": "Kann ich das Kleid umtauschen?",
-    "turkishExample": "Elbiseyi değiştirebilir miyim?"
+    "turkishExample": "Elbiseyi değiştirebilir miyim?",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_523",
@@ -4181,7 +5225,9 @@
     "german": "kaputt",
     "turkish": "bozuk/kırık",
     "germanExample": "Mein Handy ist kaputt.",
-    "turkishExample": "Cep telefonum bozuk."
+    "turkishExample": "Cep telefonum bozuk.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_524",
@@ -4189,7 +5235,9 @@
     "german": "der Kassenbon",
     "turkish": "fiş",
     "germanExample": "Haben Sie den Kassenbon?",
-    "turkishExample": "Fişiniz var mı?"
+    "turkishExample": "Fişiniz var mı?",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_525",
@@ -4197,7 +5245,9 @@
     "german": "die Sache",
     "turkish": "eşya/şey",
     "germanExample": "Ich packe meine Sachen.",
-    "turkishExample": "Eşyalarımı topluyorum."
+    "turkishExample": "Eşyalarımı topluyorum.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_526",
@@ -4205,7 +5255,9 @@
     "german": "das Wetter",
     "turkish": "hava durumu",
     "germanExample": "Wie ist das Wetter heute?",
-    "turkishExample": "Bugün hava nasıl?"
+    "turkishExample": "Bugün hava nasıl?",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_527",
@@ -4213,7 +5265,9 @@
     "german": "die Jahreszeit",
     "turkish": "mevsim",
     "germanExample": "Welche Jahreszeit magst du?",
-    "turkishExample": "Hangi mevsimi seversin?"
+    "turkishExample": "Hangi mevsimi seversin?",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_528",
@@ -4221,7 +5275,9 @@
     "german": "sonnig",
     "turkish": "güneşli",
     "germanExample": "Es ist heute sonnig.",
-    "turkishExample": "Bugün hava güneşli."
+    "turkishExample": "Bugün hava güneşli.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_529",
@@ -4229,7 +5285,9 @@
     "german": "regnen",
     "turkish": "yağmur yağmak",
     "germanExample": "Es regnet stark.",
-    "turkishExample": "Şiddetli yağmur yağıyor."
+    "turkishExample": "Şiddetli yağmur yağıyor.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_530",
@@ -4237,7 +5295,9 @@
     "german": "schneien",
     "turkish": "kar yağmak",
     "germanExample": "Im Winter schneit es.",
-    "turkishExample": "Kışın kar yağar."
+    "turkishExample": "Kışın kar yağar.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_531",
@@ -4245,7 +5305,9 @@
     "german": "bewölkt",
     "turkish": "bulutlu",
     "germanExample": "Der Himmel ist bewölkt.",
-    "turkishExample": "Gökyüzü bulutludur."
+    "turkishExample": "Gökyüzü bulutludur.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_532",
@@ -4253,7 +5315,9 @@
     "german": "heiß",
     "turkish": "çok sıcak",
     "germanExample": "Es ist sehr heiß draußen.",
-    "turkishExample": "Dışarısı çok sıcak."
+    "turkishExample": "Dışarısı çok sıcak.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_533",
@@ -4261,7 +5325,9 @@
     "german": "kalt",
     "turkish": "soğuk",
     "germanExample": "Mir ist kalt.",
-    "turkishExample": "Üşüyorum."
+    "turkishExample": "Üşüyorum.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_534",
@@ -4269,7 +5335,9 @@
     "german": "windig",
     "turkish": "rüzgarlı",
     "germanExample": "Heute ist es windig.",
-    "turkishExample": "Bugün hava rüzgarlı."
+    "turkishExample": "Bugün hava rüzgarlı.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_535",
@@ -4277,7 +5345,9 @@
     "german": "die Sonne",
     "turkish": "güneş",
     "germanExample": "Die Sonne scheint.",
-    "turkishExample": "Güneş parlıyor."
+    "turkishExample": "Güneş parlıyor.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_536",
@@ -4285,7 +5355,9 @@
     "german": "scheinen",
     "turkish": "parlamak",
     "germanExample": "Die Sonne scheint hell.",
-    "turkishExample": "Güneş parlak bir şekilde parlıyor."
+    "turkishExample": "Güneş parlak bir şekilde parlıyor.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_537",
@@ -4293,7 +5365,9 @@
     "german": "die Temperatur",
     "turkish": "sıcaklık",
     "germanExample": "Die Temperatur sinkt.",
-    "turkishExample": "Sıcaklık düşüyor."
+    "turkishExample": "Sıcaklık düşüyor.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_538",
@@ -4301,7 +5375,9 @@
     "german": "der Regen",
     "turkish": "yağmur",
     "germanExample": "Ich mag den Regen nicht.",
-    "turkishExample": "Yağmuru sevmem."
+    "turkishExample": "Yağmuru sevmem.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_539",
@@ -4309,7 +5385,9 @@
     "german": "der Schnee",
     "turkish": "kar",
     "germanExample": "Die Kinder spielen im Schnee.",
-    "turkishExample": "Çocuklar karda oynuyor."
+    "turkishExample": "Çocuklar karda oynuyor.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_540",
@@ -4317,7 +5395,9 @@
     "german": "der Wind",
     "turkish": "rüzgar",
     "germanExample": "Der Wind ist kalt.",
-    "turkishExample": "Rüzgar soğuktur."
+    "turkishExample": "Rüzgar soğuktur.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_541",
@@ -4325,7 +5405,9 @@
     "german": "die Wolke",
     "turkish": "bulut",
     "germanExample": "Es gibt viele Wolken am Himmel.",
-    "turkishExample": "Gökyüzünde çok bulut var."
+    "turkishExample": "Gökyüzünde çok bulut var.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_542",
@@ -4333,7 +5415,9 @@
     "german": "der Frühling",
     "turkish": "ilkbahar",
     "germanExample": "Im Frühling blühen die Blumen.",
-    "turkishExample": "İlkbaharda çiçekler açar."
+    "turkishExample": "İlkbaharda çiçekler açar.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_543",
@@ -4341,7 +5425,9 @@
     "german": "der Sommer",
     "turkish": "yaz",
     "germanExample": "Der Sommer in der Türkei ist heiß.",
-    "turkishExample": "Türkiye'de yaz sıcaktır."
+    "turkishExample": "Türkiye'de yaz sıcaktır.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_544",
@@ -4349,7 +5435,9 @@
     "german": "der Herbst",
     "turkish": "sonbahar",
     "germanExample": "Im Herbst fallen die Blätter.",
-    "turkishExample": "Sonbaharda yapraklar düşer."
+    "turkishExample": "Sonbaharda yapraklar düşer.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_545",
@@ -4357,7 +5445,9 @@
     "german": "der Winter",
     "turkish": "kış",
     "germanExample": "Der Winter ist kalt.",
-    "turkishExample": "Kış soğuktur."
+    "turkishExample": "Kış soğuktur.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_546",
@@ -4365,7 +5455,9 @@
     "german": "ein Picknick machen",
     "turkish": "piknik yapmak",
     "germanExample": "Wir machen am Wochenende ein Picknick.",
-    "turkishExample": "Hafta sonu piknik yapıyoruz."
+    "turkishExample": "Hafta sonu piknik yapıyoruz.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_547",
@@ -4373,7 +5465,9 @@
     "german": "spazieren gehen",
     "turkish": "yürüyüşe çıkmak",
     "germanExample": "Lass uns spazieren gehen.",
-    "turkishExample": "Hadi yürüyüşe çıkalım."
+    "turkishExample": "Hadi yürüyüşe çıkalım.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_548",
@@ -4381,7 +5475,9 @@
     "german": "wollen",
     "turkish": "istemek",
     "germanExample": "Ich will nach Hause gehen.",
-    "turkishExample": "Eve gitmek istiyorum."
+    "turkishExample": "Eve gitmek istiyorum.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_549",
@@ -4389,7 +5485,9 @@
     "german": "der See",
     "turkish": "göl",
     "germanExample": "Wir schwimmen im See.",
-    "turkishExample": "Gölde yüzüyoruz."
+    "turkishExample": "Gölde yüzüyoruz.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_550",
@@ -4397,7 +5495,9 @@
     "german": "einen Ausflug machen",
     "turkish": "geziye çıkmak",
     "germanExample": "Die Klasse macht einen Ausflug.",
-    "turkishExample": "Sınıf geziye çıkıyor."
+    "turkishExample": "Sınıf geziye çıkıyor.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_551",
@@ -4405,7 +5505,9 @@
     "german": "das Foto",
     "turkish": "fotoğraf",
     "germanExample": "Das ist ein schönes Foto.",
-    "turkishExample": "Bu güzel bir fotoğraf."
+    "turkishExample": "Bu güzel bir fotoğraf.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_552",
@@ -4413,7 +5515,9 @@
     "german": "der Brief",
     "turkish": "mektup",
     "germanExample": "Ich schreibe einen Brief.",
-    "turkishExample": "Bir mektup yazıyorum."
+    "turkishExample": "Bir mektup yazıyorum.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_553",
@@ -4421,7 +5525,9 @@
     "german": "der Monat",
     "turkish": "ay",
     "germanExample": "Ein Jahr hat zwölf Monate.",
-    "turkishExample": "Bir yıl on iki aydır."
+    "turkishExample": "Bir yıl on iki aydır.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_554",
@@ -4429,7 +5535,9 @@
     "german": "der Januar",
     "turkish": "ocak",
     "germanExample": "Im Januar ist es kalt.",
-    "turkishExample": "Ocak ayında hava soğuktur."
+    "turkishExample": "Ocak ayında hava soğuktur.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_555",
@@ -4437,7 +5545,9 @@
     "german": "der Februar",
     "turkish": "şubat",
     "germanExample": "Der Februar hat 28 Tage.",
-    "turkishExample": "Şubat 28 gündür."
+    "turkishExample": "Şubat 28 gündür.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_556",
@@ -4445,7 +5555,9 @@
     "german": "der März",
     "turkish": "mart",
     "germanExample": "Im März beginnt der Frühling.",
-    "turkishExample": "Mart ayında ilkbahar başlar."
+    "turkishExample": "Mart ayında ilkbahar başlar.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_557",
@@ -4453,7 +5565,9 @@
     "german": "der April",
     "turkish": "nisan",
     "germanExample": "Wir treffen uns im April.",
-    "turkishExample": "Nisan ayında buluşuyoruz."
+    "turkishExample": "Nisan ayında buluşuyoruz.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_558",
@@ -4461,7 +5575,9 @@
     "german": "der Mai",
     "turkish": "mayıs",
     "germanExample": "Mein Geburtstag ist im Mai.",
-    "turkishExample": "Doğum günüm mayıstadır."
+    "turkishExample": "Doğum günüm mayıstadır.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_559",
@@ -4469,7 +5585,9 @@
     "german": "der Juni",
     "turkish": "haziran",
     "germanExample": "Im Juni beginnt der Sommer.",
-    "turkishExample": "Haziran'da yaz başlar."
+    "turkishExample": "Haziran'da yaz başlar.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_560",
@@ -4477,7 +5595,9 @@
     "german": "der Juli",
     "turkish": "temmuz",
     "germanExample": "Wir fahren im Juli ans Meer.",
-    "turkishExample": "Temmuz'da denize gidiyoruz."
+    "turkishExample": "Temmuz'da denize gidiyoruz.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_561",
@@ -4485,7 +5605,9 @@
     "german": "der August",
     "turkish": "ağustos",
     "germanExample": "Der August ist sehr warm.",
-    "turkishExample": "Ağustos çok sıcaktır."
+    "turkishExample": "Ağustos çok sıcaktır.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_562",
@@ -4493,7 +5615,9 @@
     "german": "der September",
     "turkish": "eylül",
     "germanExample": "Die Schule beginnt im September.",
-    "turkishExample": "Okul eylül ayında başlar."
+    "turkishExample": "Okul eylül ayında başlar.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_563",
@@ -4501,7 +5625,9 @@
     "german": "der Oktober",
     "turkish": "ekim",
     "germanExample": "Im Oktober regnet es oft.",
-    "turkishExample": "Ekim ayında sık yağmur yağar."
+    "turkishExample": "Ekim ayında sık yağmur yağar.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_564",
@@ -4509,7 +5635,9 @@
     "german": "der November",
     "turkish": "kasım",
     "germanExample": "Der November ist grau.",
-    "turkishExample": "Kasım ayı gridir."
+    "turkishExample": "Kasım ayı gridir.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_565",
@@ -4517,7 +5645,9 @@
     "german": "der Dezember",
     "turkish": "aralık",
     "germanExample": "Weihnachten ist im Dezember.",
-    "turkishExample": "Noel aralık ayındadır."
+    "turkishExample": "Noel aralık ayındadır.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_566",
@@ -4525,7 +5655,9 @@
     "german": "heiraten",
     "turkish": "evlenmek",
     "germanExample": "Wir heiraten nächstes Jahr.",
-    "turkishExample": "Gelecek yıl evleniyoruz."
+    "turkishExample": "Gelecek yıl evleniyoruz.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_567",
@@ -4533,7 +5665,9 @@
     "german": "das Geschenk",
     "turkish": "hediye",
     "germanExample": "Danke für das Geschenk.",
-    "turkishExample": "Hediye için teşekkürler."
+    "turkishExample": "Hediye için teşekkürler.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_568",
@@ -4541,7 +5675,9 @@
     "german": "der Geburtstag",
     "turkish": "doğum günü",
     "germanExample": "Alles Gute zum Geburtstag!",
-    "turkishExample": "Doğum günün kutlu olsun!"
+    "turkishExample": "Doğum günün kutlu olsun!",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_569",
@@ -4549,7 +5685,9 @@
     "german": "die Hochzeit",
     "turkish": "düğün",
     "germanExample": "Die Hochzeit ist am Samstag.",
-    "turkishExample": "Düğün cumartesi günü."
+    "turkishExample": "Düğün cumartesi günü.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_570",
@@ -4557,7 +5695,9 @@
     "german": "Weihnachten",
     "turkish": "Noel",
     "germanExample": "Frohe Weihnachten!",
-    "turkishExample": "Mutlu Noeller!"
+    "turkishExample": "Mutlu Noeller!",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_571",
@@ -4565,7 +5705,9 @@
     "german": "Ostern",
     "turkish": "Paskalya",
     "germanExample": "Zu Ostern suchen die Kinder Eier.",
-    "turkishExample": "Paskalya'da çocuklar yumurta arar."
+    "turkishExample": "Paskalya'da çocuklar yumurta arar.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_572",
@@ -4573,7 +5715,9 @@
     "german": "Silvester",
     "turkish": "Yılbaşı Gecesi",
     "germanExample": "Wir feiern Silvester mit Freunden.",
-    "turkishExample": "Yılbaşı gecesini arkadaşlarla kutluyoruz."
+    "turkishExample": "Yılbaşı gecesini arkadaşlarla kutluyoruz.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_573",
@@ -4581,7 +5725,9 @@
     "german": "der Feiertag",
     "turkish": "resmi tatil/bayram",
     "germanExample": "Morgen ist ein Feiertag.",
-    "turkishExample": "Yarın resmi tatil."
+    "turkishExample": "Yarın resmi tatil.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_574",
@@ -4589,7 +5735,9 @@
     "german": "das Fest / die Feier",
     "turkish": "kutlama/festival",
     "germanExample": "Das Fest war sehr schön.",
-    "turkishExample": "Kutlama çok güzeldi."
+    "turkishExample": "Kutlama çok güzeldi.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_575",
@@ -4597,7 +5745,9 @@
     "german": "das Datum",
     "turkish": "tarih",
     "germanExample": "Welches Datum haben wir heute?",
-    "turkishExample": "Bugün tarih ne?"
+    "turkishExample": "Bugün tarih ne?",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_576",
@@ -4605,7 +5755,9 @@
     "german": "die Einladung",
     "turkish": "davetiye",
     "germanExample": "Danke für die Einladung.",
-    "turkishExample": "Davet için teşekkürler."
+    "turkishExample": "Davet için teşekkürler.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_577",
@@ -4613,7 +5765,9 @@
     "german": "einladen",
     "turkish": "davet etmek",
     "germanExample": "Ich lade dich zu meiner Party ein.",
-    "turkishExample": "Seni partime davet ediyorum."
+    "turkishExample": "Seni partime davet ediyorum.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_578",
@@ -4621,7 +5775,9 @@
     "german": "feiern",
     "turkish": "kutlamak",
     "germanExample": "Wir feiern meinen Geburtstag.",
-    "turkishExample": "Doğum günümü kutluyoruz."
+    "turkishExample": "Doğum günümü kutluyoruz.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_579",
@@ -4629,7 +5785,9 @@
     "german": "die Idee",
     "turkish": "fikir",
     "germanExample": "Das ist eine gute Idee.",
-    "turkishExample": "Bu iyi bir fikir."
+    "turkishExample": "Bu iyi bir fikir.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_580",
@@ -4637,7 +5795,9 @@
     "german": "die Blume",
     "turkish": "çiçek",
     "germanExample": "Ich kaufe Blumen für meine Mutter.",
-    "turkishExample": "Annem için çiçek alıyorum."
+    "turkishExample": "Annem için çiçek alıyorum.",
+    "enableReverse": true,
+    "enableArtikel": true
   },
   {
     "id": "vhs_a1_581",
@@ -4645,6 +5805,8 @@
     "german": "das Spielzeug",
     "turkish": "oyuncak",
     "germanExample": "Das Kind spielt mit dem Spielzeug.",
-    "turkishExample": "Çocuk oyuncakla oynuyor."
+    "turkishExample": "Çocuk oyuncakla oynuyor.",
+    "enableReverse": true,
+    "enableArtikel": true
   }
 ]

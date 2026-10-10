@@ -4,6 +4,7 @@ import Flashcard from './Flashcard';
 import { X, CheckCircle2, RefreshCw } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { calculateSM2 } from '../lib/sm2';
+import { VARIANT_ARTIKEL, ARTICLES, ARTICLE_STYLES } from '../lib/cardVariants';
 
 const StudySession = ({ mode = 'all', onFinish }) => {
   const getCardsDueToday = useStore(state => state.getCardsDueToday);
@@ -19,6 +20,12 @@ const StudySession = ({ mode = 'all', onFinish }) => {
   const [isFlipped, setIsFlipped] = useState(false);
   const [isFinished, setIsFinished] = useState(false);
   const [clickedButton, setClickedButton] = useState(null);
+  const [selectedArticle, setSelectedArticle] = useState(null);
+
+  // Reset the article choice whenever a new card is shown
+  useEffect(() => {
+    setSelectedArticle(null);
+  }, [currentIndex, cardsToStudy]);
 
   // Fisher-Yates shuffle to randomize cards
   const shuffleArray = (array) => {
@@ -138,6 +145,14 @@ const StudySession = ({ mode = 'all', onFinish }) => {
 
   const currentCard = cardsToStudy[currentIndex];
   const progress = initialTotalCards > 0 ? (completedCount / initialTotalCards) * 100 : 0;
+  const isArtikelCard = currentCard?.variant === VARIANT_ARTIKEL;
+  const articleWrong = isArtikelCard && selectedArticle && !(currentCard.articles || []).includes(selectedArticle);
+
+  const handleSelectArticle = (article) => {
+    if (isFlipped) return;
+    setSelectedArticle(article);
+    setIsFlipped(true);
+  };
 
   const getIntervalLabel = (quality) => {
     if (!currentCard) return '';
@@ -184,6 +199,7 @@ const StudySession = ({ mode = 'all', onFinish }) => {
               card={currentCard} 
               isFlipped={isFlipped} 
               setIsFlipped={setIsFlipped} 
+              selectedArticle={selectedArticle}
             />
           </motion.div>
         </AnimatePresence>
@@ -204,7 +220,7 @@ const StudySession = ({ mode = 'all', onFinish }) => {
               onClick={() => handleReview(1)}
               disabled={clickedButton !== null}
               className={`flex flex-col items-center justify-between gap-1 bg-slate-800 border-2 py-2 px-0.5 sm:p-4 rounded-2xl transition-all ${
-                clickedButton === 1 ? 'border-red-500 bg-red-500/30 scale-95' : 'border-red-500/50 hover:bg-red-500/20 hover:border-red-500'
+                clickedButton === 1 ? 'border-red-500 bg-red-500/30 scale-95' : articleWrong ? 'border-red-500 bg-red-500/15 ring-2 ring-red-500/40 hover:bg-red-500/25' : 'border-red-500/50 hover:bg-red-500/20 hover:border-red-500'
               }`}
             >
               <RefreshCw size={18} className="text-red-400 mb-1" />
@@ -251,6 +267,26 @@ const StudySession = ({ mode = 'all', onFinish }) => {
               <span className="font-bold text-[10px] sm:text-sm mt-auto w-full text-center leading-tight tracking-tight break-words">Bekannt</span>
               <span className="text-[9px] sm:text-xs text-slate-400">{getIntervalLabel(6)}</span>
             </button>
+          </motion.div>
+        ) : isArtikelCard ? (
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            className="grid grid-cols-3 gap-3 w-full max-w-md mx-auto px-1 sm:px-0"
+          >
+            {ARTICLES.map(article => {
+              const style = ARTICLE_STYLES[article];
+              return (
+                <button
+                  key={article}
+                  id={`article-btn-${article}`}
+                  onClick={() => handleSelectArticle(article)}
+                  className={`py-4 sm:py-5 rounded-2xl border-2 bg-slate-800 text-xl sm:text-2xl font-extrabold tracking-wide transition-all active:scale-95 ${style.text} ${style.border} ${style.hover}`}
+                >
+                  {article}
+                </button>
+              );
+            })}
           </motion.div>
         ) : (
           <div className="flex justify-center h-full max-w-sm mx-auto items-center text-slate-500 animate-pulse text-center px-4">

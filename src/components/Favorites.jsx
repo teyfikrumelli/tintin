@@ -7,7 +7,7 @@ const Favorites = ({ onStartStudy }) => {
   const favorites = useStore(state => state.favorites);
   const toggleFavorite = useStore(state => state.toggleFavorite);
 
-  const favoriteCards = cards.filter(card => favorites.includes(card.id));
+  const favoriteCards = cards.filter(card => !card.variant && favorites.includes(card.id));
 
   return (
     <div className="flex flex-col gap-6 animate-in fade-in slide-in-from-bottom-4 duration-500">

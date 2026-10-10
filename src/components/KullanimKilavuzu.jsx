@@ -1,5 +1,5 @@
 import React from 'react';
-import { HelpCircle, Brain, Calendar, Sparkles, AlertCircle, Play, FileSpreadsheet } from 'lucide-react';
+import { HelpCircle, Brain, Calendar, Sparkles, AlertCircle, Play, FileSpreadsheet, Repeat } from 'lucide-react';
 
 const KullanimKilavuzu = () => {
   return (
@@ -119,6 +119,25 @@ const KullanimKilavuzu = () => {
             </li>
           </ul>
         </div>
+      </div>
+
+      {/* Reverse & Artikel decks */}
+      <div className="bg-slate-800/50 backdrop-blur border border-slate-700/50 p-6 rounded-2xl flex flex-col gap-4">
+        <h3 className="text-lg font-bold text-white flex items-center gap-2">
+          <Repeat className="text-indigo-400" size={20} />
+          Ters Desteler (TR → DE) ve Artikel Desteleri
+        </h3>
+        <ul className="list-disc pl-5 space-y-2 text-xs text-slate-300 leading-relaxed">
+          <li>
+            <strong>TR → DE:</strong> Her destenin otomatik olarak oluşturulan ters bir versiyonu vardır. Kartın ön yüzünde Türkçe anlamı görür, Almancasını hatırlamaya çalışırsınız.
+          </li>
+          <li>
+            <strong>Artikel:</strong> Artikeli belli olan tüm isimler (Nomen) ayrı bir destede toplanır. Kelime artikelsiz gösterilir; <span className="text-sky-400 font-bold">der</span>, <span className="text-rose-400 font-bold">die</span> veya <span className="text-emerald-400 font-bold">das</span> seçersiniz. Kart döner, doğru/yanlış olduğunu görür ve ardından her zamanki gibi zorluk derecesini seçersiniz.
+          </li>
+          <li>
+            Bu desteler <strong>varsayılan olarak kapalıdır</strong>. Ana sayfada destenin yanındaki anahtar ile açabilirsiniz. Her biri kendi ilerleme durumuna sahiptir.
+          </li>
+        </ul>
       </div>
 
       {/* Custom Cards */}

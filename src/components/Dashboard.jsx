@@ -3,6 +3,7 @@ import { useStore } from '../store/useStore';
 import { Brain, Flame, Target, BookOpen, Settings, Download, Upload, Trash2, Plus, RotateCcw } from 'lucide-react';
 import { isBefore, addDays, startOfDay, parseISO } from 'date-fns';
 import { isDue, isLearned, isLearning } from '../lib/srsUtils';
+import { isDeckActive } from '../lib/cardVariants';
 
 const Dashboard = () => {
   const cards = useStore(state => state.getAllCards());
@@ -199,7 +200,7 @@ const Dashboard = () => {
           {deckStatsList.map(deck => {
             const learnedPercent = deck.total > 0 ? (deck.learned / deck.total) * 100 : 0;
             const learningPercent = deck.total > 0 ? (deck.learning / deck.total) * 100 : 0;
-            const isActive = activeDecks[deck.deckId] !== false;
+            const isActive = isDeckActive(activeDecks, deck.deckId);
             
             return (
               <div key={deck.name} className={`flex flex-col gap-2 p-3 bg-slate-900/50 rounded-xl transition-opacity duration-300 ${isActive ? '' : 'opacity-60'}`}>

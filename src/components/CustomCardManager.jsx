@@ -76,7 +76,7 @@ const CustomCardManager = () => {
   
   // Extract all unique decks (both system and custom) for the creator dropdown
   const existingDecks = useMemo(() => {
-    const deckSet = new Set(allCards.map(c => c.deck));
+    const deckSet = new Set(allCards.filter(c => !c.variant).map(c => c.deck));
     deckSet.add('Eigene Karten');
     return Array.from(deckSet).sort();
   }, [allCards]);

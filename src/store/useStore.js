@@ -2,6 +2,8 @@ import { create } from 'zustand';
 import { persist } from 'zustand/middleware';
 import { calculateSM2 } from '../lib/sm2';
 import { addDays, isBefore, startOfDay, parseISO } from 'date-fns';
+import { deriveCards, isDeckActive, getDerivedIds, VARIANT_ARTIKEL } from '../lib/cardVariants';
+import { setArtikelNounIndex } from '../lib/artikelRules';
 
 // Dynamically import all JSON files in the data directory
 const jsonModules = import.meta.glob('../data/*.json', { eager: true });
@@ -27,6 +29,32 @@ const cardsData = Object.entries(jsonModules).flatMap(([path, module]) => {
   }));
 });
 
+// Reverse (TR → DE) and Artikel decks derived from the built-in data (computed once)
+const builtinDerivedCards = deriveCards(cardsData);
+
+// Initialize noun index for compound noun detection
+const builtinArtikelCards = builtinDerivedCards.filter(c => c.variant === VARIANT_ARTIKEL);
+setArtikelNounIndex(builtinArtikelCards);
+
+// Derived cards for custom cards, memoized on the customCards array reference
+let customDerivedCache = { source: null, derived: [] };
+const getCustomDerivedCards = (customCards) => {
+  if (customDerivedCache.source !== customCards) {
+    const derived = deriveCards(customCards);
+    customDerivedCache = { source: customCards, derived };
+    const customArtikelCards = derived.filter(c => c.variant === VARIANT_ARTIKEL);
+    setArtikelNounIndex([...builtinArtikelCards, ...customArtikelCards]);
+  }
+  return customDerivedCache.derived;
+};
+
+const collectAllCards = (customCards = []) => [
+  ...cardsData,
+  ...customCards,
+  ...builtinDerivedCards,
+  ...getCustomDerivedCards(customCards),
+];
+
 const defaultSrs = { interval: 0, repetition: 0, efactor: 2.5, nextReviewDate: null };
 
 export const useStore = create(
@@ -51,7 +79,7 @@ export const useStore = create(
 
       toggleDeckActive: (deckId) => {
         set((state) => {
-          const current = state.activeDecks?.[deckId] !== false;
+          const current = isDeckActive(state.activeDecks || {}, deckId);
           return {
             activeDecks: {
               ...(state.activeDecks || {}),
@@ -89,7 +117,9 @@ export const useStore = create(
             german: cardData.german,
             turkish: cardData.turkish,
             germanExample: cardData.germanExample || '',
-            turkishExample: cardData.turkishExample || ''
+            turkishExample: cardData.turkishExample || '',
+            enableReverse: cardData.enableReverse ?? true,
+            enableArtikel: cardData.enableArtikel ?? true
           };
           return {
             customCards: [...(state.customCards || []), newCard]
@@ -107,7 +137,9 @@ export const useStore = create(
             german: cardData.german,
             turkish: cardData.turkish,
             germanExample: cardData.germanExample || '',
-            turkishExample: cardData.turkishExample || ''
+            turkishExample: cardData.turkishExample || '',
+            enableReverse: cardData.enableReverse ?? true,
+            enableArtikel: cardData.enableArtikel ?? true
           }));
           return {
             customCards: [...(state.customCards || []), ...newCards]
@@ -120,6 +152,7 @@ export const useStore = create(
           const updatedCustomCards = (state.customCards || []).filter(c => c.id !== cardId);
           const updatedSrsDataMap = { ...state.srsDataMap };
           delete updatedSrsDataMap[cardId];
+          getDerivedIds(cardId).forEach(id => delete updatedSrsDataMap[id]);
           return {
             customCards: updatedCustomCards,
             srsDataMap: updatedSrsDataMap
@@ -188,7 +221,7 @@ export const useStore = create(
         const tomorrow = addDays(today, 1);
         
         const srsDataMap = get().srsDataMap;
-        const allCards = [...cardsData, ...(get().customCards || [])];
+        const allCards = collectAllCards(get().customCards || []);
         const activeDecks = get().activeDecks || {};
         
         // Filter cards by deck if a specific deck is requested
@@ -196,12 +229,12 @@ export const useStore = create(
         if (deckName && deckName !== 'all') {
           const deckCards = allCards.filter(card => card.deck === deckName);
           const deckId = deckCards[0]?.deckId;
-          if (deckId && activeDecks[deckId] === false) {
+          if (deckId && !isDeckActive(activeDecks, deckId)) {
             return [];
           }
           filteredCardsData = deckCards;
         } else {
-          filteredCardsData = allCards.filter(card => activeDecks[card.deckId] !== false);
+          filteredCardsData = allCards.filter(card => isDeckActive(activeDecks, card.deckId));
         }
         
         // Count how many new cards have been introduced today (for this deck/all)
@@ -251,7 +284,7 @@ export const useStore = create(
       },
 
       getAllCards: () => {
-        const allCards = [...cardsData, ...(get().customCards || [])];
+        const allCards = collectAllCards(get().customCards || []);
         return allCards.map(card => ({
           ...card,
           srsData: get().srsDataMap[card.id] || { ...defaultSrs, nextReviewDate: new Date().toISOString() }
@@ -276,7 +309,7 @@ export const useStore = create(
 
       resetDeckProgress: (deckName) => {
         set((state) => {
-          const allCards = [...cardsData, ...(state.customCards || [])];
+          const allCards = collectAllCards(state.customCards || []);
           const cardsInDeck = allCards.filter(card => card.deck === deckName);
           const updatedSrsDataMap = { ...state.srsDataMap };
           
