@@ -271,6 +271,7 @@ const CustomCardManager = () => {
                   <option value="Adjektiv">Adjektiv</option>
                   <option value="Adverb">Adverb</option>
                   <option value="Phrase">Phrase</option>
+                  <option value="Alltagssatz">Alltagssatz (Günlük Cümle)</option>
                   <option value="Präposition">Präposition</option>
                   <option value="Konjunktion">Konjunktion</option>
                   <option value="Sonstiges">Sonstiges</option>

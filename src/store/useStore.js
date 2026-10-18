@@ -13,8 +13,13 @@ const cardsData = Object.entries(jsonModules).flatMap(([path, module]) => {
   // Extract filename without extension (e.g., '../data/verben-mit-blabla.json' -> 'verben-mit-blabla')
   const deckFileName = path.split('/').pop().replace('.json', '');
   
+  // Custom friendly names for specific decks
+  const DECK_OVERRIDES = {
+    'alltagssaetze': 'Alltagssätze (Pratik Günlük Cümleler)',
+  };
+
   // Format the name nicely for display (e.g., 'verben-mit-blabla' -> 'Verben Mit Blabla')
-  const deckDisplayName = deckFileName
+  const deckDisplayName = DECK_OVERRIDES[deckFileName] || deckFileName
     .split('-')
     .map(word => {
       if (word.toLowerCase() === 'vhs') return 'VHS';

@@ -1,5 +1,5 @@
 import React from 'react';
-import { HelpCircle, Brain, Calendar, Sparkles, AlertCircle, Play, FileSpreadsheet, Repeat } from 'lucide-react';
+import { HelpCircle, Brain, Calendar, Sparkles, AlertCircle, Play, FileSpreadsheet, Repeat, MessageSquare } from 'lucide-react';
 
 const KullanimKilavuzu = () => {
   return (
@@ -16,6 +16,24 @@ const KullanimKilavuzu = () => {
             <p className="text-slate-400 text-sm">KarteiKarten ile Almanca öğrenme rehberi</p>
           </div>
         </div>
+      </div>
+
+      {/* Alltagssätze & Variations explanation */}
+      <div className="bg-slate-800/50 backdrop-blur border border-indigo-500/30 p-6 rounded-2xl flex flex-col gap-4 relative overflow-hidden">
+        <div className="flex items-center gap-2">
+          <MessageSquare className="text-emerald-400" size={20} />
+          <h3 className="text-lg font-bold text-white">Yeni Kart Tipi: Alltagssätze (Günlük Cümleler & Varyasyonlar)</h3>
+        </div>
+        <p className="text-slate-300 text-sm leading-relaxed">
+          Almanya'da günlük hayatta en çok ihtiyaç duyacağınız pratik ve kısa konuşma kalıplarını öğrenmeniz için <strong>440'tan fazla kısa, doğal cümle ve 1.280'den fazla konuşma varyasyonu (toplam 1.730+ ifade)</strong> içeren tek ve optimize edilmiş bir deste hazırlanmıştır:
+        </p>
+        <div className="p-3 bg-slate-900/60 rounded-xl border border-slate-700/60 text-xs">
+          <h4 className="font-bold text-indigo-300 mb-1">Alltagssätze (Pratik Günlük Cümleler)</h4>
+          <p className="text-slate-400">Kafe, fırın, döner/restoran, süpermarket/kasa, Pfand, yol tarifi, tren/ÖPNV, günlük small talk, IT/yazılımcı ofis ve Slack iletişimi, doktor/eczane, ev kiralama ve komşuluk diyalogları.</p>
+        </div>
+        <p className="text-slate-300 text-xs leading-relaxed">
+          ✨ <strong>Doğrudan Gösterim:</strong> Bu kart tipinde kartı çevirmeye gerek yoktur; hem Almanca cümle hem de Türkçe anlamı, konuşma varyasyonları ve örnek diyaloglar doğrudan tek ekranda birlikte görüntülenir. Her ifadenin yanında dinleme butonu yer alır.
+        </p>
       </div>
 
       {/* Spaced Repetition explanation */}

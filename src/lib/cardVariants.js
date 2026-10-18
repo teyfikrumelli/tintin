@@ -61,8 +61,8 @@ export const deriveCards = (baseCards = []) =>
 
     const derived = [];
 
-    // Turkish -> German reverse card (if enabled on the card)
-    if (card.enableReverse) {
+    // Turkish -> German reverse card (if enabled on the card, except for Alltagssatz which displays both directly)
+    if (card.enableReverse && card.type !== 'Alltagssatz') {
       derived.push({
         ...card,
         id: `rev_${card.id}`,

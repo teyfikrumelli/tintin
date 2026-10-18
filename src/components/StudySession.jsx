@@ -146,6 +146,7 @@ const StudySession = ({ mode = 'all', onFinish }) => {
   const currentCard = cardsToStudy[currentIndex];
   const progress = initialTotalCards > 0 ? (completedCount / initialTotalCards) * 100 : 0;
   const isArtikelCard = currentCard?.variant === VARIANT_ARTIKEL;
+  const isAlltagssatz = currentCard?.type === 'Alltagssatz';
   const articleWrong = isArtikelCard && selectedArticle && !(currentCard.articles || []).includes(selectedArticle);
 
   const handleSelectArticle = (article) => {
@@ -210,7 +211,7 @@ const StudySession = ({ mode = 'all', onFinish }) => {
         className="mt-auto mb-8 sm:mb-12 shrink-0"
         style={{ paddingBottom: 'env(safe-area-inset-bottom)' }}
       >
-        {isFlipped ? (
+        {isFlipped || isAlltagssatz ? (
           <motion.div 
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}

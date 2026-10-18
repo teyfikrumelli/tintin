@@ -42,12 +42,69 @@ const CornerButtons = ({ visible, onSpeak, isFavorite, onToggleFavorite, variant
   );
 };
 
+const getSentenceTextSize = (text) => {
+  if (!text) return 'text-2xl sm:text-4xl';
+  const len = text.length;
+  if (len > 90) return 'text-base sm:text-lg font-medium leading-relaxed';
+  if (len > 60) return 'text-lg sm:text-xl font-semibold leading-relaxed';
+  if (len > 35) return 'text-xl sm:text-2xl font-bold leading-snug';
+  if (len > 18) return 'text-2xl sm:text-3xl font-bold leading-snug';
+  return 'text-3xl sm:text-5xl font-bold';
+};
+
+const SentenceVariations = ({ variations }) => {
+  if (!variations || variations.length === 0) return null;
+
+  return (
+    <div className="w-full flex flex-col gap-2 my-3 text-left">
+      <div className="flex items-center gap-1.5 text-[11px] font-bold text-indigo-300 uppercase tracking-wider">
+        <span>✨ Varyasyonlar & Alternatifler ({variations.length})</span>
+      </div>
+      <div className="flex flex-col gap-2">
+        {variations.map((v, idx) => (
+          <div
+            key={idx}
+            className="bg-slate-900/80 border border-indigo-500/30 hover:border-indigo-500/50 rounded-xl p-3 text-xs transition-colors shadow-sm"
+          >
+            <div className="flex items-start justify-between gap-2 mb-1">
+              <span className="font-semibold text-slate-100 text-[13px] leading-snug">
+                {v.german}
+              </span>
+              <button
+                type="button"
+                title="Seslendir"
+                className="p-1.5 rounded-full text-indigo-400 hover:text-indigo-200 hover:bg-indigo-500/20 shrink-0 transition-colors"
+                onClick={(e) => {
+                  e.stopPropagation();
+                  speak(v.german, 'de-DE');
+                }}
+              >
+                <Volume2 size={15} />
+              </button>
+            </div>
+            <p className="text-slate-300 text-[12px] leading-relaxed">
+              {v.turkish}
+            </p>
+            {v.context && (
+              <div className="mt-1.5 flex">
+                <span className="text-[10px] font-medium px-2 py-0.5 rounded-full bg-indigo-500/20 text-indigo-300 border border-indigo-500/30">
+                  {v.context}
+                </span>
+              </div>
+            )}
+          </div>
+        ))}
+      </div>
+    </div>
+  );
+};
+
 const Examples = ({ card }) => {
   if (!card.germanExample && !card.turkishExample) return null;
   return (
-    <div className="w-full bg-slate-900/50 rounded-xl p-4 border border-slate-700/50 text-left shrink-0 whitespace-pre-line">
-      {card.germanExample && <p className="text-slate-300 italic mb-3">"{card.germanExample}"</p>}
-      {card.turkishExample && <p className="text-slate-400 text-sm">"{card.turkishExample}"</p>}
+    <div className="w-full bg-slate-900/50 rounded-xl p-3.5 border border-slate-700/50 text-left shrink-0 whitespace-pre-line mt-2">
+      {card.germanExample && <p className="text-slate-300 italic mb-2 text-xs sm:text-sm">"{card.germanExample}"</p>}
+      {card.turkishExample && <p className="text-slate-400 text-xs">"{card.turkishExample}"</p>}
     </div>
   );
 };
@@ -128,8 +185,57 @@ const Flashcard = ({ card, isFlipped, setIsFlipped, selectedArticle = null }) =>
   const isFavorite = useStore(state => state.favorites.includes(favoriteId));
   const onToggleFavorite = () => toggleFavorite(favoriteId);
 
+  const isAlltagssatz = card.type === 'Alltagssatz';
   const isReverse = card.variant === VARIANT_REVERSE;
   const isArtikel = card.variant === VARIANT_ARTIKEL;
+
+  // Alltagssatz cards do not flip; both German and Turkish are shown directly
+  if (isAlltagssatz) {
+    return (
+      <div className="w-full max-w-sm sm:max-w-md mx-auto h-[58vh] min-h-[350px] max-h-[550px]">
+        <div className="w-full h-full bg-slate-800 border-2 border-indigo-500/40 rounded-3xl shadow-xl flex flex-col p-6 overflow-y-auto overflow-x-hidden scrollbar-hide relative">
+          <CornerButtons
+            variant="front"
+            visible={true}
+            isFavorite={isFavorite}
+            onToggleFavorite={onToggleFavorite}
+            onSpeak={() => speak(card.german, 'de-DE')}
+          />
+
+          <div className="w-full flex flex-col pt-8 pb-2">
+            {/* Badges */}
+            <div className="flex flex-wrap items-center justify-center gap-1.5 mb-3 px-8">
+              <span className="text-indigo-400 font-bold text-xs uppercase tracking-wider">
+                {card.type}
+              </span>
+              {card.category && (
+                <span className="text-slate-300 text-xs px-2.5 py-0.5 rounded-full bg-slate-900/60 border border-slate-700/60 font-medium">
+                  {card.category}
+                </span>
+              )}
+            </div>
+
+            {/* German & Turkish (Directly together) */}
+            <div className="text-center my-3 px-2">
+              <h2 className={`${getSentenceTextSize(card.german)} font-bold text-white break-words leading-tight`}>
+                {card.german}
+              </h2>
+
+              <p className="text-indigo-300 text-base sm:text-lg font-medium mt-3 leading-relaxed">
+                {card.turkish}
+              </p>
+            </div>
+
+            {/* Spoken Variations (if present) */}
+            <SentenceVariations variations={card.variations} />
+
+            {/* Dialogue Examples (if present) */}
+            <Examples card={card} />
+          </div>
+        </div>
+      </div>
+    );
+  }
 
   // Artikel cards can only be flipped by picking an article
   const handleCardClick = () => {
@@ -151,7 +257,7 @@ const Flashcard = ({ card, isFlipped, setIsFlipped, selectedArticle = null }) =>
 
   return (
     <div
-      className={`w-full max-w-sm sm:max-w-md mx-auto h-[55vh] min-h-[320px] max-h-[500px] perspective-1000 ${isArtikel && !isFlipped ? 'cursor-default' : 'cursor-pointer'}`}
+      className={`w-full max-w-sm sm:max-w-md mx-auto h-[58vh] min-h-[350px] max-h-[550px] perspective-1000 ${isArtikel && !isFlipped ? 'cursor-default' : 'cursor-pointer'}`}
       onClick={handleCardClick}
     >
       <motion.div
@@ -180,11 +286,29 @@ const Flashcard = ({ card, isFlipped, setIsFlipped, selectedArticle = null }) =>
             </div>
           ) : (
             <div className="my-auto w-full flex flex-col items-center text-center pt-8 pb-4">
-              <span className="text-indigo-400 font-medium text-sm tracking-widest uppercase mb-4">
-                {card.type}
-                {isReverse && <span className="ml-2 text-amber-400">· TR → DE</span>}
-              </span>
-              <h2 className="text-3xl sm:text-5xl font-bold text-white break-words w-full px-2">{frontText}</h2>
+              <div className="flex flex-wrap items-center justify-center gap-1.5 mb-3">
+                <span className="text-indigo-400 font-medium text-xs sm:text-sm tracking-widest uppercase">
+                  {card.type}
+                </span>
+                {card.category && (
+                  <span className="text-slate-400 text-xs px-2.5 py-0.5 rounded-full bg-slate-700/60 font-normal">
+                    {card.category}
+                  </span>
+                )}
+                {isReverse && (
+                  <span className="text-amber-400 text-xs px-2.5 py-0.5 rounded-full bg-amber-400/10 border border-amber-400/20 font-medium">
+                    TR → DE
+                  </span>
+                )}
+              </div>
+              <h2 className={`${getSentenceTextSize(frontText)} text-white break-words w-full px-2`}>
+                {frontText}
+              </h2>
+              {card.variations && card.variations.length > 0 && (
+                <div className="mt-4 inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-indigo-500/15 border border-indigo-500/30 text-indigo-300 text-xs font-medium">
+                  <span>✨ {card.variations.length} varyasyon mevcut</span>
+                </div>
+              )}
             </div>
           )}
 
@@ -226,9 +350,21 @@ const Flashcard = ({ card, isFlipped, setIsFlipped, selectedArticle = null }) =>
               <Examples card={card} />
             </div>
           ) : (
-            <div className="my-auto w-full flex flex-col items-center text-center">
-              <span className="text-indigo-300 font-medium text-sm tracking-widest uppercase mb-4">{card.type}</span>
-              <h2 className="text-2xl sm:text-4xl font-bold text-white mb-6 break-words w-full">{backText}</h2>
+            <div className="my-auto w-full flex flex-col items-center text-center pt-8 pb-2">
+              <div className="flex flex-wrap items-center justify-center gap-1.5 mb-3">
+                <span className="text-indigo-300 font-medium text-xs sm:text-sm tracking-widest uppercase">
+                  {card.type}
+                </span>
+                {card.category && (
+                  <span className="text-indigo-200 text-xs px-2.5 py-0.5 rounded-full bg-indigo-950/70 border border-indigo-500/30">
+                    {card.category}
+                  </span>
+                )}
+              </div>
+              <h2 className={`${getSentenceTextSize(backText)} font-bold text-white mb-4 break-words w-full`}>
+                {backText}
+              </h2>
+              <SentenceVariations variations={card.variations} />
               <Examples card={card} />
             </div>
           )}

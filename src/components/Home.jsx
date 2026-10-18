@@ -1,6 +1,6 @@
 import React from 'react';
 import { useStore } from '../store/useStore';
-import { Layers, Play, BookOpen, Repeat, Tag } from 'lucide-react';
+import { Layers, Play, BookOpen, Repeat, Tag, MessageSquare } from 'lucide-react';
 import { isBefore, addDays, startOfDay, parseISO } from 'date-fns';
 import { isDue, isLearned, isLearning } from '../lib/srsUtils';
 import { isDeckActive, VARIANT_REVERSE, VARIANT_ARTIKEL } from '../lib/cardVariants';
@@ -64,7 +64,8 @@ const Home = ({ onStartStudy }) => {
         {/* Individual Sub-Decks */}
         {decksList.map(deck => {
           const isActive = isDeckActive(activeDecks, deck.deckId);
-          const DeckIcon = deck.variant === VARIANT_REVERSE ? Repeat : deck.variant === VARIANT_ARTIKEL ? Tag : BookOpen;
+          const isAlltag = deck.name.includes('Alltagssätze');
+          const DeckIcon = deck.variant === VARIANT_REVERSE ? Repeat : deck.variant === VARIANT_ARTIKEL ? Tag : isAlltag ? MessageSquare : BookOpen;
           
           return (
             <div 
@@ -89,6 +90,11 @@ const Home = ({ onStartStudy }) => {
                     <h3 className={`text-lg font-bold truncate ${isActive ? 'text-white' : 'text-slate-500'}`}>
                       {deck.name}
                     </h3>
+                    {isAlltag && !deck.variant && (
+                      <span className="inline-block mt-0.5 text-[10px] font-bold uppercase tracking-wider px-1.5 py-0.5 rounded bg-emerald-500/15 text-emerald-400">
+                        Günlük Cümleler & Varyasyonlar
+                      </span>
+                    )}
                     {deck.variant === VARIANT_REVERSE && (
                       <span className="inline-block mt-0.5 text-[10px] font-bold uppercase tracking-wider px-1.5 py-0.5 rounded bg-amber-500/15 text-amber-400">
                         Türkisch → Deutsch

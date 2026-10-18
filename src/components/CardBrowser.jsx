@@ -13,14 +13,27 @@ const CardBrowser = () => {
   const [searchQuery, setSearchQuery] = useState('');
   const [statusFilter, setStatusFilter] = useState('all'); // all, learned, learning, new
 
+  const [expandedCards, setExpandedCards] = useState({});
+
+  const toggleExpand = (cardId) => {
+    setExpandedCards(prev => ({ ...prev, [cardId]: !prev[cardId] }));
+  };
+
   const filteredCards = useMemo(() => {
     return cards.filter(card => {
       // 1. Apply Search Filter
       if (searchQuery) {
         const query = searchQuery.toLowerCase();
-        const matchesGerman = card.german.toLowerCase().includes(query);
-        const matchesTurkish = card.turkish.toLowerCase().includes(query);
-        if (!matchesGerman && !matchesTurkish) return false;
+        const matchesGerman = card.german?.toLowerCase().includes(query);
+        const matchesTurkish = card.turkish?.toLowerCase().includes(query);
+        const matchesCategory = card.category?.toLowerCase().includes(query);
+        const matchesDeck = card.deck?.toLowerCase().includes(query);
+        const matchesVariations = card.variations?.some(v => 
+          v.german?.toLowerCase().includes(query) ||
+          v.turkish?.toLowerCase().includes(query) ||
+          v.context?.toLowerCase().includes(query)
+        );
+        if (!matchesGerman && !matchesTurkish && !matchesCategory && !matchesDeck && !matchesVariations) return false;
       }
 
       // 2. Apply Status Filter
@@ -135,11 +148,23 @@ const CardBrowser = () => {
             <div key={card.id} className="bg-slate-800/80 backdrop-blur border border-slate-700/50 p-5 rounded-2xl flex flex-col gap-4 relative overflow-hidden group">
               <div className="flex justify-between items-start">
                 <div className="flex-1 pr-2">
-                  <div className="flex items-center gap-2 mb-1">
+                  <div className="flex flex-wrap items-center gap-1.5 mb-1.5">
                     <span className="text-[10px] font-bold text-indigo-400 uppercase tracking-wider">{card.type}</span>
+                    {card.category && (
+                      <span className="text-[10px] text-slate-400 font-medium px-1.5 py-0.5 rounded bg-slate-900/60 border border-slate-700/60">{card.category}</span>
+                    )}
                     <span className={`text-[10px] font-bold px-1.5 py-0.5 rounded ${statusColor}`}>{statusLabel}</span>
+                    {card.variations && card.variations.length > 0 && (
+                      <button
+                        type="button"
+                        onClick={() => toggleExpand(card.id)}
+                        className="text-[10px] font-bold px-1.5 py-0.5 rounded bg-indigo-500/15 hover:bg-indigo-500/25 text-indigo-300 border border-indigo-500/30 transition-colors"
+                      >
+                        +{card.variations.length} varyasyon {expandedCards[card.id] ? '▲' : '▼'}
+                      </button>
+                    )}
                   </div>
-                  <h3 className="text-lg font-bold text-white leading-tight">{card.german}</h3>
+                  <h3 className="text-base sm:text-lg font-bold text-white leading-tight">{card.german}</h3>
                   <p className="text-slate-300 text-sm mt-1">{card.turkish}</p>
                 </div>
                 <div className="flex flex-col gap-1 shrink-0">
@@ -163,6 +188,40 @@ const CardBrowser = () => {
                   </button>
                 </div>
               </div>
+
+              {/* Variations Accordion */}
+              {card.variations && card.variations.length > 0 && expandedCards[card.id] && (
+                <div className="flex flex-col gap-2 pt-2 border-t border-slate-700/40">
+                  <span className="text-[11px] font-bold text-indigo-300">Varyasyonlar:</span>
+                  {card.variations.map((v, vIdx) => (
+                    <div key={vIdx} className="bg-slate-900/60 rounded-lg p-2.5 border border-slate-700/50 text-xs flex flex-col gap-1">
+                      <div className="flex items-start justify-between gap-2">
+                        <span className="font-semibold text-slate-200">{v.german}</span>
+                        <button
+                          type="button"
+                          className="text-indigo-400 hover:text-indigo-200 p-1 shrink-0"
+                          onClick={() => {
+                            if ('speechSynthesis' in window) {
+                              const utterance = new SpeechSynthesisUtterance(v.german);
+                              utterance.lang = 'de-DE';
+                              window.speechSynthesis.speak(utterance);
+                            }
+                          }}
+                        >
+                          <Volume2 size={14} />
+                        </button>
+                      </div>
+                      <span className="text-slate-400 text-[11px]">{v.turkish}</span>
+                      {v.context && (
+                        <span className="text-[9px] text-indigo-400 font-medium self-start bg-indigo-500/10 px-1.5 py-0.5 rounded">
+                          {v.context}
+                        </span>
+                      )}
+                    </div>
+                  ))}
+                </div>
+              )}
+
               <div className="pt-3 border-t border-slate-700/50 text-xs">
                 <p className="text-slate-400 italic">"{card.germanExample}"</p>
                 <p className="text-slate-500 mt-0.5">"{card.turkishExample}"</p>
